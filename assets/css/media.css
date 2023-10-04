@@ -1,0 +1,351 @@
+:root {
+    --font-roboto: 'Roboto', sans-serif;
+
+
+    --col-dark-font: #252525;
+    --col-orange: #FF9500;
+    --col-red-orange: #FC6B1A;
+    --col-block-light-gray: #F0F0F0;
+    --col-block-gray: #dedee6;
+    --col-block-dark-gray: #c9c9d1;
+    --col-block-ultra-light: #fcfcfc;
+    --col-grad-orange: linear-gradient(275.04deg, #FF9500 0%, #FC6B1A 105.9%);
+    --col-grad-gray: linear-gradient(39deg, rgba(214, 214, 228, 1) 0%, rgba(239, 239, 244, 1) 70%);
+
+}
+@media (max-width: 1150px) {
+    .catalogue {
+        min-width: 0px;
+        max-width: 760px;
+        display: block;
+        width: auto;
+    }
+    .doortype__inner {
+       display: grid;
+       grid-template-columns: 340px 1fr ;
+    }
+    .doortype__block-doors {
+        width: auto;
+        min-width: 340px;
+        margin-bottom: 25px;
+    }
+    .doortype__block-text {
+        display: block !important;
+        width: auto ;
+    }
+
+    .btns__inner {
+        display: grid;
+        grid-template-columns: 1fr 323px;
+    }
+}
+@media (max-width: 1050px) {
+    .slider__title {
+        font-size: 80px;
+    }
+    .slider__text {
+        font-size: 18px;
+    }
+    .slider__item .slider__btn {
+        font-size: 18px;
+    }
+
+
+    .doortype__block-text {
+        padding: 30px;
+    }
+    .doortype__title {
+        font-size: 36px;
+    }
+    .doortype__descr {
+        font-size: 18px;
+        max-width: 350px;
+    }
+    .doortype_cfg-title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .slider__title {
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .slider__text {
+        font-size: 16px;
+    }
+    .slider__item .slider__btn {
+        font-size: 16px;
+    }
+    .slider__item::before {
+        height: 100%;
+    }
+    .catalogue__inner {
+        font-size: 18px;
+    }
+
+
+    .btns__title {
+        font-size: 30px;
+    }
+    .btns__descr {
+        font-size: 18px;
+    }
+
+
+    .doortype__title {
+        font-size: 30px;
+    }
+    .doortype__descr {
+        font-size: 18px;
+        max-width: 350px;
+    }
+    .doortype_cfg-title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 770px) {
+    .doortype__inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .doortype__block-doors {
+        width: auto;
+        margin-bottom: 80px;
+    }
+    .doortype__block-text {
+        max-height: 275px;
+        height: auto !important;
+        margin-left: 0;
+    }
+    .doortype__img1 {
+        left: 60%;
+        top: 40px;
+    }
+    .doortype__img2 {
+        left: 40%;
+        top: 40px;
+    }
+    .doortype__img3 {
+        left: 20%;
+        top: 40px;
+    }
+
+    .doortype_cfg-banner {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 750px) {
+    .slider__item {
+        height: 650px !important;
+    }
+    .slider__title {
+        display: block;
+        margin: 0 auto;
+        max-width: 400px;
+        line-height: 60px;
+    }
+    .slider__title span {
+        font-size: 40px;
+    }
+    .slider__text {
+        max-width: 400px;
+        margin-top: 20px;
+    }
+
+
+
+    .btns__inner {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .btns-block {
+        padding: 35px;
+        max-width: 720px;
+        max-height: 250px;
+    }
+    .sites.btns-block {
+        margin-top: 25px;
+    }
+    .sites-description {
+        max-width: 300px;
+    }
+    .catalogue {
+        min-width: 0px;
+        margin-right: 0;
+    }
+    .catalogue:before {
+        display: none;
+    } 
+    .sites__inner a {
+        font-size: 18px;
+    }
+    .sites:before {
+        display: none;
+    } 
+    .catalogue__inner {
+        font-size: 18px;
+    }
+    .btns__title {
+        font-size: 30px;
+    }
+    .btns__descr {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 550px) {
+    .slider__item {
+        min-height: 500px !important;
+    }
+    .slider__title {
+        max-width: 350px;
+        line-height: 60px;
+        font-size: 50px;
+    }
+    .slider__text {
+        max-width: 270px;
+        margin-top: 15px;
+    }
+    .slick-btn {
+        display: none !important;
+    }
+    .doortype__block-doors:after {
+        display: none;
+    }
+    .doortype__inner {
+        padding: 0 10px;
+    }
+    .doortype__block-doors {
+        min-width: auto;
+
+    }
+    .doortype__img1 {
+        left: 55%;
+        top: 40px;
+    }
+    .doortype__img2 {
+        left: 35%;
+        top: 40px;
+    }
+    .doortype__img3 {
+        left: 15%;
+        top: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    .slider__item {
+        padding: 30px;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider__title {
+        max-width: 280px;
+    }
+    .slider__text {
+        max-width: 250px;
+    }
+
+
+    .btns__title {
+        font-size: 26px;
+    }
+    .btns__descr {
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .btns-block a {
+        font-size: 16px;
+        width: 170px;
+        padding: 8px 25px;
+    }
+
+    .doortype__img1 {
+        left: 50%;
+        top: 40px;
+    }
+    .doortype__img2 {
+        left: 30%;
+        top: 40px;
+    }
+    .doortype__img3 {
+        left: 10%;
+        top: 40px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .slider__title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .slider__title span {
+        font-size: 35px;
+    }
+    .slider__text {
+        max-width: 200px;
+    }
+
+    .btns__title {
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .btns-block {
+        max-height: 300px;
+    }
+    .sites.btns-block {
+        max-height: 250px;
+    }
+
+
+    .doortype__img1 {
+        left: 45%;
+        top: 40px;
+    }
+    .doortype__img2 {
+        left: 25%;
+        top: 40px;
+    }
+    .doortype__img3 {
+        left: 5%;
+        top: 40px;
+    }
+    .doortype__title {
+        word-break: break-all;
+    }
+}
+
+
+
+@media (max-width: 395px) {
+    .btns-block {
+        max-height: 250px;
+    }
+    .sites.btns-block {
+        max-height: 220px;
+    }
+}
+
+@media (max-width: 391px) {
+    .btns-block {
+        max-height: 280px;
+    }
+    .sites.btns-block {
+        max-height: 220px;
+    }
+}
+
+@media (min-width: 900px){
+    .menu ul {
+        display: flex !important;
+    }
+}

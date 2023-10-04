@@ -1,0 +1,166 @@
+<?php
+/*
+Template Name: Дизайнерам
+
+*/
+
+// … остальной код шаблона
+?>
+
+<?php get_header('dark'); ?>
+
+
+<section class="cooperation__section designers">
+    <div class="container">
+        <div class="cooperation__inner">
+            <hr class="cooperation__line">
+            <h2 class="cooperation__title">Мы сотрудничаем с дизайнерами</h2>
+            <p class="cooperation__descr">Наши металлические двери – надежная защита для вашего дома или офиса. Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/coop-cover.svg" class="cooperation__img-cover" alt="">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/coop-cover-star-1.svg" class="cooperation__img-cover-star-1" alt="">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/coop-cover-star-2.svg" class="cooperation__img-cover-star-2" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="projects__section">
+    <div class="container">
+        <div class="projects__inner">
+            <hr class="projects__line">
+            <h2 class="projects__title">Наши проекты</h2>
+            <div class="projects__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</div>
+            <div class="projects__items-inner">
+                <div class="projects__items swiper">
+                    <div class="swiper-wrapper">
+                        <div class="projects__item swiper-slide">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/projects-img-1.webp" alt="" class="projects__item-img">
+                            <div class="projects__item-text">
+                                <div class="projects__item-subtitle">Проект</div>
+                                <div class="projects__item-title">Входная дверь в коттедж “Louise One”</div>
+                                <a href="<?php echo get_permalink(33); ?>" class="projects__item-btn">подробнее</a>
+                            </div>
+                        </div>
+                        <div class="projects__item swiper-slide">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/projects-img-2.webp" alt="" class="projects__item-img">
+                            <div class="projects__item-text">
+                                <div class="projects__item-subtitle">Проект</div>
+                                <div class="projects__item-title">Межкомнатные двери в квартиру “Delice”</div>
+                                <a href="<?php echo get_permalink(33); ?>" class="projects__item-btn">подробнее</a>
+                            </div>
+                        </div>
+                        <div class="projects__item swiper-slide">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/projects-img-3.webp" alt="" class="projects__item-img">
+                            <div class="projects__item-text">
+                                <div class="projects__item-subtitle">Проект</div>
+                                <div class="projects__item-title">Обновление гаражных ворот</div>
+                                <a href="<?php echo get_permalink(33); ?>" class="projects__item-btn">подробнее</a>
+                            </div>
+                        </div>
+                        <div class="projects__item swiper-slide">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/projects-img-1.webp" alt="" class="projects__item-img">
+                            <div class="projects__item-text">
+                                <div class="projects__item-subtitle">Проект</div>
+                                <div class="projects__item-title">Входная дверь в коттедж “Louise One”</div>
+                                <a href="<?php echo get_permalink(33); ?>" class="projects__item-btn">подробнее</a>
+                            </div>
+                        </div>
+                        <div class="projects__item swiper-slide">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/projects-img-2.webp" alt="" class="projects__item-img">
+                            <div class="projects__item-text">
+                                <div class="projects__item-subtitle">Проект</div>
+                                <div class="projects__item-title">Межкомнатные двери в квартиру “Delice”</div>
+                                <a href="<?php echo get_permalink(33); ?>" class="projects__item-btn">подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="advantages__section">
+    <div class="container">
+        <div class="advantages__inner">
+            <hr class="advantages__line">
+            <h2 class="advantages__title">Преимущества работы с нами</h2>
+            <div class="advantages__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</div>
+            <div class="advantages__items">
+                <div class="advantages__item item-1">
+                    <div class="advantages__item-icon">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-1.svg" alt="">
+                    </div>
+                    <div class="advantages__item-text">
+                        <div class="advantages__item-title">Инновационные проекты</div>
+                        <div class="advantages__item-descr">Уникальные проекты и вызовы, которые могут стать площадкой для проявления креативности</div>
+                    </div>
+                </div>
+                <div class="advantages__item item-2">
+                    <div class="advantages__item-icon">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-2.svg" alt="">
+                    </div>
+                    <div class="advantages__item-text">
+                        <div class="advantages__item-title">Творческая свобода</div>
+                        <div class="advantages__item-descr">Возможность воплотить свои идеи и творческие концепции в жизнь</div>
+                    </div>
+                </div>
+                <div class="advantages__item item-3">
+                    <div class="advantages__item-icon">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-3.svg" alt="">
+                    </div>
+                    <div class="advantages__item-text">
+                        <div class="advantages__item-title">Профессиональный рост</div>
+                        <div class="advantages__item-descr">Возможность совершенствовать свои навыки и опыт в сфере дизайна</div>
+                    </div>
+                </div>
+                <div class="advantages__item item-4">
+                    <div class="advantages__item-icon">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-4.svg" alt="">
+                    </div>
+                    <div class="advantages__item-text">
+                        <div class="advantages__item-title">Профессиональное оборудование</div>
+                        <div class="advantages__item-descr">Доступ к современному оборудованию и инструментам</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="work__section">
+    <div class="container">
+        <div class="work__inner">
+            <hr class="work__line">
+            <h2 class="work__title">Хотели бы работать с нами? Оставьте заявку</h2>
+            <p class="work__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <div class="work__form">
+                <p class="work__form-descr">Заполните форму и мы обязательно свяжемся с вами</p>
+                <hr class="work__form-line">
+                <div class="work__form-shortcode">
+
+                </div>
+                <h4 class="work__form-subtitle">или свяжитесь с нами</h4>
+                <div class="work__form-contacts">
+                    <a href="tel:+7(3532) 97-24-24" class="work__form-number">+7(3532) 97-24-24</a>
+                    <hr class="work__form-line">
+                    <a href="mailto:info@portamia.ru" class="work__form-email">info@portamia.ru</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<?php get_footer(); ?>
