@@ -122,7 +122,6 @@ function fix_svg_mime_type( $data, $file, $filename, $mimes, $real_mime = '' ){
 }
 
 
-
 function true_apply_categories_for_pages(){
 	add_meta_box( 'categorydiv', 'Категории', 'post_categories_meta_box', 'page', 'side', 'normal'); // добавляем метабокс категорий для страниц
 	register_taxonomy_for_object_type('category', 'page'); // регистрируем рубрики для страниц

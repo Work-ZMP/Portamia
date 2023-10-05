@@ -410,3 +410,74 @@ border: 1px solid #252525;
         font-size: 16px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@mixin short-line {
+    border: none;
+    max-width: 190px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.50);
+    color: rgba(255, 255, 255, 0.50);
+    height: 1px;
+}
+
+.work__line {
+    @include short-line;
+    margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: auto;
+}
+.work__title {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: 750px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.work__descr {
+    max-width: 605px;
+    margin: 0 auto 95px;
+    color: rgba(255,255,255,.5);
+    font-size: 24px;
+    font-weight: 400;
+}
+.work__form {
+    background: #343434;
+    max-width: 770px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 50px;
+    padding-bottom: 45px;
+}
+.work__form-descr {
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+max-width: 485px;
+margin: 0 auto;
+margin-bottom: 25px;
+}
+
+.work__form-line {
+    @include short-line;
+    margin-bottom: 35px;
+}

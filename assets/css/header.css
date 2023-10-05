@@ -422,7 +422,9 @@ body {
     font-weight: 600;
     line-height: normal;
 }
-
+.header__lower-subtitle {
+    color: #fff;
+}
 .header__top-lower {
     padding: 0 50px;
     display: grid;
