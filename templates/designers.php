@@ -142,7 +142,7 @@ Template Name: Дизайнерам
                 <p class="work__form-descr">Заполните форму и мы обязательно свяжемся с вами</p>
                 <hr class="work__form-line">
                 <div class="work__form-shortcode">
-
+                    <?php echo do_shortcode( '[contact-form-7 id="b944839" title="Контактная форма 1"]' ) ?>
                 </div>
                 <h4 class="work__form-subtitle">или свяжитесь с нами</h4>
                 <div class="work__form-contacts">
