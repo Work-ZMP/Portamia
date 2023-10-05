@@ -414,8 +414,6 @@
   color: rgba(255, 255, 255, 0.5);
   height: 1px;
   margin-bottom: 50px;
-  margin-left: 0;
-  margin-right: auto;
 }
 
 .work__title {
@@ -436,18 +434,42 @@
   color: rgba(255, 255, 255, 0.5);
   font-size: 24px;
   font-weight: 400;
+  text-align: center;
 }
 
-.work__form {
+.work__form-shortcode {
   background: #343434;
   max-width: 770px;
   margin: 0 auto;
   margin-bottom: 30px;
   padding: 50px;
   padding-bottom: 45px;
+  position: relative;
+}
+.work__form-shortcode::before {
+  content: "";
+  background: url(../img/designers/work-form-circle.svg);
+  width: 901px;
+  height: 968px;
+  position: absolute;
+  bottom: -202px;
+  right: -235px;
+  animation-name: circleWork;
+  animation-duration: 35s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index: -1;
 }
 
-.work__form-descr {
+@keyframes circleWork {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+.work__form .work__form-descr {
   color: #FFF;
   text-align: center;
   font-family: Raleway;
@@ -455,7 +477,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  max-width: 485px;
+  max-width: 485px !important;
   margin: 0 auto;
   margin-bottom: 25px;
 }
@@ -467,7 +489,7 @@
   background: rgba(255, 255, 255, 0.5);
   color: rgba(255, 255, 255, 0.5);
   height: 1px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .work__form .popup__form-inputs-day,
@@ -483,6 +505,7 @@
   font-size: 18px;
   max-width: 100% !important;
   padding: 12px 25px;
+  transition: all 0.3s ease-out;
 }
 .work__form .popup__form-inputs-day:focus,
 .work__form .popup__form-inputs-hours:focus,
@@ -493,7 +516,7 @@
   color: #fff;
   border: 2px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.35) !important;
-  background: #565656;
+  background: #4b4b4b;
 }
 .work__form .popup__form-inputs-day::placeholder,
 .work__form .popup__form-inputs-hours::placeholder,
@@ -533,4 +556,57 @@
 .work__form .popup__form-inputs-date > p > label {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
+}
+.work__form .popup__call-form-submit:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+.work__form-subtitle {
+  color: #FFF;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 53px;
+}
+
+.work__form-contacts {
+  width: 100%;
+  max-width: 360px;
+  flex-shrink: 0;
+  border: 1px solid #959595;
+  padding: 30px 40px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work__form-contacts > a {
+  color: #FFF;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: all 0.3s ease-out;
+}
+.work__form-contacts > a:hover {
+  opacity: 0.5;
+}
+
+.work__form-email {
+  font-size: 28px !important;
+}
+
+.work__form-contacts .work__form-line {
+  margin: 10px auto;
 }

@@ -435,8 +435,6 @@ border: 1px solid #252525;
 .work__line {
     @include short-line;
     margin-bottom: 50px;
-    margin-left: 0;
-    margin-right: auto;
 }
 .work__title {
     color: #FFF;
@@ -455,16 +453,45 @@ border: 1px solid #252525;
     color: rgba(255,255,255,.5);
     font-size: 24px;
     font-weight: 400;
+    text-align: center;
 }
-.work__form {
+
+.work__form-shortcode {
     background: #343434;
     max-width: 770px;
     margin: 0 auto;
     margin-bottom: 30px;
     padding: 50px;
     padding-bottom: 45px;
+    position: relative;
+
+    &::before {
+        content: '';
+        background: url(../img/designers/work-form-circle.svg);
+        width: 901px;
+        height: 968px;
+        position: absolute;
+        bottom: -202px;
+        right: -235px;
+        animation-name: circleWork;
+        animation-duration: 35s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        z-index: -1;
+    }
+    
 }
-.work__form-descr {
+
+@keyframes circleWork {
+    from {
+        transform: rotate(0deg);
+    } 
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+.work__form .work__form-descr {
     color: #FFF;
 text-align: center;
 font-family: Raleway;
@@ -472,14 +499,14 @@ font-size: 28px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-max-width: 485px;
+max-width: 485px !important;
 margin: 0 auto;
 margin-bottom: 25px;
 }
 
 .work__form-line {
     @include short-line;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .work__form {
@@ -496,13 +523,14 @@ margin-bottom: 25px;
         font-size: 18px;
         max-width: 100%!important;
         padding: 12px 25px;
+        transition: all .3s ease-out;
 
         &:focus {
             outline: none !important;
             color: #fff;
             border: 2px solid rgba(255, 255, 255, 0.50);
             box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.35) !important;
-            background: #565656;
+            background: #4b4b4b;
         }
         &::placeholder {
             color: rgba(255, 255, 255, 0.35);
@@ -541,4 +569,55 @@ margin-bottom: 25px;
         color: rgba(255, 255, 255, 0.5);
         font-size: 14px;
     }
+    .popup__call-form-submit:hover{
+        border-color: #fff;
+        color: #fff;
+    }
+}
+.work__form-subtitle {
+    color: #FFF;
+text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 53px;
+}
+.work__form-contacts {
+    width: 100%;
+    max-width: 360px;
+flex-shrink: 0;
+border: 1px solid #959595;
+padding: 30px 40px;
+margin: 0 auto;
+margin-bottom: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.work__form-contacts > a {
+    color: #FFF;
+font-variant-numeric: lining-nums proportional-nums;
+font: {
+    family: Raleway;
+    size: 33px;
+    style: normal;
+    weight: 600;
+};
+line-height: normal;
+transition: all .3s ease-out;
+
+ &:hover {
+    opacity: 0.5;
+ }
+}
+.work__form-email {
+    font-size: 28px !important;
+}
+.work__form-contacts .work__form-line {
+    margin: 10px auto;
 }

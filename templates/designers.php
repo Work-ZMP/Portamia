@@ -75,7 +75,7 @@ Template Name: Дизайнерам
                     </div>
                 </div>
                 <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+                <div class="swiper-button-prev"></div>
             </div>
 
         </div>
@@ -92,7 +92,7 @@ Template Name: Дизайнерам
             <div class="advantages__items">
                 <div class="advantages__item item-1">
                     <div class="advantages__item-icon">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-1.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-1.svg" alt="">
                     </div>
                     <div class="advantages__item-text">
                         <div class="advantages__item-title">Инновационные проекты</div>
@@ -101,7 +101,7 @@ Template Name: Дизайнерам
                 </div>
                 <div class="advantages__item item-2">
                     <div class="advantages__item-icon">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-2.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-2.svg" alt="">
                     </div>
                     <div class="advantages__item-text">
                         <div class="advantages__item-title">Творческая свобода</div>
@@ -110,7 +110,7 @@ Template Name: Дизайнерам
                 </div>
                 <div class="advantages__item item-3">
                     <div class="advantages__item-icon">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-3.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-3.svg" alt="">
                     </div>
                     <div class="advantages__item-text">
                         <div class="advantages__item-title">Профессиональный рост</div>
@@ -119,7 +119,7 @@ Template Name: Дизайнерам
                 </div>
                 <div class="advantages__item item-4">
                     <div class="advantages__item-icon">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-4.svg" alt="">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-4.svg" alt="">
                     </div>
                     <div class="advantages__item-text">
                         <div class="advantages__item-title">Профессиональное оборудование</div>
@@ -139,10 +139,11 @@ Template Name: Дизайнерам
             <h2 class="work__title">Хотели бы работать с нами? Оставьте заявку</h2>
             <p class="work__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
             <div class="work__form">
-                <p class="work__form-descr">Заполните форму и мы обязательно свяжемся с вами</p>
-                <hr class="work__form-line">
+
                 <div class="work__form-shortcode">
-                    <?php echo do_shortcode( '[contact-form-7 id="b944839" title="Контактная форма 1"]' ) ?>
+                    <p class="work__form-descr">Заполните форму и мы обязательно свяжемся с вами</p>
+                    <hr class="work__form-line">
+                    <?php echo do_shortcode('[contact-form-7 id="b944839" title="Контактная форма 1"]') ?>
                 </div>
                 <h4 class="work__form-subtitle">или свяжитесь с нами</h4>
                 <div class="work__form-contacts">
