@@ -125,6 +125,9 @@ Template Name: Дилерам
             <hr class="conditions__line line-default">
             <h2 class="conditions__title default-title">Условия сотрудничества</h2>
             <p class="conditions__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <div class="conditions__items">
+
+            </div>
         </div>
     </div>
 </section>
@@ -149,14 +152,31 @@ Template Name: Дилерам
             <p class="contacts__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
             <div class="contacts__items">
                 <div class="contacts__input">
-                    <?php echo do_shortcode('[contact-form-7 id="839579d" title="Оставить заявку"]') ?>
+                    <?php echo do_shortcode('[contact-form-7 id="e303fd6" title="Контактная форма 1"]') ?>
                 </div>
-                <div class="contacts__item">
-                    <h3 class="contacts__subtitle"></h3>Контакты</h3>
-                    <div class="contacts__info">
-                        <div class="contacts__icon">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/contacts-call-icon1.svg" alt="">
-                            <a href="tel:+79888888888">+7-988-888-88-88</a>
+                <div class="contacts__info">
+                    <h3 class="contacts__subtitle2 subtitle-default">Контакты</h3>
+                    <div class="contacts__adress">
+                        <div class="contacts__block">
+                            <div class="contacts__icon">
+                                <img class="contacts__img" src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon1.svg" alt="">
+                                <a class="contacts__element contacts-num" href="tel:+79888888888">+7-988-888-88-88</a>
+                            </div>
+                            <div class="contacts__icon">
+                                <img class="contacts__img" src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon2.svg" alt="">
+                                <a class="contacts__element contacts-num" href="tel:+79888888888">+7-988-888-88-88</a>
+                            </div>
+                            <div class="contacts__icon">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon3.svg" alt="">
+                                <a class="contacts__element contacts-mail" href="mailto:info@portamia.ru">info@portamia.ru</a>
+                            </div>
+                            <div class="contacts__icon">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon4.svg" alt="">
+                                <span class="contacts__element contacts-location">Оренбург. пер. Тупой, 55</span>
+                            </div>
+                            <div class="contacts__map">
+                                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A002045108c4c3f384e9f7ee4e951cee3dbe2568466d5d66e5b570d74fb4ea606&amp;source=constructor" width="300" height="270" frameborder="0"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
