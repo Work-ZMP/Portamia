@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Каталог 1
+Template Name: Каталог
 
 */
 

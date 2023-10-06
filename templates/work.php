@@ -150,7 +150,8 @@ Template Name: Работа у нас
 
             <div class="contacts__items">
                 <div class="contacts__form">
-
+                <div class="contacts__subtitle2 subtitle-default">Оставьте заявку на звонок</div>
+                    <?php echo do_shortcode('[contact-form-7 id="b944839" title="Контактная форма 1"]') ?>
                 </div>
                 <div class="contacts__info">
                     <h3 class="contacts__subtitle2 subtitle-default">Контакты</h3>
@@ -164,7 +165,7 @@ Template Name: Работа у нас
                                 <img class="contacts__img" src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon2.svg" alt="">
                                 <a class="contacts__element contacts-num" href="tel:+79888888888">+7-988-888-88-88</a>
                             </div>
-                             <div class="contacts__icon">
+                            <div class="contacts__icon">
                                 <img src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon3.svg" alt="">
                                 <a class="contacts__element contacts-mail" href="mailto:info@portamia.ru">info@portamia.ru</a>
                             </div>

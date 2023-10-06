@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Interior
+Template Name: Межкомнатные двери
 
 */
 
