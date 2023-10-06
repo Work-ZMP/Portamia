@@ -47,8 +47,7 @@ Template Name: Каталог
                 </a>
             </div>
         </div>
-    </div>
-    <hr class="bottom__line line-default">
+    </div>    
 </section>
 
 
