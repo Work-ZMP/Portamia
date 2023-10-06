@@ -151,7 +151,7 @@ Template Name: Работа у нас
             <div class="contacts__items">
                 <div class="contacts__form">
                 <div class="contacts__subtitle2 subtitle-default">Оставьте заявку на звонок</div>
-                    <?php echo do_shortcode('[contact-form-7 id="b944839" title="Контактная форма 1"]') ?>
+                    <?php echo do_shortcode('[contact-form-7 id="9a6ba36" title="Оставить заявку на звонок (работа)"]') ?>
                 </div>
                 <div class="contacts__info">
                     <h3 class="contacts__subtitle2 subtitle-default">Контакты</h3>
