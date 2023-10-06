@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Каталог
+Template Name: Коттеджные двери
 
 */
 

@@ -2,213 +2,21 @@
   background: #2b2b2b;
 }
 
-.work__section {
-  margin-bottom: 100px;
-  margin-top: 100px;
-}
-
-.default-line {
-  width: 190px;
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.work__line {
-  margin-left: 0;
-}
-
-.default-title {
-  color: #fff;
-  font-family: Raleway;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  margin-top: 50px;
-  margin-bottom: 25px;
-}
-
-.default-descr {
-  color: rgba(255, 255, 255, 0.5);
-  font-family: Raleway;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-bottom: 75px;
-}
-
-.work__icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 120px;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  width: 150px;
-  height: 150px;
-}
-
-.work__item img {
-  width: 89px;
-  height: 89px;
-}
-
-.work__descr {
-  width: 606px;
-}
-
-.work__items {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  justify-content: space-between;
-}
-
-.work__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.work__subtitle {
-  color: #fff;
-  text-align: center;
-  font-family: Raleway;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  width: 281px;
-  margin-top: 45px;
-  margin-bottom: 15px;
-}
-
-.subtitle3 {
-  width: 197px;
-}
-
-.subtitle4 {
-  width: 224px;
-}
-
-.work__item-descr {
-  color: rgba(255, 255, 255, 0.5);
-  text-align: center;
-  font-family: Raleway;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  width: 265px;
-}
-
-.vacancy__title {
-  text-align: center;
-}
-
-.vacancy__item {
-  width: 396px;
-  background: #343434;
-  padding: 45px 30px;
-}
-
-.vacancy__descr {
-  max-width: 605px;
-  margin: 0 auto;
-  margin-bottom: 75px;
-  text-align: center;
-}
-
-.vacancy__items {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: space-between;
-  gap: 30px;
-}
-
-.vacancy__subtitle {
-  margin-bottom: 20px;
-  height: 95px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.vacancy__subtitle1 {
-  color: #FFF;
-  font-family: Raleway;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.vacancy__subtitle2 {
-  color: #FFF;
-  font-family: Raleway;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  width: 306px;
-}
-
-.vacancy__block {
-  width: 336px;
-  background: #454545;
-  padding: 25px;
-  height: 373px;
-}
-
-.vacancy__block-descr {
-  color: #FFF;
-  font-family: Raleway;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.vacancy-spisok ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-.spisok {
-  color: rgba(255, 255, 255, 0.5);
-  font-family: Raleway;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-}
-
-.vacancy__case-btn {
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  display: inline-flex;
-  padding: 10px 35px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-top: 25px;
-}
-
-.vacancy__btn {
-  color: #FFF;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
 .contacts__section {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .contacts__line {
   margin-right: 0;
+  border: none;
+  max-width: 190px;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 25px;
+  background: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  height: 1px;
 }
 
 .contacts__title {
@@ -216,7 +24,15 @@
 }
 
 .contacts__descr {
-  text-align: right;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 605px;
+  text-align: left;
+  margin-bottom: 50px;
   /*width: 606px;*/
 }
 

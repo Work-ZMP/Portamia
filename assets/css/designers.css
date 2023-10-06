@@ -1,5 +1,5 @@
 #panel {
-  background: #2B2B2B;
+  background: #2b2b2b;
 }
 
 .cooperation__section {
@@ -31,7 +31,7 @@
 }
 
 .cooperation__title {
-  color: #FFF;
+  color: #fff;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -148,7 +148,7 @@
 }
 
 .projects__item {
-  background: #F0F0F0;
+  background: #f0f0f0;
   padding: 30px;
 }
 
@@ -196,7 +196,8 @@
   border: 1px solid #252525;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   position: absolute;
   top: 50%;
   z-index: 10;
@@ -298,7 +299,7 @@
 }
 
 .advantages__title {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 48px;
   font-style: normal;
@@ -353,7 +354,7 @@
 }
 
 .advantages__item-title {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 24px;
   font-style: normal;
@@ -417,7 +418,7 @@
 }
 
 .work__title {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 48px;
   font-style: normal;
@@ -470,7 +471,7 @@
   }
 }
 .work__form .work__form-descr {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Raleway;
   font-size: 28px;
@@ -563,7 +564,7 @@
 }
 
 .work__form-subtitle {
-  color: #FFF;
+  color: #fff;
   text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   font-family: Raleway;
   font-size: 24px;
@@ -590,7 +591,7 @@
 }
 
 .work__form-contacts > a {
-  color: #FFF;
+  color: #fff;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
   font-size: 33px;

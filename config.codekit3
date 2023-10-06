@@ -53,6 +53,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/assets\/css\/contacts.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/contacts-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/assets\/css\/cottage.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -62,6 +74,18 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/css\/cottage-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/css\/dealers-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/dealers-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -242,6 +266,18 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/css\/slick-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/css\/work-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/work-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -5215,6 +5251,21 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/assets\/scss\/contacts.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/contacts.css",
+      "oF" : 2,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/scss\/designers.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -5226,6 +5277,21 @@
       "oA" : 0,
       "oAP" : "\/assets\/css\/designers.css",
       "oF" : 3,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/assets\/scss\/work.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/work.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -5496,6 +5562,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/catalog.php",
+      "oF" : 0
+    },
+    "\/templates\/contacts.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/contacts.php",
       "oF" : 0
     },
     "\/templates\/cottage.php" : {
