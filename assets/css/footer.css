@@ -22,7 +22,7 @@
 
 .footer {
     background: #2B2B2B;
-    border-top: 1px solid #ABABAB;
+    border-top: 1px solid #ABABAB !important;
 }
 
 .footer__top {
