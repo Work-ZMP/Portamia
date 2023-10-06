@@ -47,7 +47,7 @@ Template Name: Каталог
                 </a>
             </div>
         </div>
-    </div>    
+    </div>
 </section>
 
 
