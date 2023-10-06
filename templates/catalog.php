@@ -34,13 +34,13 @@ Template Name: Каталог 1
                     </div>
                 </a>
                 <a href="#">
-                    <div class="production__item item4">
+                    <div class="production__item item3">
                         <h3 class="production__subtitle">Межкомнатные двери</h3>
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/catalog/interior_doors.svg" alt="">
                     </div>
                 </a>
                 <a href="#">
-                    <div class="production__item item3">
+                    <div class="production__item item4">
                         <h3 class="production__subtitle">Аллюминиевые перегородки</h3>
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/catalog/aluminum_partitions.svg" alt="">
                     </div>
