@@ -481,7 +481,7 @@
 }
 
 .banner__btn:hover {
-  background: rgba(255, 255, 255, 0.1);  
+  background: rgba(255, 255, 255, 0.1);
 }
 
 @media (max-width: 1480px) {

@@ -55,7 +55,9 @@ add_action( 'wp_enqueue_scripts', function () {
     if( is_page_template( "templates/collections.php" ) ){
 		wp_enqueue_style( 'collections', get_template_directory_uri() . '/assets/css/collections.css' );
     };
-	
+	if( is_page_template( "templates/collection-elegance.php" ) ){
+		wp_enqueue_style( 'collection-elegance', get_template_directory_uri() . '/assets/css/collection-elegance.css' );
+    };
 
     wp_deregister_script( 'jquery' );
 	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js');
