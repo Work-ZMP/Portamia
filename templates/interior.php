@@ -126,7 +126,7 @@ Template Name: Межкомнатные двери
     <div class="container">
         <div class="banner__inner">
             <h2 class="banner__title">Оставьте заявку на бесплатный замер</h1>
-                <p class="banner__descr">Заполните форму, и наш менеджер свяжется с вами, чтобы обсудить детали</p>
+                <p class="banner__descr">Заполните форму и наш менеджер свяжется с вами, чтобы обсудить детали</p>
                 <a data-fancybox data-src="#popup__form" class="banner__btn">заказать замер</a>
         </div>
     </div>
@@ -169,7 +169,7 @@ Template Name: Межкомнатные двери
             <div class="furniture__right">
                 <hr class="furniture__line">
                 <h2 class="furniture__title">Премиум фурнитура</h2>
-                <p class="furniture__descr">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойденную эстетику и иновационные решения. Наша команда талантливых дизайнеров работает над созданием прототипов дверей, вдохновленных и.</p>
+                <p class="furniture__descr">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойденную эстетику и иновационные решения.</p>
                 <a data-fancybox data-src="#popup__form" class="furniture__btn">оставить заявку</a>
             </div>
         </div>
@@ -197,7 +197,7 @@ Template Name: Межкомнатные двери
     <div class="container">
         <div class="banner__inner">
             <h2 class="banner__title">Оставьте заявку на бесплатный замер</h1>
-                <p class="banner__descr">Заполните форму, и наш менеджер свяжется с вами, чтобы обсудить детали</p>
+                <p class="banner__descr">Заполните форму и наш менеджер свяжется с вами, чтобы обсудить детали</p>
                 <a data-fancybox data-src="#popup__form" class="banner__btn">заказать замер</a>
         </div>
     </div>
@@ -310,7 +310,7 @@ Template Name: Межкомнатные двери
             <div class="reviews__left">
                 <hr class="reviews__line">
                 <h2 class="reviews__title">Наши отзывы</h2>
-                <p class="reviews__descr">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойденную эстетику и иновационные решения. Наша команда талантливых дизайнеров работает над созданием прототипов дверей, вдохновленных и.</p>
+                <p class="reviews__descr">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойденную эстетику и иновационные решения.</p>
                 <a data-fancybox data-src="#popup__form" class="reviews__btn">оставить заявку</a>
             </div>
             <div class="reviews__right">
