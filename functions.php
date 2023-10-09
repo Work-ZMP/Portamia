@@ -52,6 +52,9 @@ add_action( 'wp_enqueue_scripts', function () {
     if( is_page_template( "templates/contacts.php" ) ){
 		wp_enqueue_style( 'contacts', get_template_directory_uri() . '/assets/css/contacts.css' );
     };
+    if( is_page_template( "templates/collections.php" ) ){
+		wp_enqueue_style( 'collections', get_template_directory_uri() . '/assets/css/collections.css' );
+    };
 	
 
     wp_deregister_script( 'jquery' );

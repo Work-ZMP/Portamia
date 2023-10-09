@@ -41,6 +41,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/assets\/css\/collections.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/collections-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/assets\/css\/conf-style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -5263,6 +5275,21 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/assets\/scss\/collections.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/collections.css",
+      "oF" : 2,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/scss\/contacts.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -5574,6 +5601,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/catalog.php",
+      "oF" : 0
+    },
+    "\/templates\/collections.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/collections.php",
       "oF" : 0
     },
     "\/templates\/contacts.php" : {
