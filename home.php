@@ -31,7 +31,7 @@ Template Name: Home
                 <div class="catalogue__item el">
                     <img src="<?php bloginfo('template_url'); ?>/assets/img/catalogue-item-img-3.webp" class="catalogue__cover-img" alt="">
                     <div class="catalogue__cover">
-                        <a href="<?php echo get_permalink(7); ?>" class="catalogue__cover-btn">квартирные двери</a>
+                        <a href="<?php echo get_permalink(7); ?>" class="catalogue__cover-btn">перегородки</a>
                     </div>
                 </div>
             </div>
