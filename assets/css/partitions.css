@@ -1752,3 +1752,58 @@ font-weight: 400;
 line-height: normal;
 margin-bottom: 50px;
 }
+
+
+
+
+#partition01.fancybox__content,
+#partition02.fancybox__content,
+#partition03.fancybox__content,
+#partition04.fancybox__content,
+#partition05.fancybox__content,
+#partition06.fancybox__content,
+#partition07.fancybox__content {
+    padding: 75px 50px;
+}
+.prt__title {
+    color: #252525;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+}
+.prt__block {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+}
+.prt__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.prt__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.prt__line-subtitle {
+    color: #252525;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 15px;
+}
+.prt__line-descr {
+    max-width: 525px;
+    color: rgba(37, 37, 37, 0.50);
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 50px;
+}

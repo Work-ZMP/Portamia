@@ -120,7 +120,7 @@ Template Name: Перегородки
                         <div class="popular__item-bottom">
                             <div class="popular__item-subtitle">Модель</div>
                             <div class="popular__item-title">АЛПЛ 040.01</div>
-                            <a href="<?php echo get_permalink(33); ?>" class="popular__btn">подробнее</a>
+                            <a href="" data-fancybox data-src="#partition01" class="popular__btn">подробнее</a>
                         </div>
                     </div>
                     <div class="popular__item swiper-slide">
@@ -131,7 +131,7 @@ Template Name: Перегородки
                         <div class="popular__item-bottom">
                             <div class="popular__item-subtitle">Модель</div>
                             <div class="popular__item-title">АЛПЛ 040.02</div>
-                            <a href="<?php echo get_permalink(33); ?>" class="popular__btn">подробнее</a>
+                            <a href="" data-fancybox data-src="#partition02" class="popular__btn">подробнее</a>
                         </div>
                     </div>
                     <div class="popular__item swiper-slide">
@@ -142,7 +142,7 @@ Template Name: Перегородки
                         <div class="popular__item-bottom">
                             <div class="popular__item-subtitle">Модель</div>
                             <div class="popular__item-title">АЛПЛ 040.03</div>
-                            <a href="<?php echo get_permalink(33); ?>" class="popular__btn">подробнее</a>
+                            <a href="" data-fancybox data-src="#partition03" class="popular__btn">подробнее</a>
                         </div>
                     </div>
                     <div class="popular__item swiper-slide">
@@ -153,7 +153,7 @@ Template Name: Перегородки
                         <div class="popular__item-bottom">
                             <div class="popular__item-subtitle">Модель</div>
                             <div class="popular__item-title">АЛПЛ 040.04</div>
-                            <a href="<?php echo get_permalink(33); ?>" class="popular__btn">подробнее</a>
+                            <a href="" data-fancybox data-src="#partition04" class="popular__btn">подробнее</a>
                         </div>
                     </div>
                     <div class="popular__item swiper-slide">
@@ -164,7 +164,7 @@ Template Name: Перегородки
                         <div class="popular__item-bottom">
                             <div class="popular__item-subtitle">Модель</div>
                             <div class="popular__item-title">АЛПЛ 040.01</div>
-                            <a href="<?php echo get_permalink(33); ?>" class="popular__btn">подробнее</a>
+                            <a href="" data-fancybox data-src="#partition01" class="popular__btn">подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -262,7 +262,7 @@ Template Name: Перегородки
                     <div class="catalogue__item-bottom">
                         <div class="catalogue__item-subtitle">Модель</div>
                         <div class="catalogue__item-title">АЛПЛ 040.01</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        <a href="" data-fancybox data-src="#partition01" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
                 <div class="catalogue__item">
@@ -273,7 +273,7 @@ Template Name: Перегородки
                     <div class="catalogue__item-bottom">
                         <div class="catalogue__item-subtitle">Модель</div>
                         <div class="catalogue__item-title">АЛПЛ 040.02</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        <a href="" data-fancybox data-src="#partition02" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
                 <div class="catalogue__item">
@@ -284,7 +284,7 @@ Template Name: Перегородки
                     <div class="catalogue__item-bottom">
                         <div class="catalogue__item-subtitle">Модель</div>
                         <div class="catalogue__item-title">АЛПЛ 040.03</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        <a href="" data-fancybox data-src="#partition03" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
                 <div class="catalogue__item">
@@ -295,7 +295,7 @@ Template Name: Перегородки
                     <div class="catalogue__item-bottom">
                         <div class="catalogue__item-subtitle">Модель</div>
                         <div class="catalogue__item-title">АЛПЛ 040.04</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        <a href="" data-fancybox data-src="#partition04" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
                 <div class="catalogue__item">
@@ -306,7 +306,7 @@ Template Name: Перегородки
                     <div class="catalogue__item-bottom">
                         <div class="catalogue__item-subtitle">Модель</div>
                         <div class="catalogue__item-title">АЛПЛ 040.05</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        <a href="" data-fancybox data-src="#partition05" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
                 <div class="catalogue__item">
@@ -317,7 +317,7 @@ Template Name: Перегородки
                     <div class="catalogue__item-bottom">
                         <div class="catalogue__item-subtitle">Модель</div>
                         <div class="catalogue__item-title">АЛПЛ 040.06</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        <a href="" data-fancybox data-src="#partition06" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
                 <div class="catalogue__item">
@@ -328,7 +328,7 @@ Template Name: Перегородки
                     <div class="catalogue__item-bottom">
                         <div class="catalogue__item-subtitle">Модель</div>
                         <div class="catalogue__item-title">АЛПЛ 040.07</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        <a href="" data-fancybox data-src="#partition07" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
             </div>
@@ -641,10 +641,10 @@ Template Name: Перегородки
                 <div class="prt__title">Перегородка АЛПЛ 040.01</div>
                 <div class="prt__block">
                     <div class="prt__left">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-4.svg" alt="" class="glass__line-img">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-1.png" alt="" class="glass__line-img">
                     </div>
                     <div class="prt__right">
-                        <div class="prt__line-subtitle">Преимущества наших стекол</div>
+                        <div class="prt__line-subtitle">Преимущества наших перегородок</div>
                         <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
                         <div class="prt__line-subtitle">Качество, проверенное временем</div>
                         <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
@@ -654,6 +654,133 @@ Template Name: Перегородки
         </div>
     </section>
 </div>
+
+<div id="partition02" style="display: none">
+    <section class="prt__section-popup" id="partition-02-section">
+        <div class="container">
+            <div class="prt__inner">
+                <div class="prt__title">Перегородка АЛПЛ 040.02</div>
+                <div class="prt__block">
+                    <div class="prt__left">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-2.png" alt="" class="glass__line-img">
+                    </div>
+                    <div class="prt__right">
+                        <div class="prt__line-subtitle">Преимущества наших перегородок</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                        <div class="prt__line-subtitle">Качество, проверенное временем</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="partition03" style="display: none">
+    <section class="prt__section-popup" id="partition-03-section">
+        <div class="container">
+            <div class="prt__inner">
+                <div class="prt__title">Перегородка АЛПЛ 040.03</div>
+                <div class="prt__block">
+                    <div class="prt__left">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-3.png" alt="" class="glass__line-img">
+                    </div>
+                    <div class="prt__right">
+                        <div class="prt__line-subtitle">Преимущества наших перегородок</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                        <div class="prt__line-subtitle">Качество, проверенное временем</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="partition04" style="display: none">
+    <section class="prt__section-popup" id="partition-04-section">
+        <div class="container">
+            <div class="prt__inner">
+                <div class="prt__title">Перегородка АЛПЛ 040.04</div>
+                <div class="prt__block">
+                    <div class="prt__left">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-4.png" alt="" class="glass__line-img">
+                    </div>
+                    <div class="prt__right">
+                        <div class="prt__line-subtitle">Преимущества наших перегородок</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                        <div class="prt__line-subtitle">Качество, проверенное временем</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="partition05" style="display: none">
+    <section class="prt__section-popup" id="partition-05-section">
+        <div class="container">
+            <div class="prt__inner">
+                <div class="prt__title">Перегородка АЛПЛ 040.05</div>
+                <div class="prt__block">
+                    <div class="prt__left">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-5.png" alt="" class="glass__line-img">
+                    </div>
+                    <div class="prt__right">
+                        <div class="prt__line-subtitle">Преимущества наших перегородок</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                        <div class="prt__line-subtitle">Качество, проверенное временем</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="partition06" style="display: none">
+    <section class="prt__section-popup" id="partition-06-section">
+        <div class="container">
+            <div class="prt__inner">
+                <div class="prt__title">Перегородка АЛПЛ 040.06</div>
+                <div class="prt__block">
+                    <div class="prt__left">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-6.png" alt="" class="glass__line-img">
+                    </div>
+                    <div class="prt__right">
+                        <div class="prt__line-subtitle">Преимущества наших перегородок</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                        <div class="prt__line-subtitle">Качество, проверенное временем</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="partition07" style="display: none">
+    <section class="prt__section-popup" id="partition-07-section">
+        <div class="container">
+            <div class="prt__inner">
+                <div class="prt__title">Перегородка АЛПЛ 040.07</div>
+                <div class="prt__block">
+                    <div class="prt__left">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-7.png" alt="" class="glass__line-img">
+                    </div>
+                    <div class="prt__right">
+                        <div class="prt__line-subtitle">Преимущества наших перегородок</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                        <div class="prt__line-subtitle">Качество, проверенное временем</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
 
 
 <?php get_footer(); ?>
