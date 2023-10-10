@@ -93,7 +93,7 @@
     </div>
     <main class="slideout-panel panel-main" id="panel">
         <header class="header">
-            <div class="header__top header-top-main">
+            <div class="header__top header-top-main header-collection">
                 <div class="header__top-upper">
                     <div class="header__upper-left">
                         <a href="<?php echo get_permalink(10); ?>" class="header__btn-connection magic-hover magic-hover__square">конфигуратор</a>
