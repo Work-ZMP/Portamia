@@ -58,6 +58,9 @@ add_action( 'wp_enqueue_scripts', function () {
 	if( is_page_template( "templates/collection-elegance.php" ) ){
 		wp_enqueue_style( 'collection-elegance', get_template_directory_uri() . '/assets/css/collection-elegance.css' );
     };
+    if( is_page_template( "templates/doorpage.php" ) ){
+		wp_enqueue_style( 'doorpage', get_template_directory_uri() . '/assets/css/doorpage.css' );
+    };
 
     wp_deregister_script( 'jquery' );
 	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js');
@@ -75,6 +78,9 @@ add_action( 'wp_enqueue_scripts', function () {
 	};
     if( is_page_template( "templates/collections.php" ) ){
 		wp_enqueue_script( 'collections', get_template_directory_uri() . '/assets/js/collections.js', array('jquery'), 'null', true );
+	};
+    if( is_page_template( "templates/doorpage.php" ) ){
+		wp_enqueue_script( 'doorpage', get_template_directory_uri() . '/assets/js/doorpage.js', array('jquery'), 'null', true );
 	};
 	
 });
