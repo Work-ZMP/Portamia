@@ -4502,6 +4502,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/img\/door\/bernetti\/outdoor\/col-main-5\/col-acc-5\/door.png" : {
+      "ft" : 32768,
+      "iS" : 198628,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/door\/bernetti\/outdoor\/col-main-5\/col-acc-5\/door.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/img\/door\/form-cover.webp" : {
       "ft" : 8388608,
       "iS" : 111954,
@@ -4729,19 +4742,6 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/img\/interior\/cat-item-4.png" : {
-      "ft" : 32768,
-      "iS" : 140079,
-      "oA" : 0,
-      "oAP" : "\/assets\/img\/interior\/cat-item-4.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/assets\/img\/interior\/cat-item-5.png" : {
       "ft" : 32768,
       "iS" : 106107,
@@ -4846,7 +4846,7 @@
     },
     "\/assets\/img\/interior\/popular-item-1.png" : {
       "ft" : 32768,
-      "iS" : 140079,
+      "iS" : 94405,
       "oA" : 0,
       "oAP" : "\/assets\/img\/interior\/popular-item-1.png",
       "oF" : 0,

@@ -61,11 +61,11 @@ Template Name: Межкомнатные двери
                     <div class="popular__item swiper-slide">
                         <div class="popular__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/popular-item-1.png" alt="" class="popular__item-img">
-                            <div class="popular__item-top-cover">MAIN</div>
+                            <div class="popular__item-top-cover">BERNETTI</div>
                         </div>
                         <div class="popular__item-bottom">
                             <div class="popular__item-subtitle">Модель</div>
-                            <div class="popular__item-title">MAIN</div>
+                            <div class="popular__item-title">BERNETTI</div>
                             <a href="<?php echo get_permalink(33); ?>" class="popular__btn">подробнее</a>
                         </div>
                     </div>
@@ -246,11 +246,11 @@ Template Name: Межкомнатные двери
                 <div class="catalogue__item">
                     <div class="catalogue__item-top">
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-4.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">MAIN</div>
+                        <div class="catalogue__item-top-cover">BERNETTI</div>
                     </div>
                     <div class="catalogue__item-bottom">
                         <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">MAIN</div>
+                        <div class="catalogue__item-title">BERNETTI</div>
                         <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
