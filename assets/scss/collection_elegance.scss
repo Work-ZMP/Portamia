@@ -196,6 +196,15 @@
   height: 1px;
 }
 
+
+
+
+
+
+
+
+
+
 .work__form-shortcode {
   border: 2px solid #373737;
   background: linear-gradient(
@@ -210,6 +219,13 @@
   padding: 50px;
   padding-bottom: 45px;
   position: relative;
+}
+.work__form .wpcf7 form .wpcf7-response-output {
+  color: #a9a9a9;
+  margin-top: 10px;
+}
+.work__form .wpcf7-not-valid-tip {
+  color: #fff;
 }
 
 .work__form .work__form-descr {
@@ -240,9 +256,10 @@
 .work__form .popup__form-inputs-name,
 .work__form .popup__form-inputs-phone,
 .work__form .popup__form-inputs-message {
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  background: #343434;
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.35);
+  border: 2px solid rgba(255, 255, 255, 0.50);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(22.5px);
   color: #fff;
   font-family: "Raleway";
   font-size: 18px;
@@ -259,7 +276,7 @@
   color: #fff;
   border: 2px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.35) !important;
-  background: #4b4b4b;
+  background: rgba(255, 255, 255, 0.35);
 }
 .work__form .popup__form-inputs-day::placeholder,
 .work__form .popup__form-inputs-hours::placeholder,
@@ -355,34 +372,22 @@
 }
 
 .application__section {
-  background-image: url("../img/collection-elegance/elegance_photo4.png");
+  background-image: url("../img/door/form-cover.webp");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   position: relative;
   z-index: 1;
   height: 100vh;
-  width: auto;
-  margin-bottom: 100px;
 }
 
 .work__form {
   background-size: cover;
   position: absolute;
   top: 50%;
-  left: calc(50% + 350px);
+  left: calc(50% + 300px);
   transform: translate(-50%, -50%);
   z-index: 2;
   height: auto;
-}
-
-.work__inner {
-  .work__form .popup__form-inputs-day,
-  .work__form .popup__form-inputs-hours,
-  .popup__form-inputs-name,
-  .work__form .popup__form-inputs-phone,
-  .work__form .popup__form-inputs-message {
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    background: rgba(255, 255, 255, 0.15);
-    box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.35);
-    backdrop-filter: blur(22.5px);
-  }
 }

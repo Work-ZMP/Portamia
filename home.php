@@ -124,7 +124,7 @@ Template Name: Home
             <hr class="collection__line">
             <div class="collection__title default-title">New Elegance</div>
             <div class="collection__descr default-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
-            <a href="<?php echo get_permalink(3999); ?>" class="collection__btn default-btn">перейти</a>
+            <a href="<?php echo get_permalink(430); ?>" class="collection__btn default-btn">перейти</a>
         </div>
     </div>
 </section>
@@ -136,7 +136,7 @@ Template Name: Home
                 <hr class="trust__line">
                 <div class="trust__title default-title">Гарант доверия</div>
                 <div class="trust__descr default-descr">Мы гордимся, что нас выбирают ведущие бренды и компании, ведь они знают, что сотрудничество с Portamia - это залог успеха и качества.</div>
-                <a href="<?php echo get_permalink(39); ?>" class="trust__btn default-btn">подробнее</a>
+                <a href="<?php echo get_permalink(45); ?>" class="trust__btn default-btn">подробнее</a>
             </div>
             <div class="trust__circle-xs trust-circle"></div>
             <div class="trust__circle-sm trust-circle"></div>
