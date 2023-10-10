@@ -216,6 +216,7 @@ body {
     overflow: hidden;
     margin-bottom: 0 !important;
 }
+
 .header__top {
     overflow: hidden;
 }
@@ -384,11 +385,13 @@ body {
 .header__btn-connection:hover {
     background: rgba(37, 37, 37, 0.1);
 }
+
 .header__line {
     height: 1px;
     background: #252525;
     margin: 25px 50px;
 }
+
 .header__top.darkpage .header__line {
     height: 1px;
     background: #252525;
@@ -422,9 +425,11 @@ body {
     font-weight: 600;
     line-height: normal;
 }
+
 .header__lower-subtitle {
     color: #fff;
 }
+
 .header__top-lower {
     padding: 0 50px;
     display: grid;
@@ -931,6 +936,7 @@ body {
     align-items: center;
     overflow: hidden !important;
 }
+
 .header-collection .header__slide-text {
     transform: none;
     padding-left: 0;
@@ -938,6 +944,27 @@ body {
     align-items: center;
     border: none;
 }
+
+.header-collection .header__slide-subtitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header-collection .header__slide-line {
+    border: none;
+    max-width: 190px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    height: 1px;
+}
+
 .header__slide-text {
     width: fit-content;
     display: flex;
