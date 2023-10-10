@@ -976,7 +976,8 @@ body {
 
 .header-collection .header__slide-line {
     border: none;
-    max-width: 190px;
+    max-width: 275px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 5px;
