@@ -48,6 +48,7 @@
 }
 .collection__item:hover .collection__item-image {
   transform: scale(1.02);
+  filter: brightness(0.7);
 }
 .collection__item::after {
   content: "";

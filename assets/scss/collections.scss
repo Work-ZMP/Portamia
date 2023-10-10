@@ -47,6 +47,7 @@
 
     &:hover .collection__item-image {
         transform: scale(1.02);
+        filter: brightness(0.7);
     }
     &::after {
         content: '';
