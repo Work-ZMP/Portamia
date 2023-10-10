@@ -299,13 +299,13 @@ if (isset($_GET['door_cfg'])) {
                                                         </div>
 
 
-                                                        <div data-variable-name="leafdooritems_single" data-variable-value="slditem4" data-leafdooritems_single="slditem4" data-price="0" data-image="" data-order="1" class=" furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_single']) and $_GET['leafdooritems_single'] == 'slditem4') ? ' active' : '' ?>" id="slditem4" onclick="leafdooritems('slditem4')">
+                                                        <div data-variable-name="leafdooritems_single" data-variable-value="slditem4" data-leafdooritems_single="slditem4" data-price="0" data-image="" data-order="1" class="unfinished furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_single']) and $_GET['leafdooritems_single'] == 'slditem4') ? ' active' : '' ?>" id="slditem4" onclick="leafdooritems('slditem4')">
                                                             <div class="furniture-item-image-cover">
                                                                 <span class="furniture-item-image-country"></span>
                                                                 <div class="furniture-item-image" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/types/door-type-img-6.svg);">
                                                                 </div>
                                                             </div>
-                                                            <div class="furniture-item-title">Вид II</div>
+                                                            <div class="furniture-item-title">В разработке</div>
                                                             <div class="furniture-item-title">С фрамугой по бокам</div>
                                                         </div>
 
@@ -331,13 +331,13 @@ if (isset($_GET['door_cfg'])) {
 
 
 
-                                                        <div data-variable-name="leafdooritems_single" data-variable-value="slditem2" data-leafdooritems_single="slditem2" data-price="0" data-image="" data-order="1" class="furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_single']) and $_GET['leafdooritems_single'] == 'slditem2') ? ' active' : '' ?>" id="slditem2" onclick="leafdooritems('slditem2')">
+                                                        <div data-variable-name="leafdooritems_single" data-variable-value="slditem2" data-leafdooritems_single="slditem2" data-price="0" data-image="" data-order="1" class="unfinished furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_single']) and $_GET['leafdooritems_single'] == 'slditem2') ? ' active' : '' ?>" id="slditem2" onclick="leafdooritems('slditem2')">
                                                             <div class="furniture-item-image-cover">
                                                                 <span class="furniture-item-image-country"></span>
                                                                 <div class="furniture-item-image" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/types/door-type-img-2.svg);">
                                                                 </div>
                                                             </div>
-                                                            <div class="furniture-item-title">Вид V</div>
+                                                            <div class="furniture-item-title">В разработке</div>
                                                             <div class="furniture-item-title">С фрамугой сверху</div>
                                                         </div>
 
@@ -388,31 +388,31 @@ if (isset($_GET['door_cfg'])) {
 
                                                     </div>
                                                     <div class="furniture-group construction-body double-leaf" id="doubleleafdoor" <?= (isset($_GET['leaf']) and $_GET['leaf'] == 'double') ? '' : 'style="display: none;"' ?>>
-                                                        <div data-variable-name="leafdooritems_double" data-variable-value="dlditem1" data-leafdooritems_double="dlditem1" data-price="0" data-image="" data-order="1" class="furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_double']) and $_GET['leafdooritems_double'] == 'dlditem1') ? ' active' : '' ?>" id="dlditem1" onclick="leafdooritems('dlditem1')">
+                                                        <div data-variable-name="leafdooritems_double" data-variable-value="dlditem1" data-leafdooritems_double="dlditem1" data-price="0" data-image="" data-order="1" class="unfinished furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_double']) and $_GET['leafdooritems_double'] == 'dlditem1') ? ' active' : '' ?>" id="dlditem1" onclick="leafdooritems('dlditem1')">
                                                             <div class="furniture-item-image-cover">
                                                                 <span class="furniture-item-image-country"></span>
                                                                 <div class="furniture-item-image" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/types/door-type-img-10.svg);">
                                                                 </div>
                                                             </div>
-                                                            <div class="furniture-item-title">Тип I</div>
+                                                            <div class="furniture-item-title">В разработке</div>
                                                             <div class="furniture-item-title">Базовое</div>
                                                         </div>
-                                                        <div data-variable-name="leafdooritems_double" data-variable-value="dlditem2" data-leafdooritems_double="dlditem2" data-price="0" data-image="" data-order="1" class="furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_double']) and $_GET['leafdooritems_double'] == 'dlditem2') ? ' active' : '' ?>" id="dlditem2" onclick="leafdooritems('dlditem2')">
+                                                        <div data-variable-name="leafdooritems_double" data-variable-value="dlditem2" data-leafdooritems_double="dlditem2" data-price="0" data-image="" data-order="1" class="unfinished furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_double']) and $_GET['leafdooritems_double'] == 'dlditem2') ? ' active' : '' ?>" id="dlditem2" onclick="leafdooritems('dlditem2')">
                                                             <div class="furniture-item-image-cover">
                                                                 <span class="furniture-item-image-country"></span>
                                                                 <div class="furniture-item-image" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/types/door-type-img-11.svg);">
                                                                 </div>
                                                             </div>
-                                                            <div class="furniture-item-title">Тип II</div>
+                                                            <div class="furniture-item-title">В разработке</div>
                                                             <div class="furniture-item-title">Базовое</div>
                                                         </div>
-                                                        <div data-variable-name="leafdooritems_double" data-variable-value="dlditem3" data-leafdooritems="dlditem3" data-price="0" data-image="" data-order="1" class="furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_double']) and $_GET['leafdooritems_double'] == 'dlditem3') ? ' active' : '' ?>" id="dlditem3" onclick="leafdooritems('dlditem3')">
+                                                        <div data-variable-name="leafdooritems_double" data-variable-value="dlditem3" data-leafdooritems="dlditem3" data-price="0" data-image="" data-order="1" class="unfinished furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_double']) and $_GET['leafdooritems_double'] == 'dlditem3') ? ' active' : '' ?>" id="dlditem3" onclick="leafdooritems('dlditem3')">
                                                             <div class="furniture-item-image-cover">
                                                                 <span class="furniture-item-image-country"></span>
                                                                 <div class="furniture-item-image" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/types/door-type-img-12.svg);">
                                                                 </div>
                                                             </div>
-                                                            <div class="furniture-item-title">Тип III</div>
+                                                            <div class="furniture-item-title">В разработке</div>
                                                             <div class="furniture-item-title">Базовое</div>
                                                         </div>
                                                     </div>
@@ -3532,7 +3532,7 @@ if (isset($_GET['door_cfg'])) {
 
 
 
-                        <div data-variable-name="furniture_platband_check" data-variable-value="1" data-furniture_closer_check="1" data-price="0" data-image="" data-order="1" class=" checkbox-accordion accordion accordion--with-plus colored" id="checkbox-4step-platband"><!---->
+                        <div data-variable-name="furniture_platband_check" data-variable-value="1" data-furniture_closer_check="1" data-price="0" data-image="" data-order="1" class="unfinished checkbox-accordion accordion accordion--with-plus colored" id="checkbox-4step-platband"><!---->
                             <div class="checkbox-accordion-header" onclick="togglerPlatbandStep4()">
                                 <div class="title">
                                     <span>Декоративный наличник (в разработке)</span>
@@ -3598,7 +3598,7 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
-                        <div data-variable-name="furniture_dodings_check" data-variable-value="1" data-furniture_dodings_check="1" data-price="0" data-image="" data-order="1" class=" checkbox-accordion accordion accordion--with-plus colored" id="checkbox-4step-dodings"><!---->
+                        <div data-variable-name="furniture_dodings_check" data-variable-value="1" data-furniture_dodings_check="1" data-price="0" data-image="" data-order="1" class="unfinished checkbox-accordion accordion accordion--with-plus colored" id="checkbox-4step-dodings"><!---->
                             <div class="checkbox-accordion-header" onclick="togglerDodingsStep4()">
                                 <div class="title">
                                     <span>Доборы (в разработке)</span>
@@ -3643,7 +3643,7 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
-                        <div data-variable-name="extra-cornice_check" data-variable-value="1" data-extra_cornice_check="1" data-price="0" data-image="" data-order="1" class=" checkbox-accordion accordion accordion--with-plus colored" id="checkbox-2step-extra-cornice">
+                        <div data-variable-name="extra-cornice_check" data-variable-value="1" data-extra_cornice_check="1" data-price="0" data-image="" data-order="1" class="unfinished checkbox-accordion accordion accordion--with-plus colored" id="checkbox-2step-extra-cornice">
                             <div class="checkbox-accordion-header" onclick="togglerCorniceStep4()">
                                 <div class="title">
                                     <span>Карниз (в разработке)</span>
