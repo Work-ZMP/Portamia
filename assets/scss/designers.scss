@@ -177,6 +177,11 @@
     line-height: normal;
     width: fit-content;
     border: 1px solid #252525;
+    transition: all .3s ease-out;
+
+    &:hover {
+        background: rgba(37, 37, 37, 0.15);
+    }
 }
 
 .swiper-button-next,

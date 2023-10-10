@@ -194,6 +194,10 @@
   line-height: normal;
   width: fit-content;
   border: 1px solid #252525;
+  transition: all 0.3s ease-out;
+}
+.projects__item-btn:hover {
+  background: rgba(37, 37, 37, 0.15);
 }
 
 .swiper-button-next,
