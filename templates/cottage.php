@@ -181,9 +181,9 @@ Template Name: Коттеджные двери
             <h2 class="catalogue__title">Коттеджные двери</h2>
             <p class="catalogue__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
             <div class="catalogue__items">
-                <div class="catalogue__item">
+                <div class="catalogue__item unfinished">
                     <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-1.png" alt="" class="unfinished catalogue__item-img">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-1.png" alt="" class=" catalogue__item-img">
                         <div class="catalogue__item-top-cover">CREDO NEO</div>
                     </div>
                     <div class="catalogue__item-bottom">
@@ -192,9 +192,9 @@ Template Name: Коттеджные двери
                         <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
-                <div class="catalogue__item">
+                <div class="catalogue__item unfinished">
                     <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-2.png" alt="" class="unfinished catalogue__item-img">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-2.png" alt="" class=" catalogue__item-img">
                         <div class="catalogue__item-top-cover">FLEXO NEO</div>
                     </div>
                     <div class="catalogue__item-bottom">
@@ -203,9 +203,9 @@ Template Name: Коттеджные двери
                         <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
-                <div class="catalogue__item">
+                <div class="catalogue__item unfinished">
                     <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-3.png" alt="" class="unfinished catalogue__item-img">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-3.png" alt="" class=" catalogue__item-img">
                         <div class="catalogue__item-top-cover">CRYSTAL</div>
                     </div>
                     <div class="catalogue__item-bottom">
@@ -214,9 +214,9 @@ Template Name: Коттеджные двери
                         <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
-                <div class="catalogue__item">
+                <div class="catalogue__item unfinished">
                     <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-4.png" alt="" class="unfinished catalogue__item-img">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-4.png" alt="" class=" catalogue__item-img">
                         <div class="catalogue__item-top-cover">AURORA</div>
                     </div>
                     <div class="catalogue__item-bottom">
@@ -225,9 +225,9 @@ Template Name: Коттеджные двери
                         <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
-                <div class="catalogue__item">
+                <div class="catalogue__item unfinished">
                     <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-5.png" alt="" class="unfinished catalogue__item-img">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-5.png" alt="" class=" catalogue__item-img">
                         <div class="catalogue__item-top-cover">VIRGIN</div>
                     </div>
                     <div class="catalogue__item-bottom">
@@ -236,9 +236,9 @@ Template Name: Коттеджные двери
                         <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
-                <div class="catalogue__item">
+                <div class="catalogue__item unfinished">
                     <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-6.png" alt="" class="unfinished catalogue__item-img">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-6.png" alt="" class=" catalogue__item-img">
                         <div class="catalogue__item-top-cover">GRAPHIC</div>
                     </div>
                     <div class="catalogue__item-bottom">
@@ -269,9 +269,9 @@ Template Name: Коттеджные двери
                         <a href="<?php echo get_permalink(524); ?>" class="catalogue__btn">подробнее</a>
                     </div>
                 </div>
-                <div class="catalogue__item">
+                <div class="catalogue__item unfinished">
                     <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-9.png" alt="" class="unfinished catalogue__item-img">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-9.png" alt="" class="catalogue__item-img">
                         <div class="catalogue__item-top-cover">RAIN ONE</div>
                     </div>
                     <div class="catalogue__item-bottom">
