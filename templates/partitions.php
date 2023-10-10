@@ -508,7 +508,7 @@ Template Name: Перегородки
 
 
 <div id="glass01" style="display: none">
-    <section class="glass__section" id="glass-01-section">
+    <section class="glass__section-popup" id="glass-01-section">
         <div class="container">
             <div class="glass__inner">
                 <div class="glass__title">Стекло АЛПЛ 040.01</div>
@@ -539,7 +539,7 @@ Template Name: Перегородки
 </div>
 
 <div id="glass02" style="display: none">
-    <section class="glass__section" id="glass-02-section">
+    <section class="glass__section-popup" id="glass-02-section">
         <div class="container">
             <div class="glass__inner">
                 <div class="glass__title">Стекло АЛПЛ 040.02</div>
@@ -571,7 +571,7 @@ Template Name: Перегородки
 
 
 <div id="glass03" style="display: none">
-    <section class="glass__section" id="glass-03-section">
+    <section class="glass__section-popup" id="glass-03-section">
         <div class="container">
             <div class="glass__inner">
                 <div class="glass__title">Стекло АЛПЛ 040.03</div>
@@ -602,7 +602,7 @@ Template Name: Перегородки
 </div>
 
 <div id="glass04" style="display: none">
-    <section class="glass__section" id="glass-03-section">
+    <section class="glass__section-popup" id="glass-03-section">
         <div class="container">
             <div class="glass__inner">
                 <div class="glass__title">Стекло АЛПЛ 040.04</div>
