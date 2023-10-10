@@ -126,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="header__slider">
+            <div class="header__slider header-collection">
                 <div class="swiper-wrapper">
                     <div class="header__slide slide-1 swiper-slide">
                     <img src="<?php the_field('img') ?>" alt="" class="header__slide-cover-img">
