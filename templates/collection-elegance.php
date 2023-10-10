@@ -7,7 +7,7 @@ Template Name: Коллекция Elegance
 // … остальной код шаблона
 ?>
 
-<?php get_header('dark'); ?>
+<?php get_header('collection'); ?>
 
 <section class="elegance__section">
     <div class="container">
