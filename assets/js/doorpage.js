@@ -68,8 +68,8 @@ if (document.querySelector('.colors__section')) {
                         }
                     });
 
-                linkAccColorOutdoor = `https://portamia.ru/wp-content/themes/mercato/assets/img/${linkTypeDoor}/door/outdoor/${linkAcc1}/${linkAcc2}/door.png`
-                linkAccColorIndoor = `https://portamia.ru/wp-content/themes/mercato/assets/img/${linkTypeDoor}/door/indoor/${linkAcc1}/${linkAcc2}/door.png`
+                linkAccColorOutdoor = `https://portamia.ru/wp-content/themes/mercato/assets/img/door/${linkTypeDoor}/outdoor/${linkAcc1}/${linkAcc2}/door.png`
+                linkAccColorIndoor = `https://portamia.ru/wp-content/themes/mercato/assets/img/door/${linkTypeDoor}/indoor/${linkAcc1}/${linkAcc2}/door.png`
 
                 document.querySelector('.colors__left .colors__img.first').setAttribute('src', linkAccColorOutdoor)
                 document.querySelector('.colors__left .colors__img.second').setAttribute('src', linkAccColorIndoor)
