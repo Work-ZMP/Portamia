@@ -139,7 +139,7 @@ Template Post Type: post, page, product
                     <div class="colors__main-block">
                         <h3 class="colors__block-subtitle">Основной цвет</h3>
                         <hr class="colors__block-line">
-                        <div class="colors__block-items swiper main">
+                        <div class="colors__block-items swiper main <?php the_field('door-id') ?>">
                             <div class="swiper-wrapper">
                                 <div class="colors__block-item swiper-slide active" data-color="col-main-1">
                                     <img src="<?php the_field('colors-main-img-1') ?>" alt="" class="colors__block-item-img">
