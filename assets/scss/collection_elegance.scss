@@ -339,22 +339,16 @@
   margin: 10px auto;
 }
 
-.application__inner {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+
+
+
+.application__section {
+  background-image: url("../img/collection-elegance/elegance_photo4.png");
+  background-size: cover;
 }
 
-.application__inner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;  
-}
+
 
 .work__inner {
-  position: relative;
-  z-index: 1;
+  
 }

@@ -147,10 +147,7 @@ Template Name: Коллекция Elegance
                         <?php echo do_shortcode('[contact-form-7 id="b944839" title="Контактная форма 1"]') ?>
                     </div>
                 </div>
-            </div>
-            <div class="application__inner">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/collection-elegance/elegance_photo4.png" alt="">
-            </div>
+            </div>            
         </div>
     </div>
 </section>
