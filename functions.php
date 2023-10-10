@@ -61,6 +61,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/partitions-cottage.php")) {
         wp_enqueue_style('partitions-cottage', get_template_directory_uri() . '/assets/css/partitions-cottage.css');
     };
+    if (is_page_template("templates/doorpage.php")) {
+        wp_enqueue_style('doorpage', get_template_directory_uri() . '/assets/css/doorpage.css');
+    };
    
 
     wp_deregister_script('jquery');
@@ -79,6 +82,9 @@ add_action('wp_enqueue_scripts', function () {
     };
     if (is_page_template("templates/collections.php")) {
         wp_enqueue_script('collections', get_template_directory_uri() . '/assets/js/collections.js', array('jquery'), 'null', true);
+    };
+    if (is_page_template("templates/doorpage.php")) {
+        wp_enqueue_script('doorpage', get_template_directory_uri() . '/assets/js/doorpage.js', array('jquery'), 'null', true);
     };
 });
 
