@@ -58,6 +58,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/collection-elegance.php")) {
         wp_enqueue_style('collection-elegance', get_template_directory_uri() . '/assets/css/collection-elegance.css');
     };
+    if (is_page_template("templates/partitions-cottage.php")) {
+        wp_enqueue_style('partitions-cottage', get_template_directory_uri() . '/assets/css/partitions-cottage.css');
+    };
    
 
     wp_deregister_script('jquery');
