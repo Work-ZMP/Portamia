@@ -633,4 +633,27 @@ Template Name: Перегородки
 </div>
 
 
+
+<div id="partition01" style="display: none">
+    <section class="prt__section-popup" id="partition-01-section">
+        <div class="container">
+            <div class="prt__inner">
+                <div class="prt__title">Перегородка АЛПЛ 040.01</div>
+                <div class="prt__block">
+                    <div class="prt__left">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-4.svg" alt="" class="glass__line-img">
+                    </div>
+                    <div class="prt__right">
+                        <div class="prt__line-subtitle">Преимущества наших стекол</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                        <div class="prt__line-subtitle">Качество, проверенное временем</div>
+                        <div class="prt__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
 <?php get_footer(); ?>

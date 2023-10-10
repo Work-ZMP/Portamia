@@ -1725,7 +1725,12 @@
 
 
 
-
+#glass01.fancybox__content,
+#glass02.fancybox__content,
+#glass03.fancybox__content,
+#glass04.fancybox__content {
+    padding: 75px 50px;
+}
 .glass__section-popup .glass__title {
     color: #252525;
 font-size: 45px;
@@ -1747,6 +1752,12 @@ text-align: center;
     gap: 30px;
     justify-content: center;
     align-items: center;
+    max-width: 100% !important;
+    margin: 0;
+    height: auto;
+    max-height: none !important;
+    width: 100%;
+    margin-top: 50px;
 }
 .glass__section-popup .glass__line.second {
     display: grid;
@@ -1754,6 +1765,11 @@ text-align: center;
     gap: 30px;
     justify-content: center;
     align-items: center;
+    max-width: 100% !important;
+    margin: 0;
+    height: auto;
+    max-height: none !important;
+    width: 100%;
 }
 
 .glass__section-popup .glass__line-subtitle {
