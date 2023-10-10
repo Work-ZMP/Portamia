@@ -954,6 +954,9 @@ body {
     -webkit-transform: none;
     transform: none;
     padding-left: 0;
+    z-index: 9999;
+    align-items: center;
+    border: none;
 }
 .header__slide-text {
     width: -webkit-fit-content;
