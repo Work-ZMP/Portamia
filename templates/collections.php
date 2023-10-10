@@ -43,11 +43,11 @@ Template Name: Все коллекции
                                     <div class="collection__item-left">
                                         <div class="collection__item-title"><?php echo the_title(); ?></div>
                                         <div class="collection__item-hide-list" style="display: none">
-                                            <li>Дверь "<?php the_field('list-item-1') ?>"</li>
-                                            <li>Дверь "<?php the_field('list-item-2') ?>"</li>
-                                            <li>Дверь "<?php the_field('list-item-3') ?>"</li>
-                                            <li>Дверь "<?php the_field('list-item-4') ?>"</li>
-                                            <li>Дверь "<?php the_field('list-item-5') ?>"</li>
+                                            <li>Дверь "<?php the_field('door-1') ?>"</li>
+                                            <li>Дверь "<?php the_field('door-2') ?>"</li>
+                                            <li>Дверь "<?php the_field('door-3') ?>"</li>
+                                            <li>Дверь "<?php the_field('door-4') ?>"</li>
+                                            <li>Дверь "<?php the_field('door-5') ?>"</li>
                                             <li>и др.</li>
                                         </div>
                                     </div>
@@ -58,7 +58,7 @@ Template Name: Все коллекции
                                 </div>
 
                                 <div class="collection__item-cover">
-                                    <?php the_field('cover-icon') ?>
+                                    <?php the_field('icon') ?>
                                 </div>
                             </a>
             
