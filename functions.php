@@ -86,6 +86,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/doorpage.php")) {
         wp_enqueue_script('doorpage', get_template_directory_uri() . '/assets/js/doorpage.js', array('jquery'), 'null', true);
     };
+    if (is_page_template("templates/gallery.php")) {
+        wp_enqueue_script('gallery', get_template_directory_uri() . '/assets/js/gallery.js', array('jquery'), 'null', true);
+    };
 });
 
 

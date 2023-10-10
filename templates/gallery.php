@@ -21,24 +21,60 @@ Template Name: Галерея
                 <a class="footer__top-btn" data-fancybox="" data-src="#popup__form">оставить заявку</a>
             </div>
             <div class="gallery__items">
-                <div class="gallery__item item1">1</div>
-                <div class="gallery__item item2">2</div>
-                <div class="gallery__item item3">3</div>
-                <div class="gallery__item item4">4</div>
-                <div class="gallery__item item5">5</div>
-                <div class="gallery__item item6">6</div>
-                <div class="gallery__item item7">7</div>
-                <div class="gallery__item item8">8</div>
-                <div class="gallery__item item9">9</div>
-                <div class="gallery__item item10">10</div>
-                <div class="gallery__item item11">11</div>
-                <div class="gallery__item item12">12</div>
-                <div class="gallery__item item13">13</div>
-                <div class="gallery__item item14">14</div>
-                <div class="gallery__item item15">15</div>
-                <div class="gallery__item item16">16</div>
-                <div class="gallery__item item17">17</div>
-                <div class="gallery__item item18">18</div>                             
+                <div class="gallery__item item1">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-1.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item2">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-2.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item3">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-3.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item4">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-4.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item5">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-5.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item6">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-6.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item7">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-7.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item8">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-8.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item9">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-9.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item10">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-10.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item11">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-11.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item12">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-12.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item13">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-13.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item14">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-14.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item15">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-15.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item16">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-16.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item17">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-17.webp" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item item18">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img/gallery/gallery-img-18.webp" alt="" class="gallery__item-img">
+                </div>
             </div>
         </div>
     </div>

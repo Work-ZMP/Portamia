@@ -1,0 +1,1 @@
+Fancybox.bind(".gallery__item-img",{});
