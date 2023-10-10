@@ -82,9 +82,9 @@ Template Name: Работа у нас
                             </ul>
                         </div>
                     </div>
-                    <div class="vacancy__case-btn">
-                        <a href="#" class="vacancy__btn">подробнее</a>
-                    </div>
+                    <a href="https://orenburg.hh.ru/employer/4752978?customDomain=1" target="_blank" class="vacancy__case-btn">
+                        <a class="vacancy__btn">подробнее</a>
+                    </a>
                 </div>
                 <div class="vacancy__item item2">
                     <div class="vacancy__subtitle">
@@ -101,9 +101,9 @@ Template Name: Работа у нас
                             </ul>
                         </div>
                     </div>
-                    <div class="vacancy__case-btn">
-                        <a href="#" class="vacancy__btn">подробнее</a>
-                    </div>
+                    <a href="https://orenburg.hh.ru/employer/4752978?customDomain=1" target="_blank" class="vacancy__case-btn">
+                        <a class="vacancy__btn">подробнее</a>
+                    </a>
                 </div>
                 <div class="vacancy__item item3">
                     <div class="vacancy__subtitle">
@@ -120,9 +120,9 @@ Template Name: Работа у нас
                             </ul>
                         </div>
                     </div>
-                    <div class="vacancy__case-btn">
-                        <a href="#" class="vacancy__btn">подробнее</a>
-                    </div>
+                    <a href="https://orenburg.hh.ru/employer/4752978?customDomain=1" target="_blank" class="vacancy__case-btn">
+                        <a class="vacancy__btn">подробнее</a>
+                    </a>
                 </div>
             </div>
         </div>
@@ -181,7 +181,6 @@ Template Name: Работа у нас
     </div>
 </section>
 
-<hr class="footer__hr">
 
 
 
