@@ -198,7 +198,7 @@ Template Name: Перегородки
                     <div class="glass__item-text">
                         <div class="glass__item-subtitle">Модель</div>
                         <div class="glass__item-title">АЛПЛ 040.01</div>
-                        <a href="" class="glass__item-btn">подробнее</a>
+                        <a href="" data-fancybox data-src="#glass01" class="glass__item-btn">подробнее</a>
                     </div>
                 </div>
                 <div class="glass__item item-2">
@@ -206,7 +206,7 @@ Template Name: Перегородки
                     <div class="glass__item-text">
                         <div class="glass__item-subtitle">Модель</div>
                         <div class="glass__item-title">АЛПЛ 040.02</div>
-                        <a href="" class="glass__item-btn">подробнее</a>
+                        <a href="" data-fancybox data-src="#glass02" class="glass__item-btn">подробнее</a>
                     </div>
                 </div>
                 <div class="glass__item item-3">
@@ -214,7 +214,7 @@ Template Name: Перегородки
                     <div class="glass__item-text">
                         <div class="glass__item-subtitle">Модель</div>
                         <div class="glass__item-title">АЛПЛ 040.03</div>
-                        <a href="" class="glass__item-btn">подробнее</a>
+                        <a href="" data-fancybox data-src="#glass03" class="glass__item-btn">подробнее</a>
                     </div>
                 </div>
                 <div class="glass__item item-4">
@@ -222,7 +222,7 @@ Template Name: Перегородки
                     <div class="glass__item-text">
                         <div class="glass__item-subtitle">Модель</div>
                         <div class="glass__item-title">АЛПЛ 040.04</div>
-                        <a href="" class="glass__item-btn">подробнее</a>
+                        <a href="" data-fancybox data-src="#glass04" class="glass__item-btn">подробнее</a>
                     </div>
                 </div>
             </div>
@@ -504,6 +504,133 @@ Template Name: Перегородки
     </div>
 </section>
 
+
+
+
+<div id="glass01" style="display: none">
+    <section class="glass__section" id="glass-01-section">
+        <div class="container">
+            <div class="glass__inner">
+                <div class="glass__title">Стекло АЛПЛ 040.01</div>
+                <div class="glass__block">
+                    <div class="glass__line first">
+                        <div class="glass__line-left">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-1.svg" alt="" class="glass__line-img">
+                        </div>
+                        <div class="glass__line-right">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-1-big.svg" alt="" class="glass__line-img-big">
+                        </div>
+                    </div>
+                    <div class="glass__line second">
+                        <div class="glass__line-left">
+                            <div class="glass__line-subtitle">Преимущества наших стекол</div>
+                            <div class="glass__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                            <div class="glass__line-subtitle">Качество, проверенное временем</div>
+                            <div class="glass__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                        </div>
+                        <div class="glass__line-right">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-1.svg" alt="" class="glass__line-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="glass02" style="display: none">
+    <section class="glass__section" id="glass-02-section">
+        <div class="container">
+            <div class="glass__inner">
+                <div class="glass__title">Стекло АЛПЛ 040.02</div>
+                <div class="glass__block">
+                    <div class="glass__line first">
+                        <div class="glass__line-left">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-2.svg" alt="" class="glass__line-img">
+                        </div>
+                        <div class="glass__line-right">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-2-big.svg" alt="" class="glass__line-img-big">
+                        </div>
+                    </div>
+                    <div class="glass__line second">
+                        <div class="glass__line-left">
+                            <div class="glass__line-subtitle">Преимущества наших стекол</div>
+                            <div class="glass__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                            <div class="glass__line-subtitle">Качество, проверенное временем</div>
+                            <div class="glass__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                        </div>
+                        <div class="glass__line-right">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-2.svg" alt="" class="glass__line-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<div id="glass03" style="display: none">
+    <section class="glass__section" id="glass-03-section">
+        <div class="container">
+            <div class="glass__inner">
+                <div class="glass__title">Стекло АЛПЛ 040.03</div>
+                <div class="glass__block">
+                    <div class="glass__line first">
+                        <div class="glass__line-left">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-3.svg" alt="" class="glass__line-img">
+                        </div>
+                        <div class="glass__line-right">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-3-big.svg" alt="" class="glass__line-img-big">
+                        </div>
+                    </div>
+                    <div class="glass__line second">
+                        <div class="glass__line-left">
+                            <div class="glass__line-subtitle">Преимущества наших стекол</div>
+                            <div class="glass__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                            <div class="glass__line-subtitle">Качество, проверенное временем</div>
+                            <div class="glass__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                        </div>
+                        <div class="glass__line-right">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-3.svg" alt="" class="glass__line-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="glass04" style="display: none">
+    <section class="glass__section" id="glass-03-section">
+        <div class="container">
+            <div class="glass__inner">
+                <div class="glass__title">Стекло АЛПЛ 040.04</div>
+                <div class="glass__block">
+                    <div class="glass__line first">
+                        <div class="glass__line-left">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-4.svg" alt="" class="glass__line-img">
+                        </div>
+                        <div class="glass__line-right">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-4-big.svg" alt="" class="glass__line-img-big">
+                        </div>
+                    </div>
+                    <div class="glass__line second">
+                        <div class="glass__line-left">
+                            <div class="glass__line-subtitle">Преимущества наших стекол</div>
+                            <div class="glass__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                            <div class="glass__line-subtitle">Качество, проверенное временем</div>
+                            <div class="glass__line-descr">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</div>
+                        </div>
+                        <div class="glass__line-right">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-4.svg" alt="" class="glass__line-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 
 
 <?php get_footer(); ?>
