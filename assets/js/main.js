@@ -384,7 +384,9 @@ if (document.querySelector('.partitions-page')) {
     scrollingAnimation('.projects__section');
     scrollingAnimation('.reviews__section');
 }
-
+if (document.querySelector('.header__slider')) {
+    scrollingAnimation('.header__slider');
+}
 if (document.querySelector('.partitions-page')) {
     function partitionsCnfg(btn, curcost, oldcost, link) {
         document.querySelector(`${btn}`).addEventListener('click', function () {

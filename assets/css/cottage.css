@@ -884,7 +884,10 @@
   height: 625px;
   transition: all 0.3s ease-out;
 }
-
+.catalogue__item.unfinished {
+  pointer-events: none;
+  opacity: 0.5;
+}
 .catalogue__item:hover {
   transform: scale(1.015);
 }

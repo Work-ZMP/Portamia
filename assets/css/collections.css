@@ -136,3 +136,22 @@
 .collection__item-btn:hover {
   background: rgba(255, 255, 255, 0.25);
 }
+
+.collection__item-cover {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  height: 70px;
+  width: 360px;
+  background: #D02424;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 55px;
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 38.014px;
+  font-style: normal;
+  font-weight: 700;
+}
