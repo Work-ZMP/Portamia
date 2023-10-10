@@ -943,6 +943,7 @@ body {
     z-index: 9999;
     align-items: center;
     border: none;
+    margin-top: 70px;
 }
 
 .header-collection .header__slide-subtitle {
@@ -982,12 +983,13 @@ body {
     position: absolute;
     width: 980px;
     height: 45px;
-    border: 2px solid #373737;
+    border: 2px solid rgba(55, 55, 55, 0.237);
     background: linear-gradient(342deg, rgba(0, 0, 0, 0.25) 28.57%, rgba(51, 51, 51, 0.09) 98.92%);
     backdrop-filter: blur(15px);
     bottom: -17px;
     left: 50%;
     transform: translateX(-50%);
+    z-index: -1;
 }
 
 .header__slide-text {
