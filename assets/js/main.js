@@ -314,8 +314,6 @@ $(function () {
 });
 
 
-
-
 function scrollingAnimation(section) {
 
     let options = {

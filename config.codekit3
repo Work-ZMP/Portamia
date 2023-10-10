@@ -3194,6 +3194,32 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/assets\/img\/collection_elegance\/elegance_photo1.png" : {
+      "ft" : 32768,
+      "iS" : 430560,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/collection_elegance\/elegance_photo1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/collection_elegance\/elegance_photo2.png" : {
+      "ft" : 32768,
+      "iS" : 192482,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/collection_elegance\/elegance_photo2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/img\/cottage\/adv-icon-1.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -5220,6 +5246,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/assets\/js\/collections.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/js\/collections-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/assets\/js\/conf-main.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -5274,6 +5311,21 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/assets\/scss\/collection_elegance.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/scss\/collection_elegance.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/scss\/collections.scss" : {
       "aP" : 0,
@@ -5601,6 +5653,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/catalog.php",
+      "oF" : 0
+    },
+    "\/templates\/collection-elegance.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/collection-elegance.php",
       "oF" : 0
     },
     "\/templates\/collections.php" : {
