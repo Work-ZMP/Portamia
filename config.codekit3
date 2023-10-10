@@ -41,6 +41,26 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/assets\/css\/collection-elegance.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/collection-elegance-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/css\/collection-elegance.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/collection-elegance.css.map",
+      "oF" : 0
+    },
     "\/assets\/css\/collections.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -3194,11 +3214,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/img\/collection_elegance\/elegance_photo1.png" : {
+    "\/assets\/img\/collection-elegance\/elegance_photo1.png" : {
       "ft" : 32768,
       "iS" : 430560,
       "oA" : 0,
-      "oAP" : "\/assets\/img\/collection_elegance\/elegance_photo1.png",
+      "oAP" : "\/assets\/img\/collection-elegance\/elegance_photo1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3207,11 +3227,37 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/img\/collection_elegance\/elegance_photo2.png" : {
+    "\/assets\/img\/collection-elegance\/elegance_photo2.png" : {
       "ft" : 32768,
       "iS" : 192482,
       "oA" : 0,
-      "oAP" : "\/assets\/img\/collection_elegance\/elegance_photo2.png",
+      "oAP" : "\/assets\/img\/collection-elegance\/elegance_photo2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/collection-elegance\/elegance_photo3.png" : {
+      "ft" : 32768,
+      "iS" : 920568,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/collection-elegance\/elegance_photo3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/collection-elegance\/elegance_photo4.png" : {
+      "ft" : 32768,
+      "iS" : 1791659,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/collection-elegance\/elegance_photo4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -5246,6 +5292,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/assets\/js\/collections-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/js\/collections-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/assets\/js\/collections.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -5275,6 +5332,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/assets\/js\/jquery.formstyler.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/assets\/js\/main-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/js\/main-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -5545,6 +5613,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/get_pictures.php",
+      "oF" : 0
+    },
+    "\/header-collection.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/header-collection.php",
       "oF" : 0
     },
     "\/header-dark.php" : {
