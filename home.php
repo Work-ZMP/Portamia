@@ -111,7 +111,7 @@ Template Name: Home
                 <hr class="exclusive__line">
                 <div class="exclusive__title default-title">Эксклюзивные коллекции дверей</div>
                 <div class="exclusive__descr default-descr">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойденную эстетику и иновационные решения. Наша команда талантливых дизайнеров работает над созданием прототипов дверей, вдохновленных последними тенденциями и передовыми концепциями.</div>
-                <a href="<?php echo get_permalink(39); ?>" class="exclusive__btn default-btn">перейти</a>
+                <a href="<?php echo get_permalink(428); ?>" class="exclusive__btn default-btn">перейти</a>
             </div>
         </div>
     </div>
