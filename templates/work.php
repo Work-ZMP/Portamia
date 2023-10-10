@@ -83,7 +83,7 @@ Template Name: Работа у нас
                         </div>
                     </div>
                     <a href="https://orenburg.hh.ru/employer/4752978?customDomain=1" target="_blank" class="vacancy__case-btn">
-                        <a class="vacancy__btn">подробнее</a>
+                        <div class="vacancy__btn">подробнее</div>
                     </a>
                 </div>
                 <div class="vacancy__item item2">
@@ -102,7 +102,7 @@ Template Name: Работа у нас
                         </div>
                     </div>
                     <a href="https://orenburg.hh.ru/employer/4752978?customDomain=1" target="_blank" class="vacancy__case-btn">
-                        <a class="vacancy__btn">подробнее</a>
+                        <div class="vacancy__btn">подробнее</div>
                     </a>
                 </div>
                 <div class="vacancy__item item3">
