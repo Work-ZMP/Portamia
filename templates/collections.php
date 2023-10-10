@@ -23,7 +23,7 @@ Template Name: Все коллекции
 
                 $myposts = get_posts([
                     'numberposts' => -1,
-                    'category' => 3,
+                    'category' => 9,
                     'order' => 'ASC',
                     'orderby' => 'date',
                     'post_type' => 'any'
