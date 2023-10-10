@@ -80,7 +80,7 @@ Template Name: Коттеджные двери
                         <div class="popular__item-bottom">
                             <div class="popular__item-subtitle">Модель</div>
                             <div class="popular__item-title">LEVEL ONE</div>
-                            <a href="<?php echo get_permalink(33); ?>" class="popular__btn">подробнее</a>
+                            <a href="<?php echo get_permalink(524); ?>" class="popular__btn">подробнее</a>
                         </div>
                     </div>
                     <div class="popular__item swiper-slide">
@@ -91,7 +91,7 @@ Template Name: Коттеджные двери
                         <div class="popular__item-bottom">
                             <div class="popular__item-subtitle">Модель</div>
                             <div class="popular__item-title">ROOM 47</div>
-                            <a href="<?php echo get_permalink(33); ?>" class="popular__btn">подробнее</a>
+                            <a href="<?php echo get_permalink(526); ?>" class="popular__btn">подробнее</a>
                         </div>
                     </div>
                     <div class="popular__item swiper-slide">
