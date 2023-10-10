@@ -21,25 +21,25 @@ Template Name: Каталог
                 <a class="footer__top-btn" data-fancybox="" data-src="#popup__form">оставить заявку</a>
             </div>
             <div class="production__items">
-                <a class="production__link" href="#">
+                <a class="production__link" href="<?php echo get_permalink(7); ?>">
                     <div class="production__item item1">
                         <h3 class="production__subtitle">Квартирные двери</h3>
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/catalog/apartment_doors.svg" alt="">
                     </div>
                 </a>
-                <a class="production__link" href="#">
+                <a class="production__link" href="<?php echo get_permalink(33); ?>">
                     <div class="production__item item2">
                         <h3 class="production__subtitle">Коттеджные двери</h3>
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/catalog/cottage_doors.svg" alt="">
                     </div>
                 </a>
-                <a class="production__link" href="#">
+                <a class="production__link" href="<?php echo get_permalink(35); ?>">
                     <div class="production__item item3">
                         <h3 class="production__subtitle">Межкомнатные двери</h3>
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/catalog/interior_doors.svg" alt="">
                     </div>
                 </a>
-                <a class="production__link" href="#">
+                <a class="production__link" href="<?php echo get_permalink(37); ?>">
                     <div class="production__item item4">
                         <h3 class="production__subtitle">Аллюминиевые перегородки</h3>
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/catalog/aluminum_partitions.svg" alt="">
