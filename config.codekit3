@@ -3930,11 +3930,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/img\/door\/bernetti\/indoor\/col-main-2\/col-acc-1\/Frame 247.png" : {
+    "\/assets\/img\/door\/bernetti\/indoor\/col-main-2\/col-acc-1\/door.png" : {
       "ft" : 32768,
       "iS" : 224945,
       "oA" : 0,
-      "oAP" : "\/assets\/img\/door\/bernetti\/indoor\/col-main-2\/col-acc-1\/Frame 247.png",
+      "oAP" : "\/assets\/img\/door\/bernetti\/indoor\/col-main-2\/col-acc-1\/door.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3969,11 +3969,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/img\/door\/bernetti\/indoor\/col-main-2\/col-acc-4\/Frame 247.png" : {
+    "\/assets\/img\/door\/bernetti\/indoor\/col-main-2\/col-acc-4\/door.png" : {
       "ft" : 32768,
       "iS" : 224945,
       "oA" : 0,
-      "oAP" : "\/assets\/img\/door\/bernetti\/indoor\/col-main-2\/col-acc-4\/Frame 247.png",
+      "oAP" : "\/assets\/img\/door\/bernetti\/indoor\/col-main-2\/col-acc-4\/door.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4387,7 +4387,7 @@
     },
     "\/assets\/img\/door\/bernetti\/outdoor\/col-main-4\/col-acc-1\/door.png" : {
       "ft" : 32768,
-      "iS" : 217651,
+      "iS" : 162791,
       "oA" : 0,
       "oAP" : "\/assets\/img\/door\/bernetti\/outdoor\/col-main-4\/col-acc-1\/door.png",
       "oF" : 0,
@@ -4400,7 +4400,7 @@
     },
     "\/assets\/img\/door\/bernetti\/outdoor\/col-main-4\/col-acc-2\/door.png" : {
       "ft" : 32768,
-      "iS" : 227552,
+      "iS" : 162791,
       "oA" : 0,
       "oAP" : "\/assets\/img\/door\/bernetti\/outdoor\/col-main-4\/col-acc-2\/door.png",
       "oF" : 0,
@@ -4413,7 +4413,7 @@
     },
     "\/assets\/img\/door\/bernetti\/outdoor\/col-main-4\/col-acc-3\/door.png" : {
       "ft" : 32768,
-      "iS" : 219791,
+      "iS" : 162290,
       "oA" : 0,
       "oAP" : "\/assets\/img\/door\/bernetti\/outdoor\/col-main-4\/col-acc-3\/door.png",
       "oF" : 0,
@@ -4426,7 +4426,7 @@
     },
     "\/assets\/img\/door\/bernetti\/outdoor\/col-main-4\/col-acc-4\/door.png" : {
       "ft" : 32768,
-      "iS" : 217651,
+      "iS" : 162791,
       "oA" : 0,
       "oAP" : "\/assets\/img\/door\/bernetti\/outdoor\/col-main-4\/col-acc-4\/door.png",
       "oF" : 0,
@@ -4439,7 +4439,7 @@
     },
     "\/assets\/img\/door\/bernetti\/outdoor\/col-main-4\/col-acc-5\/door.png" : {
       "ft" : 32768,
-      "iS" : 227552,
+      "iS" : 162791,
       "oA" : 0,
       "oAP" : "\/assets\/img\/door\/bernetti\/outdoor\/col-main-4\/col-acc-5\/door.png",
       "oF" : 0,
@@ -4465,7 +4465,7 @@
     },
     "\/assets\/img\/door\/bernetti\/outdoor\/col-main-5\/col-acc-2\/door.png" : {
       "ft" : 32768,
-      "iS" : 225293,
+      "iS" : 198476,
       "oA" : 0,
       "oAP" : "\/assets\/img\/door\/bernetti\/outdoor\/col-main-5\/col-acc-2\/door.png",
       "oF" : 0,
@@ -4478,7 +4478,7 @@
     },
     "\/assets\/img\/door\/bernetti\/outdoor\/col-main-5\/col-acc-3\/door.png" : {
       "ft" : 32768,
-      "iS" : 220585,
+      "iS" : 190109,
       "oA" : 0,
       "oAP" : "\/assets\/img\/door\/bernetti\/outdoor\/col-main-5\/col-acc-3\/door.png",
       "oF" : 0,
@@ -4491,22 +4491,9 @@
     },
     "\/assets\/img\/door\/bernetti\/outdoor\/col-main-5\/col-acc-4\/door.png" : {
       "ft" : 32768,
-      "iS" : 226511,
+      "iS" : 190740,
       "oA" : 0,
       "oAP" : "\/assets\/img\/door\/bernetti\/outdoor\/col-main-5\/col-acc-4\/door.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/door\/bernetti\/outdoor\/col-main-5\/col-acc-5\/door.png" : {
-      "ft" : 32768,
-      "iS" : 225293,
-      "oA" : 0,
-      "oAP" : "\/assets\/img\/door\/bernetti\/outdoor\/col-main-5\/col-acc-5\/door.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
