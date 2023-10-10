@@ -1,24 +1,136 @@
 <?php
 /*
-Template Name: Коллекция Elegance
+Template Name: Дверь Bernetti
 
 */
 
 // … остальной код шаблона
 ?>
 
-<?php get_header('collection'); ?>
+<?php get_header('main'); ?>
+
+
+
+
+<section class="elegance__section">
+    <div class="container">
+        <div class="elegance__inner">
+            <h1 class="style__title title-default">“Сочетание изысканного стиля и простоты”</h1>
+            <p class="style__descr descr-default">Переосмысление роскоши и элегантности - коллекция дверей “New Elegance” воплощает современные тренды и вдохновляет создать стильную и привлекательную входную зону для Вашего дома</p>
+            <div class="elegance__items">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/door-bernetti/door-bernetti1.png" alt="">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/door-bernetti/door-bernetti2.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="catalogue__section">
+    <div class="container">
+        <div class="catalogue__inner">
+            <hr class="catalogue__line">
+            <h2 class="catalogue__title">Каталог перегородок</h2>
+            <p class="catalogue__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <div class="catalogue__items">
+                <div class="catalogue__item">
+                    <div class="catalogue__item-top">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-1.png" alt="" class="catalogue__item-img">
+                        <div class="catalogue__item-top-cover">АЛПЛ 040.01</div>
+                    </div>
+                    <div class="catalogue__item-bottom">
+                        <div class="catalogue__item-subtitle">Модель</div>
+                        <div class="catalogue__item-title">АЛПЛ 040.01</div>
+                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    </div>
+                </div>
+                <div class="catalogue__item">
+                    <div class="catalogue__item-top">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-2.png" alt="" class="catalogue__item-img">
+                        <div class="catalogue__item-top-cover">АЛПЛ 040.02</div>
+                    </div>
+                    <div class="catalogue__item-bottom">
+                        <div class="catalogue__item-subtitle">Модель</div>
+                        <div class="catalogue__item-title">АЛПЛ 040.02</div>
+                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    </div>
+                </div>
+                <div class="catalogue__item">
+                    <div class="catalogue__item-top">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-3.png" alt="" class="catalogue__item-img">
+                        <div class="catalogue__item-top-cover">АЛПЛ 040.03</div>
+                    </div>
+                    <div class="catalogue__item-bottom">
+                        <div class="catalogue__item-subtitle">Модель</div>
+                        <div class="catalogue__item-title">АЛПЛ 040.03</div>
+                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    </div>
+                </div>
+                <div class="catalogue__item">
+                    <div class="catalogue__item-top">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-4.png" alt="" class="catalogue__item-img">
+                        <div class="catalogue__item-top-cover">АЛПЛ 040.04</div>
+                    </div>
+                    <div class="catalogue__item-bottom">
+                        <div class="catalogue__item-subtitle">Модель</div>
+                        <div class="catalogue__item-title">АЛПЛ 040.04</div>
+                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    </div>
+                </div>
+                <div class="catalogue__item">
+                    <div class="catalogue__item-top">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-5.png" alt="" class="catalogue__item-img">
+                        <div class="catalogue__item-top-cover">АЛПЛ 040.05</div>
+                    </div>
+                    <div class="catalogue__item-bottom">
+                        <div class="catalogue__item-subtitle">Модель</div>
+                        <div class="catalogue__item-title">АЛПЛ 040.05</div>
+                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    </div>
+                </div>
+                <div class="catalogue__item">
+                    <div class="catalogue__item-top">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-6.png" alt="" class="catalogue__item-img">
+                        <div class="catalogue__item-top-cover">АЛПЛ 040.06</div>
+                    </div>
+                    <div class="catalogue__item-bottom">
+                        <div class="catalogue__item-subtitle">Модель</div>
+                        <div class="catalogue__item-title">АЛПЛ 040.06</div>
+                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    </div>
+                </div>
+                <div class="catalogue__item">
+                    <div class="catalogue__item-top">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-7.png" alt="" class="catalogue__item-img">
+                        <div class="catalogue__item-top-cover">АЛПЛ 040.07</div>
+                    </div>
+                    <div class="catalogue__item-bottom">
+                        <div class="catalogue__item-subtitle">Модель</div>
+                        <div class="catalogue__item-title">АЛПЛ 040.07</div>
+                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 
 <section class="elegance__section">
     <div class="container">
         <div class="elegance__inner">
             <div class="elegance__items">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/collection-elegance/elegance_photo1.png" alt="">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/collection-elegance/elegance_photo2.png" alt="">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/door-bernetti/door-bernetti1.png" alt="">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/door-bernetti/door-bernetti2.png" alt="">
             </div>
         </div>
     </div>
 </section>
+
+
 
 
 
@@ -147,10 +259,13 @@ Template Name: Коллекция Elegance
                         <?php echo do_shortcode('[contact-form-7 id="124b8b2" title="Оставить заявку на звонок ( контакты)"]') ?>
                     </div>
                 </div>
-            </div>            
+            </div>
         </div>
     </div>
 </section>
+
+
+
 
 
 
