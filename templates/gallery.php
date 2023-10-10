@@ -78,7 +78,6 @@ Template Name: Галерея
             </div>
         </div>
     </div>
-    <hr class="bottom__line line-default">
 </section>
 
 

@@ -16,7 +16,7 @@ Template Name: Дилерам
                 <hr class="line line-default">
                 <h2 class="dealers__title default-title">Партнерство с нами</h2>
                 <p class="dealers__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
-                <a href="#" class="dealers__btn default-btn">оставить заявку</a>
+                <a class="dealers__btn default-btn" data-fancybox="" data-src="#popup__form">оставить заявку</a>
             </div>
             <div class="dealers-img">
                 <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/partners.png" alt="">
@@ -34,30 +34,30 @@ Template Name: Дилерам
             <h2 class="production__title default-title">Продукция</h2>
             <p class="production__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
             <div class="production__items">
-                <div class="production__item item1">
+                <a href="<?php echo get_permalink(7); ?>" class="production__item item1">
                     <h3 class="production__subtitle">Квартирные двери</h3>
                     <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/apartment_doors.svg" alt="">
-                </div>
-                <div class="production__item item2">
+                </a>
+                <a href="<?php echo get_permalink(33); ?>" class="production__item item2">
                     <h3 class="production__subtitle">Коттеджные двери</h3>
                     <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/cottage_doors.svg" alt="">
-                </div>
-                <div class="production__item item3">
+                </a>
+                <a href="<?php echo get_permalink(37); ?>" class="production__item item3">
                     <h3 class="production__subtitle">Аллюминиевые перегородки</h3>
                     <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/aluminum_partitions.svg" alt="">
-                </div>
-                <div class="production__item item4">
+                </a>
+                <a href="<?php echo get_permalink(35); ?>" class="production__item item4">
                     <h3 class="production__subtitle">Межкомнатные двери</h3>
                     <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/interior_doors.svg" alt="">
-                </div>
-                <div class="production__item item5">
+                </a>
+                <a href="<?php echo get_permalink(37); ?>" class="production__item item5">
                     <h3 class="production__subtitle">Гаражные ворота</h3>
                     <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/garage_doors.svg" alt="">
-                </div>
-                <div class="production__item item6">
+                </a>
+                <a href="<?php echo get_permalink(7); ?>" class="production__item item6">
                     <h3 class="production__subtitle">Другие двери</h3>
                     <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/other_doors.svg" alt="">
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -152,7 +152,7 @@ Template Name: Дилерам
             <p class="contacts__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
             <div class="contacts__items">
                 <div class="contacts__input">
-                    <?php echo do_shortcode('[contact-form-7 id="e303fd6" title="Контактная форма 1"]') ?>
+                    <?php echo do_shortcode('[contact-form-7 id="124b8b2" title="Оставить заявку на звонок ( контакты, дилерам)"]') ?>
                 </div>
                 <div class="contacts__info">
                     <h3 class="contacts__subtitle2 subtitle-default">Контакты</h3>
