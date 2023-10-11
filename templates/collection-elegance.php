@@ -45,9 +45,9 @@ Template Name: Коллекция Elegance
                 global $post;
 
                 $myposts = get_posts([
-                    'include' => the_field('posts-id'),
+                    'include' => "'"+the_field('posts-id')+"'",
                     'order' => 'DESC',
-                    'orderby' => 'post_in',
+                    'orderby' => 'post__in',
                     'post_type' => 'any'
                 ]);
 
