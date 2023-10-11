@@ -1720,6 +1720,7 @@ text-align: center;
     max-height: none !important;
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 35px;
 }
 .glass__section-popup .glass__line.second {
     display: grid;

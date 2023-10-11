@@ -9,10 +9,14 @@
   justify-content: space-between;
   gap: 30px;
   margin-top: 75px;
+  height: 100%;
+  max-height: 535px;
 }
 .elegance__inner img {
   width: 100%;
   margin-top: 10px;
+  height: 100%;
+  object-fit: cover;
 }
 
 .title-default {
@@ -53,6 +57,12 @@
 .style__inner img {
   width: 100%;
   height: auto;
+  object-fit: cover;
+}
+.style__inner > img {
+  max-height: 535px;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -159,6 +169,7 @@
   font-weight: 600;
   line-height: normal;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .catalogue__btn {
@@ -384,4 +395,12 @@
   transform: translate(-50%, -50%);
   z-index: 2;
   height: auto;
+}
+
+.catalogue__item-img {
+  max-height: 420px;
+}
+
+.catalogue__item-top-cover {
+  text-transform: uppercase;
 }
