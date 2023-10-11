@@ -58,8 +58,8 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/collection-elegance.php")) {
         wp_enqueue_style('collection-elegance', get_template_directory_uri() . '/assets/css/collection-elegance.css');
     };
-    if (is_page_template("templates/partitions-cottage.php")) {
-        wp_enqueue_style('partitions-cottage', get_template_directory_uri() . '/assets/css/partitions-cottage.css');
+    if (is_page_template("templates/project.php")) {
+        wp_enqueue_style('project', get_template_directory_uri() . '/assets/css/project.css');
     };
     if (is_page_template("templates/doorpage.php")) {
         wp_enqueue_style('doorpage', get_template_directory_uri() . '/assets/css/doorpage.css');
@@ -88,6 +88,9 @@ add_action('wp_enqueue_scripts', function () {
     };
     if (is_page_template("templates/gallery.php")) {
         wp_enqueue_script('gallery', get_template_directory_uri() . '/assets/js/gallery.js', array('jquery'), 'null', true);
+    };
+    if (is_page_template("templates/project.php")) {
+        wp_enqueue_script('project', get_template_directory_uri() . '/assets/js/project.js', array('jquery'), 'null', true);
     };
 });
 

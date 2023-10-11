@@ -1,21 +1,29 @@
 <?php
 /*
-Template Name: Дизайнерская перегородка в коттедж 
+Template Name: Проект
 
 */
 
 // … остальной код шаблона
 ?>
 
-<?php get_header('collection'); ?>
+<?php get_header('dark'); ?>
 
 <section class="elegance__section">
     <div class="container">
         <div class="elegance__inner">
-            <div class="elegance__items">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/collection-elegance/elegance_photo1.png" alt="">
-
+            <div class="elegance__items swiper">
+                <div class="swiper-wrapper">
+                    <img class="swiper-slide" src="<?php bloginfo('template_url'); ?>/assets/img/collection-elegance/elegance_photo1.png" alt="">
+                    <img class="swiper-slide" src="<?php bloginfo('template_url'); ?>/assets/img/collection-elegance/elegance_photo1.png" alt="">
+                    <img class="swiper-slide" src="<?php bloginfo('template_url'); ?>/assets/img/collection-elegance/elegance_photo1.png" alt="">
+                    <img class="swiper-slide" src="<?php bloginfo('template_url'); ?>/assets/img/collection-elegance/elegance_photo1.png" alt="">
+                    <img class="swiper-slide" src="<?php bloginfo('template_url'); ?>/assets/img/collection-elegance/elegance_photo1.png" alt="">
+                </div>
             </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </div>
 </section>
@@ -27,7 +35,7 @@ Template Name: Дизайнерская перегородка в коттедж
     <div class="container">
         <div class="partitions__inner">
             <div class="partitions__item1">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions-cottage/partitions1.png" alt="">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/project/partitions1.png" alt="">
             </div>
             <div class="partitions__item2">
                 <hr class="partitions__line">
@@ -59,7 +67,7 @@ Template Name: Дизайнерская перегородка в коттедж
                 </div>
             </div>
             <div class="partitions__right partitions-object">
-                <img class="img1" src="<?php bloginfo('template_url'); ?>/assets/img/partitions-cottage/partitions2.png" alt="">
+                <img class="img1" src="<?php bloginfo('template_url'); ?>/assets/img/project/partitions2.png" alt="">
             </div>
         </div>
     </div>
@@ -78,7 +86,7 @@ Template Name: Дизайнерская перегородка в коттедж
                 <p class="application__descr">Скорее отправляйте заявку и наш менеджер свяжется с Вами в ближайшее время!</p>
                 <?php echo do_shortcode('[contact-form-7 id="bb7d83a" title="Контактная форма project"]') ?>
                 <a class="application__top-btn" data-fancybox="" data-src="#popup__form">оставить заявку</a>
-            </div>
+            </div>            
         </div>
     </div>
 </section>

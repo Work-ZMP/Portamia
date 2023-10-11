@@ -1,6 +1,111 @@
 #panel {
   background: #2b2b2b; }
 
+.elegance__section {
+  margin-top: 70px; }
+
+.elegance__inner {
+  max-height: 680px;
+  position: relative; }
+
+.swiper-button-prev::after {
+  font-family: 'icomoon' !important;
+  content: "\e900";
+  font-size: 50px;
+  color: #FFF; }
+
+.swiper-button-next::after {
+  font-family: 'icomoon' !important;
+  content: "\e901";
+  font-size: 50px;
+  color: #FFF; }
+
+.swiper-button-prev {
+  left: -85px;
+  width: 55px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  transition: all .3s ease-out; }
+
+.swiper-button-next {
+  right: -85px;
+  width: 55px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  transition: all .3s ease-out; }
+
+.swiper-button-prev::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 1px;
+  width: 55px;
+  background: rgba(255, 255, 255, 0.1);
+  opacity: 1;
+  transition: all .3s ease-out; }
+
+.swiper-button-prev:hover::before {
+  height: 120px;
+  opacity: 1; }
+
+.swiper-button-prev:hover {
+  transform: scale(1.03); }
+
+.swiper-button-next::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 1px;
+  width: 55px;
+  background: rgba(255, 255, 255, 0.1);
+  opacity: 1;
+  transition: all .3s ease-out; }
+
+.swiper-button-next:hover::before {
+  height: 120px;
+  opacity: 1; }
+
+.swiper-button-next:hover {
+  transform: scale(1.03); }
+
+.swiper-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: .3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10; }
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: -25px;
+  width: 100%;
+  gap: 10px; }
+
+.swiper-pagination-bullet {
+  height: 3px;
+  width: 100px;
+  border-radius: 0px !important;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 !important;
+  transition: all .3s ease-out; }
+
 .partitions__section .container {
   margin-top: 100px; }
   .partitions__section .container .partitions__inner {
@@ -86,12 +191,14 @@
   z-index: -1; }
 
 .application__section {
-  background: #e3e3e3; }
+  background: #e3e3e3 url(../img/project/Star.svg) right center no-repeat;
+  background-size: contain; }
   .application__section .application__line {
     width: 190px;
     height: 0px;
     background: rgba(37, 37, 37, 0.5);
-    margin-top: 110px; }
+    margin-top: 110px;
+    margin-left: 0; }
   .application__section .application__title {
     color: #252525;
     font-family: Raleway;
@@ -121,7 +228,6 @@
   gap: 30px; }
 
 .wpcf7-form > p span > input {
-  max-width: 400px;
   width: 100%;
   margin-top: 5px;
   border: 2px solid #fff;
@@ -133,8 +239,29 @@
   color: var(--color-font-dark-tr);
   transition: all .3s linear; }
 
-span .wpcf7-form-control-wrap {
-  max-width: 311px; }
+.wpcf7-form-control-wrap .popup__form-inputs-name {
+  max-width: 322px !important; }
+
+.popup__form-inputs-name {
+  max-width: 322px !important; }
+
+.popup__form-inputs-phone {
+  max-width: 311px !important; }
+
+.popup__form-inputs-email {
+  max-width: 555px !important; }
+
+.popup__form-inputs-name,
+.wpcf7-form .popup__form-inputs-name {
+  max-width: 322px !important; }
+
+.popup__form-inputs-phone,
+.wpcf7-form .popup__form-inputs-phone {
+  max-width: 311px !important; }
+
+.popup__form-inputs-email,
+.wpcf7-form .popup__form-inputs-email {
+  max-width: 555px !important; }
 
 .application__top-btn {
   display: flex;
@@ -154,3 +281,5 @@ span .wpcf7-form-control-wrap {
   background-color: #252525;
   margin-top: 50px;
   margin-bottom: 110px; }
+
+/*# sourceMappingURL=project.css.map */

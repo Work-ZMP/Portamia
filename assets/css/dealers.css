@@ -57,7 +57,7 @@
   align-items: center;
   gap: 10px;
   border: 2px solid rgba(255, 255, 255, 0.5);
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
   cursor: pointer;
 }
 .dealers__btn:hover {
@@ -105,7 +105,7 @@
   height: 450px;
   background: #343434;
   padding-top: 30px;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
   cursor: pointer;
   overflow: hidden;
 }
@@ -115,9 +115,9 @@
   box-shadow: 0px 4px 12px 0px rgba(37, 37, 37, 0.5);
 }
 .production__item > img {
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
-.production__item:hover > img{
+.production__item:hover > img {
   transform: translateY(25px);
 }
 .item3 {
@@ -202,7 +202,6 @@
 }
 
 .conditions__section {
-  
   margin-top: 100px;
 }
 
@@ -256,12 +255,9 @@
   height: 195px;
 }
 
-
-
-
 .contacts__input {
   width: 822px;
-background: #343434;
+  background: #343434;
 }
 
 .contacts__input .popup__form-inputs-day,
@@ -326,41 +322,29 @@ background: #343434;
   gap: 30px;
   padding: 50px;
   padding-bottom: 35px;
-
 }
 .contacts__input .popup__form-inputs-date > p > label {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
 }
 
-
-
-
-
-
-
-
-
-
 .contacts__info {
   width: 400px;
-background: #343434;
-padding: 45px 30px;
-padding-bottom: 35px;
-
+  background: #343434;
+  padding: 45px 30px;
+  padding-bottom: 35px;
 }
 
 .contacts__block {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
 }
 
-.contacts__map iframe {  
+.contacts__map iframe {
   margin-top: 40px;
   filter: grayscale(1);
-  transition: all .3s linear;
+  transition: all 0.3s linear;
   width: 100%;
 }
 
@@ -378,12 +362,12 @@ padding-bottom: 35px;
 }
 
 .subtitle-default {
-  color: #FFF;
-font-family: Raleway;
-font-size: 28px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .contacts__subtitle1 {
@@ -392,7 +376,6 @@ line-height: normal;
 
 .contacts__subtitle2 {
   margin-bottom: 33px;
-
 }
 
 .contacts__img {
@@ -400,11 +383,11 @@ line-height: normal;
 }
 
 .contacts__element {
-  color: #FFF;
-font-variant-numeric: lining-nums proportional-nums;
-font-family: Raleway;
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

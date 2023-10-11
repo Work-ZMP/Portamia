@@ -61,7 +61,7 @@
   margin-bottom: 45px;
 }
 
-.advantages__item-icon>img {
+.advantages__item-icon > img {
   max-width: 89px;
   max-height: 89px;
 }
@@ -114,7 +114,7 @@
     margin-bottom: 25px;
   }
 
-  .advantages__item-icon>img {
+  .advantages__item-icon > img {
     max-width: 59px;
     max-height: 59px;
   }
@@ -600,14 +600,14 @@
   height: 100%;
 }
 
-.mdf__right>img {
+.mdf__right > img {
   position: absolute;
   transform: translateX(-50%);
   opacity: 0;
   transition: all 0.4s ease-out;
 }
 
-.mdf__section.scrolled .mdf__right>img {
+.mdf__section.scrolled .mdf__right > img {
   opacity: 1;
 }
 
@@ -718,7 +718,7 @@
   align-items: center;
 }
 
-.furniture__left>img {
+.furniture__left > img {
   width: 100%;
   height: auto;
   max-height: 750px;
@@ -862,7 +862,7 @@
   height: 100%;
 }
 
-.sizes__right>img {
+.sizes__right > img {
   position: absolute;
   transform: translateX(-50%);
   transition: all 0.4s ease-out;
@@ -1230,7 +1230,7 @@
   background: rgba(37, 37, 37, 0.1);
 }
 
-.reviews__right>div>div {
+.reviews__right > div > div {
   background: #d9d9d9;
   width: 311.333px;
   height: 127.248px;
@@ -1239,11 +1239,11 @@
   opacity: 0;
 }
 
-.reviews__section.scrolled .reviews__line-1>div {
+.reviews__section.scrolled .reviews__line-1 > div {
   opacity: 1;
 }
 
-.reviews__line-1>div {
+.reviews__line-1 > div {
   top: 45px;
 }
 
@@ -1284,11 +1284,11 @@
   transition-delay: 0.5s;
 }
 
-.reviews__line-2>div {
+.reviews__line-2 > div {
   top: 205px;
 }
 
-.reviews__section.scrolled .reviews__line-2>div {
+.reviews__section.scrolled .reviews__line-2 > div {
   opacity: 1;
 }
 
@@ -1328,11 +1328,11 @@
   transition-delay: 0.7s;
 }
 
-.reviews__line-3>div {
+.reviews__line-3 > div {
   top: 365px;
 }
 
-.reviews__section.scrolled .reviews__line-3>div {
+.reviews__section.scrolled .reviews__line-3 > div {
   opacity: 1;
 }
 
@@ -1373,11 +1373,11 @@
   transition-delay: 0.5s;
 }
 
-.reviews__line-4>div {
+.reviews__line-4 > div {
   top: 520px;
 }
 
-.reviews__section.scrolled .reviews__line-4>div {
+.reviews__section.scrolled .reviews__line-4 > div {
   opacity: 1;
 }
 
@@ -1417,11 +1417,11 @@
   transition-delay: 0.7s;
 }
 
-.reviews__line-5>div {
+.reviews__line-5 > div {
   top: 675px;
 }
 
-.reviews__section.scrolled .reviews__line-5>div {
+.reviews__section.scrolled .reviews__line-5 > div {
   opacity: 1;
 }
 
