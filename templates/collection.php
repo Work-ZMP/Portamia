@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Коллекция Elegance
+Template Name: Коллекция
 
 */
 

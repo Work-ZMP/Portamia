@@ -53,18 +53,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/assets\/css\/collection-elegance.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/css\/collection-elegance-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/assets\/css\/collection-elegance.css.map" : {
       "cB" : 0,
       "ft" : 8192,
@@ -72,6 +60,18 @@
       "oA" : 0,
       "oAP" : "\/assets\/css\/collection-elegance.css.map",
       "oF" : 0
+    },
+    "\/assets\/css\/collection.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/collection-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/assets\/css\/collections.css" : {
       "aP" : 1,
@@ -5828,7 +5828,7 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/assets\/scss\/collection_elegance.scss" : {
+    "\/assets\/scss\/collection.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -5837,7 +5837,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/css\/collection-elegance.css",
+      "oAP" : "\/assets\/css\/collection.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
@@ -6217,12 +6217,12 @@
       "oAP" : "\/templates\/catalog.php",
       "oF" : 0
     },
-    "\/templates\/collection-elegance.php" : {
+    "\/templates\/collection.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/templates\/collection-elegance.php",
+      "oAP" : "\/templates\/collection.php",
       "oF" : 0
     },
     "\/templates\/collections.php" : {

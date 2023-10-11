@@ -55,8 +55,8 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/collections.php")) {
         wp_enqueue_style('collections', get_template_directory_uri() . '/assets/css/collections.css');
     };
-    if (is_page_template("templates/collection-elegance.php")) {
-        wp_enqueue_style('collection-elegance', get_template_directory_uri() . '/assets/css/collection-elegance.css');
+    if (is_page_template("templates/collection.php")) {
+        wp_enqueue_style('collection', get_template_directory_uri() . '/assets/css/collection.css');
     };
     if (is_page_template("templates/partitions-cottage.php")) {
         wp_enqueue_style('partitions-cottage', get_template_directory_uri() . '/assets/css/partitions-cottage.css');
