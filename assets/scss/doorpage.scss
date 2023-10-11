@@ -535,6 +535,9 @@
         width: 100%;
         object-fit: cover;
     }
+    &.active {
+        opacity: 1;
+    }
     &.active img {
         border: 2px solid #c9c9c9;
         opacity: 1;

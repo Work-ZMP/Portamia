@@ -530,6 +530,9 @@
   width: 100%;
   object-fit: cover;
 }
+.colors__block-item.active {
+  opacity: 1;
+}
 .colors__block-item.active img {
   border: 2px solid #c9c9c9;
   opacity: 1;
