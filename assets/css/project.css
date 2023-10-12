@@ -8,6 +8,9 @@
   max-height: 680px;
   position: relative; }
 
+.swiper-wrapper img {
+  max-height: 680px; }
+
 .swiper-button-prev::after {
   font-family: 'icomoon' !important;
   content: "\e900";

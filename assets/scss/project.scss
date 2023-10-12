@@ -13,7 +13,9 @@
 
 
 
-
+.swiper-wrapper img {
+  max-height: 680px;
+}
 
 .swiper-button-prev::after {
   font-family: 'icomoon' !important;
