@@ -150,7 +150,7 @@
     line-height: normal; }
 
 .section2 {
-  margin-bottom: 80px;
+  margin-bottom: 125px;
   margin-top: 0; }
 
 .project__inner {
@@ -198,12 +198,17 @@
 
 .application__section {
   background: #e3e3e3 url(../img/project/Star.svg) right center no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  height: 600px; }
+  .application__section .application__inner {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
   .application__section .application__line {
     width: 190px;
     height: 0px;
     background: rgba(37, 37, 37, 0.5);
-    margin-top: 110px;
     margin-left: 0; }
   .application__section .application__title {
     color: #252525;
