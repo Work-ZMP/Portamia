@@ -351,7 +351,7 @@ Template Name: Перегородки
                 global $post;
 
                 $myposts = get_posts([
-                    'numberposts' => 5,
+                    'numberposts' => 7,
                     'category' => 11,
                     'order' => 'ASC',
                     'orderby' => 'date',
