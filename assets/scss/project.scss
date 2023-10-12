@@ -300,11 +300,13 @@
      
 }
 
-.wpcf7-form {
-    display: flex;
+.wpcf7-form {  
+    display: grid;
     flex-direction: row;
     gap: 30px;
+    grid-template-columns: 1fr 1fr 2fr;
 }
+
 
 .wpcf7-form > p span > input {
     
@@ -324,16 +326,23 @@
   max-width: 322px !important;
 }
 
-.popup__form-inputs-name {
-  max-width: 322px !important;
-}
-
-.popup__form-inputs-phone {
-  max-width: 311px !important;
-}
-
-.popup__form-inputs-email {
-  max-width: 555px !important;
+.application__block .popup__call-form-submit {
+  display: flex;
+  width: 220px;
+  height: 43px;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  margin-left: 0;
+  cursor: pointer;
+  transition: all .3s linear;
+  background-color: #252525;
+  margin-bottom: 110px;
 }
 
 
