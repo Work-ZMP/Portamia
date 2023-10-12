@@ -20,6 +20,8 @@
                 <li><a href="<?php echo get_permalink(10); ?>">Конфигуратор</a></li>
                 <li><a href="<?php echo get_permalink(39); ?>">Каталог</a></li>
                 <li><a href="<?php echo get_permalink(41); ?>">Галерея</a></li>
+                <li><a href="<?php echo get_permalink(428); ?>">Коллекции</a></li>
+                <li><a href="<?php echo get_permalink(642); ?>">Проекты</a></li>
                 <li><a href="<?php echo get_permalink(43); ?>">Контакты</a></li>
                 <li><a class="menu-mob__more">Еще</a></li>
             </ul>
@@ -34,6 +36,8 @@
                 <li><a href="<?php echo get_permalink(10); ?>">Конфигуратор</a></li>
                 <li><a href="<?php echo get_permalink(39); ?>">Каталог</a></li>
                 <li><a href="<?php echo get_permalink(41); ?>">Галерея</a></li>
+                <li><a href="<?php echo get_permalink(428); ?>">Коллекции</a></li>
+                <li><a href="<?php echo get_permalink(642); ?>">Проекты</a></li>
                 <li><a href="<?php echo get_permalink(43); ?>">Контакты</a></li>
                 <li><a class="menu-mobile__more">Еще</a></li>
                 <div class="menu-mobile__more-list" style="display: none;">
