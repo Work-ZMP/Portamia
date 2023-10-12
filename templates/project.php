@@ -84,9 +84,8 @@ Template Post Type: post, page, product
                 <hr class="application__line">
                 <h1 class="application__title">Понравился проект?</h1>
                 <p class="application__descr">Заполните форму и наш менеджер свяжется с вами в ближайшее время!</p>
-                <?php echo do_shortcode('[contact-form-7 id="34042ef" title="Контактная форма проекты"]') ?>
-                <a class="application__top-btn" data-fancybox="" data-src="#popup__form">оставить заявку</a>
-            </div>            
+                <?php echo do_shortcode('[contact-form-7 id="bb7d83a" title="Контактная форма project"]') ?>
+            </div>
         </div>
     </div>
 </section>
