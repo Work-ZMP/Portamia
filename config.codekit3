@@ -349,18 +349,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/assets\/css\/partitions-cottage.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/css\/partitions-cottage-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/assets\/css\/partitions-min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -382,6 +370,38 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/css\/partitions-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/css\/project.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/project-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/css\/project.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/project.css.map",
+      "oF" : 0
+    },
+    "\/assets\/css\/projects.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/projects-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -4674,55 +4694,6 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/assets\/img\/partitions-cottage\/partitions1.png" : {
-      "ft" : 32768,
-      "iS" : 12664,
-      "oA" : 0,
-      "oAP" : "\/assets\/img\/partitions-cottage\/partitions1.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/partitions-cottage\/partitions2-fon.png" : {
-      "ft" : 32768,
-      "iS" : 2647,
-      "oA" : 0,
-      "oAP" : "\/assets\/img\/partitions-cottage\/partitions2-fon.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/partitions-cottage\/partitions2.png" : {
-      "ft" : 32768,
-      "iS" : 469032,
-      "oA" : 0,
-      "oAP" : "\/assets\/img\/partitions-cottage\/partitions2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/img\/partitions-cottage\/Star.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/img\/partitions-cottage\/Star.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/assets\/img\/partitions\/cat-item-1.png" : {
       "ft" : 32768,
       "iS" : 5906,
@@ -5557,6 +5528,198 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/img\/project\/disainers_cottage.png" : {
+      "ft" : 32768,
+      "iS" : 970786,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/disainers_cottage.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/interior_header.png" : {
+      "ft" : 32768,
+      "iS" : 325401,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/interior_header.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/interior_slide1.png" : {
+      "ft" : 32768,
+      "iS" : 434456,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/interior_slide1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/interior-disainer_header.png" : {
+      "ft" : 32768,
+      "iS" : 616047,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/interior-disainer_header.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/interior-disainer_sheader.jpg" : {
+      "ft" : 16384,
+      "iS" : 4968084,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/interior-disainer_sheader.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/interior-disainer_slide1.png" : {
+      "ft" : 32768,
+      "iS" : 264223,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/interior-disainer_slide1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/interior-header.png" : {
+      "ft" : 32768,
+      "iS" : 6501804,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/interior-header.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/partition_book.png" : {
+      "ft" : 32768,
+      "iS" : 160158,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/partition_book.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/partitions1.png" : {
+      "ft" : 32768,
+      "iS" : 12664,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/partitions1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/partitions2-fon.png" : {
+      "ft" : 32768,
+      "iS" : 2647,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/partitions2-fon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/partitions2.png" : {
+      "ft" : 32768,
+      "iS" : 469032,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/partitions2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/sliding_partition.png" : {
+      "ft" : 32768,
+      "iS" : 264688,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/sliding_partition.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/Star.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/img\/project\/Star.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/img\/project\/static_partition.png" : {
+      "ft" : 32768,
+      "iS" : 384393,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/static_partition.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/img\/project\/swing_partition.png" : {
+      "ft" : 32768,
+      "iS" : 817554,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/project\/swing_partition.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/img\/tg_icon.png" : {
       "ft" : 32768,
       "iS" : 149140,
@@ -5817,6 +5980,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/assets\/js\/project.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/js\/project-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/assets\/js\/slick.min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -5903,7 +6077,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/assets\/scss\/partitions-cottage.scss" : {
+    "\/assets\/scss\/project.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -5912,8 +6086,23 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/scss\/partitions-cottage.css",
+      "oAP" : "\/assets\/scss\/project.css",
       "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/assets\/scss\/projects.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/projects.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -6289,20 +6478,28 @@
       "oAP" : "\/templates\/interior.php",
       "oF" : 0
     },
-    "\/templates\/partitions-cottage.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/templates\/partitions-cottage.php",
-      "oF" : 0
-    },
     "\/templates\/partitions.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/partitions.php",
+      "oF" : 0
+    },
+    "\/templates\/project.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/project.php",
+      "oF" : 0
+    },
+    "\/templates\/projects.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/projects.php",
       "oF" : 0
     },
     "\/templates\/work.php" : {

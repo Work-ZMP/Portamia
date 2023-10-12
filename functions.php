@@ -64,6 +64,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/doorpage.php")) {
         wp_enqueue_style('doorpage', get_template_directory_uri() . '/assets/css/doorpage.css');
     };
+    if (is_page_template("templates/projects.php")) {
+        wp_enqueue_style('projects', get_template_directory_uri() . '/assets/css/projects.css');
+    };
    
 
     wp_deregister_script('jquery');

@@ -12,12 +12,12 @@ Template Name: Все проекты
 
 
 
-<div class="collections__section">
+<div class="projects__section">
     <div class="container">
-        <div class="collections__inner">
-            <hr class="collections__line">
-            <p class="collections__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
-            <div class="collections__items">
+        <div class="projects__inner">
+            <hr class="projects__line">
+            <p class="projects__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <div class="projects__items">
                 <?php
                 global $post;
 
@@ -34,21 +34,16 @@ Template Name: Все проекты
                         setup_postdata($post);
                 ?>
 
-                            <a href='<?php echo get_permalink() ?>' class="collection__item">
-                                <?php the_post_thumbnail(
-                                    array(363, 530),
-                                    array('class' => 'collection__item-image')
-                                ); ?>
 
-
-                                <div class="project__item">
-                                    <div class="project__item-left">
+                                <div class="projects__item">
+                                    <div class="projects__item-left">
                                         <img src="<?php the_field('img-object') ?>" alt="">
                                     </div>
-                                    <div class="project__item-right">
-                                        <hr class="project__line">
-                                        <div class="project__title"><?php the_field('item-title') ?></div>
-                                        <div class="project__descr"><?php the_field('item-descr') ?></div>
+                                    <div class="projects__item-right">
+                                        <hr class="projects__item-line">
+                                        <div class="projects__item-title"><?php the_field('item-title') ?></div>
+                                        <div class="projects__item-descr"><?php the_field('item-descr') ?></div>
+                                        <a href="<?php get_permalink( ) ?>" class="projects__item-btn">перейти</a>
                                     </div>
                                 </div>
 
