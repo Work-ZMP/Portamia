@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: Проект
-
+Template Post Type: post, page, product
 */
 
 // … остальной код шаблона
