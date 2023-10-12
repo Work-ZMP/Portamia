@@ -225,13 +225,16 @@
 
 .partitions-object {
   position: relative;
-  width: 493px;
-  height: 648px;
+  max-width: 493px;
+  max-height: 648px;
 }
 
 .partitions__right .img-object {
   position: relative;
-  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
 }
 
 .partitions__right {
@@ -356,7 +359,7 @@
 
 
 
-.application__top-btn {
+.application__block .popup__call-form-submit {
     display: flex;
     width: 220px;
     height: 43px;
