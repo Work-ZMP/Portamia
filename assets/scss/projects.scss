@@ -46,6 +46,12 @@
 }
 .projects__items > .projects__item:nth-child(odd) > .project__item-right{
     grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
 }
 
 .projects__item-line {

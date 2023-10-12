@@ -43,7 +43,7 @@ Template Name: Все проекты
                                         <hr class="projects__item-line">
                                         <div class="projects__item-title"><?php the_field('item-title') ?></div>
                                         <div class="projects__item-descr"><?php the_field('item-descr') ?></div>
-                                        <a href="<?php get_permalink( ) ?>">перейти</a>
+                                        <a href="<?php get_permalink( ) ?>" class="projects__item-btn">перейти</a>
                                     </div>
                                 </div>
 
