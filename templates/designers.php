@@ -32,46 +32,43 @@ Template Name: Дизайнерам
             <div class="projects__items-inner">
                 <div class="projects__items swiper">
                     <div class="swiper-wrapper">
-                        <div class="projects__item swiper-slide">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/projects-img-1.webp" alt="" class="projects__item-img">
-                            <div class="projects__item-text">
-                                <div class="projects__item-subtitle">Проект</div>
-                                <div class="projects__item-title">Входная дверь в коттедж “Louise One”</div>
-                                <a href="<?php echo get_permalink(33); ?>" class="projects__item-btn">подробнее</a>
-                            </div>
-                        </div>
-                        <div class="projects__item swiper-slide">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/projects-img-2.webp" alt="" class="projects__item-img">
-                            <div class="projects__item-text">
-                                <div class="projects__item-subtitle">Проект</div>
-                                <div class="projects__item-title">Межкомнатные двери в квартиру “Delice”</div>
-                                <a href="<?php echo get_permalink(33); ?>" class="projects__item-btn">подробнее</a>
-                            </div>
-                        </div>
-                        <div class="projects__item swiper-slide">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/projects-img-3.webp" alt="" class="projects__item-img">
-                            <div class="projects__item-text">
-                                <div class="projects__item-subtitle">Проект</div>
-                                <div class="projects__item-title">Обновление гаражных ворот</div>
-                                <a href="<?php echo get_permalink(33); ?>" class="projects__item-btn">подробнее</a>
-                            </div>
-                        </div>
-                        <div class="projects__item swiper-slide">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/projects-img-1.webp" alt="" class="projects__item-img">
-                            <div class="projects__item-text">
-                                <div class="projects__item-subtitle">Проект</div>
-                                <div class="projects__item-title">Входная дверь в коттедж “Louise One”</div>
-                                <a href="<?php echo get_permalink(33); ?>" class="projects__item-btn">подробнее</a>
-                            </div>
-                        </div>
-                        <div class="projects__item swiper-slide">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/projects-img-2.webp" alt="" class="projects__item-img">
-                            <div class="projects__item-text">
-                                <div class="projects__item-subtitle">Проект</div>
-                                <div class="projects__item-title">Межкомнатные двери в квартиру “Delice”</div>
-                                <a href="<?php echo get_permalink(33); ?>" class="projects__item-btn">подробнее</a>
-                            </div>
-                        </div>
+
+
+
+                        <?php
+                        global $post;
+
+                        $myposts = get_posts([
+                            'numberposts' => 5,
+                            'category' => 11,
+                            'order' => 'ASC',
+                            'orderby' => 'date',
+                            'post_type' => 'any'
+                        ]);
+
+                        if ($myposts) {
+                            foreach ($myposts as $post) {
+                                setup_postdata($post);
+                        ?>
+
+
+                                <div class="projects__item swiper-slide">
+                                    <img src="<?php the_field('img-object') ?>" alt="" class="projects__item-img">
+                                    <div class="projects__item-text">
+                                        <div class="projects__item-subtitle">Проект</div>
+                                        <div class="projects__item-title"><?php the_field('item-title') ?></div>
+                                        <a href="<?php echo get_permalink(); ?>" class="projects__item-btn">подробнее</a>
+                                    </div>
+                                </div>
+
+
+                        <?php }
+                        }
+                        wp_reset_postdata(); ?>
+
+
+
+
                     </div>
                 </div>
                 <div class="swiper-button-next"></div>

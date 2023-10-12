@@ -6,6 +6,7 @@
     margin-right: 0;
     border: none;
     max-width: 190px;
+    width: 100%;
     margin-left: 0;
     margin-right: auto;
     margin-top: 100px;
@@ -53,10 +54,14 @@
     align-items: flex-end;
     text-align: right;
 }
-
+.projects__items > .projects__item:nth-child(even) > .projects__item-right .projects__item-line {
+    margin-right: 0;
+    margin-left: auto;
+}
 .projects__item-line {
     margin-right: 0;
     border: none;
+    width: 100%;
     max-width: 190px;
     margin-left: 0;
     margin-right: auto;
@@ -88,7 +93,7 @@ max-width: 535px;
 margin-bottom: 55px;
 }
 .projects__item-btn {
-    border: 2px solid #fff;
+    border: 2px solid rgba(255, 255, 255, 0.5);
     padding: 10px 35px;
     color: #fff;
     font-size: 22px;

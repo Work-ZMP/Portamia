@@ -343,69 +343,46 @@ Template Name: Перегородки
             <h2 class="projects__title">Наши проекты</h2>
             <p class="projects__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
             <div class="projects__items">
-                <div class="projects__item item-1">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/projects-img-1.png" alt="" class="projects__item-img">
-                    <div class="projects__item-cover"></div>
-                    <div class="projects__item-text">
-                        <div class="projects__item-title">Дизайнерские межкомнатные перегородки</div>
-                        <div class="projects__item-descr">Наша команда профессионалов изготовила дизайнерскую перегородку для вашего коттеджа по индивидуальным параметрам</div>
-                        <a href="https://portamia.ru/project-designers-interiors-partitions/" class="projects__item-btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="projects__item item-2">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/projects-img-2.png" alt="" class="projects__item-img">
-                    <div class="projects__item-cover"></div>
-                    <div class="projects__item-text">
-                        <div class="projects__item-title">Межкомнатная перегородка</div>
-                        <div class="projects__item-descr">Наша команда профессионалов изготовила дизайнерскую перегородку для вашего коттеджа по индивидуальным параметрам</div>
-                        <a href="https://portamia.ru/project-interior-partition/" class="projects__item-btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="projects__item item-3">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/projects-img-3.png" alt="" class="projects__item-img">
-                    <div class="projects__item-cover"></div>
-                    <div class="projects__item-text">
-                        <div class="projects__item-title">Раздвижная перегородка</div>
-                        <div class="projects__item-descr">Наша команда профессионалов изготовила дизайнерскую перегородку для вашего коттеджа по индивидуальным параметрам</div>
-                        <a href="https://portamia.ru/project-sliding-partition/" class="projects__item-btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="projects__item item-4">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/projects-img-4.png" alt="" class="projects__item-img">
-                    <div class="projects__item-cover"></div>
-                    <div class="projects__item-text">
-                        <div class="projects__item-title">Распашная перегородка</div>
-                        <div class="projects__item-descr">Наша команда профессионалов изготовила дизайнерскую перегородку для вашего коттеджа по индивидуальным параметрам</div>
-                        <a href="https://portamia.ru/project-swing-partition/" class="projects__item-btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="projects__item item-5">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/projects-img-5.png" alt="" class="projects__item-img">
-                    <div class="projects__item-cover"></div>
-                    <div class="projects__item-text">
-                        <div class="projects__item-title">Статичная перегородка</div>
-                        <div class="projects__item-descr">Наша команда профессионалов изготовила дизайнерскую перегородку для вашего коттеджа по индивидуальным параметрам</div>
-                        <a href="https://portamia.ru/project-static-partition/" class="projects__item-btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="projects__item item-6">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/projects-img-6.png" alt="" class="projects__item-img">
-                    <div class="projects__item-cover"></div>
-                    <div class="projects__item-text">
-                        <div class="projects__item-title">Дизайнерская перегородка в коттедж</div>
-                        <div class="projects__item-descr">Наша команда профессионалов изготовила дизайнерскую перегородку для вашего коттеджа по индивидуальным параметрам</div>
-                        <a href="https://portamia.ru/project-designer-partition-cottage/" class="projects__item-btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="projects__item item-7">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/projects-img-7.png" alt="" class="projects__item-img">
-                    <div class="projects__item-cover"></div>
-                    <div class="projects__item-text">
-                        <div class="projects__item-title">Перегородка книжка</div>
-                        <div class="projects__item-descr">Наша команда профессионалов изготовила дизайнерскую перегородку для вашего коттеджа по индивидуальным параметрам</div>
-                        <a href="https://portamia.ru/project-partition-book/" class="projects__item-btn">подробнее</a>
-                    </div>
-                </div>
+
+
+
+
+                <?php
+                global $post;
+
+                $myposts = get_posts([
+                    'numberposts' => 5,
+                    'category' => 11,
+                    'order' => 'ASC',
+                    'orderby' => 'date',
+                    'post_type' => 'any'
+                ]);
+
+                if ($myposts) {
+                    foreach ($myposts as $post) {
+                        setup_postdata($post);
+                ?>
+
+
+
+
+                        <div class="projects__item item-1">
+                            <img src="<?php the_field('img-object') ?>" alt="" class="projects__item-img">
+                            <div class="projects__item-cover"></div>
+                            <div class="projects__item-text">
+                                <div class="projects__item-title"><?php the_field('item-title') ?></div>
+                                <a href="<?php echo get_permalink(); ?>" class="projects__item-btn">подробнее</a>
+                            </div>
+                        </div>
+
+
+                <?php }
+                }
+                wp_reset_postdata(); ?>
+
+
+
+
             </div>
         </div>
     </div>
