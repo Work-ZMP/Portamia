@@ -34,12 +34,6 @@ Template Name: Все проекты
                         setup_postdata($post);
                 ?>
 
-                            <a href='<?php echo get_permalink() ?>' class="collection__item">
-                                <?php the_post_thumbnail(
-                                    array(363, 530),
-                                    array('class' => 'collection__item-image')
-                                ); ?>
-
 
                                 <div class="projects__item">
                                     <div class="projects__item-left">
