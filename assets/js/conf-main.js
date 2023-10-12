@@ -222,7 +222,7 @@ function cfgDoorModel1() {
     let classicmilledcards = document.querySelectorAll('#classicmilled-block .milling-item');
     console.log(classicmilledcards);
 
-    let numbermetcol = document.querySelector('#checkbox-3step-metcol .step');
+
 
     if (item1.classList.contains('active')) {
 
@@ -239,7 +239,6 @@ function cfgDoorModel1() {
         blocktreecolor.style.display = 'none';
         blockstyleglazed.style.display = 'none';
 
-        numbermetcol.textContent = '2.   ';
 
         item1.classList.add('active');
         item2.classList.remove('active');
@@ -279,7 +278,6 @@ function cfgDoorModel2() {
     let classicmilledcards = document.querySelectorAll('#classicmilled-block .milling-item');
     console.log(classicmilledcards);
 
-    let numbermetcol = document.querySelector('#checkbox-3step-metcol .step');
 
     if (item1.classList.contains('active')) {
 
@@ -296,7 +294,6 @@ function cfgDoorModel2() {
         blocktreecolor.style.display = 'none';
         blockstyleglazed.style.display = 'none';
 
-        numbermetcol.textContent = '2.   ';
 
         item1.classList.add('active');
         item2.classList.remove('active');
@@ -594,7 +591,6 @@ function outdoorStylesClassic() {
 
     const blockdftstyle = document.getElementById('checkbox-3step-style-default');
 
-    let numbermetcol = document.querySelector('#close-button-2step-2 .step');
 
 
     const milledmirrorcards = document.querySelectorAll('#milled-mirror-block .milling-item');
@@ -617,7 +613,6 @@ function outdoorStylesClassic() {
         blockgrid.style.display = 'none';
         blockglass.style.display = 'none';
         blockfusing.style.display = 'none';
-        numbermetcol.textContent = '2.   ';
 
         baguettecards.forEach(b => b.classList.remove('active'));
         glasscards.forEach(b => b.classList.remove('active'));
@@ -663,7 +658,7 @@ function outdoorStylesBaguette() {
     const blockgrid = document.getElementById('checkbox-2step-extra-grid');
     const blockfusing = document.getElementById('checkbox-2step-fusing');
 
-    const firstmodel = document.getElementById('cfg-firstmodel');
+    const firstmodel = document.getElementById('cfg-secondmodel');
     let baguettecards = document.querySelectorAll('#aria-step2-baguette .milling-item');
     let glasscards = document.querySelectorAll('#aria-step2-glass-type .milling-item');
     let glasscolcards = document.querySelectorAll('#aria-step2-glass-type .texture-item');
@@ -677,7 +672,6 @@ function outdoorStylesBaguette() {
     const blockmetcol = document.getElementById('checkbox-3step-metcol');
     const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
 
-    let numbermetcol = document.querySelector('#close-button-2step-2 .step');
 
     const milledmirrorcards = document.querySelectorAll('#milled-mirror-block .milling-item');
     const panelmirrorcards = document.querySelectorAll('#panel-mirror-block .milling-item');
@@ -700,7 +694,7 @@ function outdoorStylesBaguette() {
         blockglass.style.display = 'none';
         blockfusing.style.display = 'none';
 
-        numbermetcol.textContent = '3.   ';
+
 
         blockmilled.style.display = 'none';
         blockmetcol.style.display = '';
@@ -767,11 +761,6 @@ function outdoorStylesGlazed() {
     const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
 
 
-
-    let numbermetcol = document.querySelector('#close-button-2step-2 .step');
-    let numbermetcolstep3 = document.querySelector('#checkbox-3step-metcol .step');
-    let numberdoorcol = document.querySelector('#checkbox-3step-tree-color .step');
-
     let baguettecards = document.querySelectorAll('#aria-step2-baguette .milling-item');
     let glasscards = document.querySelectorAll('#aria-step2-glass-type .milling-item');
     let glasscolcards = document.querySelectorAll('#aria-step2-glass-type .texture-item');
@@ -807,9 +796,6 @@ function outdoorStylesGlazed() {
         blockglazedstyle.style.display = '';
         blockstyle2.style.display = 'none';
 
-        numbermetcol.textContent = '3.   ';
-        numbermetcolstep3.textContent = '3.   ';
-        numberdoorcol.textContent = '2.   ';
 
         glasscards.forEach(b => b.classList.remove('active'));
         fusingcards.forEach(b => b.classList.remove('active'));
@@ -861,11 +847,6 @@ function outdoorStylesFusing() {
     const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
 
 
-
-    let numbermetcol = document.querySelector('#close-button-2step-2 .step');
-    let numbermetcolstep3 = document.querySelector('#checkbox-3step-metcol .step');
-    let numberdoorcol = document.querySelector('#checkbox-3step-tree-color .step');
-
     let baguettecards = document.querySelectorAll('#aria-step2-baguette .milling-item');
     let glasscards = document.querySelectorAll('#aria-step2-glass-type .milling-item');
     let glasscolcards = document.querySelectorAll('#aria-step2-glass-type .texture-item');
@@ -903,10 +884,6 @@ function outdoorStylesFusing() {
         blockstyle2.style.display = 'none';
         blockstyle1.style.display = '';
 
-
-        numbermetcol.textContent = '3.   ';
-        numbermetcolstep3.textContent = '3.   ';
-        numberdoorcol.textContent = '2.   ';
 
         baguettecards.forEach(b => b.classList.remove('active'));
         glasscolcards.forEach(b => b.classList.remove('active'));
@@ -1233,14 +1210,14 @@ function handlerType1() {
 
     console.log('1');
 
-    let button1 = document.getElementById('btn-coltype-out-1');
-    let button2 = document.getElementById('btn-coltype-out-2');
+    let button1 = document.getElementById('btn-handler-1');
+    let button2 = document.getElementById('btn-handler-2');
 
-    let blockType1 = document.querySelector('.tabs-group-body-1-indoor');
-    let blockType2 = document.querySelector('.tabs-group-body-2-indoor');
+    let blockType1 = document.querySelector('.furniture-group.handler-type-1');
+    let blockType2 = document.querySelector('.furniture-group.handler-type-2');
 
-    let blockTypeEl1 = document.querySelectorAll('.tabs-group-body-1-indoor .texture-group .texture-item');
-    let blockTypeEl2 = document.querySelectorAll('.tabs-group-body-2-indoor .texture-group .texture-item');
+    let blockTypeEl1 = document.querySelectorAll('.furniture-group.handler-type-1 .furniture-item');
+    let blockTypeEl2 = document.querySelectorAll('.furniture-group.handler-type-2 .furniture-item');
 
     if (button1.classList.contains('active')) {
 
@@ -1259,8 +1236,7 @@ function handlerType1() {
         blockTypeEl1.forEach(b => b.classList.remove('active'));
         blockTypeEl2.forEach(b => b.classList.remove('active'));
 
-        metalColOut('btncolout1')
-        metalColTypeIn1();
+        furnitureType('furn-item-1');
 
     }
 
@@ -1276,14 +1252,14 @@ function handlerType1() {
  */
 function handlerType2() {
 
-    let button1 = document.getElementById('btn-coltype-out-1');
-    let button2 = document.getElementById('btn-coltype-out-2');
+    let button1 = document.getElementById('btn-handler-1');
+    let button2 = document.getElementById('btn-handler-2');
 
-    let blockType1 = document.querySelector('.tabs-group-body-1-indoor');
-    let blockType2 = document.querySelector('.tabs-group-body-2-indoor');
+    let blockType1 = document.querySelector('.furniture-group.handler-type-1');
+    let blockType2 = document.querySelector('.furniture-group.handler-type-2');
 
-    let blockTypeEl1 = document.querySelectorAll('.tabs-group-body-1-indoor .texture-group .texture-item');
-    let blockTypeEl2 = document.querySelectorAll('.tabs-group-body-2-indoor .texture-group .texture-item');
+    let blockTypeEl1 = document.querySelectorAll('.furniture-group.handler-type-1 .furniture-item');
+    let blockTypeEl2 = document.querySelectorAll('.furniture-group.handler-type-2 .furniture-item');
 
     if (button2.classList.contains('active')) {
         console.log('2 not done')
@@ -1302,9 +1278,7 @@ function handlerType2() {
         blockTypeEl1.forEach(b => b.classList.remove('active'));
         blockTypeEl2.forEach(b => b.classList.remove('active'));
 
-        metalColOutEmal('btncoloutem1')
-
-        metalColTypeIn2();
+        furnitureType('furn-item-6');
     }
 
     setConfig();
@@ -1748,6 +1722,20 @@ function furnitureCol(butid) {
     img1 = document.getElementById('furn-item-img-1');
     img2 = document.getElementById('furn-item-img-2');
     img3 = document.getElementById('furn-item-img-3');
+    img4 = document.getElementById('furn-item-img-4');
+    img5 = document.getElementById('furn-item-img-5');
+    img6 = document.getElementById('furn-item-img-6');
+    img7 = document.getElementById('furn-item-img-7');
+    img8 = document.getElementById('furn-item-img-8');
+    img9 = document.getElementById('furn-item-img-9');
+    img10 = document.getElementById('furn-item-img-10');
+
+    img3block = document.getElementById('furn-item-3');
+    img6block = document.getElementById('furn-item-6');
+    img7block = document.getElementById('furn-item-7');
+    img8block = document.getElementById('furn-item-8');
+    img9block = document.getElementById('furn-item-9');
+    img10block = document.getElementById('furn-item-10');
 
     if (btn.classList.contains('active')) {
 
@@ -1760,38 +1748,106 @@ function furnitureCol(butid) {
 
         if (butid == 'furn-col-1') {
 
-            img1.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/405f0c310183529e5a0ee21d62ad41a0.jpeg");');
-            img2.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/0c67eacfbb1d0f3b533d8df147f7122f.jpeg");');
-            img3.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/c7481eb76c5db94ed8ce063be475be46.jpeg");');
+            img1.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-1/col-1.webp");');
+            img2.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-2/col-1.webp");');
+            img3block.style.display = '';
+            img3.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-3/col-1.webp");');
+            img4.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-4/col-1.webp");');
+            img5.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-5/col-1.webp");');
+            img6block.style.display = "";
+            img6.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-6/col-1.webp");');
+            img7block.style.display = '';
+            img7.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-7/col-1.webp");');
+            img8block.style.display = '';
+            img8.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-8/col-1.webp");');
+            img9block.style.display = 'none';
+            img10block.style.display = 'none';
 
+            handlerType1();
+            furnitureType('furn-item-1');
+
+            document.getElementById('btn-handler-2').classList.remove('unfinished')
         }
         else if (butid == 'furn-col-2') {
 
-            img1.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/793caede410da560155d2ba550338874.jpeg");');
-            img2.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/92d2f3985afd2eeaa807da54e953867f.jpeg");');
-            img3.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/6dcf40e364ab2f2b37279c3d94c65444.jpeg");');
 
+
+            img1.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-1/col-2.webp");');
+            img2.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-2/col-2.webp");');
+            img3block.style.display = '';
+            img3.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-3/col-2.webp");');
+            img4.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-4/col-2.webp");');
+            img5.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-5/col-2.webp");');
+            img6.style.display = "";
+            img6.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-6/col-2.webp");');
+            img7block.style.display = 'none';
+            img8block.style.display = 'none';
+            img9block.style.display = '';
+            img9.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-9/col-2.webp");');
+            img10block.style.display = '';
+            img10.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-10/col-2.webp");');
+            
+            handlerType1();
+            furnitureType('furn-item-1');
+
+            document.getElementById('btn-handler-2').classList.remove('unfinished')
         }
         else if (butid == 'furn-col-3') {
 
-            img1.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/2544736585f1cddc16c8cbfe27b8817f.jpeg");');
-            img2.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/6ed5eb1fa8a436c37c25229ded78d61b.jpeg");');
-            img3.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/1724fe7b018d1bcc951049e83a3f9c0c.jpeg");');
+            img1.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-1/col-3.webp");');
+            img2.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-2/col-3.webp");');
+            img3block.style.display = 'none';
+            img4.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-4/col-3.webp");');
+            img5.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-5/col-3.webp");');
+            img6block.style.display = "";
+            img6.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-6/col-3.webp");');
+            img7block.style.display = 'none';
+            img8block.style.display = 'none';
+            img9block.style.display = 'none';
+            img10block.style.display = 'none';
 
+            handlerType1();
+            furnitureType('furn-item-1');
+
+            document.getElementById('btn-handler-2').classList.remove('unfinished')
         }
         else if (butid == 'furn-col-4') {
 
-            img1.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/2e586e77c191c7b4840b975cfed9f2cf.jpeg");');
-            img2.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/f256e908e2618c457826b576852d8a7f.jpeg");');
-            img3.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/b28ae685acb07b5a60b4a128dd937679.jpeg");');
+            img1.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-1/col-4.webp");');
+            img2.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-2/col-4.webp");');
+            img3block.style.display = 'none';
+            img4.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-4/col-4.webp");');
+            img5.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-5/col-4.webp");');
+            img6block.style.display = "";
+            img6.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-6/col-4.webp");');
+            img7block.style.display = 'none';
+            img8block.style.display = 'none';
+            img9block.style.display = 'none';
+            img10block.style.display = 'none';
 
+            handlerType1();
+            furnitureType('furn-item-1');
+
+            document.getElementById('btn-handler-2').classList.remove('unfinished')
         }
         else if (butid == 'furn-col-5') {
 
-            img1.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/5357a22cc159565dd292cf69a6122a03.jpeg");');
-            img2.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/0f304614db74034148464832aa002655.jpeg");');
-            img3.setAttribute('style', 'background-image: url("https://portalle.ru/storage/cfg-door-extend-furniture/12c6ffab9b41682b0789ef45246a3b77.jpeg");');
+            img1.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-1/col-5.webp");');
+            img2.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-2/col-5.webp");');
+            img3block.style.display = '';
+            img3.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-2/col-5.webp");');
+            img4.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-4/col-5.webp");');
+            img5.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-5/col-5.webp");');
+            img6block.style.display = "none";
+            img7block.style.display = 'none';
+            img8block.style.display = 'none';
+            img9block.style.display = 'none';
+            img10block.style.display = 'none';
 
+            document.getElementById('btn-handler-2').classList.add('unfinished')
+
+            handlerType1();
+            furnitureType('furn-item-1');
         }
 
     }
@@ -1805,7 +1861,7 @@ function furnitureCol(butid) {
 function furnitureType(butid) {
 
     let btn = document.getElementById(butid);
-    let buttons = document.querySelectorAll('#step__5 .furn-type .furniture-item');
+    let buttons = document.querySelectorAll('#aria-step4-handle-type .furniture-group .furniture-item');
 
     if (btn.classList.contains('active')) {
 
@@ -2190,8 +2246,6 @@ function indoorStylesMilled() {
     const blockmetcol = document.getElementById('checkbox-3step-metcol');
     const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
 
-    let numbermetcol = document.querySelector('#checkbox-3step-metcol .step');
-    let numberdoorcol = document.querySelector('#checkbox-3step-tree-color .step');
 
     const milledmirrorcards = document.querySelectorAll('#milled-mirror-block .milling-item');
     const panelmirrorcards = document.querySelectorAll('#panel-mirror-block .milling-item');
@@ -2213,9 +2267,6 @@ function indoorStylesMilled() {
         blockmetcol.style.display = '';
         blockglazedstyle.style.display = 'none';
 
-        numbermetcol.textContent = '4.   ';
-        numberdoorcol.textContent = '3.   ';
-        numberdoorcol.textContent = '3.   ';
         classicmilled();
         milledmirrorcards.forEach(b => b.classList.remove('active'));
         panelmirrorcards.forEach(b => b.classList.remove('active'));
@@ -2244,8 +2295,6 @@ function indoorStylesPanel() {
     const blockmetcol = document.getElementById('checkbox-3step-metcol');
     const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
 
-    let numbermetcol = document.querySelector('#checkbox-3step-metcol .step');
-    let numberdoorcol = document.querySelector('#checkbox-3step-tree-color .step');
 
     let panelcards = document.querySelectorAll('#checkbox-3step-tree-color .texture-item');
 
@@ -2270,9 +2319,6 @@ function indoorStylesPanel() {
         blocktreecolor.style.display = '';
         blockmetcol.style.display = '';
         blockglazedstyle.style.display = 'none';
-
-        numbermetcol.textContent = '3.   ';
-        numberdoorcol.textContent = '2.   ';
 
 
         classicmilledcards.forEach(b => b.classList.remove('active'));
@@ -2310,8 +2356,6 @@ function indoorStylesMirror() {
     const classicmilledcards = document.querySelectorAll('#classicmilled-block .milling-item');
     const modernmilledcards = document.querySelectorAll('#modernmilled-block .milling-item');
 
-    let numbermetcol = document.querySelector('#checkbox-3step-metcol .step');
-    let numberdoorcol = document.querySelector('#checkbox-3step-tree-color .step');
 
     if (btn3.classList.contains('active')) {
 
@@ -2328,8 +2372,6 @@ function indoorStylesMirror() {
         blockmetcol.style.display = '';
         blockglazedstyle.style.display = 'none';
 
-        numbermetcol.textContent = '4.   ';
-        numberdoorcol.textContent = '3.   ';
         milledmirror();
         classicmilledcards.forEach(b => b.classList.remove('active'));
         modernmilledcards.forEach(b => b.classList.remove('active'));
@@ -2639,7 +2681,7 @@ function cfgDoorModel2() {
     const blockstyleglazed = document.getElementById('checkbox-3step-glazed');
     let indoorwoodcards = document.querySelectorAll('#aria-step3-tree-color .texture-item');
 
-    let numbermetcol = document.querySelector('#checkbox-3step-metcol .step');
+
 
 
 
@@ -2648,7 +2690,6 @@ function cfgDoorModel2() {
     blockmirror.style.display = 'none';
     blockmilled.style.display = '';
     blocktreecolor.style.display = '';
-    numbermetcol.textContent = '4.   ';
     blockstyleglazed.style.display = 'none';
 
     // item2.classList.add('active');
