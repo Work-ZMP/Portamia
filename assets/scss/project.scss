@@ -341,8 +341,7 @@
   margin-left: 0;
   cursor: pointer;
   transition: all .3s linear;
-  background-color: #252525;
-  margin-bottom: 110px;
+  background-color: #252525;  
 }
 
 
@@ -374,22 +373,3 @@
 
 
 
-.application__block .popup__call-form-submit {
-    display: flex;
-    width: 220px;
-    height: 43px;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    margin-left: 0; 
-    cursor: pointer;
-    transition: all .3s linear;
-    background-color: #252525;
-    margin-top: 50px;
-    margin-bottom: 110px;
-}
