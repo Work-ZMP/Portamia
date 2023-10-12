@@ -39,7 +39,7 @@ Template Name: Дизайнерам
                         global $post;
 
                         $myposts = get_posts([
-                            'numberposts' => -1,
+                            'numberposts' => 5,
                             'category' => 11,
                             'order' => 'ASC',
                             'orderby' => 'date',
