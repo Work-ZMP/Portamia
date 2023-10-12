@@ -41,10 +41,10 @@
     align-items: flex-start;
     height: 450px;
 }
-.projects__items > :nth-child(n+1) >  .project__item-left{
+.projects__items > .projects__item:nth-of-type(odd):nth-child(n+1) >  .project__item-left{
     grid-column: 2 / 3;
 }
-.projects__items > :nth-child(n) >  .project__item-right{
+.projects__items > .projects__item:nth-of-type(odd) >  .project__item-right{
     grid-column: 1 / 2;
 }
 
@@ -72,7 +72,7 @@ max-width: 605px;
 margin-bottom: 35px;
 }
 
-.project__item-descr {
+.projects__item-descr {
     color: rgba(255, 255, 255, 0.50);
 font-size: 24px;
 font-style: normal;
@@ -81,7 +81,7 @@ line-height: normal;
 max-width: 535px;
 margin-bottom: 55px;
 }
-.project__item-btn {
+.projects__item-btn {
     border: 2px solid #fff;
     padding: 10px 35px;
     color: #fff;
