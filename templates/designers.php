@@ -53,7 +53,7 @@ Template Name: Дизайнерам
 
 
                                 <div class="projects__item swiper-slide">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/projects-img-1.webp" alt="" class="projects__item-img">
+                                    <img src="<?php the_field('img-object') ?>" alt="" class="projects__item-img">
                                     <div class="projects__item-text">
                                         <div class="projects__item-subtitle">Проект</div>
                                         <div class="projects__item-title"><?php the_field('item-title') ?></div>
