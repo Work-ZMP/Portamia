@@ -102,3 +102,13 @@
 .project__item-btn:hover {
   background: rgba(255, 255, 255, 0.25);
 }
+
+.projects__item-left {
+  height: 100%;
+  max-height: 450px;
+}
+.projects__item-left > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
