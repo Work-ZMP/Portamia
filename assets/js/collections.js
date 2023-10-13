@@ -14,20 +14,16 @@ document.querySelectorAll('.collection__item')
 
 });
 
-if(document.querySelector('.collection__item-cover')) {
-    if (document.querySelectorAll('.collection__item-cover').forEach(b => b.textContent == ' ')) {
-        this.style.display = 'none'
-    }
-}
 
-function hideElementsWithoutText(elements) {
+
+function hideElementsWithEmptyTextContent(elements) {
     elements.forEach(element => {
-      if (!element.textContent.trim()) {
+      if (element.textContent.trim() === "") {
         element.style.display = 'none';
       }
     });
   }
   
-
-  const elements = document.querySelectorAll('.collection__item-cover'); 
-  hideElementsWithoutText(elements);
+  // Example usage:
+  const elements = document.querySelectorAll('.collection__item-cover'); // Replace with your desired class or selector
+  hideElementsWithEmptyTextContent(elements);
