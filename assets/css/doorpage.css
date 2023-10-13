@@ -219,7 +219,7 @@
   opacity: 1; }
 
 .swiper-button-prev:hover {
-  transform: scale(1.03); }
+  transform: translateY(45px) scale(1.03); }
 
 .swiper-button-next::before {
   content: "";
@@ -238,7 +238,7 @@
   opacity: 1; }
 
 .swiper-button-next:hover {
-  transform: scale(1.03); }
+  transform: translateY(45px) scale(1.03); }
 
 .popular__line.line-long {
   max-width: 605px;
