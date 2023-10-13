@@ -15,7 +15,7 @@ if (document.querySelector(".colors__block-items")) {
 
 
 if (document.querySelector('.colors__section')) {
-    
+
     let linkTypeDoor = document.querySelector('.colors__right').dataset.doortype;
 
     document.querySelectorAll('.colors__block-items.main .colors__block-item')
@@ -78,4 +78,20 @@ if (document.querySelector('.colors__section')) {
 
 
         }));
+
+
+
+    function hideDoorColor(elements) {
+        elements.forEach(element => {
+            if ($(element.querySelector('.colors__block-item-img')).getAttribute('src').trim() === '') {
+                element.style.display = 'none';
+            }
+        });
+    }
+
+    // Example usage:
+    const elements = document.querySelectorAll('.colors__block-item');
+    hideElementsWithEmptyTextContent(elements);
+
+
 }
