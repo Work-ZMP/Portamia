@@ -210,11 +210,7 @@
   background: #343434;
   padding: 45px 30px; }
 
-.contacts__block {
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px; }
+
 
 .contacts__icon {
   display: flex;
