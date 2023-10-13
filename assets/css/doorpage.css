@@ -462,6 +462,7 @@
   align-items: flex-start;
   gap: 5px;
   max-width: 125px;
+  width: 100% !important; 
   cursor: pointer;
   transition: all 0.3s ease-out;
   opacity: 0.5; }
