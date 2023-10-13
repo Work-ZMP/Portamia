@@ -83,27 +83,24 @@ if (document.querySelector('.colors__section')) {
 
 
 
-function hideBlocksWithEmptyImageSrc(blocks) {
-    blocks.forEach(block => {
-      const images = block.querySelectorAll('img');
+    function hideBlocksWithEmptyImageSrc(blocks) {
+        blocks.forEach(block => {
+            const image = block.querySelector('img');
 
-  
-      images.forEach(image => {
-        if (!image.getAttribute('src').trim()) {
-            block.style.display = 'none';
-        }
-      });
-  
-    });
-  }
-  
+            if (image.getAttribute('src').trim() == '') {
+                block.style.display = 'none';
+            }
 
-  const blocks = document.querySelectorAll('.colors__block-item');
-  hideBlocksWithEmptyImageSrc(blocks);
-  
-  
-  
-  
-  
-  
-  
+        });
+    }
+
+
+    const blocks = document.querySelectorAll('.colors__block-item');
+    hideBlocksWithEmptyImageSrc(blocks);
+
+}
+
+
+
+
+
