@@ -80,7 +80,7 @@
 }
 
 .subtitle-default {
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-size: 28px;
   font-style: normal;
@@ -101,7 +101,7 @@
 }
 
 .contacts__element {
-  color: #FFF;
+  color: #fff;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
   font-size: 22px;
@@ -116,7 +116,7 @@
 
 .footer__hr {
   width: 1728px;
-  background: #ABABAB;
+  background: #ababab;
   margin-top: 100px;
 }
 
@@ -200,3 +200,5 @@
   color: #a9a9a9;
   margin-top: 10px;
 }
+
+
