@@ -31,13 +31,6 @@
   margin-bottom: 50px;
   /*width: 606px;*/ }
 
-.contacts__inner iframe {
-  width: 100%;
-  min-width: 400px;
-  height: 400px;
-  transition: all .3s ease-out;
-  filter: grayscale(1); }
-
 .contacts__inner iframe:hover {
   filter: none; }
 
