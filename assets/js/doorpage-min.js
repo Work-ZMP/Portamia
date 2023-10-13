@@ -108,31 +108,28 @@ if (document.querySelector('.colors__section')) {
 
 
 
-function checkColors() {
-    const blockItems = document.querySelectorAll('.colors__block-items.main .colors__block-item'); // Выбираем все элементы, которые нужно проверить
-    let allHidden = true;
-  
-    // Проверяем, все ли элементы имеют display: none
-    blockItems.forEach(item => {
-      if (item.style.display !== 'none') {
-        allHidden = false;
-        console.log('все дисплэй нон')
+    function checkColors() {
+        const blockItems = document.querySelectorAll('.colors__main-block .colors__block-item'); // Выбираем все элементы, которые нужно проверить
+        let allHidden = true;
+      
+        // Проверяем, все ли элементы имеют display: none
+        blockItems.forEach(item => {
+          if (item.style.display !== 'none') {
+            allHidden = false;
+            console.log('не все дисплэй нон')
+          }
+        });
+      
+        // Если все элементы скрыты, показываем сообщение "Пока нет доп. цветов"
+        if (allHidden) {
+            console.log('выводим сообщение')
+          const messageElement = document.createElement('div');
+          messageElement.textContent = 'Пока нет доп. цветов';
+          messageElement.className = 'no-colors-message'; // Добавляем класс для стилизации
+          const swiperWrapper = document.querySelector('.colors__main-block .swiper-wrapper');
+          swiperWrapper.appendChild(messageElement);
+        }
       }
-    });
-  
-    // Если все элементы скрыты, показываем сообщение "Пока нет доп. цветов"
-    if (allHidden) {
-        console.log('выводим сообщение')
-      const messageElement = document.createElement('div');
-      messageElement.textContent = 'Пока нет доп. цветов';
-      messageElement.className = 'no-colors-message'; // Добавляем класс для стилизации
-      const swiperWrapper = document.querySelectorAll('.colors__block-items.main .swiper-wrapper');
-      swiperWrapper.appendChild(messageElement);
-    }
-  }
-  
-  // Вызываем функцию для проверки и отображения сообщения
-  checkColors();
-
-
-}
+      
+      // Вызываем функцию для проверки и отображения сообщения
+      checkColors();
