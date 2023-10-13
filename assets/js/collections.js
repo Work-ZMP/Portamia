@@ -15,7 +15,7 @@ document.querySelectorAll('.collection__item')
 });
 
 if(document.querySelector('.collection__item-cover')) {
-    if (document.querySelector('.collection__item-cover').textContent == '') {
-        document.querySelector('.collection__item-cover').style.display = 'none'
+    if (document.querySelectorAll('.collection__item-cover').forEach(b => b.textContent == '')) {
+        this.style.display = 'none'
     }
 }
