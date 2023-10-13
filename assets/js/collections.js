@@ -13,3 +13,9 @@ document.querySelectorAll('.collection__item')
 }));
 
 });
+
+if(document.querySelector('.collection__item-cover')) {
+    if (document.querySelector('.collection__item-cover').textContent == '') {
+        document.querySelector('.collection__item-cover').style.display = 'none'
+    }
+}
