@@ -23,7 +23,7 @@ Template Name: Контакты
 
             <div class="contacts__items">
                 <div class="contacts__form">
-                <div class="contacts__subtitle2 subtitle-default">Оставьте заявку на звонок</div>
+                    <div class="contacts__subtitle2 subtitle-default">Оставьте заявку на звонок</div>
                     <?php echo do_shortcode('[contact-form-7 id="124b8b2" title="Оставить заявку на звонок ( контакты, дилерам)"]') ?>
                 </div>
                 <div class="contacts__info">
@@ -45,10 +45,7 @@ Template Name: Контакты
                             <div class="contacts__icon">
                                 <img src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon4.svg" alt="">
                                 <span class="contacts__element contacts-location">Оренбург. пер. Тупой, 55</span>
-                            </div>  
-                            <div class="contacts__map">
-                                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A002045108c4c3f384e9f7ee4e951cee3dbe2568466d5d66e5b570d74fb4ea606&amp;source=constructor" width="300" height="270" frameborder="0"></iframe>
-                            </div>                         
+                            </div>
                         </div>
                     </div>
                 </div>
