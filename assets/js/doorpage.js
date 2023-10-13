@@ -81,17 +81,26 @@ if (document.querySelector('.colors__section')) {
 
 
 
-    function hideDoorColor(elements) {
-        elements.forEach(element => {
-            if ($(element.querySelector('.colors__block-item-img')).getAttribute('src').trim() === '') {
-                element.style.display = 'none';
+
+
+    function hideBlocksWithEmptyImageSrc(blocks) {
+        blocks.forEach(block => {
+            const image = block.querySelector('img');
+
+            if (image.getAttribute('src').trim() == '') {
+                block.style.display = 'none';
             }
+
         });
     }
 
-    // Example usage:
-    const elements = document.querySelectorAll('.colors__block-item');
-    hideElementsWithEmptyTextContent(elements);
 
+    const blocks = document.querySelectorAll('.colors__block-item');
+    hideBlocksWithEmptyImageSrc(blocks);
 
 }
+
+
+
+
+
