@@ -271,7 +271,7 @@
 
   .production__subtitle {
     font-size: 22px;
-    width: 83%;
+    width: 55%;
   }
   h3 {
     margin-bottom: 10px;
@@ -279,13 +279,15 @@
 
   .production__items {
     gap: 30px !important;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
   }
 
   .production__item {
     padding-top: 15px;
     height: 340px;
+    max-width: 450px;
 }
 
   .production__item img {
