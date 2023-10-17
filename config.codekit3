@@ -6088,6 +6088,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/assets\/scss\/learning.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/scss\/learning.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/scss\/project.css" : {
       "aP" : 1,
       "bl" : 0,

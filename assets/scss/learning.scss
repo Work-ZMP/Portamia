@@ -1,0 +1,124 @@
+// 1. ОСНОВЫ SCSS
+
+// 1.1. Вложенные правила
+#main p {
+    color: #00ff00;
+    width: 97%;
+
+    .redbox {
+        background-color: #ff0000;
+        color: #000000;
+    }
+}
+
+// 1.2. Ссылка на родителя селектора
+a {
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    body.firefox & {
+        font-weight: normal;
+    }
+
+    &-sidebar {
+        border: 1px solid;
+    }
+}
+
+// 1.3. Вложенные свойства
+.funky {
+    font: {
+        family: fantasy;
+        size: 30em;
+        weight: bold;
+    }
+    // или
+    font: 20px/24px fantasy {
+        weight: bold;
+    }
+}
+
+// 1.4. Шаблонные селекторы(доделаю)
+
+// 1.5. Комментарии
+/* Это многострочный комментарий.
+ * Так как этот тип комментирования
+ * поддерживается в CSS, то он
+ * попадет в скомпилированный CSS-файл. */
+body {
+    color: black;
+}
+
+// Это однострочный комментарий.
+// CSS не поддерживает данный вариант комментирования.
+// Поэтому данного комментария не будет в CSS-файле.
+a {
+    color: green;
+}
+
+// 1.6. Переменные
+$width: 5em;
+
+// Вы можете обратиться к переменной в свойствах
+#main {
+    width: $width;
+}
+
+// 1.7. Операции
+p {
+    font: 10px/8px; // Явный CSS, деление отсутствует
+    $width: 1000px;
+    width: $width/2; // Используется переменная, операция деления
+    width: round(1.5) / 2; // Используется функция, операция деления
+    height: (500px/2); // Обособление скобками, операция деления
+    margin-left: 5px + 8px/2px; // Используется +, операция деления
+    height: (1em + 2em) * 3;
+}
+
+// 1.8. Миксины (доделаю)
+// объявление миксинов
+@mixin large-text {
+    font: {
+        family: Arial;
+        size: 20px;
+        weight: bold;
+    }
+    color: #ff0000;
+}
+@mixin clearfix {
+    display: inline-block;
+
+    &:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    * html & {
+        height: 1px;
+    }
+}
+// вызов миксинов
+.page-title {
+    @include large-text;
+    padding: 4px;
+    margin-top: 10px;
+}
+// Миксины могут быть также вызваны вне какого-либо правила (то есть в корне документа), при условии, что они не определяют непосредственно правил и не используют ссылку на родителя
+@mixin silly-links {
+    a {
+        color: blue;
+        background-color: red;
+    }
+}
+
+@include silly-links;
+
+
+
+// 2. РАСШИРЕННЫЕ ВОЗМОЖНОСТИ SCSS

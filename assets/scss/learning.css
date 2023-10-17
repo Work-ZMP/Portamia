@@ -1,0 +1,70 @@
+@charset "UTF-8";
+#main p {
+  color: #00ff00;
+  width: 97%;
+}
+#main p .redbox {
+  background-color: #ff0000;
+  color: #000000;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+body.firefox a {
+  font-weight: normal;
+}
+a-sidebar {
+  border: 1px solid;
+}
+
+.funky {
+  font-family: fantasy;
+  font-size: 30em;
+  font-weight: bold;
+  font: 20px/24px fantasy;
+  font-weight: bold;
+}
+
+/* Это многострочный комментарий.
+ * Так как этот тип комментирования
+ * поддерживается в CSS, то он
+ * попадет в скомпилированный CSS-файл. */
+body {
+  color: black;
+}
+
+a {
+  color: green;
+}
+
+#main {
+  width: 5em;
+}
+
+p {
+  font: 10px/8px;
+  width: 500px;
+  width: 1;
+  height: 250px;
+  margin-left: 9px;
+  height: 9em;
+}
+
+.page-title {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+a {
+  color: blue;
+  background-color: red;
+}
