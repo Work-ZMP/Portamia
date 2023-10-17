@@ -117,6 +117,7 @@
   .production__items {
     gap: 20px !important;
   }
+
   .default-descr {
     font-size: 18px;
     max-width: 505px;
@@ -151,7 +152,8 @@
     margin-bottom: 30px;
       }
   .production__section {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
 }
 
@@ -267,6 +269,9 @@
 
 @media (max-width: 768px) {
 
+  .header__top.darkpage .header__lower-title {
+    font-size: 56px;    
+  }
   .header__top.darkpage .header__top-lower {
     justify-content: center;
     align-items: center;

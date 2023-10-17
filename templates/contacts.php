@@ -18,13 +18,15 @@ Template Name: Контакты
     <div class="container">
         <div class="contacts__inner">
             <hr class="contacts__line default-line">
-            <p class="contacts__descr default-descr">Наши металлические двери – надежная защита для <br> вашего дома или офиса.</p>
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A231ff4fe348d2d6bdda7453c7b86ea0d7a5f1f2c03a6ef949a30e7edf8f04539&amp;source=constructor" width="1244" height="500" frameborder="0"></iframe>
+            <p class="contacts__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <div class="container__maps">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A231ff4fe348d2d6bdda7453c7b86ea0d7a5f1f2c03a6ef949a30e7edf8f04539&amp;source=constructor" width="1244" height="500" frameborder="0"></iframe>
+            </div>
 
             <div class="contacts__items">
                 <div class="contacts__form">
                     <div class="contacts__subtitle2 subtitle-default">Оставьте заявку на звонок</div>
-                    <?php echo do_shortcode('[contact-form-7 id="124b8b2" title="Оставить заявку на звонок ( контакты, дилерам)"]') ?>
+                    <?php echo do_shortcode('[contact-form-7 id="e303fd6" title="Контактная форма 1"]') ?>
                 </div>
                 <div class="contacts__info">
                     <h3 class="contacts__subtitle2 subtitle-default">Контакты</h3>

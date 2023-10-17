@@ -210,3 +210,274 @@
   align-items: center;
   margin-left: 20px;
 }
+
+
+
+@media (max-width: 1480px) {
+
+  .header__top.darkpage .header__top-lower {
+    margin-left: 50px;
+  }  
+
+  .header__top.darkpage .header__lower-title {
+    font-size: 58px;
+  }
+
+  .container {
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+
+  .default-descr {
+    font-size: 22px;
+    max-width: 505px;
+    margin-bottom: 40px;
+  }
+  
+  .contacts__inner iframe {
+    max-width: 1050px;
+    max-height: 350px;
+  }
+
+  .subtitle-default {
+    font-size: 27px;
+  }
+
+  .contacts__element {
+    font-size: 20px;
+  }
+}
+
+
+
+@media (max-width: 1250px) {
+
+  .contacts__section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+  .production__subtitle {
+    font-size: 25px;    
+  }
+  .production__line {
+    margin-top: 100px;
+  }
+  .container__top {
+    margin-bottom: 30px;
+      }
+  
+}
+
+@media (max-width: 1150px) {
+  
+  .contacts__inner {
+    margin: 0 25px;
+  }
+
+  .default-line {
+    width: 100px;
+    margin-top: 50px;    
+  }
+
+  .default-descr {
+    font-size: 18px;
+    max-width: 505px;
+  }
+
+  .container__maps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contacts__inner iframe {
+    max-width: 900px;
+    max-height: 300px;
+  }
+
+  .subtitle-default {
+    font-size: 24px;
+  }
+
+  .contacts__element {
+    font-size: 18px;
+  }
+
+  .contacts__form .popup__form-inputs-day, .contacts__form .popup__form-inputs-hours, .contacts__form .popup__form-inputs-name, .contacts__form .popup__form-inputs-phone, .contacts__form .popup__form-inputs-message {
+   
+    font-size: 16px;   
+}
+}
+
+
+@media (max-width: 950px) {
+
+  .header__top.darkpage .header__lower-title {
+     font-size: 48px;     
+  }
+  .contacts__section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.default-descr {
+  font-size: 16px;
+  max-width: 350px;
+  margin-bottom: 10px;
+}
+
+.contacts__inner iframe {
+  max-width: 718px;
+  max-height: 270px;
+}
+
+.contacts__info {   
+  padding: 45px 0px;
+  max-width: 220px;
+}
+
+.subtitle-default {
+  font-size: 22px;
+  text-align: center;
+}
+
+.contacts__element {
+  font-size: 13px;
+}
+.contacts__icon {  
+  margin-left: 18px;
+}
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+.header__top.darkpage .header__lower-title {
+  font-size: 48px;   
+}
+
+.header__top.darkpage .header__top-lower {  
+  justify-content: center;
+  align-items: center;  
+  margin-left: 0;
+}
+
+.header__top.darkpage .header__lower-text {  
+  justify-content: center;
+  align-items: center;
+}
+.contacts__section {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.default-line {
+  margin-top: 0;
+  margin: 0 auto;
+}
+.default-descr {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+.contacts__inner iframe {
+  max-width: 590px;
+  max-height: 240px;
+}
+.contacts__items {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+.subtitle-default {
+  font-size: 20px;
+}
+.contacts__form {
+  max-width: 590px;
+}
+.contacts__info {
+  max-width: 590px;
+  max-height: 280px;
+}
+.contacts__element {
+  font-size: 16px;
+  margin-right: 45px;
+}
+.contacts__block {
+  justify-content: center;
+  align-items: center;
+}
+
+}
+
+
+
+
+
+
+@media (max-width: 640px) {
+  .header__top.darkpage {
+    height: 250px;
+  }
+  .header__top.darkpage .header__lower-title {
+    font-size: 40px;
+  }
+  .header__top.darkpage .header__line {
+    margin-bottom: 0;
+    margin: 0 auto;
+  }
+  .header__top-upper {
+    margin-top: 15px;
+  }
+
+  .contacts__inner iframe {
+    max-width: 440px;
+    max-height: 210px;
+  }
+  .contacts__form {
+    max-width: 440px;
+  }
+  .subtitle-default {
+    font-size: 18px;
+  } 
+  .contacts__info {
+  max-width: 440px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacts__inner iframe {
+    max-width: 280px;
+    max-height: 180px;
+  }
+  .default-descr {
+    font-size: 14px;
+    max-width: 250px;
+}
+.header__top.darkpage .header__lower-text {
+  padding-top: 50px;
+}
+.header__top.darkpage .header__lower-title {
+  font-size: 35px;
+}
+.contacts__form {
+  max-width: 280px;  
+}
+.contacts__info {
+  max-width: 280px;
+}
+.contacts__icon {
+  margin-left: 15px;
+}
+.contacts__element {
+  font-size: 15px;
+}
+.contacts__items {
+  justify-items: center;
+}
+}
