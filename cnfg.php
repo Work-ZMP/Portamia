@@ -4185,7 +4185,7 @@ if (isset($_GET['door_cfg'])) {
                                     <div class="accordion-content">
                                         <div class="cfg-btn-group-wrapper size-items">
                                             <a href="#" id="door-cfg-download" class="cfg-btn btn btn-normal btn-primary cfg-btn-secondary">
-                                                <span>Скачать в HTML формате</span>
+                                                <span>Скачать в PDF формате</span>
                                             </a>
                                             <button type="button" class="cfg-btn btn btn-normal btn-primary cfg-btn-secondary" data-fancybox data-src="#popup__toemail">
                                                 <span>Отправить на почту</span>
@@ -4433,13 +4433,14 @@ if (isset($_GET['door_cfg'])) {
                         </div>
                         <div class="popup__share-btns">
                             <form>
-                                <input type="text" name="door_cfg_email" placeholder="Электронная почта">
+                                <input id="mmls" type="text" name="door_cfg_email" placeholder="Электронная почта">
+                                <input type="hidden" id="ems" value=""/>
                                 <label for="popup__toemail-checkbox" class="popup__share-checkbox">
                                     <input type="checkbox" name="door_cfg_privacy" id="popup__toemail-checkbox">
                                     Я согласен с условиями обработки персональных данных и соглашением о пользовании сайтом
                                 </label>
                                 <!-- <div class="popup__share-btn-copy default-btn">Получить HTML</div> -->
-                                <input type="submit" name="door_cfg_submit" value="Получить HTML" class="popup__share-btn-copy default-btn">
+                                <input id="srtmail" type="submit" name="door_cfg_submit" value="Получить PDF" class="popup__share-btn-copy default-btn">
                             </form>
                         </div>
                     </div>

@@ -3767,3 +3767,25 @@ function ftp_send()
 
     die();
 }
+
+
+
+
+
+
+
+
+add_action('wp_ajax_mlsme', 'mlsmef');
+add_action('wp_ajax_nopriv_mlsme', 'mlsmef');
+
+function mlsmef () {
+    $fls = $_POST['file'];
+    $mls = $_POST['mls'];
+$pt = '/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/pdfread/';
+$et = str_replace('https://portamia.ru/pdfread/', '', $fls);
+$allp = $pt.$et;
+$attachments = array(WP_CONTENT_DIR . '/uploads/file_to_attach.zip');
+$headers = 'From: My Name <config@portamia.ru>' . "\r\n";
+wp_mail($mls, 'Файл конфигурации', 'Файл конфигурации', $headers, $allp);
+    
+}
