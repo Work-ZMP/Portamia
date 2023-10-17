@@ -104,6 +104,11 @@
 }
 
 @media (max-width: 1480px) {
+
+  .header__lower-title {
+    font-size: 58px;
+  }
+
   .container {
     max-width: 1050px;
     margin: 0 auto;
@@ -128,9 +133,25 @@
   }
 }
 
+
+@media (max-width: 1300px) {
+  .header__top.darkpage .header__top-lower {
+    margin-left: 50px;
+  }  
+}
+
 @media (max-width: 1250px) {
   .production__subtitle {
-    font-size: 25px;
+    font-size: 25px;    
+  }
+  .production__line {
+    margin-top: 100px;
+  }
+  .container__top {
+    margin-bottom: 30px;
+      }
+  .production__section {
+    margin-bottom: 80px;
   }
 }
 
@@ -164,7 +185,7 @@
   }
 
   .production__item img {
-    width: 75%;
+    width: 80%;
   }
 
   .production__link {
@@ -183,6 +204,11 @@
 }
 
 @media (max-width: 950px) {
+ .header__lower-title {
+    font-size: 48px;
+    
+  }
+
   .production__section {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -215,6 +241,7 @@
 
   .production__items {
     gap: 10px;
+    justify-items: center;
   }
 
   .production__item {
@@ -239,6 +266,16 @@
 
 
 @media (max-width: 768px) {
+
+  .header__top.darkpage .header__top-lower {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+  .header__top.darkpage .header__lower-text {
+    align-items: center;
+  }
+
   .production__section {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -388,4 +425,62 @@
   }
 }
 
+
+
+@media (max-width: 480px) {
+
+.header__lower-title {
+  font-size: 35px;  
+}
+
+.default-descr {
+  font-size: 15px;
+  max-width: 230px;
+  text-align: center;
+}
+
+.production__item {
+  height: 300px;
+  max-width: 250px;
+}
+
+.production__subtitle {
+  font-size: 20px;
+  width: 65%;
+}
+
+.production__item img {
+  width: 60%;
+}
+}
+
+
+@media (max-width: 320px) {
+
+.header__lower-title {
+  font-size: 35px;  
+}
+
+.default-descr {
+  font-size: 15px;
+  max-width: 230px;
+  text-align: center;
+}
+
+.production__item {
+  height: 300px;
+  max-width: 250px;
+}
+
+.production__subtitle {
+  font-size: 20px;
+  width: 65%;
+}
+
+.production__item img {
+  width: 60%;
+}
+
+ 
+ 
   
