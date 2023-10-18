@@ -95,6 +95,7 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/project.php")) {
         wp_enqueue_script('project', get_template_directory_uri() . '/assets/js/project.js', array('jquery'), 'null', true);
     };
+    wp_enqueue_script('printme', get_template_directory_uri() . '/assets/js/print.min.js', array('jquery'), 'null', true);
 });
 
 
