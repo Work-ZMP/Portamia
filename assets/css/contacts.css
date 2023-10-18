@@ -60,7 +60,7 @@
   align-items: center; }
 
 .subtitle-default {
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-size: 28px;
   font-style: normal;
@@ -77,20 +77,20 @@
   opacity: 0.5; }
 
 .contacts__element {
-  color: #FFF;
+  color: #fff;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  transition: all .3s ease-out; }
+  transition: all 0.3s ease-out; }
   .contacts__element:hover {
     opacity: 0.5; }
 
 .footer__hr {
   width: 1728px;
-  background: #ABABAB;
+  background: #ababab;
   margin-top: 100px; }
 
 .contacts__form {
@@ -238,7 +238,11 @@
   .contacts__element {
     font-size: 18px; }
 
-  .contacts__form .popup__form-inputs-day, .contacts__form .popup__form-inputs-hours, .contacts__form .popup__form-inputs-name, .contacts__form .popup__form-inputs-phone, .contacts__form .popup__form-inputs-message {
+  .contacts__form .popup__form-inputs-day,
+  .contacts__form .popup__form-inputs-hours,
+  .contacts__form .popup__form-inputs-name,
+  .contacts__form .popup__form-inputs-phone,
+  .contacts__form .popup__form-inputs-message {
     font-size: 16px; } }
 @media (max-width: 950px) {
   .header__top.darkpage .header__lower-title {

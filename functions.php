@@ -95,6 +95,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/project.php")) {
         wp_enqueue_script('project', get_template_directory_uri() . '/assets/js/project.js', array('jquery'), 'null', true);
     };
+    if (is_page_template("templates/work.php")) {
+        wp_enqueue_script('work', get_template_directory_uri() . '/assets/js/work.js', array('jquery'), 'null', true);
+    };
 });
 
 
