@@ -98,6 +98,7 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/work.php")) {
         wp_enqueue_script('work', get_template_directory_uri() . '/assets/js/work.js', array('jquery'), 'null', true);
     };
+    wp_enqueue_script('printme', get_template_directory_uri() . '/assets/js/print.min.js', array('jquery'), 'null', true);
 });
 
 
