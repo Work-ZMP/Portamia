@@ -2596,7 +2596,13 @@ html,
     display: initial;
     color: var(--color-accent) !important;
 }
-
+.cfg-price-general-module {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 .cfg-price-general-module .button-group {
     display: flex;
     flex-direction: row;
@@ -2604,7 +2610,23 @@ html,
     justify-content: flex-end;
     margin-right: 10px;
 }
+.cfg-price-general-module .button-manufacture {
+    width: 100%;
+    height: 45px;
+}
+.cfg-price-general-module .button-manufacture > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    max-width: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
 
+}
 .cfg-btn-service {
     position: relative;
     background: var(--col-block-ultra-light);
@@ -3332,7 +3354,8 @@ a {
 
 #popup__get-order .popup__get-call-inner,
 #popup__toemail .popup__toemail-inner,
-#popup__share .popup__share-inner {
+#popup__share .popup__share-inner,
+#popup__manufacture .popup__manufacture-inner {
     display: grid;
     gap: 25px;
     grid-template-columns: 40% 60%;
@@ -3341,7 +3364,8 @@ a {
 
 #popup__get-order .container-door-preview-placeholder,
 #popup__toemail .container-door-preview-placeholder,
-#popup__share .container-door-preview-placeholder {
+#popup__share .container-door-preview-placeholder,
+#popup__manufacture .container-door-preview-placeholder {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
@@ -3349,12 +3373,14 @@ a {
 
 #popup__get-order .container-door-preview-placeholder img,
 #popup__toemail .container-door-preview-placeholder img,
-#popup__share .container-door-preview-placeholder img {
+#popup__share .container-door-preview-placeholder img,
+#popup__manufacture .container-door-preview-placeholder img {
     width: 100%;
 }
 
 #popup__toemail .swiper-slide,
-#popup__share .swiper-slide {
+#popup__share .swiper-slide,
+#popup__manufacture .swiper-slide {
     height: 100% !important;
 }
 
@@ -3375,7 +3401,8 @@ a {
 }
 
 #popup__toemail .popup__toemail-subtitle,
-#popup__share .popup__share-subtitle {
+#popup__share .popup__share-subtitle,
+#popup__manufacture .popup__manufacture-subtitle {
     font-size: 16px;
     font-weight: 600;
     margin-top: 5px;
@@ -3430,7 +3457,8 @@ a {
 
 #popup__get-order .popup__call-form-inputs form>input,
 #popup__toemail .popup__share-btns>form> :first-child,
-#popup__share #popup__share-url {
+#popup__share #popup__share-url,
+#popup__manufacture .popup__share-btns>form> :first-child {
     padding: 5px 15px;
     background: #f0f0f0;
     box-shadow: 0px 0px 0px 2px #d8d8d8;
@@ -3441,7 +3469,8 @@ a {
 }
 
 #popup__get-order .popup__call-form-inputs form>input:focus,
-#popup__toemail .popup__share-btns>form> :first-child:focus {
+#popup__toemail .popup__share-btns>form> :first-child:focus,
+#popup__manufacture .popup__share-btns>form> :first-child:focus {
     box-shadow: 0px 0px 0px 2px #252525;
 }
 
@@ -3451,7 +3480,8 @@ a {
 }
 
 #popup__get-order .popup__checkbox,
-#popup__toemail .popup__share-checkbox {
+#popup__toemail .popup__share-checkbox,
+#popup__manufacture .popup__share-checkbox {
     font-size: 12px;
     display: flex;
     flex-direction: row;
@@ -3462,7 +3492,8 @@ a {
 
 #popup__get-order .popup__call-form-submit.popup__submit,
 #popup__toemail .popup__share-btn-copy,
-#popup__share .popup__share-btn-copy {
+#popup__share .popup__share-btn-copy,
+#popup__manufacture .popup__share-btn-copy {
     border: 2px solid transparent;
     width: 170px;
     height: 30px;
@@ -3480,7 +3511,8 @@ a {
 }
 
 #popup__toemail .popup__share-btn-copy:hover,
-#popup__share .popup__share-btn-copy:hover {
+#popup__share .popup__share-btn-copy:hover,
+#popup__manufacture .popup__share-btn-copy:hover {
     background: transparent;
     color: #252525;
     border: 2px solid #252525;
@@ -3501,7 +3533,8 @@ a {
 
 #popup__get-order .popup__share-cost-old,
 #popup__toemail .popup__share-cost-old,
-#popup__share .popup__share-cost-current {
+#popup__share .popup__share-cost-current,
+#popup__manufacture .popup__share-cost-old {
     text-decoration-line: line-through;
     margin-top: 10px;
     font-size: 14px;
@@ -3515,7 +3548,8 @@ a {
 
 #popup__get-order .popup__share-cost-current,
 #popup__toemail .popup__share-cost-current,
-#popup__share .popup__share-cost-current {
+#popup__share .popup__share-cost-current,
+#popup__manufacture .popup__share-cost-current {
     font-size: 22px;
     font-weight: 600;
     color: #252525;
@@ -3545,7 +3579,8 @@ a {
 }
 
 
-#popup__toemail .popup__toemail-title {
+#popup__toemail .popup__toemail-title,
+#popup__manufacture .popup__manufacture-title {
     text-align: center;
     font-size: 28px;
     font-weight: 600;
@@ -3555,7 +3590,8 @@ a {
 
 #popup__get-order .popup__call-form-subtitle,
 #popup__toemail .popup__toemail-descr,
-#popup__share .popup__share-descr {
+#popup__share .popup__share-descr,
+#popup__manufacture .popup__manufacture-descr {
     font-size: 14px;
     font-weight: 400;
     max-width: 90%;
@@ -3563,22 +3599,26 @@ a {
     margin-bottom: 15px;
 }
 
-#popup__toemail .popup__share-btns>form {
+#popup__toemail .popup__share-btns>form,
+#popup__manufacture .popup__share-btns>form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
-#popup__toemail .popup__toemail-right {
+#popup__toemail .popup__toemail-right,
+#popup__manufacture .popup__manufacture-right {
     padding-right: 25px;
 }
 
-#popup__toemail .popup__share-checkbox {
+#popup__toemail .popup__share-checkbox,
+#popup__manufacture .popup__share-checkbox {
     margin-top: 15px;
 }
 
-#popup__toemail .popup__share-btn-copy {
+#popup__toemail .popup__share-btn-copy,
+#popup__manufacture .popup__share-btn-copy {
     margin-top: 25px;
 }
 
@@ -4364,7 +4404,8 @@ align-items: center;
         margin: 15px -30px;
     }
     #popup__get-order .container-door-preview-placeholder,
-    #popup__toemail .container-door-preview-placeholder {
+    #popup__toemail .container-door-preview-placeholder,
+    #popup__manufacture .container-door-preview-placeholder {
         padding: 0 !important;
     }
     #popup__get-order .vol-contacs>a {
@@ -4411,20 +4452,23 @@ align-items: center;
 
     #popup__get-order .popup__get-call-inner,
     #popup__toemail .popup__toemail-inner,
-    #popup__share .popup__share-inner {
+    #popup__share .popup__share-inner,
+    #popup__manufacture .popup__manufacture-inner {
         grid-template-columns: 1fr !important;
     }
 
     #popup__get-order .container-door-preview-placeholder img,
     #popup__toemail .container-door-preview-placeholder img,
-    #popup__share .container-door-preview-placeholder img {
+    #popup__share .container-door-preview-placeholder img,
+    #popup__manufacture .container-door-preview-placeholder img {
         width: fit-content !important;
         margin: 0 auto;
     }
 
     #popup__get-order .container-door-preview-placeholder,
     #popup__toemail .container-door-preview-placeholder,
-    #popup__share .container-door-preview-placeholder {
+    #popup__share .container-door-preview-placeholder,
+    #popup__manufacture .container-door-preview-placeholder {
         width: fit-content;
         margin: 0 auto;
     }
@@ -4434,21 +4478,27 @@ align-items: center;
     .popup__share-cost-current {
         text-align: center;
     }
-    .popup__toemail-subtitle {
+    .popup__toemail-subtitle,
+    .popup__manufacture-subtitle {
         text-align: center;
     }
-    .popup__toemail-descr {
+    .popup__toemail-descr,
+    .popup__manufacture-descr {
         text-align: center;
         margin: 0 auto;
     }
-    #popup__toemail .popup__share-btns>form {
+    #popup__toemail .popup__share-btns>form,
+    #popup__manufacture .popup__share-btns>form {
         justify-content: center;
     align-items: center;
     }
     #popup__get-order .popup__call-form-title {
         text-align: center;
     }
-    #popup__get-order .popup__call-form-subtitle, #popup__toemail .popup__toemail-descr, #popup__share .popup__share-descr {
+    #popup__get-order .popup__call-form-subtitle, 
+    #popup__toemail .popup__toemail-descr, 
+    #popup__share .popup__share-descr,
+    #popup__manufacture .popup__manufacture-descr {
         text-align: center;
         margin: 0 auto;
         margin-bottom: 15px;

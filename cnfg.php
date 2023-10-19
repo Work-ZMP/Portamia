@@ -4267,6 +4267,9 @@ if (isset($_GET['door_cfg'])) {
                                             <div class="swiper-lazy-preloader"></div>
                                         </button>
                                     </div>
+                                    <div class="button-manufacture">
+                                        <a href="" id="door-cfg-manufacture" data-fancybox data-src="#popup__manufacture" class="cfg-btn-service">отправить на производство</a>
+                                    </div>
                                     <div style="display: none;">
                                         <div id="zoom-buttons-hidden">
                                             <div class="zoom-content"></div>
@@ -4434,13 +4437,67 @@ if (isset($_GET['door_cfg'])) {
                         <div class="popup__share-btns">
                             <form>
                                 <input id="mmls" type="text" name="door_cfg_email" placeholder="Электронная почта">
-                                <input type="hidden" id="ems" value=""/>
+                                <input type="hidden" id="ems" value="" />
                                 <label for="popup__toemail-checkbox" class="popup__share-checkbox">
                                     <input type="checkbox" name="door_cfg_privacy" id="popup__toemail-checkbox">
                                     Я согласен с условиями обработки персональных данных и соглашением о пользовании сайтом
                                 </label>
                                 <!-- <div class="popup__share-btn-copy default-btn">Получить HTML</div> -->
                                 <input id="srtmail" type="submit" name="door_cfg_submit" value="Получить PDF" class="popup__share-btn-copy default-btn">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="popup__share-right">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="popup__manufacture" style="display: none">
+        <div class="popup__manufacture-inner">
+            <div class="popup__share-left">
+                <div class="popup__manufacture-title">
+                    Отправить на почту
+                </div>
+
+                <div class="popup__manufacture-inner">
+                    <div class="popup__manufacture-left">
+                        <div class="slider-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+                            <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-active" style="width: 267px; margin-right: 5px;  height: 414px">
+                                    <div class="container-door-preview">
+                                        <div class="container-door-preview-placeholder">
+                                            <img src="/wp-content/themes/mercato/doors_parts/default/outdoor.png" class="door-preview-outdoor">
+                                            <img src="/wp-content/themes/mercato/doors_parts/default/indoor.png" class="door-preview-indoor">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popup__share-cost-old">96300 ₽</div>
+                        <div class="popup__share-cost-current">89900 ₽</div>
+                    </div>
+                    <div class="popup__manufacture-right">
+                        <div class="popup__manufacture-subtitle">
+                            Отправить спецификацию
+                        </div>
+                        <div class="popup__manufacture-descr">
+                            Введите ваш номер телефона и мы отправим конфигурацию Вашей двери на производство, где Вы сможете заказать ее.
+                        </div>
+                        <div class="popup__share-btns">
+                            <form>
+                                <input type="text" name="door_cfg_phone" placeholder="Номер телефона">
+                                <input type="hidden" id="ems" value="" />
+                                <label for="popup__manufacture-checkbox" class="popup__share-checkbox">
+                                    <input type="checkbox" name="door_cfg_privacy" id="popup__manufacture-checkbox">
+                                    Я согласен с условиями обработки персональных данных и соглашением о пользовании сайтом
+                                </label>
+                                <!-- <div class="popup__share-btn-copy default-btn">Получить HTML</div> -->
+                                <input id="srtmail" type="submit" name="door_cfg_submit" value="Отправить" class="popup__share-btn-copy default-btn">
                             </form>
                         </div>
                     </div>
