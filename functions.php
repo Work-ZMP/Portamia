@@ -67,6 +67,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/projects.php")) {
         wp_enqueue_style('projects', get_template_directory_uri() . '/assets/css/projects.css');
     };
+    if (is_page_template("templates/holding.php")) {
+        wp_enqueue_style('holding', get_template_directory_uri() . '/assets/css/holding.css');
+    };
    
 
     wp_deregister_script('jquery');
@@ -97,6 +100,9 @@ add_action('wp_enqueue_scripts', function () {
     };
     if (is_page_template("templates/work.php")) {
         wp_enqueue_script('work', get_template_directory_uri() . '/assets/js/work.js', array('jquery'), 'null', true);
+    };
+    if (is_page_template("templates/holding.php")) {
+        wp_enqueue_script('holding', get_template_directory_uri() . '/assets/js/holding.js', array('jquery'), 'null', true);
     };
     wp_enqueue_script('printme', get_template_directory_uri() . '/assets/js/print.min.js', array('jquery'), 'null', true);
 });
