@@ -391,3 +391,110 @@
   font-weight: 400;
   line-height: normal;
 }
+
+@media (max-width: 1480px) {
+  .container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 25px;
+  }
+  .header__top.darkpage .header__top-lower {
+    padding-left: 35px;
+  }
+  .default-descr {
+    max-width: 606px;
+  }
+  .advantages__items {
+    width: 100%;
+  }
+  .advantages__item {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .advantages__subtitle {
+    width: 100%;
+  }
+  .advantages__descr {
+    width: 100%;
+  }
+  .conditions__items {
+    width: 100%;
+  }
+  .conditions__descr {
+    margin: 0 auto;
+  }
+  .contacts__descr {
+    margin: 0 auto;
+  }
+  .contacts__items {
+    width: 100%;
+  }
+  .contacts__input .wpcf7-form {
+    width: 100%;
+  }
+  .contacts__input {
+    width: 100%;
+  }
+  .contacts__info {
+    width: 100%;
+  }
+  .contacts__input .popup__form-inputs-date {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header {
+    max-width: 100%;
+  }
+  .header__inner {
+    width: auto;
+  }
+  .header__top.darkpage .header__lower-title {
+    font-size: 48px;
+  }
+  .dealers__section {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .dealers__inner {
+    margin-top: 0;
+  }
+  .default-title {
+    font-size: 43px;
+    padding-top: 40px;
+  }
+  .default-descr {
+    font-size: 22px;
+  }
+  .production__subtitle {
+    font-size: 26px;
+  }
+  .production__item {
+    height: 430px;
+  }
+
+  .production__item img {
+    width: 80%;
+  }
+  .conditions__section {
+    margin-top: 70px;
+  }
+  .contacts__section {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .contacts__items {
+    margin-top: 70px;
+  }
+  .conditions__items {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 800px) {
+  
+}
