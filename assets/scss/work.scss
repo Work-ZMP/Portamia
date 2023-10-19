@@ -405,3 +405,262 @@
   gap: 10px;
   align-items: center;
   margin-left: 20px; }
+
+
+
+
+
+
+
+
+
+  @media (max-width: 1480px) {
+    .container {
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+    .header__top-lower {
+      margin: 0;
+    }
+
+    .header__top.darkpage .header__top-lower {
+      max-width: 1050px;      
+    }
+    .work__subtitle {
+      font-size: 23px;
+      width: 100%;
+    }
+    .work__item-descr {
+      font-size: 19px;
+      width: 100%;
+    }
+    .vacancy__item {
+      width: 100%;
+      padding: 35px 20px;
+    }
+    .vacancy__subtitle {
+      margin-bottom: 20px;
+    }
+    .vacancy__subtitle2 {
+      width: 100%;
+      font-size: 25px;
+    }
+    .vacancy__block {
+      width: 100%;
+      height: 440px;
+      padding: 20px;
+    }
+    .contacts__inner iframe {
+      max-height: 400px;
+    }
+  }
+
+
+
+
+
+
+  @media (max-width: 1280px) {
+    .header {
+      max-width: 100%;
+      margin: 0 30px;
+    }
+    .header__inner {
+      width: auto;
+    }
+    .header__top.darkpage .header__lower-title {
+      font-size: 48px;
+    }
+    .work__section {
+      margin-top: 70px;
+      margin-bottom: 70px;
+    }
+
+    .header__top.darkpage .header__top-lower {
+      padding-left: 30px;
+    }
+    .container {
+      max-width: 900px;
+    }
+    .work__items {
+      gap: 10px;
+      row-gap: 60px;
+      grid-template-columns: 1fr 1fr;
+    }
+    .default-title {
+      font-size: 43px;
+    }
+    .default-descr {
+      font-size: 22px;
+    }
+    
+    .vacancy__items {
+      gap: 15px;
+    }
+    .work__subtitle {
+      margin-top: 15px;
+    }
+    .work__item-descr {
+      font-size: 20px;
+      width: 60%;
+    }
+    .vacancy__block {
+      height: 370px;
+    }
+    .vacancy__subtitle1 {
+      font-size: 14px;
+    }
+    .vacancy__subtitle2 {
+      font-size: 23px;
+    }
+    .vacancy__block-descr {
+      font-size: 20px;
+    }
+    .vacancy-spisok ul {
+      padding-left: 10px;
+    }
+    .spisok {
+      font-size: 16px;
+    }
+    .vacancy__case-btn {
+      padding: 7px 25px;
+    }
+    .vacancy__btn  {
+      font-size: 16px;
+    }
+
+    .contacts__section {
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+    .contacts__inner iframe {
+      max-height: 350px;
+    }
+
+    .contacts__info {
+      max-width: 350px;
+    }
+
+    .subtitle-default {
+      font-size: 25px;
+      text-align: center;
+    }
+    .contacts__element {
+      font-size: 20px;
+    }
+
+    .contacts__form .popup__form-inputs-day, .contacts__form .popup__form-inputs-hours, .contacts__form .popup__form-inputs-name, .contacts__form .popup__form-inputs-phone, .contacts__form .popup__form-inputs-message {
+      font-size: 16px;
+      padding: 8px 25px;
+    }
+  }
+
+
+
+
+
+
+
+
+  @media (max-width: 1024px) {
+    .work__section {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .container {
+      max-width: 690px;
+    }
+    .work__line {
+      margin: 0 auto;
+    }
+    .default-title {
+      font-size: 35px;
+      text-align: center;
+      margin-top: 25px;
+    }
+    .default-descr {
+      font-size: 20px;
+      text-align: center;
+      max-width: 400px;
+      margin-bottom: 50px;
+      margin: 0 auto;
+    }
+    .work__items {
+      gap: 0;
+      row-gap: 35px;
+      justify-items: center;
+      margin-top: 50px;
+    }
+    .work__item {
+      max-width: 225px;
+    }
+    .work__icon {
+      max-width: 120px;
+      max-height: 120px;
+    }
+    .work__item img {
+      width: 70px;
+      height: 70px;
+    }
+    .work__subtitle {
+      font-size: 20px;
+      width: 100%;
+    }
+    .work__item-descr {
+      font-size: 17px;
+      width: 100%;
+    }
+    .vacancy__items {
+      margin-top: 50px;
+    }
+    .swiper {
+      display: none;
+    }
+
+
+
+
+
+
+}
+    
+
+
+
+
+
+  @media (max-width: 800px) {
+
+  }
+
+
+
+
+
+
+
+
+  @media (max-width: 640px) {
+
+  }
+
+
+
+
+
+
+
+  @media (max-width: 480px) {
+
+  }
+
+
+
+
+
+
+
+  @media (max-width: 320px) {
+
+  }

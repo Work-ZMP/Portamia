@@ -66,65 +66,71 @@ Template Name: Работа у нас
             <hr class="vacancy__line default-line">
             <h1 class="vacancy__title default-title">Наши вакансии</h1>
             <p class="vacancy__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
-            <div class="vacancy__items">
-                <div class="vacancy__item item1">
-                    <div class="vacancy__subtitle">
-                        <span class="vacancy__subtitle1">Вакансия</span>
-                        <h2 class="vacancy__subtitle2">Инженер-конструктор дверей</h2>
-                    </div>
-                    <div class="vacancy__block block1">
-                        <h3 class="vacancy__block-descr">Обязанности:</h3>
-                        <div class="vacancy-spisok">
-                            <ul>
-                                <li class="spisok">Разработка и проектирование новых моделей дверей.</li>
-                                <li class="spisok">Создание технической документации и чертежей.</li>
-                                <li class="spisok">Тестирование и оптимизация дизайнов с учетом требований к прочности и эстетике.</li>
-                            </ul>
+
+            <div class="vacancy__items swiper">
+                <div class="swiper-wrapper">
+                    <div class="vacancy__item item1 swiper-slide">
+                        <div class="vacancy__subtitle">
+                            <span class="vacancy__subtitle1">Вакансия</span>
+                            <h2 class="vacancy__subtitle2">Инженер-конструктор дверей</h2>
                         </div>
-                    </div>
-                    <a href="https://orenburg.hh.ru/employer/4752978?customDomain=1" target="_blank" class="vacancy__case-btn">
-                        <div class="vacancy__btn">подробнее</div>
-                    </a>
-                </div>
-                <div class="vacancy__item item2">
-                    <div class="vacancy__subtitle">
-                        <span class="vacancy__subtitle1">Вакансия</span>
-                        <h2 class="vacancy__subtitle2">Менеджер по продажам</h2>
-                    </div>
-                    <div class="vacancy__block block2">
-                        <h3 class="vacancy__block-descr">Обязанности:</h3>
-                        <div class="vacancy-spisok">
-                            <ul>
-                                <li class="spisok">Поиск новых клиентов и партнеров.</li>
-                                <li class="spisok">Консультирование клиентов по характеристикам продукции.</li>
-                                <li class="spisok">Управление отношениями с клиентами, поддержка послепродажного обслуживания.</li>
-                            </ul>
+                        <div class="vacancy__block block1">
+                            <h3 class="vacancy__block-descr">Обязанности:</h3>
+                            <div class="vacancy-spisok">
+                                <ul>
+                                    <li class="spisok">Разработка и проектирование новых моделей дверей.</li>
+                                    <li class="spisok">Создание технической документации и чертежей.</li>
+                                    <li class="spisok">Тестирование и оптимизация дизайнов с учетом требований к прочности и эстетике.</li>
+                                </ul>
+                            </div>
                         </div>
+                        <a href="https://orenburg.hh.ru/employer/4752978?customDomain=1" target="_blank" class="vacancy__case-btn">
+                            <div class="vacancy__btn">подробнее</div>
+                        </a>
                     </div>
-                    <a href="https://orenburg.hh.ru/employer/4752978?customDomain=1" target="_blank" class="vacancy__case-btn">
-                        <div class="vacancy__btn">подробнее</div>
-                    </a>
-                </div>
-                <div class="vacancy__item item3">
-                    <div class="vacancy__subtitle">
-                        <span class="vacancy__subtitle1">Вакансия</span>
-                        <h2 class="vacancy__subtitle2">Технолог по производству дверей</h2>
-                    </div>
-                    <div class="vacancy__block block3">
-                        <h3 class="vacancy__block-descr">Обязанности:</h3>
-                        <div class="vacancy-spisok">
-                            <ul>
-                                <li class="spisok">Организация и контроль технологического процесса производства дверей.</li>
-                                <li class="spisok">Настройка оборудования и контроль качества выпускаемой продукции.</li>
-                                <li class="spisok">Разработка и внедрение улучшений в производственные процессы.</li>
-                            </ul>
+                    <div class="vacancy__item item2 swiper-slide">
+                        <div class="vacancy__subtitle">
+                            <span class="vacancy__subtitle1">Вакансия</span>
+                            <h2 class="vacancy__subtitle2">Менеджер по продажам</h2>
                         </div>
+                        <div class="vacancy__block block2">
+                            <h3 class="vacancy__block-descr">Обязанности:</h3>
+                            <div class="vacancy-spisok">
+                                <ul>
+                                    <li class="spisok">Поиск новых клиентов и партнеров.</li>
+                                    <li class="spisok">Консультирование клиентов по характеристикам продукции.</li>
+                                    <li class="spisok">Управление отношениями с клиентами, поддержка послепродажного обслуживания.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="https://orenburg.hh.ru/employer/4752978?customDomain=1" target="_blank" class="vacancy__case-btn">
+                            <div class="vacancy__btn">подробнее</div>
+                        </a>
                     </div>
-                    <a href="https://orenburg.hh.ru/employer/4752978?customDomain=1" target="_blank" class="vacancy__case-btn">
-                        <div class="vacancy__btn">подробнее</div>
-                    </a>
+                    <div class="vacancy__item item3 swiper-slide">
+                        <div class="vacancy__subtitle">
+                            <span class="vacancy__subtitle1">Вакансия</span>
+                            <h2 class="vacancy__subtitle2">Технолог по производству дверей</h2>
+                        </div>
+                        <div class="vacancy__block block3">
+                            <h3 class="vacancy__block-descr">Обязанности:</h3>
+                            <div class="vacancy-spisok">
+                                <ul>
+                                    <li class="spisok">Организация и контроль технологического процесса производства дверей.</li>
+                                    <li class="spisok">Настройка оборудования и контроль качества выпускаемой продукции.</li>
+                                    <li class="spisok">Разработка и внедрение улучшений в производственные процессы.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="https://orenburg.hh.ru/employer/4752978?customDomain=1" target="_blank" class="vacancy__case-btn">
+                            <div class="vacancy__btn">подробнее</div>
+                        </a>
+                    </div>
                 </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
+
         </div>
     </div>
 </section>
@@ -146,12 +152,12 @@ Template Name: Работа у нас
             <hr class="contacts__line default-line">
             <h1 class="contacts__title default-title">Контакты</h1>
             <p class="contacts__descr default-descr">Наши металлические двери – надежная защита для <br> вашего дома или офиса.</p>
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A231ff4fe348d2d6bdda7453c7b86ea0d7a5f1f2c03a6ef949a30e7edf8f04539&amp;source=constructor" width="1244" height="500" frameborder="0"></iframe>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A231ff4fe348d2d6bdda7453c7b86ea0d7a5f1f2c03a6ef949a30e7edf8f04539&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>
 
             <div class="contacts__items">
                 <div class="contacts__form">
-                <div class="contacts__subtitle2 subtitle-default">Оставьте заявку на звонок</div>
-                    <?php echo do_shortcode('[contact-form-7 id="9a6ba36" title="Оставить заявку на звонок (работа)"]') ?>
+                    <div class="contacts__subtitle2 subtitle-default">Оставьте заявку на звонок</div>
+                    <?php echo do_shortcode('[contact-form-7 id="e303fd6" title="Контактная форма 1"]') ?>
                 </div>
                 <div class="contacts__info">
                     <h3 class="contacts__subtitle2 subtitle-default">Контакты</h3>
@@ -172,7 +178,7 @@ Template Name: Работа у нас
                             <div class="contacts__icon">
                                 <img src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon4.svg" alt="">
                                 <span class="contacts__element contacts-location">Оренбург. пер. Тупой, 55</span>
-                            </div>                           
+                            </div>
                         </div>
                     </div>
                 </div>
