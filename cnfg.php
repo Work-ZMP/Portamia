@@ -4458,10 +4458,10 @@ if (isset($_GET['door_cfg'])) {
 
 
     <div id="popup__manufacture" style="display: none">
-        <div class="popup__manufacture-inner">
+        <div class="popup__share-inner">
             <div class="popup__share-left">
                 <div class="popup__manufacture-title">
-                    Отправить на почту
+                    Отправить на производство
                 </div>
 
                 <div class="popup__manufacture-inner">
