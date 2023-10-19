@@ -53,7 +53,7 @@
 }
 
 .contacts__info {
-  width: 400px;
+  width: 100%;
   background: #343434;
   padding: 45px 30px;
 }
@@ -221,7 +221,7 @@
   }
 
   .contacts__inner iframe {
-    max-width: 1050px;
+    max-width: 100%;
     max-height: 350px;
   }
 
@@ -273,7 +273,7 @@
   }
 
   .contacts__inner iframe {
-    max-width: 900px;
+    max-width: 100%;
     max-height: 300px;
   }
 
@@ -309,13 +309,13 @@
   }
 
   .contacts__inner iframe {
-    max-width: 718px;
+    max-width: 100%;
     max-height: 270px;
   }
 
   .contacts__info {
     padding: 45px 0px;
-    max-width: 220px;
+    max-width: 100%;
   }
 
   .subtitle-default {
@@ -362,22 +362,21 @@
     margin-top: 25px;
   }
   .contacts__inner iframe {
-    max-width: 590px;
+    max-width: 100%;
     max-height: 240px;
   }
   .contacts__items {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
   .subtitle-default {
     font-size: 20px;
   }
   .contacts__form {
-    max-width: 590px;
+    max-width: 100%;
   }
   .contacts__info {
-    max-width: 590px;
+    max-width: 100%;
     max-height: 280px;
   }
   .contacts__element {
@@ -406,23 +405,23 @@
   }
 
   .contacts__inner iframe {
-    max-width: 440px;
+    max-width: 100%;
     max-height: 210px;
   }
   .contacts__form {
-    max-width: 440px;
+    max-width: 100%;
   }
   .subtitle-default {
     font-size: 18px;
   }
   .contacts__info {
-    max-width: 440px;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 480px) {
   .contacts__inner iframe {
-    max-width: 280px;
+    max-width: 100%;
     max-height: 180px;
   }
   .default-descr {
@@ -436,10 +435,10 @@
     font-size: 35px;
   }
   .contacts__form {
-    max-width: 280px;
+    max-width: 100%;
   }
   .contacts__info {
-    max-width: 280px;
+    max-width: 100%;
   }
   .contacts__icon {
     margin-left: 15px;

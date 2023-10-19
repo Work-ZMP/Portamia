@@ -67,9 +67,9 @@ Template Name: Работа у нас
             <h1 class="vacancy__title default-title">Наши вакансии</h1>
             <p class="vacancy__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
 
-            <div class="vacancy__items swiper">
-                <div class="swiper-wrapper">
-                    <div class="vacancy__item item1 swiper-slide">
+            <div class="vacancy__items">
+                <!-- <div class="swiper-wrapper"> -->
+                    <div class="vacancy__item item1">
                         <div class="vacancy__subtitle">
                             <span class="vacancy__subtitle1">Вакансия</span>
                             <h2 class="vacancy__subtitle2">Инженер-конструктор дверей</h2>
@@ -88,7 +88,7 @@ Template Name: Работа у нас
                             <div class="vacancy__btn">подробнее</div>
                         </a>
                     </div>
-                    <div class="vacancy__item item2 swiper-slide">
+                    <div class="vacancy__item item2">
                         <div class="vacancy__subtitle">
                             <span class="vacancy__subtitle1">Вакансия</span>
                             <h2 class="vacancy__subtitle2">Менеджер по продажам</h2>
@@ -107,7 +107,7 @@ Template Name: Работа у нас
                             <div class="vacancy__btn">подробнее</div>
                         </a>
                     </div>
-                    <div class="vacancy__item item3 swiper-slide">
+                    <div class="vacancy__item item3">
                         <div class="vacancy__subtitle">
                             <span class="vacancy__subtitle1">Вакансия</span>
                             <h2 class="vacancy__subtitle2">Технолог по производству дверей</h2>
@@ -126,9 +126,9 @@ Template Name: Работа у нас
                             <div class="vacancy__btn">подробнее</div>
                         </a>
                     </div>
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <!-- </div> -->
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
             </div>
 
         </div>
