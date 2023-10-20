@@ -12,7 +12,7 @@ Template Name: Дилерам
 <section class="dealers__section">
     <div class="container">
         <div class="dealers__inner">
-            <div>
+            <div class="dealers__items">
                 <hr class="line line-default">
                 <h2 class="dealers__title default-title">Партнерство с нами</h2>
                 <p class="dealers__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
@@ -55,7 +55,7 @@ Template Name: Дилерам
                     <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/garage_doors.svg" alt="">
                 </a>
                 <a href="<?php echo get_permalink(7); ?>" class="production__item item6">
-                    <h3 class="production__subtitle">Другие двери</h3>
+                    <h3 class="production__subtitle subtitle5">Другие двери</h3>
                     <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/other_doors.svg" alt="">
                 </a>
             </div>

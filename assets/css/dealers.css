@@ -689,5 +689,161 @@
 }
 
 @media (max-width: 800px) {
-  
+  .header__top.darkpage .header__top-lower {
+    align-items: center;
+    padding-left: 0;
+  }
+  .header__top.darkpage .header__lower-text {
+    align-items: center;
 }
+.header__top.darkpage .header__lower-title {
+  font-size: 45px;
+}
+.line-default {
+  width: 100px;
+  margin: 0 auto;
+}
+.dealers__section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.dealers__inner {
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.dealers__items {  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    align-items: center;
+    text-align: center;
+}
+.default-title {
+  font-style: 30px;
+  width: 70%;
+  margin: 0 auto;
+}
+.default-descr {
+  text-align: center;
+  font-size: 20px;
+}
+.dealers-img img {
+  display: block;
+  margin: 0 auto;
+}
+.production__section {
+  margin-top: 40px;
+}
+.production__items {
+  gap: 25px;
+}
+.production__subtitle {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.subtitle5 {
+  max-width: 38%;
+}
+.production__item img {
+  width: 75%;
+}
+.item1 {
+  grid-column: 1/3;
+}
+.item2 {
+  grid-column: 3/5;
+}
+.item3 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+.item4 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+.item6 {
+  grid-column: 3/5;
+  grid-row: 3/4;
+}
+.item5 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+.contacts__items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.subtitle-default {
+  font-size: 20px;
+}
+.contacts__form {
+  max-width: 100%;
+}
+.contacts__info {
+  max-width: 100%;
+  max-height: 510px;
+}
+.contacts__element {
+  font-size: 15px;
+  margin-right: 45px;
+}
+.contacts__block {
+  justify-content: center;
+  align-items: center;
+}
+.contacts__inner iframe {
+  margin-top: 0;
+  max-width: 100%;
+}
+}
+
+
+
+
+@media (max-width: 640px) {
+  .header__top.darkpage .header__lower-title {
+    font-size: 38px;
+  }
+  .advantages__items {
+    grid-template-columns: 1fr;
+  }
+  .advantages__subtitle {
+    width: 75%;
+  }
+  .advantages__descr {
+    width: 84%;
+  }
+  .default-title {
+    font-size: 26px;
+    width: 100%;
+  }
+  .default-descr {
+    width: 100%;
+    font-size: 19px;
+  }
+  .production__subtitle {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.production__items {
+  gap: 15px;
+}
+.production__item {
+  height: 220px;
+}
+.production__item img {
+  width: 85%;
+}
+.contacts__input .wpcf7-form {
+  padding: 15px;
+  gap: 15px;
+}
+.contacts__input .popup__form-inputs-day, .contacts__input .popup__form-inputs-hours, .contacts__input .popup__form-inputs-name, .contacts__input .popup__form-inputs-phone, .contacts__input .popup__form-inputs-message {
+  font-size: 13px;
+  padding: 5px 12px;
+}
+}
+
