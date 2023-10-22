@@ -16,16 +16,16 @@ Template Name: Холдинг
             <div class="holding__block">
                 <div class="holding__left">
                     <div class="holding__btns">
-                        <a href="" class="holding__btn link-portamia">
+                        <a class="holding__btn link-portamia active">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/holding/holding-logo-portamia.svg" alt="">
                         </a>
-                        <a href="" class="holding__btn link-leyenda">
+                        <a class="holding__btn link-leyenda">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/holding/holding-logo-leyenda.svg" alt="">
                         </a>
-                        <a href="" class="holding__btn link-zmp">
+                        <a class="holding__btn link-zmp">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/holding/holding-logo-zmp.svg" alt="">
                         </a>
-                        <a href="" class="holding__btn link-mercato">
+                        <a class="holding__btn link-mercato">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/holding/holding-logo-mercato.svg" alt="">
                         </a>
                     </div>
