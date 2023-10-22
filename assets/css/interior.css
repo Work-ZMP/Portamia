@@ -1509,3 +1509,155 @@
     max-width: 500px;
   }
 }
+
+
+
+@media (max-width: 1280px) {
+  .container {
+    width: 100%;
+    padding: 0 25px;
+  }
+  .advantages__line {
+    margin: 70px auto 40px auto;
+  }
+  .popular__line {
+    margin: 70px auto 40px auto;
+  }
+  .popular__line.line-long {
+    margin: 70px auto 40px auto;
+  }
+  .why__line {
+    margin: 70px auto 40px auto;
+  }
+  .why__descr {
+    margin-bottom: 70px;
+  }
+  .mdf__section {
+    height: 700px;
+  }
+  .furniture__section {
+    height: 750px;
+  }
+  .sizes__descr {
+    width: 100%;
+  }
+  .catalogue__line {
+    margin: 70px auto 40px auto;
+  }
+  .catalogue__line.long-line {
+    margin: 70px auto 40px auto;
+  }
+  .popular__item {   
+      width: 280px;
+      margin-right: 18px;
+  
+  }
+  
+}
+
+
+@media (max-width: 1024px) {
+  .advantages__line {
+    margin: 50px auto 30px auto;
+  }
+  .popular__line {
+    margin: 50px auto 30px auto;
+  }
+  .popular__item {
+    margin-right: 20px;
+    padding: 20px;
+    width: 210px;
+    height: 420px;
+  }
+  .popular__item-top {
+    width: 120px;
+    height: 260px;
+  }
+  .popular__item-top-cover {
+    bottom: 55px;
+    left: 105px;
+    font-size: 45px;
+}
+  .popular__item-title {
+    margin-bottom: 15px;
+  }
+  .popular__line.line-long {
+    margin: 50px auto 30px auto;
+    width: 500px;
+  }
+  .why__line {
+    margin: 50px auto 30px auto;
+  }
+  .why__descr {
+    margin-bottom: 50px;
+  }
+  .mdf__section {
+    height: 650px;
+  }
+  .furniture__section {
+    height: 600px;
+  }
+  .sizes__descr {
+    width: 80%;
+  }
+  .sizes__section.scrolled .sizes__img-1 {
+    left: calc(50% - 25px);
+  }
+  .sizes__section.scrolled .sizes__img-2 {
+    left: calc(50% + 70px);
+  }
+  .sizes__section.scrolled .sizes__img-3 {
+  left: calc(50% - 115px);
+  }
+
+  .catalogue__line {
+    margin: 50px auto 30px auto;
+  }
+  .catalogue__item {
+    height: 420px;
+    padding: 20px;
+  }
+  .catalogue__item-top {
+    width: 140px;
+    height: 270px;
+}
+.catalogue__item-top-cover {
+  bottom: 45px;  
+  font-size: 45px;
+}
+.catalogue__item-title {
+  font-size: 20px;
+}
+  .catalogue__line.long-line {
+    margin: 50px auto 30px auto;
+    max-width: 500px;
+  }
+  .advantages__title,
+  .popular__title,
+  .banner__title,
+  .why__title,
+  .mdf__title,
+  .furniture__title,
+  .sizes__title,
+  .banner__title,
+  .catalogue__title,
+  .reviews__title {
+    font-size: 35px !important;
+  }
+  .mdf__descr {
+    width: 70%;
+  }
+  .banner__btn,
+  .furniture__btn,
+  .reviews__btn {
+    font-size: 16px;
+    padding: 8px 25px;
+  }
+}
+
+
+
+
+@media (max-width: 800px) {
+
+}
