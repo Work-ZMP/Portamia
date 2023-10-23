@@ -136,7 +136,7 @@
 }
 
 .vacancy__subtitle1 {
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-size: 16px;
   font-style: normal;
@@ -145,7 +145,7 @@
 }
 
 .vacancy__subtitle2 {
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-size: 28px;
   font-style: normal;
@@ -162,7 +162,7 @@
 }
 
 .vacancy__block-descr {
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-size: 24px;
   font-style: normal;
@@ -200,7 +200,7 @@
 }
 
 .vacancy__btn {
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -260,7 +260,7 @@
 }
 
 .subtitle-default {
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-size: 28px;
   font-style: normal;
@@ -281,7 +281,7 @@
 }
 
 .contacts__element {
-  color: #FFF;
+  color: #fff;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
   font-size: 22px;
@@ -296,7 +296,7 @@
 
 .footer__hr {
   width: 1728px;
-  background: #ABABAB;
+  background: #ababab;
   margin-top: 100px;
 }
 
@@ -447,6 +447,7 @@
   }
   .container {
     max-width: 900px;
+    padding: 0 25px;
   }
   .work__items {
     gap: 10px;
@@ -510,7 +511,11 @@
   .contacts__element {
     font-size: 20px;
   }
-  .contacts__form .popup__form-inputs-day, .contacts__form .popup__form-inputs-hours, .contacts__form .popup__form-inputs-name, .contacts__form .popup__form-inputs-phone, .contacts__form .popup__form-inputs-message {
+  .contacts__form .popup__form-inputs-day,
+  .contacts__form .popup__form-inputs-hours,
+  .contacts__form .popup__form-inputs-name,
+  .contacts__form .popup__form-inputs-phone,
+  .contacts__form .popup__form-inputs-message {
     font-size: 16px;
     padding: 8px 25px;
   }
@@ -578,7 +583,7 @@
   }
   .contacts__info {
     max-width: 100%;
-    padding: 25px 30px;
+    padding: 25px 15px;
   }
   .contacts__form {
     padding: 25px 30px;
@@ -671,7 +676,7 @@
   }
   .contacts__element {
     font-size: 15px;
-    margin-right: 45px;
+    margin-right: 25px;
   }
   .contacts__block {
     justify-content: center;
@@ -695,16 +700,25 @@
   }
   .default-title {
     font-size: 25px;
+    margin-bottom: 15px;
   }
   .default-descr {
-    font-size: 18px;
+    font-size: 16px;
     max-width: 270px;
+  }
+  .work__section {
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
   .work__items {
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    row-gap: 50px;
+  }
+  .work__item-descr {
+    width: 90%;
   }
   .work__icon {
     max-width: 110px;
@@ -714,6 +728,9 @@
     width: 50px;
     height: 50px;
   }
+  .vacancy__subtitle {
+    height: 80px;
+  }
   .vacancy__subtitle1 {
     font-size: 16px;
   }
@@ -721,23 +738,29 @@
     font-size: 20px;
   }
   .vacancy__block-descr {
-    font-size: 17px;
+    font-size: 18px;
   }
   .vacancy__item {
     padding: 20px 10px;
+    align-items: center;
   }
   .vacancy__block {
-    padding: 20px;
+    width: 90%;
+    padding: 30px;
     margin-top: 0;
   }
   .spisok {
-    font-size: 15px;
+    font-size: 16px;
   }
   .vacancy__case-btn {
     width: 40%;
   }
   .vacancy__btn {
     font-size: 13px;
+  }
+  .contacts__section {
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
   .contacts__inner iframe {
     margin-top: 20px;
@@ -746,14 +769,30 @@
   .contacts__element {
     font-size: 14px;
   }
-  .contacts__form .popup__form-inputs-day, .contacts__form .popup__form-inputs-hours, .contacts__form .popup__form-inputs-name, .contacts__form .popup__form-inputs-phone, .contacts__form .popup__form-inputs-message {
+  .contacts__form .popup__form-inputs-day,
+  .contacts__form .popup__form-inputs-hours,
+  .contacts__form .popup__form-inputs-name,
+  .contacts__form .popup__form-inputs-phone,
+  .contacts__form .popup__form-inputs-message {
     font-size: 13px;
     padding: 3px 4px;
+  }
+  .contacts__form .popup__form-inputs-date {
+    gap: 15px;
+  }
+  .popup__form-inputs-date {
+    grid-template-columns: 1fr;
+  }
+  .contacts__form .wpcf7-form {
+    gap: 20px;
   }
   .popup__call-form-submit {
     width: 150px;
     height: 30px;
     font-size: 13px;
+  }
+  .wpcf7-form :nth-child(6) {
+    margin-top: 4px;
   }
 }
 @media (max-width: 320px) {
