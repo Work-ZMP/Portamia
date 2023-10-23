@@ -1,10 +1,57 @@
 .holding__section {
   height: 100vh;
   width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.holding__section .holding__back {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.holding__section .holding__back-img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
   background: url(../img/holding/cover-portamia.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  object-fit: cover;
+}
+.holding__section .holding__overlay {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.8s linear;
+  opacity: 0;
+}
+.holding__section .holding__overlay-img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../img/holding/cover-zmp.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.holding__section .holding__overlay.active {
+  width: 3000px;
+  height: 3000px;
+  opacity: 1;
 }
 .holding__section .container {
   height: 100%;
@@ -36,6 +83,12 @@
   justify-content: center;
   align-items: center;
   gap: 25px;
+  transition: all 0.3s ease-out;
+}
+.holding__section .holding__btns.load {
+  pointer-events: none;
+  opacity: 0.5;
+  filter: blur(1px);
 }
 .holding__section .holding__btn {
   width: 220px;
