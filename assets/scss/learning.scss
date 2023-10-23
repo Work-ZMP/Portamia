@@ -116,9 +116,151 @@ p {
         background-color: red;
     }
 }
-
 @include silly-links;
 
+// Аргументы в миксинах
+@mixin sexy-border($color, $width: 1in) {
+    border: {
+        color: $color;
+        width: $width;
+        style: dashed;
+    }
+}
+p {
+    @include sexy-border(blue);
+}
+h1 {
+    @include sexy-border(blue, 2in);
+}
+//либо
+h1 {
+    @include sexy-border($color: blue, $width: 2in);
+}
 
+// Переменные в аргументах
+@mixin box-shadow($shadows...) {
+    -moz-box-shadow: $shadows;
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+.shadows {
+    @include box-shadow(0px 4px 5px #666, 2px 6px 10px #999);
+}
 
+// Блоки контента в миксинах
+@mixin apply-to-ie6-only {
+    * html {
+        @content;
+    }
+}
+@include apply-to-ie6-only {
+    #logo {
+        background-image: url(/logo.gif);
+    }
+}
+
+$color: white;
+@mixin colors($color: blue) {
+    background-color: $color;
+    @content;
+    border-color: $color;
+}
+.colors {
+    @include colors {
+        color: $color;
+    }
+}
 // 2. РАСШИРЕННЫЕ ВОЗМОЖНОСТИ SCSS
+
+// Наследование (@extend)
+.error {
+    border: 1px #f00;
+    background-color: #fdd;
+}
+.seriousError {
+    @extend .error;
+    border-width: 3px;
+}
+
+.hoverlink {
+    @extend a:hover;
+}
+
+.comment a.user:hover {
+    font-weight: bold;
+}
+
+//множественные расширения
+.error {
+    border: 1px #f00;
+    background-color: #fdd;
+}
+.attention {
+    font-size: 3em;
+    background-color: #ff0;
+}
+.seriousError {
+    @extend .error;
+    @extend .attention;
+    border-width: 3px;
+}
+
+//цепные расширения
+.error {
+    border: 1px #f00;
+    background-color: #fdd;
+}
+.seriousError {
+    @extend .error;
+    border-width: 3px;
+}
+.criticalError {
+    @extend .seriousError;
+    position: fixed;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+}
+
+// Функции
+$grid-width: 40px;
+$gutter-width: 10px;
+
+@function grid-width($n) {
+    @return $n * $grid-width + ($n - 1) * $gutter-width;
+}
+
+#sidebar {
+    width: grid-width(5);
+}
+// или
+#sidebar {
+    width: grid-width($n: 5);
+}
+
+// Анимация
+$animation-duration: 2s;
+
+@keyframes colorChange {
+    0% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
+.element {
+    width: 100px;
+    height: 100px;
+    animation: colorChange $animation-duration infinite;
+}
+
+// Медиазапросы
+$breakpoint: 768px;
+@media (max-width: $breakpoint) {
+    // Ваши стили для маленьких экранов
+    .container {
+        width: 100%;
+    }
+}
