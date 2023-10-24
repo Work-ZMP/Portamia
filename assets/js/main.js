@@ -133,7 +133,17 @@ $(function () {
     };
     if (document.querySelector(".interior-page .popular__items")) {
         var swiperCottage = new Swiper(".interior-page .popular__items", {
-            slidesPerView: "3",
+            slidesPerView: "1",
+            breakpoints: {
+                640: {
+                    slidesPerView: "2",
+                    spaceBetween: 20,
+                }, 
+                800: {
+                    slidesPerView: "3",
+                    spaceBetween: 30,
+                },                              
+            },
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -143,8 +153,11 @@ $(function () {
                 onlyInViewport: false
             },
             loop: true,
-            spaceBetween: 30,
+            // spaceBetween: 30,
         });
+        window.addEventListener('resize', function () {
+            swiperCottage.update(); // Обновляем Swiper
+          });
 
     };
     if (document.querySelector(".partitions-page .popular__items")) {
