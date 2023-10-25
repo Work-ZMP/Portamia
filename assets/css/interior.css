@@ -2074,7 +2074,29 @@
   }
 }
 
+/* @media (max-width: 350px) {
+.header__slide-title {
+  font-size: 30px !important;
+  max-width: 250px;
+}
+} */
+
+
 @media (max-width: 480px) {
+  .header__slide-title {
+    font-size: 28px !important;
+  }
+  .header__slide-text {
+    margin-top: 210px !important;
+  }
+  .header__slide-descr {
+    margin-bottom: 20px !important;
+  }
+  .header__slide-btn {
+    width: 124px;
+    height: 23px;
+    font-size: 13px;
+}
   .advantages__title, 
   .popular__title, 
   .banner__title, 

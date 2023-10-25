@@ -1372,14 +1372,11 @@
 }
 
 @media (max-width: 1480px) {
-  .reviews__title {
-    font-size: 38px !important;
+  .container {
+    width: 100%;
+    padding: 0 25px;
   }
-
-  .reviews__descr {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 50px;
-    max-width: 500px;
-  }
+  .advantages__title {
+    font-size: 35px !important;
+}
 }
