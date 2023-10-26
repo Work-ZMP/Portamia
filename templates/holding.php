@@ -11,6 +11,12 @@ Template Name: Холдинг
 
 
 <section class="holding__section">
+    <div class="holding__back">
+        <img src="" alt="" class="holding__back-img">
+    </div>
+    <div class="holding__overlay">
+        <img src="" alt="" class="holding__overlay-img">
+    </div>
     <div class="container">
         <div class="holding__inner">
             <div class="holding__block">
