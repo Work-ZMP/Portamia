@@ -3667,11 +3667,13 @@ function edit_appl_func()
 }
 
 
-
 function create_appl_func()
 {
 
+    $file = $_POST['file'];
+    $mls = $_POST['mls'];
     $uid = $_POST['uid'];
+    
     $da_d = date('d');
     $da_m = date('m');
     $da_y = date('Y');
@@ -3690,6 +3692,8 @@ function create_appl_func()
 
     $post_id = wp_insert_post($post_data, true);
     update_post_meta($post_id, 'p1', $uid);
+    update_post_meta($post_id, 'utel', $mls);
+    update_post_meta($post_id, 'ufile', $file);
 
     $text = $uid;
 
