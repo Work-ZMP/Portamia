@@ -125,7 +125,7 @@ Template Name: Межкомнатные двери
 <section class="banner__section zamer-section">
     <div class="container">
         <div class="banner__inner">
-            <h2 class="banner__title">Оставьте заявку на бесплатный замер</h1>
+            <h2 class="banner__title banner-application">Оставьте заявку на бесплатный замер</h1>
                 <p class="banner__descr">Заполните форму и наш менеджер свяжется с вами, чтобы обсудить детали</p>
                 <a data-fancybox data-src="#popup__form" class="banner__btn">заказать замер</a>
         </div>
@@ -196,7 +196,7 @@ Template Name: Межкомнатные двери
 <section class="banner__section zamer-section">
     <div class="container">
         <div class="banner__inner">
-            <h2 class="banner__title">Оставьте заявку на бесплатный замер</h1>
+            <h2 class="banner__title banner-application">Оставьте заявку на бесплатный замер</h1>
                 <p class="banner__descr">Заполните форму и наш менеджер свяжется с вами, чтобы обсудить детали</p>
                 <a data-fancybox data-src="#popup__form" class="banner__btn">заказать замер</a>
         </div>
