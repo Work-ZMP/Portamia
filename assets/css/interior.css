@@ -1560,6 +1560,9 @@
 }
 
 @media (max-width: 1024px) {
+  .header__slide-title {
+    font-size: 45px !important;
+  }
   .header__slide-btn {
     width: 170px;
     height: 30px;
@@ -1720,7 +1723,7 @@
 
 @media (max-width: 800px) {
   .header__slide-title {
-    font-size: 45px;
+    font-size: 40px !important;
   }
   .advantages__title,
   .popular__title,
