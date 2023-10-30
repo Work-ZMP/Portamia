@@ -4490,14 +4490,14 @@ if (isset($_GET['door_cfg'])) {
                         </div>
                         <div class="popup__share-btns">
                             <form>
-                                <input type="text" name="door_cfg_phone" placeholder="Номер телефона">
-                                <input type="hidden" id="ems" value="" />
-                                <label for="popup__manufacture-checkbox" class="popup__share-checkbox">
+                                <input type="text" id="pwt" name="door_cfg_phone" placeholder="Номер телефона">
+                                 <label for="popup__manufacture-checkbox" class="popup__share-checkbox">
                                     <input type="checkbox" name="door_cfg_privacy" id="popup__manufacture-checkbox">
                                     Я согласен с условиями обработки персональных данных и соглашением о пользовании сайтом
                                 </label>
                                 <!-- <div class="popup__share-btn-copy default-btn">Получить HTML</div> -->
-                                <input id="srtmail" type="submit" name="door_cfg_submit" value="Отправить" class="popup__share-btn-copy default-btn">
+                                <input type="hidden" id="fsit" value=""/>
+                                <input id="srtmail1" type="submit" name="door_cfg_submit" value="Отправить" class="popup__share-btn-copy default-btn">
                             </form>
                         </div>
                     </div>

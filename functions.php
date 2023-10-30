@@ -3667,6 +3667,7 @@ function edit_appl_func()
 }
 
 
+
 function create_appl_func()
 {
 
@@ -3677,8 +3678,13 @@ function create_appl_func()
     $da_d = date('d');
     $da_m = date('m');
     $da_y = date('Y');
+    
+    $da_h = date('H');
+    $da_min = date('m');
+    
     $name = 'Заявка от ';
-    $postdate = $da_y . '-' . $da_m . '-' . $da_d . ' 00:00:00';
+    
+    $postdate = $da_y . '-' . $da_m . '-' . $da_d . ' '.$da_h.':'.$da_min.':00';
 
     $post_data = array(
         'post_title'    =>  sanitize_text_field($name . $postdate),
