@@ -820,6 +820,9 @@
 }
 
 @media (max-width: 350px) {
+  .furniture__section {
+    max-height: 500px;
+  }
   .furniture__title {
     font-size: 26px !important;
   }
@@ -839,7 +842,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 10px;
 }
 
 .exclusive__top,
@@ -1488,7 +1491,7 @@
 
 @media (max-width: 450px) {
   .trust__section {
-    height: 450px;
+    height: 450px !important;
   }
   .trust__text {
     margin-bottom: 15px;
