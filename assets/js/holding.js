@@ -13,6 +13,7 @@ function holdingBtn() {
 
         let title = document.querySelector('.holding__title');
         let subtitle = document.querySelector('.holding__subtitle');
+        let subtitleBig = document.querySelector('.holding__subtitleBig');
         let descr = document.querySelector('.holding__descr');
         let link = document.querySelector('.holding__link');
 
