@@ -122,11 +122,14 @@ $(function () {
                 640: {
                     slidesPerView: "2",
                     spaceBetween: 20,
+                    loop: true,
                 }, 
                 800: {
                     slidesPerView: "3",
                     spaceBetween: 30,
-                },  
+                    loop: true,
+                }
+                }    ,  
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -135,13 +138,12 @@ $(function () {
                 enabled: true,
                 onlyInViewport: false
             },
-            loop: true,
-            
-        }});
+            loop: true,            
+        });
 
     };
     if (document.querySelector(".interior-page .popular__items")) {
-        var swiperCottage = new Swiper(".interior-page .popular__items", {
+        var swiperInterior = new Swiper(".interior-page .popular__items", {
             slidesPerView: "1",
             breakpoints: {
                 640: {
@@ -165,12 +167,12 @@ $(function () {
             // spaceBetween: 30,
         });
         window.addEventListener('resize', function () {
-            swiperCottage.update(); // Обновляем Swiper
+            swiperInterior.update(); // Обновляем Swiper
           });
 
     };
     if (document.querySelector(".partitions-page .popular__items")) {
-        var swiperCottage = new Swiper(".partitions-page .popular__items", {
+        var swiperPartitions = new Swiper(".partitions-page .popular__items", {
             slidesPerView: "4",
             navigation: {
                 nextEl: ".swiper-button-next",
