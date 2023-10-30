@@ -23,12 +23,12 @@ function holdingBtn() {
             descr.textContent = '"Portamia" - это гарантия безопасности и стиля в вашем доме. Наше предприятие специализируется на производстве высококачественных металлических входных и межкомнатных дверей, которые сочетают в себе элегантный дизайн и надежную защиту.'
             link.setAttribute('src', 'https://portamia.ru/');
 
-            overlayimg.setAttribute('src', 'http://localhost/portamia2/wp-content/themes/mercato/assets/img/holding/cover-portamia.webp');
+            overlayimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/holding/cover-portamia.webp');
             overlay.classList.add('active');
             btns.classList.add('load');
 
             setTimeout(function () {
-                backgroundimg.setAttribute('src', 'http://localhost/portamia2/wp-content/themes/mercato/assets/img/holding/cover-portamia.webp')
+                backgroundimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/holding/cover-portamia.webp')
                 overlay.classList.remove('active');
                 btns.classList.remove('load');
             }, 1600);
@@ -42,11 +42,11 @@ function holdingBtn() {
             link.setAttribute('src', 'https://leyenda.ru/');
             btns.classList.add('load');
 
-            overlayimg.setAttribute('src', 'http://localhost/portamia2/wp-content/themes/mercato/assets/img/holding/cover-leyenda.webp');
+            overlayimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/holding/cover-leyenda.webp');
             overlay.classList.add('active');
 
             setTimeout(function () {
-                backgroundimg.setAttribute('src', 'http://localhost/portamia2/wp-content/themes/mercato/assets/img/holding/cover-leyenda.webp')
+                backgroundimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/holding/cover-leyenda.webp')
                 overlay.classList.remove('active');
                 btns.classList.remove('load');
             }, 1600);
@@ -59,12 +59,12 @@ function holdingBtn() {
             descr.textContent = '"Завод МетПром" - это надежный партнер для юридических лиц, специализирующийся на производстве высококачественных металлических дверей и металлоизделий. Наше производство обеспечивает компаниям прочные и стильные решения, сочетающие в себе безопасность и эстетику.'
             link.setAttribute('src', 'https://z-mp.ru/');
 
-            overlayimg.setAttribute('src', 'http://localhost/portamia2/wp-content/themes/mercato/assets/img/holding/cover-zmp.webp');
+            overlayimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/holding/cover-zmp.webp');
             overlay.classList.add('active');
             btns.classList.add('load');
 
             setTimeout(function () {
-                backgroundimg.setAttribute('src', 'http://localhost/portamia2/wp-content/themes/mercato/assets/img/holding/cover-zmp.webp')
+                backgroundimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/holding/cover-zmp.webp')
                 overlay.classList.remove('active');
                 btns.classList.remove('load');
             }, 1600);
@@ -77,12 +77,12 @@ function holdingBtn() {
             descr.textContent = '"Mercato" - это место, где стиль и комфорт соединяются, чтобы создать уникальную лофт-мебель для каждого. Наша фабрика специализируется на производстве мебели в стиле лофт, который отличается своей смелостью и нестандартностью, привнося в интерьер ощущение свободы и современности.'
             link.setAttribute('src', 'https://z-mp.ru/');
 
-            overlayimg.setAttribute('src', 'http://localhost/portamia2/wp-content/themes/mercato/assets/img/holding/cover-mercato.webp');
+            overlayimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/holding/cover-mercato.webp');
             overlay.classList.add('active');
             btns.classList.add('load');
 
             setTimeout(function () {
-                backgroundimg.setAttribute('src', 'http://localhost/portamia2/wp-content/themes/mercato/assets/img/holding/cover-mercato.webp')
+                backgroundimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/holding/cover-mercato.webp')
                 overlay.classList.remove('active');
                 btns.classList.remove('load');
             }, 1600);

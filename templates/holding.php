@@ -41,7 +41,7 @@ Template Name: Холдинг
                         <div class="holding__title">Portamia</div>
                         <div class="holding__subtitle">(ООО “Завод МетПром”)</div>
                         <div class="holding__descr">"Portamia" - это гарантия безопасности и стиля в вашем доме. Наше предприятие специализируется на производстве высококачественных металлических входных и межкомнатных дверей, которые сочетают в себе элегантный дизайн и надежную защиту.</div>
-                        <a href="portamia.ru" class="holding__link">перейти на сайт</a>
+                        <a href="https://portamia.ru/" class="holding__link">перейти на сайт</a>
                     </div>
                 </div>
             </div>
