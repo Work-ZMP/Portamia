@@ -171,6 +171,35 @@ $(function () {
           });
 
     };
+    if (document.querySelector(".catalogue-page .swiper__items")) {  
+        function initSwiper() {     
+        var swiperInteriorBottom = new Swiper(".catalogue-page .swiper__items", {
+            slidesPerView: "1",      
+            navigation: {
+                nextEl: ".swiper-button-next1",
+                prevEl: ".swiper-button-prev1",
+            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false
+            },
+            loop: true,            
+        });
+    }
+        var mediaQuery = window.matchMedia("(max-width: 800px)");
+        function checkMediaQuery() {
+            if (mediaQuery.matches) {
+                initSwiper();
+            }
+        }
+        checkMediaQuery();
+        
+        mediaQuery.addEventListener(checkMediaQuery);
+        window.addEventListener('resize', function () {
+            swiperInterior.update(); // Обновляем Swiper
+          });
+
+    };
     if (document.querySelector(".partitions-page .popular__items")) {
         var swiperPartitions = new Swiper(".partitions-page .popular__items", {
             slidesPerView: "4",

@@ -203,102 +203,106 @@ Template Name: Межкомнатные двери
     </div>
 </section>
 
-<section class="catalogue__section">
+<section class="catalogue__section catalogue-page">
     <div class="container">
         <div class="catalogue__inner">
             <hr class="catalogue__line">
             <h2 class="catalogue__title">Межкомнатные двери</h2>
             <p class="catalogue__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
-            <div class="catalogue__items">
-                <div class="catalogue__item unfinished">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-1.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">FLEXO</div>
+            <div class="swiper__items swiper">
+                <div class="catalogue__items swiper-wrapper-bottom">
+                    <div class="catalogue__item unfinished swiper-slide">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-1.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">FLEXO</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">FLEXO</div>
+                            <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">FLEXO</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item swiper-slide">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-2.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">CREDO V</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">CREDO V</div>
+                            <a href="<?php echo get_permalink(518); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="catalogue__item">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-2.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">CREDO V</div>
+                    <div class="catalogue__item unfinished swiper-slide">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-3.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">CREDO 2</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">CREDO 2</div>
+                            <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">CREDO V</div>
-                        <a href="<?php echo get_permalink(518); ?>" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item swiper-slide">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-4.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">BERNETTI</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">BERNETTI</div>
+                            <a href="<?php echo get_permalink(494); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="catalogue__item unfinished">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-3.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">CREDO 2</div>
+                    <div class="catalogue__item unfinished swiper-slide">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-5.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">VIRGIN</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">VIRGIN</div>
+                            <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">CREDO 2</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item swiper-slide">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-6.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">GRAPHIC</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">GRAPHIC</div>
+                            <a href="<?php echo get_permalink(520); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="catalogue__item">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-4.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">BERNETTI</div>
+                    <div class="catalogue__item unfinished swiper-slide">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-7.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">LINEA</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">LINEA</div>
+                            <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">BERNETTI</div>
-                        <a href="<?php echo get_permalink(494); ?>" class="catalogue__btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="catalogue__item unfinished">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-5.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">VIRGIN</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">VIRGIN</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="catalogue__item">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-6.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">GRAPHIC</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">GRAPHIC</div>
-                        <a href="<?php echo get_permalink(520); ?>" class="catalogue__btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="catalogue__item unfinished">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-7.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">LINEA</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">LINEA</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="catalogue__item unfinished">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-8.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">SENTYS</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">SENTYS</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item unfinished swiper-slide">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-8.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">SENTYS</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">SENTYS</div>
+                            <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="swiper-button-prev1"></div>
+            <div class="swiper-button-next1"></div>
             <hr class="catalogue__line long-line">
         </div>
     </div>

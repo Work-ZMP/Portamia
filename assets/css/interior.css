@@ -1990,6 +1990,9 @@
   .reviews__line {
     max-width: 100px;
   }
+  .popular__line.line-long {
+    width: 300px;
+  }
 
   .why__descr {
     margin-bottom: 60px;
@@ -2213,19 +2216,19 @@
   margin: 0 auto;
 }
 .mdf__section.scrolled .mdf__right > img {
-  height: 100%;
+  height: 220px;
 }
 .mdf__section.scrolled .mdf__img-1 {
   left: 65%;
-  height: 170px;
+  
 }
 .mdf__section.scrolled .mdf__img-2 {
   left: 50%;
-  height: 200px;
+  
 }
 .mdf__section.scrolled .mdf__img-3 {
   left: 35%;
-  170
+  
 
 }
 .furniture__section {
