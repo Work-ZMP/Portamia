@@ -20,6 +20,7 @@ function holdingBtn() {
             console.log('portamia');
             title.textContent = 'Portamia'
             subtitle.textContent = '(ООО “Завод МетПром”)'
+            subtitleBig.textContent = 'Изготовление кухонь, шкафов и др. мебели из МДФ'
             descr.textContent = '"Portamia" - это гарантия безопасности и стиля в вашем доме. Наше предприятие специализируется на производстве высококачественных металлических входных и межкомнатных дверей, которые сочетают в себе элегантный дизайн и надежную защиту.'
             link.setAttribute('href', 'https://portamia.ru/');
 
@@ -38,6 +39,7 @@ function holdingBtn() {
             console.log('leyenda');
             title.textContent = 'Leyenda'
             subtitle.textContent = '(ООО “Фабрика мебели “Легенда”)'
+            subtitleBig.textContent = 'Изготовление кухонь, шкафов и др. мебели из МДФ'
             descr.textContent = 'На фабрике "Легенда" создается не просто мебель, а настоящие произведения искусства, воплощающие в себе красоту, комфорт и функциональность. Каждый предмет мебели, произведенный на этой фабрике, несет в себе долю мастерства и страсти к дизайну.'
             link.setAttribute('href', 'https://leyenda.ru/');
             btns.classList.add('load');
@@ -56,6 +58,7 @@ function holdingBtn() {
             console.log('zmp');
             title.textContent = 'Завод МетПром'
             subtitle.textContent = '(ООО “Завод МетПром”)'
+            subtitleBig.textContent = 'Изготовление кухонь, шкафов и др. мебели из МДФ'
             descr.textContent = '"Завод МетПром" - это надежный партнер для юридических лиц, специализирующийся на производстве высококачественных металлических дверей и металлоизделий. Наше производство обеспечивает компаниям прочные и стильные решения, сочетающие в себе безопасность и эстетику.'
             link.setAttribute('href', 'https://z-mp.ru/');
 
@@ -74,6 +77,7 @@ function holdingBtn() {
             console.log('mercato');
             title.textContent = 'Mercato'
             subtitle.textContent = '(ООО “Завод МетПром”)'
+            subtitleBig.textContent = 'Изготовление кухонь, шкафов и др. мебели из МДФ'
             descr.textContent = '"Mercato" - это место, где стиль и комфорт соединяются, чтобы создать уникальную лофт-мебель для каждого. Наша фабрика специализируется на производстве мебели в стиле лофт, который отличается своей смелостью и нестандартностью, привнося в интерьер ощущение свободы и современности.'
             link.setAttribute('href', 'https://fabricamercato.ru/');
 
