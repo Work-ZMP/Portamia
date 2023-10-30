@@ -1603,10 +1603,18 @@
     width: 35px;
     height: 80px;
   }
+  .swiper-button-next:hover::before {
+    height: 77px;
+    width: 35px;
+  }
   .swiper-button-prev {
     left: -45px;
     width: 35px;
     height: 80px;
+  }
+  .swiper-button-prev:hover::before {
+    height: 77px;
+    width: 35px;
   }
   .popular__line.line-long {
     margin: 80px auto 35px auto;
