@@ -155,7 +155,7 @@ if (isset($_GET['door_cfg'])) {
                                     </div>
                                 </div>
                             </div>
-                            <div data-variable-name="model" data-variable-value="2" data-model="2" data-price="109900" data-image="" data-order="1" class="unfinished cfg-model<?= (isset($_GET['model']) and $_GET['model'] == '2') ? ' active' : '' ?>" id="cfg-firstdmodel" onclick='cfgDoorModel2()'>
+                            <div data-variable-name="model" data-variable-value="2" data-model="2" data-price="109900" data-image="" data-order="1" class=" cfg-model<?= (isset($_GET['model']) and $_GET['model'] == '2') ? ' active' : '' ?>" id="cfg-firstdmodel" onclick='cfgDoorModel2()'>
                                 <div class="cfg-model-inner">
                                     <i class="info-btn">i</i>
                                     <div class="cfg-model-name">
