@@ -375,6 +375,9 @@
 }
 
 @media (max-width: 450px) {
+  .furniture__section {
+    height: 70%;
+  }
   .catalogue__line.underline {
     margin: 0 35px;
     margin-bottom: 75px;
@@ -408,7 +411,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   width: auto;
-  height: 465px;
+  height: 450px;
 }
 
 
@@ -864,6 +867,7 @@
 .exclusive__btm-right {
   max-width: 785px;
   width: 100%;
+  padding: 20px 25px;
   padding-right: 100px;
   margin-left: 0;
   text-align: right;
@@ -1481,6 +1485,15 @@
   .trust__section {
     height: 600px;
   }
+
+@media (max-width: 450px) {
+  .trust__section {
+    height: 450px;
+  }
+  .trust__text {
+    margin-bottom: 15px;
+  }
+}
 
   .trust__inner {
     padding: 0 35px;
