@@ -406,10 +406,11 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   width: auto;
   height: 465px;
 }
+
 
 .banner-part__section {
   background-image: url(../img/banner-img-2.webp);
