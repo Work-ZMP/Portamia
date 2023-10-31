@@ -170,9 +170,11 @@ $(function () {
             swiperInterior.update(); // Обновляем Swiper
           });
 
-    };
+    }
     if (document.querySelector(".catalogue-page .swiper__items")) {  
-        function initSwiper() {     
+        var mediaQuery = window.matchMedia("(max-width: 640px)");
+        window.addEventListener('resize', () => {     
+            if (mediaQuery.matches) {
         var swiperInteriorBottom = new Swiper(".catalogue-page .swiper__items", {
             slidesPerView: "1",      
             navigation: {
@@ -183,21 +185,25 @@ $(function () {
                 enabled: true,
                 onlyInViewport: false
             },
-            loop: true,            
-        });
-    }
-        var mediaQuery = window.matchMedia("(max-width: 800px)");
-        function checkMediaQuery() {
-            if (mediaQuery.matches) {
-                initSwiper();
-            }
+            loop: true,     
+            init: true       
+        }); 
+    }       else {
+                swiper.destroy();
         }
-        checkMediaQuery();
+    })
         
-        mediaQuery.addEventListener(checkMediaQuery);
-        window.addEventListener('resize', function () {
-            swiperInterior.update(); // Обновляем Swiper
-          });
+        // function checkMediaQuery() {
+        //     if (mediaQuery.matches) {
+        //         initSwiper();
+        //     }
+        // }
+        // checkMediaQuery();
+        
+        // mediaQuery.addEventListener('change', checkMediaQuery);
+        // window.addEventListener('resize', function () {
+        //     swiperInterior.update(); // Обновляем Swiper
+        //   });
 
     };
     if (document.querySelector(".partitions-page .popular__items")) {
