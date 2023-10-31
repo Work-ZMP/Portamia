@@ -1562,6 +1562,36 @@
     margin-top: 50px !important;
   }
 }
+
+
+
+
+@media (max-width: 480px) {
+  .furniture__section {
+    height: 67vh !important;
+  }
+  .banner-part__section {
+    background-attachment: scroll;
+  }
+  .exclusive__top-left,
+  .exclusive__btm-right {
+    margin-top: 20px;
+  }
+  .exclusive__inner {
+    gap: 0;
+  }
+  .exclusive__btm-left img, .exclusive__top-right img {
+    max-height: 400px;    
+  }
+  .exclusive__btm-left img {
+    margin-top: -100px;
+  }
+  .collection__section {
+    height: 67vh;
+    margin-top: -102px;
+    background-attachment: scroll
+  }
+}
 @media (max-width: 350px) {
   .trust__section {
     height: 380px !important;
