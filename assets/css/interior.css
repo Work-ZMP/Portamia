@@ -2036,6 +2036,7 @@
   .popular__item-top-cover {
     left: 80px;
     font-size: 38px;
+    text-wrap: nowrap;
 }
 .popular__item-bottom {
   text-align: center;
@@ -2217,6 +2218,7 @@
 }
 .mdf__section.scrolled .mdf__right > img {
   height: 220px;
+  width: auto;
 }
 .mdf__section.scrolled .mdf__img-1 {
   left: 65%;
@@ -2233,7 +2235,7 @@
 }
 .furniture__section {
   position: relative;
-  height: 580px;
+  height: 630px;
 }
 .furniture__inner {
   grid-template-columns: 1fr;
@@ -2245,6 +2247,7 @@
   height: 100%;
   justify-content: flex-start;
   padding-top: 40px;
+  margin-bottom: 20px;
 }
 .furniture__line {
   margin: 60px auto;
@@ -2252,7 +2255,7 @@
 }
 .furniture__title {
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .furniture__descr {
   max-width: 250px;

@@ -78,7 +78,7 @@ Template Name: Home
         <div class="exclusive__top">
             <div class="exclusive__top-left">
                 <hr class="exclusive__line">
-                <div class="exclusive__title default-title">Индивудальные двери на заказ</div>
+                <div class="exclusive__title default-title">Индивидуальные двери на заказ</div>
                 <div class="exclusive__descr default-descr">Мы предлагаем Вам уникальную возможность создать именно ту дверь, о которой Вы всегда мечтали с помощью нашего конфигуратора</div>
                 <div class="exclusive__items">
                     <div class="exclusive__item">
