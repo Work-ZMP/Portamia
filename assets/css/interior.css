@@ -2159,9 +2159,7 @@
     padding-top: 15px;
     align-items: center;
   }
-  .swiper-backface-hidden .swiper-slide {
-
-  }
+  
   .popular__item-top {
     height: 240px;
     left: -22px;
@@ -2267,6 +2265,9 @@
   font-size: 12px;
   padding: 4px 10px;
   margin: 0 auto;
+}
+.banner__section.zamer-section {
+  background-attachment: scroll;
 }
 .furniture__left {
   margin-bottom: -90px;

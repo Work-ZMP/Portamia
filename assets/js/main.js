@@ -208,7 +208,21 @@ $(function () {
     };
     if (document.querySelector(".partitions-page .popular__items")) {
         var swiperPartitions = new Swiper(".partitions-page .popular__items", {
-            slidesPerView: "4",
+            slidesPerView: "1",
+            breakpoints: {
+                640: {
+                    slidesPerView: "2",
+                    spaceBetween: 20,
+                }, 
+                1024: {
+                    slidesPerView: "3",
+                    spaceBetween: 30,
+                },   
+                1280: {
+                    slidesPerView: "4",
+                    spaceBetween: 30,
+                },                           
+            },
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -218,8 +232,11 @@ $(function () {
                 onlyInViewport: false
             },
             loop: true,
-            spaceBetween: 30,
+            
         });
+        window.addEventListener('resize', function () {
+            swiperInterior.update(); // Обновляем Swiper
+          });
 
     }
     if (document.querySelector(".designers")) {
