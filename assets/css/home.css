@@ -1590,8 +1590,8 @@
     margin-top: -100px;
   }
   .collection__section {
-    height: 67vh;
-    margin-top: -110px;
+    height: 100vh;
+    margin-top: -120px;
     background-attachment: scroll
   }
 }
@@ -1604,14 +1604,14 @@
     gap: 0;
   }
   .collection__section {
-    height: 70%;
+    height: 100vh;
     background-attachment: scroll;
     margin-top: -40px;
   }
   .exclusive__bottom {
     margin-top: -45px;
   }
-  banner__title {
+  .banner__title {
     margin-top: 100px;
   }
 }  
