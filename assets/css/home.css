@@ -1568,7 +1568,10 @@
 
 @media (max-width: 480px) {
   .furniture__section {
-    height: 67vh !important;
+    height: 72vh !important;
+  }
+  .furniture__title {
+    margin-top: 15px;
   }
   .banner-part__section {
     background-attachment: scroll;
@@ -1588,7 +1591,7 @@
   }
   .collection__section {
     height: 67vh;
-    margin-top: -102px;
+    margin-top: -110px;
     background-attachment: scroll
   }
 }
