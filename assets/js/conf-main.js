@@ -224,7 +224,7 @@ function cfgDoorModel1() {
 
 
 
-    if (item2.classList.contains('active')) {
+    if (item1.classList.contains('active')) {
 
     }
     else {
@@ -240,8 +240,8 @@ function cfgDoorModel1() {
         blockstyleglazed.style.display = 'none';
 
 
-        item2.classList.add('active');
-        item1.classList.remove('active');
+        item1.classList.add('active');
+        item2.classList.remove('active');
 
         indoorwoodcards.forEach(b => b.classList.remove('active'));
 
@@ -266,8 +266,8 @@ function cfgDoorModel1() {
  * */
 function cfgDoorModel2() {
 
-    let item1 = document.getElementById('cfg-firstmodel');
-    let item2 = document.getElementById('cfg-secondmodel');
+    let item2 = document.getElementById('cfg-firstmodel');
+    let item1 = document.getElementById('cfg-secondmodel');
     const blockstylestep61 = document.getElementById('checkbox-3step-style-default');
     const blockstylestep62 = document.getElementById('checkbox-3step-style1');
     const blockmirror = document.getElementById('checkbox-3step-mirror');
@@ -279,7 +279,7 @@ function cfgDoorModel2() {
     console.log(classicmilledcards);
 
 
-    if (item1.classList.contains('active')) {
+    if (item2.classList.contains('active')) {
 
     }
     else {
@@ -295,8 +295,8 @@ function cfgDoorModel2() {
         blockstyleglazed.style.display = 'none';
 
 
-        item1.classList.add('active');
-        item2.classList.remove('active');
+        item2.classList.add('active');
+        item1.classList.remove('active');
 
         indoorwoodcards.forEach(b => b.classList.remove('active'));
 
