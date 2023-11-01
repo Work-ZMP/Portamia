@@ -209,8 +209,8 @@ $(function () {
     if (document.querySelector(".partitions-page .popular__items")) {
         var swiperPartitions = new Swiper(".partitions-page .popular__items", {
             slidesPerView: "1",
-            breakpoints: {
-                640: {
+            breakpoints: {                
+                800: {
                     slidesPerView: "2",
                     spaceBetween: 20,
                 }, 

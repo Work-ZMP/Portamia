@@ -108,7 +108,7 @@ Template Name: Перегородки
     <div class="container">
         <div class="popular__inner">
             <hr class="popular__line">
-            <h1 class="popular__title">Модели перегородок</h1>
+            <h1 class="popular__title">Популярные перегородки</h1>
             <p class="popular__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
             <div class="popular__items swiper">
                 <div class="swiper-wrapper">
