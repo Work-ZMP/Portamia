@@ -145,11 +145,11 @@ Template Name: Коттеджные двери
                 <a data-fancybox data-src="#popup__form" class="difference__btn">оставить заявку</a>
             </div>
             <div class="difference__right">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/dif-item-1.svg" alt="" class="difference__img-1">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/dif-item-2.svg" alt="" class="difference__img-2">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/dif-item-3.svg" alt="" class="difference__img-3">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/dif-item-4.svg" alt="" class="difference__img-4">
-                <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/dif-item-5.svg" alt="" class="difference__img-5">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/dif-item-1.png" alt="" class="difference__img-1">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/dif-item-2.png" alt="" class="difference__img-2">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/dif-item-3.png" alt="" class="difference__img-3">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/dif-item-4.png" alt="" class="difference__img-4">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/dif-item-5.png" alt="" class="difference__img-5">
             </div>
         </div>
     </div>

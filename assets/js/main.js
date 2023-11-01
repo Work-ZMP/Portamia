@@ -170,10 +170,59 @@ $(function () {
             swiperInterior.update(); // Обновляем Swiper
           });
 
+    }
+    if (document.querySelector(".catalogue-page .swiper__items")) {  
+        var mediaQuery = window.matchMedia("(max-width: 640px)");
+        window.addEventListener('resize', () => {     
+            if (mediaQuery.matches) {
+        var swiperInteriorBottom = new Swiper(".catalogue-page .swiper__items", {
+            slidesPerView: "1",      
+            navigation: {
+                nextEl: ".swiper-button-next1",
+                prevEl: ".swiper-button-prev1",
+            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false
+            },
+            loop: true,     
+            init: true       
+        }); 
+    }       else {
+                swiper.destroy();
+        }
+    })
+        
+        // function checkMediaQuery() {
+        //     if (mediaQuery.matches) {
+        //         initSwiper();
+        //     }
+        // }
+        // checkMediaQuery();
+        
+        // mediaQuery.addEventListener('change', checkMediaQuery);
+        // window.addEventListener('resize', function () {
+        //     swiperInterior.update(); // Обновляем Swiper
+        //   });
+
     };
     if (document.querySelector(".partitions-page .popular__items")) {
         var swiperPartitions = new Swiper(".partitions-page .popular__items", {
-            slidesPerView: "4",
+            slidesPerView: "1",
+            breakpoints: {                
+                800: {
+                    slidesPerView: "2",
+                    spaceBetween: 20,
+                }, 
+                1024: {
+                    slidesPerView: "3",
+                    spaceBetween: 30,
+                },   
+                1280: {
+                    slidesPerView: "4",
+                    spaceBetween: 30,
+                },                           
+            },
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -183,8 +232,11 @@ $(function () {
                 onlyInViewport: false
             },
             loop: true,
-            spaceBetween: 30,
+            
         });
+        window.addEventListener('resize', function () {
+            swiperInterior.update(); // Обновляем Swiper
+          });
 
     }
     if (document.querySelector(".designers")) {
