@@ -299,7 +299,7 @@ if (isset($_GET['door_cfg'])) {
                                                         </div>
 
 
-                                                        <div data-variable-name="leafdooritems_single" data-variable-value="slditem4" data-leafdooritems_single="slditem4" data-price="0" data-image="" data-order="1" class="unfinished furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_single']) and $_GET['leafdooritems_single'] == 'slditem4') ? ' active' : '' ?>" id="slditem4" onclick="leafdooritems('slditem4')">
+                                                        <div data-variable-name="leafdooritems_single" data-variable-value="slditem4" data-leafdooritems_single="slditem4" data-price="0" data-image="" data-order="1" class=" furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_single']) and $_GET['leafdooritems_single'] == 'slditem4') ? ' active' : '' ?>" id="slditem4" onclick="leafdooritems('slditem4')">
                                                             <div class="furniture-item-image-cover">
                                                                 <span class="furniture-item-image-country"></span>
                                                                 <div class="furniture-item-image" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/types/door-type-img-6.svg);">
