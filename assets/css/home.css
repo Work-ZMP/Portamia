@@ -1106,6 +1106,7 @@
     height: 40px;
     color: #252525;
     font-size: 16px;
+    padding: 8px 20px;
   }
 
   .exclusive__top,
@@ -1600,7 +1601,7 @@
   
   .collection__section {
     height: 100vh;
-    margin-top: -120px;
+  
     background-attachment: scroll
   }
 }
