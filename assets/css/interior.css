@@ -2133,7 +2133,8 @@
   }
   .popular__item-top-cover {
     left: 75px;
-    font-size: 35px;
+    font-size: 33px;
+    text-wrap: nowrap;
 }
 .popular__item-bottom {
   text-align: center;
