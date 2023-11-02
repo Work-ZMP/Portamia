@@ -209,9 +209,10 @@ Template Name: Межкомнатные двери
             <hr class="catalogue__line">
             <h2 class="catalogue__title">Межкомнатные двери</h2>
             <p class="catalogue__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
-            <div class="swiper__items swiper">
-                <div class="catalogue__items swiper-wrapper-bottom">
-                    <div class="catalogue__item unfinished swiper-slide">
+
+            <div class="catalogue__items ">
+                <div class="">
+                    <div class="catalogue__item unfinished">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-1.png" alt="" class="catalogue__item-img">
                             <div class="catalogue__item-top-cover">FLEXO</div>
@@ -222,7 +223,7 @@ Template Name: Межкомнатные двери
                             <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="catalogue__item swiper-slide">
+                    <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-2.png" alt="" class="catalogue__item-img">
                             <div class="catalogue__item-top-cover">CREDO V</div>
@@ -233,7 +234,7 @@ Template Name: Межкомнатные двери
                             <a href="<?php echo get_permalink(518); ?>" class="catalogue__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="catalogue__item unfinished swiper-slide">
+                    <div class="catalogue__item unfinished">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-3.png" alt="" class="catalogue__item-img">
                             <div class="catalogue__item-top-cover">CREDO 2</div>
@@ -244,7 +245,7 @@ Template Name: Межкомнатные двери
                             <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="catalogue__item swiper-slide">
+                    <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-4.png" alt="" class="catalogue__item-img">
                             <div class="catalogue__item-top-cover">BERNETTI</div>
@@ -255,7 +256,7 @@ Template Name: Межкомнатные двери
                             <a href="<?php echo get_permalink(494); ?>" class="catalogue__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="catalogue__item unfinished swiper-slide">
+                    <div class="catalogue__item unfinished">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-5.png" alt="" class="catalogue__item-img">
                             <div class="catalogue__item-top-cover">VIRGIN</div>
@@ -266,7 +267,7 @@ Template Name: Межкомнатные двери
                             <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="catalogue__item swiper-slide">
+                    <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-6.png" alt="" class="catalogue__item-img">
                             <div class="catalogue__item-top-cover">GRAPHIC</div>
@@ -277,7 +278,7 @@ Template Name: Межкомнатные двери
                             <a href="<?php echo get_permalink(520); ?>" class="catalogue__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="catalogue__item unfinished swiper-slide">
+                    <div class="catalogue__item unfinished">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-7.png" alt="" class="catalogue__item-img">
                             <div class="catalogue__item-top-cover">LINEA</div>
@@ -288,7 +289,7 @@ Template Name: Межкомнатные двери
                             <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="catalogue__item unfinished swiper-slide">
+                    <div class="catalogue__item unfinished">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-8.png" alt="" class="catalogue__item-img">
                             <div class="catalogue__item-top-cover">SENTYS</div>
@@ -300,9 +301,11 @@ Template Name: Межкомнатные двери
                         </div>
                     </div>
                 </div>
+
             </div>
-            <div class="swiper-button-prev1"></div>
-            <div class="swiper-button-next1"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
             <hr class="catalogue__line long-line">
         </div>
     </div>
