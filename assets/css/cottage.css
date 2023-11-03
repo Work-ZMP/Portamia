@@ -1839,9 +1839,7 @@
   .catalogue__items {
     grid-template-columns: 1fr;
   }
-  .catalogue__item.unfinished {
-    display: none;
-  }
+  
 }
 
 @media (max-width: 480px) {
@@ -1867,6 +1865,10 @@
     font-size: 22px !important;
   }
   .popular__item-top-cover {
+    display: none;
+  }
+  .popular__inner .swiper-button-next,
+  .popular__inner .swiper-button-prev {
     display: none;
   }
   .popular__title {
@@ -1991,9 +1993,7 @@
     font-size: 13px;
     padding: 2px 15px;
   }
-  .catalogue__item.unfinished {
-    display: none;
-  }
+  
  
 }
 

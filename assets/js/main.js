@@ -117,7 +117,8 @@ $(function () {
     });
     if (document.querySelector(".cottage-page .popular__items")) {
         var swiperCottage = new Swiper(".cottage-page .popular__items", {
-            slidesPerView: "1",
+            slidesPerView: "1.3",
+            spaceBetween: 30,
             breakpoints: {
                 640: {
                     slidesPerView: "2",
@@ -142,9 +143,57 @@ $(function () {
         });
 
     };
+    function swiperDoorsCottage() {
+        if (document.querySelector(".catalogue__items") && window.matchMedia('(max-width: 800px)').matches) {
+    
+            document.querySelector('.catalogue__items').classList.add('swiper');
+            document.querySelector('.catalogue__items > div').classList.add('swiper-wrapper');
+            document.querySelectorAll('.catalogue__item').forEach(el => el.classList.add('swiper-slide'));
+    
+            var swiperDoorsCottage = new Swiper(".catalogue__items", {
+                slidesPerView: "1.3",
+                spaceBetween: 30,
+                breakpoints: {
+    
+                    640: {
+                        slidesPerView: "2",
+                        spaceBetween: 30,
+                        loop: true,
+                    },
+                  
+                    
+                },
+                navigation: {
+                    nextEl: ".catalogue__section .swiper-button-next",
+                    prevEl: ".catalogue__section .swiper-button-prev",
+                },
+                keyboard: {
+                    enabled: true,
+                    onlyInViewport: false
+                },
+                loop: true,
+                // spaceBetween: 30,
+    
+            });
+            window.addEventListener('resize', function () {
+                swiperDoorsCottage.update(); // Обновляем Swiper
+            });
+    
+        }
+        if (document.querySelector(".catalogue__items") && window.matchMedia('(min-width: 801px)').matches) {
+
+            document.querySelector('.catalogue__items').classList.remove('swiper');
+            document.querySelector('.catalogue__items > div').classList.remove('swiper-wrapper');
+            document.querySelectorAll('.catalogue__item').forEach(el => el.classList.remove('swiper-slide'));
+    
+        }
+    };
+    swiperDoorsCottage();
+    
     if (document.querySelector(".interior-page .popular__items")) {
         var swiperInterior = new Swiper(".interior-page .popular__items", {
             slidesPerView: "1",
+            spaceBetween: 30,
             breakpoints: {
                 640: {
                     slidesPerView: "2",
@@ -172,7 +221,7 @@ $(function () {
 
     }
     window.addEventListener('resize', function (event) {
-        swiperDoors()
+        swiperInterior()
     });
 
 function swiperDoors() {
@@ -224,11 +273,16 @@ swiperDoors();
 
 if (document.querySelector(".partitions-page .popular__items")) {
     var swiperPartitions = new Swiper(".partitions-page .popular__items", {
-        slidesPerView: "1",
+        slidesPerView: "1.3",
+        spaceBetween: 30,
         breakpoints: {
+            640: {
+                slidesPerView: "2",
+                spaceBetween: 30,
+            },
             800: {
                 slidesPerView: "2",
-                spaceBetween: 20,
+                spaceBetween: 30,
             },
             1024: {
                 slidesPerView: "3",
@@ -251,10 +305,90 @@ if (document.querySelector(".partitions-page .popular__items")) {
 
     });
     window.addEventListener('resize', function () {
-        swiperInterior.update(); // Обновляем Swiper
+        swiperPartitions.update(); // Обновляем Swiper
     });
 
 }
+function swiperGlass() {
+    if (document.querySelector(".glass__items") && window.matchMedia('(max-width: 640px)').matches) {
+
+        document.querySelector('.glass__items').classList.add('swiper');
+        document.querySelector('.glass__items > div').classList.add('swiper-wrapper');
+        document.querySelectorAll('.glass__item').forEach(el => el.classList.add('swiper-slide'));
+
+        var swiperGlass = new Swiper(".glass__items", {
+            slidesPerView: "1.3",
+            spaceBetween: 30,
+           
+            
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false
+            },
+            navigation: {
+                nextEl: ".glass__section .swiper-button-next",
+                prevEl: ".glass__section .swiper-button-prev",
+            },
+            loop: true,
+            // spaceBetween: 30,
+
+        });
+        window.addEventListener('resize', function () {
+            swiperGlass.update(); // Обновляем Swiper
+        });
+
+    }
+    if (document.querySelector(".glass__items") && window.matchMedia('(min-width: 641px)').matches) {
+
+        document.querySelector('.glass__items').classList.remove('swiper');
+        document.querySelector('.glass__items > div').classList.remove('swiper-wrapper');
+        document.querySelectorAll('.glass__item').forEach(el => el.classList.remove('swiper-slide'));
+
+    }
+};
+swiperGlass();
+
+
+function swiperPartitionsCatalog() {
+    if (document.querySelector(".items-partitions") && window.matchMedia('(max-width: 800px)').matches) {
+
+        document.querySelector('.items-partitions').classList.add('swiper');
+        document.querySelector('.items-partitions > div').classList.add('swiper-wrapper');
+        document.querySelectorAll('.items-partitions .catalogue__item').forEach(el => el.classList.add('swiper-slide'));
+
+        var swiperPartitionsCatalog = new Swiper(".items-partitions", {
+            slidesPerView: "1.3",
+            spaceBetween: 30,
+            breakpoints: {
+            640: {
+                slidesPerView: "2",
+                spaceBetween: 30,
+            },
+           
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false
+            },
+            
+            loop: true,
+            // spaceBetween: 30,
+
+        }});
+        window.addEventListener('resize', function () {
+            swiperPartitionsCatalog.update(); // Обновляем Swiper
+        });
+
+    }
+    if (document.querySelector(".items-partitions") && window.matchMedia('(min-width: 801px)').matches) {
+
+        document.querySelector('.items-partitions').classList.remove('swiper');
+        document.querySelector('.items-partitions > div').classList.remove('swiper-wrapper');
+        document.querySelectorAll('.items-partitions .catalogue__item').forEach(el => el.classList.remove('swiper-slide'));
+
+    }
+};
+swiperPartitionsCatalog();
+
 if (document.querySelector(".designers")) {
     var swiperDes = new Swiper(".projects__items", {
         slidesPerView: "3",
