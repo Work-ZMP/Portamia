@@ -211,7 +211,7 @@ Template Name: Межкомнатные двери
             <p class="catalogue__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
 
             <div class="catalogue__items">
-                <div class="catalogue">
+                <div class="">
                     <div class="catalogue__item unfinished">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/cat-item-1.png" alt="" class="catalogue__item-img">

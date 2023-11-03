@@ -179,15 +179,16 @@ function swiperDoors() {
     if (document.querySelector(".catalogue__items") && window.matchMedia('(max-width: 800px)').matches) {
 
         document.querySelector('.catalogue__items').classList.add('swiper');
-        document.querySelector('.catalogue__items .catalogue').classList.add('swiper-wrapper');
+        document.querySelector('.catalogue__items > div').classList.add('swiper-wrapper');
         document.querySelectorAll('.catalogue__item').forEach(el => el.classList.add('swiper-slide'));
 
         var swiperInterior = new Swiper(".catalogue__items", {
-            slidesPerView: "1",
+            slidesPerView: "1.3",
+            spaceBetween: 30,
             breakpoints: {
                 640: {
                     slidesPerView: "2",
-                    spaceBetween: 20,
+                    spaceBetween: 30,
                     loop: true,
                 },
               
@@ -203,6 +204,7 @@ function swiperDoors() {
             },
             loop: true,
             // spaceBetween: 30,
+
         });
         window.addEventListener('resize', function () {
             swiperInterior.update(); // Обновляем Swiper
