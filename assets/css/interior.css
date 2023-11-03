@@ -2200,10 +2200,15 @@
 }
 .furniture__section {
   position: relative;
-  height: 630px;
+  height: auto;
 }
 .furniture__inner {
   grid-template-columns: 1fr;
+  height: auto !important;
+}
+.furniture__left {
+  max-height: none !important;
+  height: 350px;
 }
 .furniture__left {
   grid-row: 2 / 3;

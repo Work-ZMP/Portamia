@@ -205,12 +205,13 @@ function buildCheck() {
 }
 
 /**
- * кнопка выбора первой модели
+ * кнопка выбора первой модели (guardpro)
  * */
 function cfgDoorModel1() {
 
-    let item2 = document.getElementById('cfg-firstmodel');
-    let item1 = document.getElementById('cfg-secondmodel');
+
+    let item2 = document.getElementById('cfg-firstmodel'); // guard wood
+    let item1 = document.getElementById('cfg-secondmodel'); // guard pro
 
     const blockstylestep61 = document.getElementById('checkbox-3step-style-default');
     const blockstylestep62 = document.getElementById('checkbox-3step-style1');
@@ -225,11 +226,10 @@ function cfgDoorModel1() {
 
 
     if (item1.classList.contains('active')) {
-
+        console.log('1')
     }
-    else {
-        indoorStylesMilled();
-        classicmilled();
+    else {       
+        console.log('1 none')
         classicmilledcards.forEach(b => b.classList.remove('active'));
 
         blockstylestep61.style.display = '';
@@ -265,9 +265,9 @@ function cfgDoorModel1() {
  * кнопка выбора второй модели
  * */
 function cfgDoorModel2() {
-
-    let item2 = document.getElementById('cfg-firstmodel');
-    let item1 = document.getElementById('cfg-secondmodel');
+    console.log('2 work')
+    let item2 = document.getElementById('cfg-firstmodel'); // guard wood
+    let item1 = document.getElementById('cfg-secondmodel'); // guard pro
     const blockstylestep61 = document.getElementById('checkbox-3step-style-default');
     const blockstylestep62 = document.getElementById('checkbox-3step-style1');
     const blockmirror = document.getElementById('checkbox-3step-mirror');
@@ -280,25 +280,24 @@ function cfgDoorModel2() {
 
 
     if (item2.classList.contains('active')) {
-
+        console.log('2')
     }
     else {
-        indoorStylesMilled();
-        classicmilled();
-        classicmilledcards.forEach(b => b.classList.remove('active'));
+        console.log('2 none')
+        // classicmilledcards.forEach(b => b.classList.remove('active'));
 
-        blockstylestep61.style.display = '';
-        blockstylestep62.style.display = 'none';
-        blockmirror.style.display = 'none';
-        blockmilled.style.display = 'none';
-        blocktreecolor.style.display = 'none';
-        blockstyleglazed.style.display = 'none';
+        // blockstylestep61.style.display = '';
+        // blockstylestep62.style.display = 'none';
+        // blockmirror.style.display = 'none';
+        // blockmilled.style.display = 'none';
+        // blocktreecolor.style.display = 'none';
+        // blockstyleglazed.style.display = 'none';
 
 
         item2.classList.add('active');
         item1.classList.remove('active');
 
-        indoorwoodcards.forEach(b => b.classList.remove('active'));
+        // indoorwoodcards.forEach(b => b.classList.remove('active'));
 
 
 
