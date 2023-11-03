@@ -179,20 +179,19 @@ function swiperDoors() {
     if (document.querySelector(".catalogue__items") && window.matchMedia('(max-width: 800px)').matches) {
 
         document.querySelector('.catalogue__items').classList.add('swiper');
-        document.querySelector('.catalogue__items > div').classList.add('swiper-wrapper');
+        document.querySelector('.catalogue__items .catalogue').classList.add('swiper-wrapper');
         document.querySelectorAll('.catalogue__item').forEach(el => el.classList.add('swiper-slide'));
 
         var swiperInterior = new Swiper(".catalogue__items", {
+            slidesPerView: "1",
             breakpoints: {
-                800: {
-                    slidesPerView: "2",
-                    spaceBetween: 30,
-                },
                 640: {
                     slidesPerView: "2",
                     spaceBetween: 20,
                     loop: true,
                 },
+              
+                
             },
             navigation: {
                 nextEl: ".swiper-button-next",

@@ -1423,6 +1423,11 @@
     margin: 0 auto;
     max-width: 860px;
   }
+  .popular__item-top-cover {
+    bottom: 90px;
+    left: 115px;
+    font-size: 40.701px;
+}
   .difference__section {
     max-height: 750px !important;
   }
@@ -1507,10 +1512,10 @@
     height: 260px;
   }
   .popular__item-top-cover {
-    bottom: 55px;
+    bottom: 70px;
     left: 90px;
-    font-size: 45px;
-  }
+    font-size: 34px;
+}
   .popular__item-title {
     margin-bottom: 15px;
   }
@@ -1601,7 +1606,8 @@
   }
   .popular__item-top-cover {
     left: 120px;
-    font-size: 42px;
+    bottom: 69px;
+    font-size: 39px;
   }
   .popular__item-title {
     font-size: 18px;
@@ -1770,7 +1776,7 @@
   }
   .popular__item-top-cover {
     left: 80px;
-    font-size: 38px;
+    font-size: 32px;
   }
   .popular__item-bottom {
     text-align: center;

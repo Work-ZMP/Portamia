@@ -1557,6 +1557,11 @@
   .popular__items .swiper-wrapper {
     transform: translate3d(-900px, 0px, 0px);
   }
+  .popular__item-top-cover {
+    bottom: 90px;
+    left: 110px;
+    font-size: 45.701px;
+}
 }
 
 @media (max-width: 1024px) {
@@ -1660,8 +1665,9 @@
     height: 270px;
   }
   .catalogue__item-top-cover {
-    bottom: 45px;
-    font-size: 45px;
+    bottom: 90px;
+    left: 95px;
+    font-size: 38px;
   }
   .catalogue__item-title {
     font-size: 20px;
