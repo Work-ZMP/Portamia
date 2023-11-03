@@ -1594,10 +1594,11 @@
     height: 260px;
   }
   .popular__item-top-cover {
-    bottom: 55px;
-    left: 90px;
-    font-size: 45px;
-  }
+    bottom: 74px;
+    left: 88px;
+    font-size: 36px;
+    text-wrap: nowrap;
+}
   .popular__item-title {
     margin-bottom: 15px;
   }
@@ -1834,8 +1835,9 @@
     height: 95%;
   }
   .popular__item-top-cover {
-    left: 120px;
-    font-size: 42px;
+    left: 110px;
+    font-size: 36px;
+    text-wrap: nowrap;
   }
   .popular__item-title {
     font-size: 18px;
