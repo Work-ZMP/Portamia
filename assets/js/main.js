@@ -182,10 +182,11 @@ function swiperDoors() {
         document.querySelector('.catalogue__items > div').classList.add('swiper-wrapper');
         document.querySelectorAll('.catalogue__item').forEach(el => el.classList.add('swiper-slide'));
 
-        var swiperInterior = new Swiper(".catalogue__items", {
+        var swiperDoors = new Swiper(".catalogue__items", {
             slidesPerView: "1.3",
             spaceBetween: 30,
             breakpoints: {
+
                 640: {
                     slidesPerView: "2",
                     spaceBetween: 30,
@@ -195,8 +196,8 @@ function swiperDoors() {
                 
             },
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".catalogue__section .swiper-button-next",
+                prevEl: ".catalogue__section .swiper-button-prev",
             },
             keyboard: {
                 enabled: true,
@@ -207,7 +208,7 @@ function swiperDoors() {
 
         });
         window.addEventListener('resize', function () {
-            swiperInterior.update(); // Обновляем Swiper
+            swiperDoors.update(); // Обновляем Swiper
         });
 
     }
