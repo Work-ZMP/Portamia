@@ -575,6 +575,11 @@ if (isset($_GET['door_cfg'])) {
 
                                                 </span>
                                             </button>
+                                            <button data-variable-name="outdoorstyles" data-variable-value="milling" data-outdoorstyles="milling" data-price="0" data-image="" data-order="1" type="button" class="cfg-btn cfg-btn-group btn btn-normal btn-gradient-primary<?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'milling') ? ' active' : '' ?>" id="btn2step5" onclick="outdoorStylesMilling()">
+                                                <span>
+                                                    <em>Фрезеровка</em>
+                                                </span>
+                                            </button>
                                             <button data-variable-name="outdoorstyles" data-variable-value="fusing" data-outdoorstyles="fusing" data-price="0" data-image="" data-order="1" type="button" class="unfinished cfg-btn cfg-btn-group btn btn-normal btn-gradient-primary<?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'fusing') ? ' active' : '' ?>" id="btn2step4" onclick="outdoorStylesFusing()">
                                                 <span>
                                                     <em>Фьюзинг</em>
@@ -592,6 +597,7 @@ if (isset($_GET['door_cfg'])) {
                                                     <em>Рамка</em>
                                                 </span>
                                             </button>
+                                            
                                         </div>
                                     </div>
                                 </div>
