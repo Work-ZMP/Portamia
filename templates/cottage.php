@@ -59,9 +59,9 @@ Template Name: Коттеджные двери
         <div class="popular__inner">
             <hr class="popular__line">
             <h1 class="popular__title">Популярные модели</h1>
-            <div class="popular__items swiper">
-                <div class="swiper-wrapper">
-                    <div class="popular__item swiper-slide">
+            <div class="popular__items">
+                <div class="">
+                    <div class="popular__item">
                         <div class="popular__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/popular-item-1.png" alt="" class="popular__item-img">
                             <div class="popular__item-top-cover">ESSENCE</div>
@@ -72,7 +72,7 @@ Template Name: Коттеджные двери
                             <a href="<?php echo get_permalink(522); ?>" class="popular__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="popular__item swiper-slide">
+                    <div class="popular__item">
                         <div class="popular__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/popular-item-2.png" alt="" class="popular__item-img">
                             <div class="popular__item-top-cover">LEVEL ONE</div>
@@ -83,7 +83,7 @@ Template Name: Коттеджные двери
                             <a href="<?php echo get_permalink(524); ?>" class="popular__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="popular__item swiper-slide">
+                    <div class="popular__item">
                         <div class="popular__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/popular-item-3.png" alt="" class="popular__item-img">
                             <div class="popular__item-top-cover">ROOM 47</div>
@@ -94,7 +94,7 @@ Template Name: Коттеджные двери
                             <a href="<?php echo get_permalink(526); ?>" class="popular__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="popular__item swiper-slide">
+                    <div class="popular__item">
                         <div class="popular__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/popular-item-2.png" alt="" class="popular__item-img">
                             <div class="popular__item-top-cover">LEVEL ONE</div>
@@ -105,7 +105,7 @@ Template Name: Коттеджные двери
                             <a href="<?php echo get_permalink(524); ?>" class="popular__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="popular__item swiper-slide">
+                    <div class="popular__item">
                         <div class="popular__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/popular-item-3.png" alt="" class="popular__item-img">
                             <div class="popular__item-top-cover">ROOM 47</div>

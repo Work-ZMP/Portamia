@@ -192,40 +192,46 @@ Template Name: Перегородки
             <hr class="glass__line">
             <h2 class="glass__title">Стекла</h2>
             <p class="glass__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+
             <div class="glass__items">
-                <div class="glass__item item-1">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-1.svg" alt="" class="glass__item-img">
-                    <div class="glass__item-text">
-                        <div class="glass__item-subtitle">Модель</div>
-                        <div class="glass__item-title">АЛПЛ 040.01</div>
-                        <a href="" data-fancybox data-src="#glass01" class="glass__item-btn">подробнее</a>
+                <div class="">
+                    <div class="glass__item item-1">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-1.svg" alt="" class="glass__item-img">
+                        <div class="glass__item-text">
+                            <div class="glass__item-subtitle">Модель</div>
+                            <div class="glass__item-title">АЛПЛ 040.01</div>
+                            <a href="" data-fancybox data-src="#glass01" class="glass__item-btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="glass__item item-2">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-2.svg" alt="" class="glass__item-img">
-                    <div class="glass__item-text">
-                        <div class="glass__item-subtitle">Модель</div>
-                        <div class="glass__item-title">АЛПЛ 040.02</div>
-                        <a href="" data-fancybox data-src="#glass02" class="glass__item-btn">подробнее</a>
+                    <div class="glass__item item-2">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-2.svg" alt="" class="glass__item-img">
+                        <div class="glass__item-text">
+                            <div class="glass__item-subtitle">Модель</div>
+                            <div class="glass__item-title">АЛПЛ 040.02</div>
+                            <a href="" data-fancybox data-src="#glass02" class="glass__item-btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="glass__item item-3">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-3.svg" alt="" class="glass__item-img">
-                    <div class="glass__item-text">
-                        <div class="glass__item-subtitle">Модель</div>
-                        <div class="glass__item-title">АЛПЛ 040.03</div>
-                        <a href="" data-fancybox data-src="#glass03" class="glass__item-btn">подробнее</a>
+                    <div class="glass__item item-3">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-3.svg" alt="" class="glass__item-img">
+                        <div class="glass__item-text">
+                            <div class="glass__item-subtitle">Модель</div>
+                            <div class="glass__item-title">АЛПЛ 040.03</div>
+                            <a href="" data-fancybox data-src="#glass03" class="glass__item-btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="glass__item item-4">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-4.svg" alt="" class="glass__item-img">
-                    <div class="glass__item-text">
-                        <div class="glass__item-subtitle">Модель</div>
-                        <div class="glass__item-title">АЛПЛ 040.04</div>
-                        <a href="" data-fancybox data-src="#glass04" class="glass__item-btn">подробнее</a>
+                    <div class="glass__item item-4">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/glass-item-4.svg" alt="" class="glass__item-img">
+                        <div class="glass__item-text">
+                            <div class="glass__item-subtitle">Модель</div>
+                            <div class="glass__item-title">АЛПЛ 040.04</div>
+                            <a href="" data-fancybox data-src="#glass04" class="glass__item-btn">подробнее</a>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
             <hr class="glass__line line-long">
         </div>
     </div>
@@ -253,85 +259,88 @@ Template Name: Перегородки
             <hr class="catalogue__line">
             <h2 class="catalogue__title">Каталог перегородок</h2>
             <p class="catalogue__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
-            <div class="catalogue__items">
-                <div class="catalogue__item">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-1.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">АЛПЛ 040.01</div>
+            <div class="catalogue__items items-partitions">
+                <div class="">
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-1.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">АЛПЛ 040.01</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">АЛПЛ 040.01</div>
+                            <a href="" data-fancybox data-src="#partition01" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">АЛПЛ 040.01</div>
-                        <a href="" data-fancybox data-src="#partition01" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-2.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">АЛПЛ 040.02</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">АЛПЛ 040.02</div>
+                            <a href="" data-fancybox data-src="#partition02" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="catalogue__item">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-2.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">АЛПЛ 040.02</div>
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-3.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">АЛПЛ 040.03</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">АЛПЛ 040.03</div>
+                            <a href="" data-fancybox data-src="#partition03" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">АЛПЛ 040.02</div>
-                        <a href="" data-fancybox data-src="#partition02" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-4.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">АЛПЛ 040.04</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">АЛПЛ 040.04</div>
+                            <a href="" data-fancybox data-src="#partition04" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="catalogue__item">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-3.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">АЛПЛ 040.03</div>
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-5.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">АЛПЛ 040.05</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">АЛПЛ 040.05</div>
+                            <a href="" data-fancybox data-src="#partition05" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">АЛПЛ 040.03</div>
-                        <a href="" data-fancybox data-src="#partition03" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-6.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">АЛПЛ 040.06</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">АЛПЛ 040.06</div>
+                            <a href="" data-fancybox data-src="#partition06" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="catalogue__item">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-4.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">АЛПЛ 040.04</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">АЛПЛ 040.04</div>
-                        <a href="" data-fancybox data-src="#partition04" class="catalogue__btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="catalogue__item">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-5.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">АЛПЛ 040.05</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">АЛПЛ 040.05</div>
-                        <a href="" data-fancybox data-src="#partition05" class="catalogue__btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="catalogue__item">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-6.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">АЛПЛ 040.06</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">АЛПЛ 040.06</div>
-                        <a href="" data-fancybox data-src="#partition06" class="catalogue__btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="catalogue__item">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-7.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">АЛПЛ 040.07</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">АЛПЛ 040.07</div>
-                        <a href="" data-fancybox data-src="#partition07" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cat-item-7.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">АЛПЛ 040.07</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">АЛПЛ 040.07</div>
+                            <a href="" data-fancybox data-src="#partition07" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </section>
