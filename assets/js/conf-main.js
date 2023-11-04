@@ -212,13 +212,22 @@ function cfgDoorModel1() {
     let item2 = document.getElementById('cfg-firstmodel'); // guard wood
     let item1 = document.getElementById('cfg-secondmodel'); // guard pro
 
+    let millingStyleBtn = document.getElementById('btn2step5'); // внеш. сторона - стиль - кнопка фрезеровка
+    let fusingStyleBtn = document.getElementById('btn2step4'); // внеш. сторона - стиль - кнопка фьюзинг
+    let defaultStyleBtn = document.getElementById('btn2step1'); // внеш. сторона - стиль - кнопка металл/мдф или панель гладкая
 
 
 
     if (item1.classList.contains('active')) {
 
     }
-    else {       
+    else {     
+        document.querySelectorAll('.cfg-btn-group-wrapper > button').forEach(b => b.classList.remove('active'))
+        outdoorStylesClassic()
+
+        millingStyleBtn.style.display = 'none';
+        defaultStyleBtn.querySelector('span > em').textContent = 'Металл / МДФ';
+        fusingStyleBtn.style.display = '';
 
 
         item1.classList.add('active');
@@ -248,11 +257,24 @@ function cfgDoorModel2() {
     let item2 = document.getElementById('cfg-firstmodel'); // guard wood
     let item1 = document.getElementById('cfg-secondmodel'); // guard pro
 
+    let millingStyleBtn = document.getElementById('btn2step5'); // внеш. сторона - стиль - кнопка фрезеровка
+    let fusingStyleBtn = document.getElementById('btn2step4'); // внеш. сторона - стиль - кнопка фьюзинг
+    let defaultStyleBtn = document.getElementById('btn2step1'); // внеш. сторона - стиль - кнопка металл/мдф или панель гладкая
+
 
     if (item2.classList.contains('active')) {
 
     }
     else {
+        
+        document.querySelectorAll('.cfg-btn-group-wrapper > button').forEach(b => b.classList.remove('active'))
+        outdoorStylesClassic()
+
+        millingStyleBtn.style.display = 'none';
+        defaultStyleBtn.querySelector('span > em').textContent = 'Металл / МДФ';
+        fusingStyleBtn.style.display = '';
+
+
 
         item2.classList.add('active');
         item1.classList.remove('active');
