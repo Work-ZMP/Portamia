@@ -181,24 +181,24 @@ function buildCheck() {
 
     if (door_cfg.model.value == 1) {
 
-        door_model = 'Termo'
+        door_model = 'Guard Pro'
 
     }
 
     if (door_cfg.model.value == 2) {
 
-        door_model = 'Termo Plus'
+        door_model = 'Guard Wood'
 
     }
 
-    let total_cost_old = total_cost + (parseInt(total_cost) / 100 * 10);
+    let total_cost_new = total_cost - (parseInt(total_cost) / 100 * 10);
 
     $('#cfg-total-cost').text(total_cost + ' ₽');
-    $('#cfg-price-group-cost-old').text(total_cost_old + ' ₽');
-    $('#cfg-price-group-cost-current').text(total_cost + ' ₽');
+    $('#cfg-price-group-cost-old').text(total_cost + ' ₽');
+    $('#cfg-price-group-cost-current').text(total_cost_new + ' ₽');
 
-    $('#popup__share .popup__share-cost-old, #popup__toemail .popup__share-cost-old').text(total_cost_old + ' ₽');
-    $('#popup__share .popup__share-cost-current, #popup__toemail .popup__share-cost-current').text(total_cost + ' ₽');
+    $('#popup__share .popup__share-cost-old, #popup__toemail .popup__share-cost-old').text(total_cost + ' ₽');
+    $('#popup__share .popup__share-cost-current, #popup__toemail .popup__share-cost-current').text(total_cost_new + ' ₽');
 
     $('#popup__share .popup__share-left .popup__share-title, #popup__toemail .popup__share-left .popup__share-title').text(door_model);
 
@@ -209,41 +209,20 @@ function buildCheck() {
  * */
 function cfgDoorModel1() {
 
-
     let item2 = document.getElementById('cfg-firstmodel'); // guard wood
     let item1 = document.getElementById('cfg-secondmodel'); // guard pro
 
-    const blockstylestep61 = document.getElementById('checkbox-3step-style-default');
-    const blockstylestep62 = document.getElementById('checkbox-3step-style1');
-    const blockmirror = document.getElementById('checkbox-3step-mirror');
-    const blockmilled = document.getElementById('checkbox-3step-milled');
-    const blocktreecolor = document.getElementById('checkbox-3step-tree-color');
-    const blockstyleglazed = document.getElementById('checkbox-3step-glazed');
-
-    let classicmilledcards = document.querySelectorAll('#classicmilled-block .milling-item');
-    console.log(classicmilledcards);
 
 
 
     if (item1.classList.contains('active')) {
-        console.log('1')
+
     }
     else {       
-        console.log('1 none')
-        classicmilledcards.forEach(b => b.classList.remove('active'));
-
-        blockstylestep61.style.display = '';
-        blockstylestep62.style.display = 'none';
-        blockmirror.style.display = 'none';
-        blockmilled.style.display = 'none';
-        blocktreecolor.style.display = 'none';
-        blockstyleglazed.style.display = 'none';
 
 
         item1.classList.add('active');
         item2.classList.remove('active');
-
-        indoorwoodcards.forEach(b => b.classList.remove('active'));
 
 
 
@@ -265,39 +244,18 @@ function cfgDoorModel1() {
  * кнопка выбора второй модели
  * */
 function cfgDoorModel2() {
-    console.log('2 work')
+
     let item2 = document.getElementById('cfg-firstmodel'); // guard wood
     let item1 = document.getElementById('cfg-secondmodel'); // guard pro
-    const blockstylestep61 = document.getElementById('checkbox-3step-style-default');
-    const blockstylestep62 = document.getElementById('checkbox-3step-style1');
-    const blockmirror = document.getElementById('checkbox-3step-mirror');
-    const blockmilled = document.getElementById('checkbox-3step-milled');
-    const blocktreecolor = document.getElementById('checkbox-3step-tree-color');
-    const blockstyleglazed = document.getElementById('checkbox-3step-glazed');
-
-    let classicmilledcards = document.querySelectorAll('#classicmilled-block .milling-item');
-    console.log(classicmilledcards);
 
 
     if (item2.classList.contains('active')) {
-        console.log('2')
+
     }
     else {
-        console.log('2 none')
-        // classicmilledcards.forEach(b => b.classList.remove('active'));
-
-        // blockstylestep61.style.display = '';
-        // blockstylestep62.style.display = 'none';
-        // blockmirror.style.display = 'none';
-        // blockmilled.style.display = 'none';
-        // blocktreecolor.style.display = 'none';
-        // blockstyleglazed.style.display = 'none';
-
 
         item2.classList.add('active');
         item1.classList.remove('active');
-
-        // indoorwoodcards.forEach(b => b.classList.remove('active'));
 
 
 
@@ -523,7 +481,7 @@ function leafdooritems(button) {
 
         btn.classList.add('active');
 
-        if (button === 'slditem2' || button === 'slditem3' || button === 'dlditem3' || button === 'dlditem2') {
+        if (button === 'slditem2' || button === 'slditem3' || button === 'dlditem3' || button === 'dlditem2' || button === 'slditem4' || button === 'slditem5') {
 
             glasscol.style.display = '';
             glasscol2.style.display = '';
@@ -2665,46 +2623,3 @@ $(document).ready(function () {
     buildCheck();
 
 });
-/**
- * кнопка выбора второй модели
-*/
-function cfgDoorModel2() {
-
-    // let item1 = document.getElementById('cfg-firstmodel');
-    // let item2 = document.getElementById('cfg-secondmodel');
-    const blockstylestep61 = document.getElementById('checkbox-3step-style-default');
-    const blockstylestep62 = document.getElementById('checkbox-3step-style1');
-    const blockmirror = document.getElementById('checkbox-3step-mirror');
-    const blockmilled = document.getElementById('checkbox-3step-milled');
-    const blocktreecolor = document.getElementById('checkbox-3step-tree-color');
-    const blockstyleglazed = document.getElementById('checkbox-3step-glazed');
-    let indoorwoodcards = document.querySelectorAll('#aria-step3-tree-color .texture-item');
-
-
-
-
-
-    blockstylestep61.style.display = 'none';
-    blockstylestep62.style.display = '';
-    blockmirror.style.display = 'none';
-    blockmilled.style.display = '';
-    blocktreecolor.style.display = '';
-    blockstyleglazed.style.display = 'none';
-
-    // item2.classList.add('active');
-    // item1.classList.remove('active');
-
-    indoorStylesMilled();
-    classicmilled();
-
-    indoorwoodcards.forEach(b => b.classList.remove('active'));
-    indoorwoodcards[0].classList.add('active');
-    document.querySelectorAll('#aria-step3-metcol .texture-item').forEach(b => b.classList.remove('active'));
-    metalColOut('btncolout1');
-
-    setConfig();
-
-    buildCheck();
-
-}
-
