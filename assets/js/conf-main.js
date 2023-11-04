@@ -223,7 +223,7 @@ function cfgDoorModel1() {
     }
     else {     
         document.querySelectorAll('.cfg-btn-group-wrapper > button').forEach(b => b.classList.remove('active'))
-        outdoorStylesClassic()
+        outdoorStylesClassic();
 
         millingStyleBtn.style.display = 'none';
         defaultStyleBtn.querySelector('span > em').textContent = 'Металл / МДФ';
@@ -266,9 +266,9 @@ function cfgDoorModel2() {
 
     }
     else {
-        
+
         document.querySelectorAll('.cfg-btn-group-wrapper > button').forEach(b => b.classList.remove('active'))
-        outdoorStylesClassic()
+        outdoorStylesClassic();
 
         millingStyleBtn.style.display = 'none';
         defaultStyleBtn.querySelector('span > em').textContent = 'Металл / МДФ';
@@ -609,7 +609,7 @@ function outdoorStylesClassic() {
         fusingcards.forEach(b => b.classList.remove('active'));
 
 
-        cfgDoorModel2();
+
         indoorStylesMilled();
         typeMilledOutClassic("btn-milled-classic1");
 
@@ -702,7 +702,7 @@ function outdoorStylesBaguette() {
 
         }
         else {
-            cfgDoorModel2();
+
             indoorStylesMilled();
 
         }
@@ -2639,7 +2639,7 @@ function popupGetCallThen() {
 }
 
 $(document).ready(function () {
-    cfgDoorModel2();
+    cfgDoorModel1();
     setConfig();
 
     buildCheck();
