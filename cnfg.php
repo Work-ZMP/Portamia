@@ -575,7 +575,7 @@ if (isset($_GET['door_cfg'])) {
 
                                                 </span>
                                             </button>
-                                            <button data-variable-name="outdoorstyles" data-variable-value="milling" data-outdoorstyles="milling" data-price="0" data-image="" data-order="1" type="button" class="cfg-btn cfg-btn-group btn btn-normal btn-gradient-primary<?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'milling') ? ' active' : '' ?>" id="btn2step5" onclick="outdoorStylesMilling()">
+                                            <button data-variable-name="outdoorstyles" data-variable-value="milling" data-outdoorstyles="milling" data-price="0" data-image="" data-order="1" type="button" class="cfg-btn cfg-btn-group btn btn-normal btn-gradient-primary<?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'milling') ? ' active' : '' ?>" id="btn2step5" style="display: none;" onclick="outdoorStylesMilling()">
                                                 <span>
                                                     <em>Фрезеровка</em>
                                                 </span>
@@ -597,13 +597,760 @@ if (isset($_GET['door_cfg'])) {
                                                     <em>Рамка</em>
                                                 </span>
                                             </button>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-2step-milled" <?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'milling') ? '' : 'style="display: none;"' ?>>
+                            <button type="button" class="btn accordion-header" id='close-button-2step-5' onclick='closeblock("aria-step2-milled", "close-button-2step-5", "checkbox-2step-milled" )'>
+                                <span class="accordion-head">
+                                    Фрезеровка
+                                </span>
+                                <span class="accordion-head-tab"></span>
+                            </button>
+                            <div id='aria-step2-milled'>
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <div class="tabs-group" withoutscroll="true">
+                                            <div class="tabs-group-item tabs-2">
+                                                <div data-variable-name="outclassicmilled" data-variable-value="1" data-classicmilled="1" data-price="0" data-image="" data-order="1" class="tab tab-2<?= (isset($_GET['outclassicmilled']) and $_GET['outclassicmilled'] == '1') ? ' active' : '' ?>" id="outclassicmilled-btn" onclick="outclassicmilled()">
+                                                    Классический стиль
+                                                </div>
+                                                <div data-variable-name="outmodernmilled" data-variable-value="1" data-modernmilled="1" data-price="0" data-image="" data-order="1" class="tab tab-2<?= (isset($_GET['outmodernmilled']) and $_GET['outmodernmilled'] == '1') ? ' active' : '' ?>" id="outmodernmilled-btn" onclick="outmodernmilled()">
+                                                    Современный стиль
+                                                </div>
+                                            </div>
 
+                                            <hr>
+                                            <div class="tabs-group-body" id="classicmilledout-block" <?= (isset($_GET['classicmilledout']) and $_GET['classicmilledout'] == '1') ? '' : 'style="display: none;"' ?>>
+                                                <div>
+                                                    <div class="milling-group">
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor1" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor1" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor1') ? ' active' : '' ?>" id='btn-milled-classic-outdoor1' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor1")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/1.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 001</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor2" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor2') ? ' active' : '' ?>" id='btn-milled-classic-outdoor2' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor2")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/2.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 002</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor3" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor3" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor3') ? ' active' : '' ?>" id='btn-milled-classic-outdoor3' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor3")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/3.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 003</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor4" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor4" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor4') ? ' active' : '' ?>" id='btn-milled-classic-outdoor4' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor4")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/4.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 004</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor5" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor5" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor5') ? ' active' : '' ?>" id='btn-milled-classic-outdoor5' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor5")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/5.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 005</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor6" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor6" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor6') ? ' active' : '' ?>" id='btn-milled-classic-outdoor6' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor6")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/6.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 006</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor7" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor7" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor7') ? ' active' : '' ?>" id='btn-milled-classic-outdoor7' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor7")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/7.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 007</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor8" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor8" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor8') ? ' active' : '' ?>" id='btn-milled-classic-outdoor8' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor8")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/8.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 008</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor9" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor9" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor9') ? ' active' : '' ?>" id='btn-milled-classic-outdoor9' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor9")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/9.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 009</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor10" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor10" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor10') ? ' active' : '' ?>" id='btn-milled-classic-outdoor10' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor10")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/10.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 010</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor11" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor11" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor11') ? ' active' : '' ?>" id='btn-milled-classic-outdoor11' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor11")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/11.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 009</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor12" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor12" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor12') ? ' active' : '' ?>" id='btn-milled-classic-outdoor12' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor12")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/12.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 010</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor13" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor13" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor13') ? ' active' : '' ?>" id='btn-milled-classic-outdoor13' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor13")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/13.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 013</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor14" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor14" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor14') ? ' active' : '' ?>" id='btn-milled-classic-outdoor14' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor14")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/14.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 014</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor15" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor15" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor15') ? ' active' : '' ?>" id='btn-milled-classic-outdoor15' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor15")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/15.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 015</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor16" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor16" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor16') ? ' active' : '' ?>" id='btn-milled-classic-outdoor16' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor16")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/16.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 016</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor17" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor17" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor17') ? ' active' : '' ?>" id='btn-milled-classic-outdoor17' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor17")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/17.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 017</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor18" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor18" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor18') ? ' active' : '' ?>" id='btn-milled-classic-outdoor18' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor18")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/18.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 018</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor19" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor19" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor19') ? ' active' : '' ?>" id='btn-milled-classic-outdoor19' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor19")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/19.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 019</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor20" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor20" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor20') ? ' active' : '' ?>" id='btn-milled-classic-outdoor20' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor20")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/20.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 020</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor21" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor21" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor21') ? ' active' : '' ?>" id='btn-milled-classic-outdoor21' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor21")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/21.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 021</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor22" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor22" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor22') ? ' active' : '' ?>" id='btn-milled-classic-outdoor22' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor22")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/22.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 022</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor23" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor23" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor23') ? ' active' : '' ?>" id='btn-milled-classic-outdoor23' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor23")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/23.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 023</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor24" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor24" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor24') ? ' active' : '' ?>" id='btn-milled-classic-outdoor24' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor24")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/24.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 024</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor25" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor25" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor25') ? ' active' : '' ?>" id='btn-milled-classic-outdoor25' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor25")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/25.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 025</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor26" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor26" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor26') ? ' active' : '' ?>" id='btn-milled-classic-outdoor26' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor26")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/26.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 026</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor27" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor27" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor27') ? ' active' : '' ?>" id='btn-milled-classic-outdoor27' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor27")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/27.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 027</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor28" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor28" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor28') ? ' active' : '' ?>" id='btn-milled-classic-outdoor28' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor28")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/28.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 028</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor29" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor29" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor29') ? ' active' : '' ?>" id='btn-milled-classic-outdoor29' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor29")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/29.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 029</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor30" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor30" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor30') ? ' active' : '' ?>" id='btn-milled-classic-outdoor30' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor30")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/30.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 030</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor31" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor31" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor31') ? ' active' : '' ?>" id='btn-milled-classic-outdoor31' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor31")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/31.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 031</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor32" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor32" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor32') ? ' active' : '' ?>" id='btn-milled-classic-outdoor32' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor32")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/32.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 032</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor33" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor33" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor33') ? ' active' : '' ?>" id='btn-milled-classic-outdoor33' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor33")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/33.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 033</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor34" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor34" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor34') ? ' active' : '' ?>" id='btn-milled-classic-outdoor34' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor34")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/34.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 034</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor35" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor35" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor35') ? ' active' : '' ?>" id='btn-milled-classic-outdoor35' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor35")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/35.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 035</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor36" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor36" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor36') ? ' active' : '' ?>" id='btn-milled-classic-outdoor36' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor36")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/36.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 036</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor37" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor37" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor37') ? ' active' : '' ?>" id='btn-milled-classic-outdoor37' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor37")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/37.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 037</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor38" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor38" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor38') ? ' active' : '' ?>" id='btn-milled-classic-outdoor38' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor38")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/38.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 038</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutclassicoutdoor" data-variable-value="btn-milled-classic-outdoor39" data-typemilledoutclassicoutdoor="btn-milled-classic-outdoor39" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutclassicoutdoor']) and $_GET['typemilledoutclassicoutdoor'] == 'btn-milled-classic-outdoor39') ? ' active' : '' ?>" id='btn-milled-classic-outdoor39' onclick='typeMilledOutClassicOutdoor("btn-milled-classic-outdoor39")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/39.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FK-MDF 039</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tabs-group-body" id="modernmilledout-block" <?= (isset($_GET['modernmilledout']) and $_GET['modernmilledout'] == '1') ? '' : 'style="display: none;"' ?>>
+                                                <div>
+                                                    <div class="milling-group">
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor1" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor1" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modernoutdoor1') ? ' active' : '' ?>" id='btn-milled-modern-outdoor1' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor1")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/40.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 001</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor2" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modernoutdoor2') ? ' active' : '' ?>" id='btn-milled-modern-outdoor2' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor2")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/41.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 002</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor3" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor3" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modernoutdoor3') ? ' active' : '' ?>" id='btn-milled-modern-outdoor3' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor3")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/42.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 003</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor4" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor4" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modernoutdoor4') ? ' active' : '' ?>" id='btn-milled-modern-outdoor4' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor4")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/43.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 004</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor5" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor5" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modernoutdoor5') ? ' active' : '' ?>" id='btn-milled-modern-outdoor5' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor5")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/44.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 005</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor6" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor6" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modernoutdoor6') ? ' active' : '' ?>" id='btn-milled-modern-outdoor6' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor6")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/45.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 006</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor7" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor7" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modernoutdoor7') ? ' active' : '' ?>" id='btn-milled-modern-outdoor7' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor7")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/46.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 007</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor8" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor8" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modernoutdoor8') ? ' active' : '' ?>" id='btn-milled-modern-outdoor8' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor8")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/47.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 008</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor9" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor9" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modernoutdoor9') ? ' active' : '' ?>" id='btn-milled-modern-outdoor9' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor9")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/48.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 009</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor10" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor10" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor10') ? ' active' : '' ?>" id='btn-milled-modern-outdoor10' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor10")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/49.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 010</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor11" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor11" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor11') ? ' active' : '' ?>" id='btn-milled-modern-outdoor11' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor11")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/50.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 011</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor12" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor12" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor12') ? ' active' : '' ?>" id='btn-milled-modern-outdoor12' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor12")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/51.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 012</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor13" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor13" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor13') ? ' active' : '' ?>" id='btn-milled-modern-outdoor13' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor13")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/52.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 013</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor14" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor14" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor14') ? ' active' : '' ?>" id='btn-milled-modern-outdoor14' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor14")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/53.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 014</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor15" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor15" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor15') ? ' active' : '' ?>" id='btn-milled-modern-outdoor15' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor15")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/54.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 015</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor16" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor16" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor16') ? ' active' : '' ?>" id='btn-milled-modern-outdoor16' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor16")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/55.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 016</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor17" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor17" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor17') ? ' active' : '' ?>" id='btn-milled-modern-outdoor17' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor17")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/56.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 017</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor18" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor18" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor18') ? ' active' : '' ?>" id='btn-milled-modern-outdoor18' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor18")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/57.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 018</div>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor19" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor19" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor19') ? ' active' : '' ?>" id='btn-milled-modern-outdoor19' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor19")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/58.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 019</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor20" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor20" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor20') ? ' active' : '' ?>" id='btn-milled-modern-outdoor20' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor20")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/59.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 020</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor21" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor21" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor21') ? ' active' : '' ?>" id='btn-milled-modern-outdoor21' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor21")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/60.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 021</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor22" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor22" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor22') ? ' active' : '' ?>" id='btn-milled-modern-outdoor22' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor22")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/61.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 022</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor23" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor23" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor23') ? ' active' : '' ?>" id='btn-milled-modern-outdoor23' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor23")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/62.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 023</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor24" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor24" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor24') ? ' active' : '' ?>" id='btn-milled-modern-outdoor24' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor24")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/63.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 024</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <div>
+                                                            <div data-variable-name="typemilledoutmodernoutdoor" data-variable-value="btn-milled-modern-outdoor25" data-typemilledoutmodernoutdoor="btn-milled-modern-outdoor25" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['typemilledoutmodernoutdoor']) and $_GET['typemilledoutmodernoutdoor'] == 'btn-milled-modern-outdoor25') ? ' active' : '' ?>" id='btn-milled-modern-outdoor25' onclick='typeMilledOutModernOutdoor("btn-milled-modern-outdoor25")'>
+                                                                <!---->
+                                                                <div class="milling-image-cover">
+                                                                    <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/milling/64.svg);">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="milling-title">FS-MDF 025</div>
+                                                            </div>
+                                                            <!---->
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-2step-fusing" <?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'fusing') ? '' : 'style="display: none;"' ?>>
                             <button type="button" class="btn accordion-header" id="close-button-2step-4" onclick="closeblock('aria-step2-fusing', 'close-button-2step-4', 'checkbox-2step-fusing')">
                                 <span class="accordion-head">Вид фьюзинга</span>
@@ -2299,6 +3046,8 @@ if (isset($_GET['door_cfg'])) {
 
                                             <hr>
 
+
+
                                             <div class="tabs-group-body" id="classicmilled-block" <?= (isset($_GET['classicmilled']) and $_GET['classicmilled'] == '1') ? '' : 'style="display: none;"' ?>>
                                                 <div>
                                                     <div class="milling-group">
@@ -3043,7 +3792,253 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
-                        <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-3step-tree-color" <?= (isset($_GET['outdoorstyles']) and ($_GET['outdoorstyles'] == 'baguette' or $_GET['outdoorstyles'] == 'glazed')) ? '' : 'style="display: none;"' ?>>
+                        <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-3step-tree-color-out" <?= (isset($_GET['outdoorstyles']) and ($_GET['outdoorstyles'] == 'milling')) ? '' : 'style="display: none;"' ?>>
+                            <button type="button" class="btn accordion-header" id='close-button-3step-8' onclick='closeblock("aria-step3-tree-color-out", "close-button-3step-8", "checkbox-3step-tree-color-out" )'>
+                                <span class="accordion-head">
+                                    Цвет и текстура (внешняя сторона)
+                                </span>
+                                <span class="accordion-head-tab"></span>
+                            </button>
+                            <div id="aria-step3-tree-color-out">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <div class="tabs-group panel_in tabs-hidden">
+                                            <div class="tabs-group-item tabs-2">
+                                                <div class="tab active tab-2">
+                                                    Decoline
+                                                </div>
+                                            </div>
+
+                                            <hr>
+
+                                            <div class="tabs-group-body">
+                                                <div>
+                                                    <div class="cfg-image-banner" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/banner-pan.jpg); background-size: cover;">
+                                                        <div class="cfg-image-banner-info">
+                                                            <div><span class="country country-de"></span>
+                                                                <p class="cfg-image-banner-title">Decoline</p>
+                                                            </div>
+                                                            <p class="cfg-image-banner-descr">
+                                                                Немецкий эко-шпон с текстурой дерева. Верхний слой – декоративная рельефная
+                                                                пленка, защищенная от термального воздействия и влаги.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                    <hr>
+
+                                                    <div><span class="swipe-info">
+                                                            Свайпайте чтобы <br> посмотреть все цвета
+                                                        </span>
+                                                        <div class="texture-group">
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor1" data-doorcoloutdoor="btndoorcoloutdoor1" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcolout']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor1') ? ' active' : '' ?>" id='btndoorcoloutdoor1' onclick='doorColOutdoor("btndoorcoloutdoor1")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image wenge_light property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">Базовое</div>
+                                                                </div>
+                                                                <div class="texture-title">Венге</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor2" data-doorcoloutdoor="btndoorcoloutdoor2" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcolout']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor2') ? ' active' : '' ?>" id='btndoorcoloutdoor2' onclick='doorColOutdoor("btndoorcoloutdoor2")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image milk_light property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">Базовое</div>
+                                                                </div>
+                                                                <div class="texture-title">Белое дерево</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor3" data-doorcoloutdoor="btndoorcoloutdoor3" data-price="12500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor3') ? ' active' : '' ?>" id='btndoorcoloutdoor3' onclick='doorColOutdoor("btndoorcoloutdoor3")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image koniak_dub property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">12 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Коньячный дуб</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor4" data-doorcoloutdoor="btndoorcoloutdoor4" data-price="12500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor4') ? ' active' : '' ?>" id='btndoorcoloutdoor4' onclick='doorColOutdoor("btndoorcoloutdoor4")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image vanil_dub property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">12 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Ванильный дуб</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor5" data-doorcoloutdoor="btndoorcoloutdoor5" data-price="12500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor5') ? ' active' : '' ?>" id='btndoorcoloutdoor5' onclick='doorColOutdoor("btndoorcoloutdoor5")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image milk property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">12 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Милк</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor6" data-doorcoloutdoor="btndoorcoloutdoor6" data-price="12500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor6') ? ' active' : '' ?>" id='btndoorcoloutdoor6' onclick='doorColOutdoor("btndoorcoloutdoor6")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image coffee_three property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">12 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Кофейное дерево</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor7" data-doorcoloutdoor="btndoorcoloutdoor7" data-price="16500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor7') ? ' active' : '' ?>" id='btndoorcoloutdoor7' onclick='doorColOutdoor("btndoorcoloutdoor7")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image grey_matt property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">16 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Серый матовый</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor8" data-doorcoloutdoor="btndoorcoloutdoor8" data-price="16500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor8') ? ' active' : '' ?>" id='btndoorcoloutdoor8' onclick='doorColOutdoor("btndoorcoloutdoor8")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image soft_black property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">16 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Черный матовый</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor9" data-doorcoloutdoor="btndoorcoloutdoor9" data-price="16500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor9') ? ' active' : '' ?>" id='btndoorcoloutdoor9' onclick='doorColOutdoor("btndoorcoloutdoor9")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image deco_grafit property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">16 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Графитовое дерево</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor10" data-doorcoloutdoor="btndoorcoloutdoor10" data-price="16500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor10') ? ' active' : '' ?>" id='btndoorcoloutdoor10' onclick='doorColOutdoor("btndoorcoloutdoor10")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image smoky_wood property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">16 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Дымчатое дерево</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor11" data-doorcoloutdoor="btndoorcoloutdoor11" data-price="16500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor11') ? ' active' : '' ?>" id='btndoorcoloutdoor11' onclick='doorColOutdoor("btndoorcoloutdoor11")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image satin property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">16 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Сатиновое дерево</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor12" data-doorcoloutdoor="btndoorcoloutdoor12" data-price="16500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor12') ? ' active' : '' ?>" id='btndoorcoloutdoor12' onclick='doorColOutdoor("btndoorcoloutdoor12")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image grab property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">16 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Граб белый</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor13" data-doorcoloutdoor="btndoorcoloutdoor13" data-price="16500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor13') ? ' active' : '' ?>" id='btndoorcoloutdoor13' onclick='doorColOutdoor("btndoorcoloutdoor13")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image bonobo property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">16 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Венге бонобо</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor14" data-doorcoloutdoor="btndoorcoloutdoor14" data-price="19600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor14') ? ' active' : '' ?>" id='btndoorcoloutdoor14' onclick='doorColOutdoor("btndoorcoloutdoor14")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image arctic_birch property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">19 600 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Арктическая береза</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor15" data-doorcoloutdoor="btndoorcoloutdoor15" data-price="19600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor15') ? ' active' : '' ?>" id='btndoorcoloutdoor15' onclick='doorColOutdoor("btndoorcoloutdoor15")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image chicago_concrete_2sc property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">19 600 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Бетон темный</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor16" data-doorcoloutdoor="btndoorcoloutdoor16" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor16') ? ' active' : '' ?>" id='btndoorcoloutdoor16' onclick='doorColOutdoor("btndoorcoloutdoor16")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image chicago_concrete_1sc property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">19 600 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Бетон светлый</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor17" data-doorcoloutdoor="btndoorcoloutdoor17" data-price="19600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor17') ? ' active' : '' ?>" id='btndoorcoloutdoor17' onclick='doorColOutdoor("btndoorcoloutdoor17")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image votan_eiche_natur property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">19 600 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Греческий платан</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor18" data-doorcoloutdoor="btndoorcoloutdoor18" data-price="19600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor18') ? ' active' : '' ?>" id='btndoorcoloutdoor18' onclick='doorColOutdoor("btndoorcoloutdoor18")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image jute property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">19 600 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Джут</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor19" data-doorcoloutdoor="btndoorcoloutdoor19" data-price="19600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor19') ? ' active' : '' ?>" id='btndoorcoloutdoor19' onclick='doorColOutdoor("btndoorcoloutdoor19")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image jute_white property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">19 600 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Джут белый</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor20" data-doorcoloutdoor="btndoorcoloutdoor20" data-price="17000" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor20') ? ' active' : '' ?>" id='btndoorcoloutdoor20' onclick='doorColOutdoor("btndoorcoloutdoor20")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image soft_white property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">17 000 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Белый</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor21" data-doorcoloutdoor="btndoorcoloutdoor21" data-price="16500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor21') ? ' active' : '' ?>" id='btndoorcoloutdoor21' onclick='doorColOutdoor("btndoorcoloutdoor21")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image brandy_oak property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">16 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Дуб бренди</div>
+                                                            </div>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor22" data-doorcoloutdoor="btndoorcoloutdoor22" data-price="16500" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor22') ? ' active' : '' ?>" id='btndoorcoloutdoor22' onclick='doorColOutdoor("btndoorcoloutdoor22")'>
+                                                                <div class="texture-image-cover">
+                                                                    <div class="texture-image rustic_oak property-texture panel_in decoline">
+                                                                        <div class="image"></div>
+                                                                    </div>
+                                                                    <div class="texture-price">16 500 ₽</div>
+                                                                </div>
+                                                                <div class="texture-title">Дуб рустик</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-3step-tree-color" <?= (isset($_GET['outdoorstyles']) and ($_GET['outdoorstyles'] == 'baguette' or $_GET['outdoorstyles'] == 'glazed' or $_GET['outdoorstyles'] == 'classic' or $_GET['outdoorstyles'] == 'fusing')) ? '' : 'style="display: none;"' ?>>
                             <button type="button" class="btn accordion-header" id='close-button-3step-7' onclick='closeblock("aria-step3-tree-color", "close-button-3step-7", "checkbox-3step-tree-color" )'>
                                 <span class="accordion-head">
                                     Цвет и текстура
@@ -3289,23 +4284,7 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
-                        <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-3step-style-default" <?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'classic') ? '' : 'style="display: none;"' ?>>
-                            <button type="button" class="btn accordion-header" id='close-button-3step-1' onclick="closeblock('aria-step3-style-default', 'close-button-3step-1', 'checkbox-3step-style-default')">
-                                <span class="accordion-head">Стиль</span>
-                                <span class="accordion-head-tab"></span>
-                            </button>
-                            <div id="aria-step3-style-default">
-                                <div class="accordion-body">
-                                    <div class="accordion-content">
-                                        <div class="cfg-btn-group-wrapper">
-                                            <button type="button" class="cfg-btn cfg-btn-group btn btn-normal btn-gradient-primary active">
-                                                <span><em>Металл гладкий</em> <em>Metal</em></span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
 
                     </div>
 
@@ -4497,12 +5476,12 @@ if (isset($_GET['door_cfg'])) {
                         <div class="popup__share-btns">
                             <form>
                                 <input type="text" id="pwt" name="door_cfg_phone" placeholder="Номер телефона">
-                                 <label for="popup__manufacture-checkbox" class="popup__share-checkbox">
+                                <label for="popup__manufacture-checkbox" class="popup__share-checkbox">
                                     <input type="checkbox" name="door_cfg_privacy" id="popup__manufacture-checkbox">
                                     Я согласен с условиями обработки персональных данных и соглашением о пользовании сайтом
                                 </label>
                                 <!-- <div class="popup__share-btn-copy default-btn">Получить HTML</div> -->
-                                <input type="hidden" id="fsit" value=""/>
+                                <input type="hidden" id="fsit" value="" />
                                 <input id="srtmail1" type="submit" name="door_cfg_submit" value="Отправить" class="popup__share-btn-copy default-btn">
                             </form>
                         </div>

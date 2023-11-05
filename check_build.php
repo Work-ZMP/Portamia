@@ -652,6 +652,26 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])) :
 
                             <?php endif; ?>
 
+                            <?php if ($door_cfg['outdoorstyles']['value'] == 'milling') : ?>
+
+                                <div class="options-item">
+                                    <div class="options-item-l">
+                                        <div class="options-item-l-title">Отделка</div>
+                                        <div class="options-item-l-description">Фрезеровка</div>
+                                    </div>
+                                    <?php if (!empty($door_cfg['outdoorstyles']['price'])) : ?>
+                                        <div class="options-item-r">
+                                            <div class="options-item-r-cost"><?= $door_cfg['outdoorstyles']['price'] . ' ₽' ?></div>
+                                        </div>
+                                    <?php else : ?>
+                                        <div class="options-item-r">
+                                            <div class="options-item-r-included">Включено в базу</div>
+                                        </div>
+                                    <?php endif; ?>
+                                </div>
+
+                            <?php endif; ?>
+
                             <?php if ($door_cfg['outdoorstyles']['value'] == 'baguette') : ?>
 
                                 <?php if ($door_cfg['furnitem_baguette']['value'] == 'baguette-item1-step__2') : ?>

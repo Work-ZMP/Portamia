@@ -214,7 +214,13 @@ function cfgDoorModel1() {
 
     let millingStyleBtn = document.getElementById('btn2step5'); // внеш. сторона - стиль - кнопка фрезеровка
     let fusingStyleBtn = document.getElementById('btn2step4'); // внеш. сторона - стиль - кнопка фьюзинг
+    let baguetteStyleBtn = document.getElementById('btn2step2'); // внеш. сторона - стиль - кнопка рамка (багет)
     let defaultStyleBtn = document.getElementById('btn2step1'); // внеш. сторона - стиль - кнопка металл/мдф или панель гладкая
+
+
+    let doorColOutBlock = document.getElementById('checkbox-3step-tree-color'); // блок цвета панели для внутр. стороны
+    let doorColOutdoorBlock = document.getElementById('checkbox-3step-tree-color-out'); // блок цвета панели для внешней стороны
+    let doorColOutdoorBtns = document.querySelectorAll('#checkbox-3step-tree-color-out .texture-item'); // все кнопки-цвета в панели внешней
 
 
 
@@ -226,9 +232,13 @@ function cfgDoorModel1() {
         outdoorStylesClassic();
 
         millingStyleBtn.style.display = 'none';
+        baguetteStyleBtn.style.display = '';
         defaultStyleBtn.querySelector('span > em').textContent = 'Металл / МДФ';
         fusingStyleBtn.style.display = '';
 
+        doorColOutdoorBlock.style.display = 'none';
+        doorColOutdoorBtns.forEach(e => e.classList.remove('active'));
+        doorColOutBlock.querySelector('.accordion-head').textContent = 'Цвет и текстура';
 
         item1.classList.add('active');
         item2.classList.remove('active');
@@ -259,7 +269,12 @@ function cfgDoorModel2() {
 
     let millingStyleBtn = document.getElementById('btn2step5'); // внеш. сторона - стиль - кнопка фрезеровка
     let fusingStyleBtn = document.getElementById('btn2step4'); // внеш. сторона - стиль - кнопка фьюзинг
+    let baguetteStyleBtn = document.getElementById('btn2step2'); // внеш. сторона - стиль - кнопка рамка (багет)
     let defaultStyleBtn = document.getElementById('btn2step1'); // внеш. сторона - стиль - кнопка металл/мдф или панель гладкая
+
+    let doorColOutBlock = document.getElementById('checkbox-3step-tree-color'); // блок цвета панели для внутр. стороны
+    let doorColOutdoorBlock = document.getElementById('checkbox-3step-tree-color-out'); // блок цвета панели для внешней стороны
+    let doorColOutdoorBtns = document.querySelectorAll('#checkbox-3step-tree-color-out .texture-item'); // все кнопки-цвета в панели внешней
 
 
     if (item2.classList.contains('active')) {
@@ -270,16 +285,20 @@ function cfgDoorModel2() {
         document.querySelectorAll('.cfg-btn-group-wrapper > button').forEach(b => b.classList.remove('active'))
         outdoorStylesClassic();
 
-        millingStyleBtn.style.display = 'none';
-        defaultStyleBtn.querySelector('span > em').textContent = 'Металл / МДФ';
-        fusingStyleBtn.style.display = '';
+        millingStyleBtn.style.display = '';
+        baguetteStyleBtn.style.display = 'none';
+        defaultStyleBtn.querySelector('span > em').textContent = 'Панель гладкая';
+        fusingStyleBtn.style.display = 'none';
 
 
 
         item2.classList.add('active');
         item1.classList.remove('active');
 
-
+        doorColOutdoorBlock.style.display = '';
+        doorColOutdoorBtns.forEach(e => e.classList.remove('active'));
+        doorColOutdoor('btndoorcoloutdoor1');
+        doorColOutBlock.querySelector('.accordion-head').textContent = 'Цвет и текстура (внутр. сторона)';
 
     }
 
@@ -546,29 +565,30 @@ function outdoorStylesClassic() {
     const btn2 = document.getElementById('btn2step2');
     const btn3 = document.getElementById('btn2step3');
     const btn4 = document.getElementById('btn2step4');
+    const btn5 = document.getElementById('btn2step5');
 
     const blockmetallcol = document.getElementById('checkbox-2step-metcol');
     const blockbaguette = document.getElementById('checkbox-2step-baguette');
     const blockglass = document.getElementById('checkbox-2step-glass-type');
     const blockgrid = document.getElementById('checkbox-2step-extra-grid');
     const blockfusing = document.getElementById('checkbox-2step-fusing');
+    const blockmilledout = document.getElementById('checkbox-2step-milled');
 
     const firstmodel = document.getElementById('cfg-firstmodel');
     let baguettecards = document.querySelectorAll('#aria-step2-baguette .milling-item');
     let glasscards = document.querySelectorAll('#aria-step2-glass-type .milling-item');
     let glasscolcards = document.querySelectorAll('#aria-step2-glass-type .texture-item');
     const fusingcards = document.querySelectorAll('#aria-step2-fusing .milling-item');
+    const milledoutcards = document.querySelectorAll('#aria-step2-milled .milling-item');
 
     const blockstyle1 = document.getElementById('checkbox-3step-style1');
     const blockmirror = document.getElementById('checkbox-3step-mirror');
     const blockmilled = document.getElementById('checkbox-3step-milled');
     const blocktreecolor = document.getElementById('checkbox-3step-tree-color');
-    const blockstyle2 = document.getElementById('checkbox-3step-style-default');
     const blockmetcol = document.getElementById('checkbox-3step-metcol');
     const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
 
 
-    const blockdftstyle = document.getElementById('checkbox-3step-style-default');
 
 
 
@@ -587,15 +607,18 @@ function outdoorStylesClassic() {
         btn2.classList.remove('active');
         btn3.classList.remove('active');
         btn4.classList.remove('active');
+        btn5.classList.remove('active');
 
         blockbaguette.style.display = 'none';
         blockgrid.style.display = 'none';
         blockglass.style.display = 'none';
         blockfusing.style.display = 'none';
+        blockmilledout.style.display = 'none';
 
         baguettecards.forEach(b => b.classList.remove('active'));
         glasscards.forEach(b => b.classList.remove('active'));
         glasscolcards.forEach(b => b.classList.remove('active'));
+        milledoutcards.forEach(b => b.classList.remove('active'));
 
         blockmilled.style.display = 'none';
         blockmetcol.style.display = '';
@@ -630,24 +653,27 @@ function outdoorStylesBaguette() {
     const btn2 = document.getElementById('btn2step2');
     const btn3 = document.getElementById('btn2step3');
     const btn4 = document.getElementById('btn2step4');
+    const btn5 = document.getElementById('btn2step5');
 
     const blockmetallcol = document.getElementById('checkbox-2step-metcol');
     const blockbaguette = document.getElementById('checkbox-2step-baguette');
     const blockglass = document.getElementById('checkbox-2step-glass-type');
     const blockgrid = document.getElementById('checkbox-2step-extra-grid');
     const blockfusing = document.getElementById('checkbox-2step-fusing');
+    const blockmilledout = document.getElementById('checkbox-2step-milled');
 
     const firstmodel = document.getElementById('cfg-secondmodel');
     let baguettecards = document.querySelectorAll('#aria-step2-baguette .milling-item');
     let glasscards = document.querySelectorAll('#aria-step2-glass-type .milling-item');
     let glasscolcards = document.querySelectorAll('#aria-step2-glass-type .texture-item');
     const fusingcards = document.querySelectorAll('#aria-step2-fusing .milling-item');
+    const milledoutcards = document.querySelectorAll('#aria-step2-milled .milling-item');
+    
 
     const blockstyle1 = document.getElementById('checkbox-3step-style1');
     const blockmirror = document.getElementById('checkbox-3step-mirror');
     const blockmilled = document.getElementById('checkbox-3step-milled');
     const blocktreecolor = document.getElementById('checkbox-3step-tree-color');
-    const blockstyle2 = document.getElementById('checkbox-3step-style-default');
     const blockmetcol = document.getElementById('checkbox-3step-metcol');
     const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
 
@@ -667,18 +693,20 @@ function outdoorStylesBaguette() {
         btn1.classList.remove('active');
         btn3.classList.remove('active');
         btn4.classList.remove('active');
+        btn5.classList.remove('active');
 
         blockbaguette.style.display = '';
         blockgrid.style.display = 'none';
         blockglass.style.display = 'none';
         blockfusing.style.display = 'none';
-
+        blockmilledout.style.display = 'none';
 
 
         blockmilled.style.display = 'none';
         blockmetcol.style.display = '';
         blockglazedstyle.style.display = 'none';
         blockstyle1.style.display = '';
+        
 
         glasscards.forEach(b => b.classList.remove('active'));
         glasscolcards.forEach(b => b.classList.remove('active'));
@@ -688,6 +716,7 @@ function outdoorStylesBaguette() {
         panelmirrorcards.forEach(b => b.classList.remove('active'));
         milledmirrorcards.forEach(b => b.classList.remove('active'));
         fusingcards.forEach(b => b.classList.remove('active'));
+        milledoutcards.forEach(b => b.classList.remove('active'));
 
         baguettecards.forEach(b => b.classList.remove('active'));
         furnItem('baguette-item1', '#step__1 .milling-item');
@@ -698,7 +727,6 @@ function outdoorStylesBaguette() {
 
             cfgDoorModel1();
             blockglazedstyle.style.display = 'none';
-            blockdftstyle.style.display = '';
 
         }
         else {
@@ -724,18 +752,19 @@ function outdoorStylesGlazed() {
     const btn2 = document.getElementById('btn2step2');
     const btn3 = document.getElementById('btn2step3');
     const btn4 = document.getElementById('btn2step4');
+    const btn5 = document.getElementById('btn2step5');
 
     const blockmetallcol = document.getElementById('checkbox-2step-metcol');
     const blockbaguette = document.getElementById('checkbox-2step-baguette');
     const blockglass = document.getElementById('checkbox-2step-glass-type');
     const blockgrid = document.getElementById('checkbox-2step-extra-grid');
     const blockfusing = document.getElementById('checkbox-2step-fusing');
+    const blockmilledout = document.getElementById('checkbox-2step-milled');
 
     const blockstyle1 = document.getElementById('checkbox-3step-style1');
     const blockmirror = document.getElementById('checkbox-3step-mirror');
     const blockmilled = document.getElementById('checkbox-3step-milled');
     const blocktreecolor = document.getElementById('checkbox-3step-tree-color');
-    const blockstyle2 = document.getElementById('checkbox-3step-style-default');
     const blockmetcol = document.getElementById('checkbox-3step-metcol');
     const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
 
@@ -744,6 +773,7 @@ function outdoorStylesGlazed() {
     let glasscards = document.querySelectorAll('#aria-step2-glass-type .milling-item');
     let glasscolcards = document.querySelectorAll('#aria-step2-glass-type .texture-item');
     const fusingcards = document.querySelectorAll('#aria-step2-fusing .milling-item');
+    const milledoutcards = document.querySelectorAll('#aria-step2-milled .milling-item');
 
 
 
@@ -762,6 +792,7 @@ function outdoorStylesGlazed() {
         btn2.classList.remove('active');
         btn1.classList.remove('active');
         btn4.classList.remove('active');
+        btn5.classList.remove('active');
 
         blockbaguette.style.display = 'none';
         blockfusing.style.display = 'none';
@@ -773,12 +804,13 @@ function outdoorStylesGlazed() {
         blockmilled.style.display = 'none';
         blockmetcol.style.display = '';
         blockglazedstyle.style.display = '';
-        blockstyle2.style.display = 'none';
+        blockmilledout.style.display = 'none';
 
 
         glasscards.forEach(b => b.classList.remove('active'));
         fusingcards.forEach(b => b.classList.remove('active'));
         baguettecards.forEach(b => b.classList.remove('active'));
+        milledoutcards.forEach(b => b.classList.remove('active'));
 
         classicmilledcards.forEach(b => b.classList.remove('active'));
         modernmilledcards.forEach(b => b.classList.remove('active'));
@@ -809,6 +841,7 @@ function outdoorStylesFusing() {
     const btn2 = document.getElementById('btn2step2');
     const btn3 = document.getElementById('btn2step3');
     const btn4 = document.getElementById('btn2step4');
+    const btn5 = document.getElementById('btn2step5');
 
 
     const blockmetallcol = document.getElementById('checkbox-2step-metcol');
@@ -816,12 +849,12 @@ function outdoorStylesFusing() {
     const blockglass = document.getElementById('checkbox-2step-glass-type');
     const blockgrid = document.getElementById('checkbox-2step-extra-grid');
     const blockfusing = document.getElementById('checkbox-2step-fusing');
+    const blockmilledout = document.getElementById('checkbox-2step-milled');
 
     const blockstyle1 = document.getElementById('checkbox-3step-style1');
     const blockmirror = document.getElementById('checkbox-3step-mirror');
     const blockmilled = document.getElementById('checkbox-3step-milled');
     const blocktreecolor = document.getElementById('checkbox-3step-tree-color');
-    const blockstyle2 = document.getElementById('checkbox-3step-style-default');
     const blockmetcol = document.getElementById('checkbox-3step-metcol');
     const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
 
@@ -837,6 +870,7 @@ function outdoorStylesFusing() {
     const classicmilledcards = document.querySelectorAll('#classicmilled-block .milling-item');
     const modernmilledcards = document.querySelectorAll('#modernmilled-block .milling-item');
     const fusingcards = document.querySelectorAll('#aria-step2-fusing .milling-item');
+    const milledoutcards = document.querySelectorAll('#aria-step2-milled .milling-item');
 
 
     if (btn4.classList.contains('active')) {
@@ -848,6 +882,7 @@ function outdoorStylesFusing() {
         btn3.classList.remove('active');
         btn2.classList.remove('active');
         btn1.classList.remove('active');
+        btn5.classList.remove('active');
 
         blockbaguette.style.display = 'none';
         blockgrid.style.display = 'none';
@@ -860,8 +895,8 @@ function outdoorStylesFusing() {
         blockmilled.style.display = 'none';
         blockmetcol.style.display = '';
         blockglazedstyle.style.display = 'none';
-        blockstyle2.style.display = 'none';
         blockstyle1.style.display = '';
+        blockmilledout.style.display = 'none';
 
 
         baguettecards.forEach(b => b.classList.remove('active'));
@@ -873,9 +908,104 @@ function outdoorStylesFusing() {
         modernmilledcards.forEach(b => b.classList.remove('active'));
         panelmirrorcards.forEach(b => b.classList.remove('active'));
         milledmirrorcards.forEach(b => b.classList.remove('active'));
+        milledoutcards.forEach(b => b.classList.remove('active'));
 
         furnItem('fusing-item1', '#checkbox-2step-fusing .milling-item')
 
+
+
+
+
+
+    }
+
+    setConfig();
+
+    buildCheck();
+
+}
+
+
+/**
+ * функция нажатия на кнопку "Фрезеровка" во 2-ом шаге, в стиле
+ */
+function outdoorStylesMilling() {
+
+    const btn1 = document.getElementById('btn2step1');
+    const btn2 = document.getElementById('btn2step2');
+    const btn3 = document.getElementById('btn2step3');
+    const btn4 = document.getElementById('btn2step4');
+    const btn5 = document.getElementById('btn2step5');
+
+    const blockmetallcol = document.getElementById('checkbox-2step-metcol');
+    const blockbaguette = document.getElementById('checkbox-2step-baguette');
+    const blockglass = document.getElementById('checkbox-2step-glass-type');
+    const blockgrid = document.getElementById('checkbox-2step-extra-grid');
+    const blockfusing = document.getElementById('checkbox-2step-fusing');
+    const blockmilledout = document.getElementById('checkbox-2step-milled');
+
+    const blockstyle1 = document.getElementById('checkbox-3step-style1');
+    const blockmirror = document.getElementById('checkbox-3step-mirror');
+    const blockmilled = document.getElementById('checkbox-3step-milled');
+    const blocktreecolor = document.getElementById('checkbox-3step-tree-color');
+    const blockmetcol = document.getElementById('checkbox-3step-metcol');
+    const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
+    const milledoutcards = document.querySelectorAll('#aria-step2-milled .milling-item');
+
+
+    let baguettecards = document.querySelectorAll('#aria-step2-baguette .milling-item');
+    let glasscards = document.querySelectorAll('#aria-step2-glass-type .milling-item');
+    let glasscolcards = document.querySelectorAll('#aria-step2-glass-type .texture-item');
+    const fusingcards = document.querySelectorAll('#aria-step2-fusing .milling-item');
+
+
+
+    const milledmirrorcards = document.querySelectorAll('#milled-mirror-block .milling-item');
+    const panelmirrorcards = document.querySelectorAll('#panel-mirror-block .milling-item');
+    const classicmilledcards = document.querySelectorAll('#classicmilled-block .milling-item');
+    const modernmilledcards = document.querySelectorAll('#modernmilled-block .milling-item');
+
+
+    if (btn5.classList.contains('active')) {
+
+    }
+    else {
+
+        btn5.classList.add('active');
+        btn2.classList.remove('active');
+        btn1.classList.remove('active');
+        btn4.classList.remove('active');
+        btn3.classList.remove('active');
+
+        blockbaguette.style.display = 'none';
+        blockfusing.style.display = 'none';
+        blockgrid.style.display = 'none';
+        blockglass.style.display = 'none';
+        blockglazedstyle.style.display = 'none';
+        blockstyle1.style.display = '';
+        blockmirror.style.display = 'none';
+        blockmilled.style.display = '';
+        blockmetcol.style.display = '';
+        blockmilledout.style.display = '';
+
+
+
+        glasscards.forEach(b => b.classList.remove('active'));
+        glasscolcards.forEach(b => b.classList.remove('active'));
+        fusingcards.forEach(b => b.classList.remove('active'));
+        baguettecards.forEach(b => b.classList.remove('active'));
+
+
+        classicmilledcards.forEach(b => b.classList.remove('active'));
+        modernmilledcards.forEach(b => b.classList.remove('active'));
+        panelmirrorcards.forEach(b => b.classList.remove('active'));
+        milledmirrorcards.forEach(b => b.classList.remove('active'));
+        blockglazedstyle.style.display = 'none';
+
+
+
+        outclassicmilled();
+        typeMilledOutClassicOutdoor('btn-milled-classic-outdoor1');
 
 
 
@@ -1294,6 +1424,28 @@ function doorColOut(butid) {
 
 }
 
+function doorColOutdoor(butid) {
+
+    let button = document.getElementById(butid);
+    let elemens = document.querySelectorAll('#aria-step3-tree-color-out .texture-item');
+
+    if (button.classList.contains('active')) {
+
+    }
+    else {
+
+        elemens.forEach(b => b.classList.remove('active'));
+
+        button.classList.add('active');
+
+    }
+
+    setConfig();
+
+    buildCheck();
+
+}
+
 function typeMilledOutClassic(butid) {
 
     let button = document.getElementById(butid);
@@ -1337,6 +1489,53 @@ function typeMilledOutModern(butid) {
     buildCheck();
 
 }
+
+
+function typeMilledOutClassicOutdoor(butid) {
+
+    let button = document.getElementById(butid);
+    let elemens = document.querySelectorAll('#classicmilledout-block .milling-item');
+
+    if (button.classList.contains('active')) {
+
+    }
+    else {
+
+        elemens.forEach(b => b.classList.remove('active'));
+
+        button.classList.add('active');
+
+    }
+
+    setConfig();
+
+    buildCheck();
+
+}
+
+function typeMilledOutModernOutdoor(butid) {
+
+    let button = document.getElementById(butid);
+    let elemens = document.querySelectorAll('#modernmilledout-block .milling-item');
+
+    if (button.classList.contains('active')) {
+
+    }
+    else {
+
+        elemens.forEach(b => b.classList.remove('active'));
+
+        button.classList.add('active');
+
+    }
+
+    setConfig();
+
+    buildCheck();
+
+}
+
+
 
 function typeMirrorIn(butid) {
 
@@ -2221,7 +2420,6 @@ function indoorStylesMilled() {
     const blockmirror = document.getElementById('checkbox-3step-mirror');
     const blockmilled = document.getElementById('checkbox-3step-milled');
     const blocktreecolor = document.getElementById('checkbox-3step-tree-color');
-    const blockstyle2 = document.getElementById('checkbox-3step-style-default');
     const blockmetcol = document.getElementById('checkbox-3step-metcol');
     const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
 
@@ -2270,7 +2468,6 @@ function indoorStylesPanel() {
     const blockmirror = document.getElementById('checkbox-3step-mirror');
     const blockmilled = document.getElementById('checkbox-3step-milled');
     const blocktreecolor = document.getElementById('checkbox-3step-tree-color');
-    const blockstyle2 = document.getElementById('checkbox-3step-style-default');
     const blockmetcol = document.getElementById('checkbox-3step-metcol');
     const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
 
@@ -2326,7 +2523,6 @@ function indoorStylesMirror() {
     const blockmirror = document.getElementById('checkbox-3step-mirror');
     const blockmilled = document.getElementById('checkbox-3step-milled');
     const blocktreecolor = document.getElementById('checkbox-3step-tree-color');
-    const blockstyle2 = document.getElementById('checkbox-3step-style-default');
     const blockmetcol = document.getElementById('checkbox-3step-metcol');
     const blockglazedstyle = document.getElementById('checkbox-3step-glazed');
 
@@ -2401,6 +2597,47 @@ function modernmilled() {
 
 }
 
+
+/**
+ * функция нажатия на кнопку "современная" в типах фрезеровки во 2-м шаге (внешка)
+ * */
+function outmodernmilled() {
+
+    let classicblock = document.getElementById('classicmilledout-block');
+    let modernblock = document.getElementById('modernmilledout-block');
+    let classicbutton = document.getElementById('outclassicmilled-btn');
+    let modernbutton = document.getElementById('outmodernmilled-btn');
+
+    let classiccards = document.querySelectorAll('#classicmilledout-block .milling-item');
+    let moderncards = document.querySelectorAll('#modernmilledout-block .milling-item');
+
+
+
+    if (modernbutton.classList.contains('active')) {
+
+    }
+    else {
+
+        $(classicblock).slideUp('slow');
+        $(modernblock).slideDown('slow');
+
+        modernbutton.classList.add('active');
+        modernblock.classList.add('active');
+        classicblock.classList.remove('active');
+        classicbutton.classList.remove('active');
+        moderncards[0].classList.add('active');
+        classiccards.forEach(b => b.classList.remove('active'));
+
+    }
+
+    setConfig();
+
+    buildCheck();
+
+}
+
+
+
 /**
  * функция нажатия на кнопку "классическая" в типах фрезеровки в 3-м шаге
  */
@@ -2429,6 +2666,7 @@ function classicmilled() {
         modernblock.classList.remove('active');
         modernbutton.classList.remove('active');
 
+        classiccards.forEach(b => b.classList.remove('active'));
         classiccards[0].classList.add('active');
         moderncards.forEach(b => b.classList.remove('active'));
 
@@ -2439,6 +2677,49 @@ function classicmilled() {
     buildCheck();
 
 }
+
+
+/**
+ * функция нажатия на кнопку "классическая" в типах фрезеровки во 2-м шаге (для внешки)
+ */
+function outclassicmilled() {
+
+    let classicblock = document.getElementById('classicmilledout-block');
+    let modernblock = document.getElementById('modernmilledout-block');
+    let classicbutton = document.getElementById('outclassicmilled-btn');
+    let modernbutton = document.getElementById('outmodernmilled-btn');
+
+    let classiccards = document.querySelectorAll('#classicmilledout-block .milling-item');
+    let moderncards = document.querySelectorAll('#modernmilledout-block .milling-item');
+
+
+
+    if (classicbutton.classList.contains('active')) {
+
+    }
+    else {
+
+        $(modernblock).slideUp('slow');
+        $(classicblock).slideDown('slow');
+
+        classicbutton.classList.add('active');
+        classicblock.classList.add('active');
+        modernblock.classList.remove('active');
+        modernbutton.classList.remove('active');
+
+        classiccards.forEach(b => b.classList.remove('active'));
+        classiccards[0].classList.add('active');
+        moderncards.forEach(b => b.classList.remove('active'));
+
+    }
+
+    setConfig();
+
+    buildCheck();
+
+}
+
+
 
 /**
  * функция нажатия на кнопку "фрезерованная панель с зеркалом" в типах стекла в 3-м шаге
