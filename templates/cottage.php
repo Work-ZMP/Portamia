@@ -180,7 +180,7 @@ Template Name: Коттеджные двери
             <hr class="catalogue__line">
             <h2 class="catalogue__title">Коттеджные двери</h2>
             <p class="catalogue__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
-            <div class="catalogue__items cottage-doors">
+            <div class="catalogue__items">
                 <div class="">
                     <div class="catalogue__item unfinished">
                         <div class="catalogue__item-top">
