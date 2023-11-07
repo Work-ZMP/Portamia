@@ -189,7 +189,8 @@
   position: absolute;
   bottom: 53px;
   left: 150px;
-  width: 100%;
+  width: fit-content;
+  height: fit-content;
   font-style: normal;
   font-variant-numeric: lining-nums;
   font-feature-settings: "lnum";
@@ -1044,7 +1045,8 @@
   position: absolute;
   bottom: 53px;
   left: 150px;
-  width: 100%;
+  width: fit-content;
+  height: fit-content;
   font-style: normal;
   font-variant-numeric: lining-nums;
   font-feature-settings: "lnum";
