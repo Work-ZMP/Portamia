@@ -192,7 +192,7 @@ $(function () {
     
     if (document.querySelector(".interior-page .popular__items")) {
         var swiperInterior = new Swiper(".interior-page .popular__items", {
-            slidesPerView: "1",
+            slidesPerView: "1.3",
             spaceBetween: 30,
             breakpoints: {
                 640: {
@@ -350,13 +350,13 @@ swiperGlass();
 
 
 function swiperPartitionsCatalog() {
-    if (document.querySelector(".items-partitions") && window.matchMedia('(max-width: 800px)').matches) {
+    if (document.querySelector(".catalogue__items") && window.matchMedia('(max-width: 800px)').matches) {
 
-        document.querySelector('.items-partitions').classList.add('swiper');
-        document.querySelector('.items-partitions > div').classList.add('swiper-wrapper');
-        document.querySelectorAll('.items-partitions .catalogue__item').forEach(el => el.classList.add('swiper-slide'));
+        document.querySelector('.catalogue__items').classList.add('swiper');
+        document.querySelector('.catalogue__items > div').classList.add('swiper-wrapper');
+        document.querySelectorAll('.catalogue__item').forEach(el => el.classList.add('swiper-slide'));
 
-        var swiperPartitionsCatalog = new Swiper(".items-partitions", {
+        var swiperPartitionsCatalog = new Swiper(".catalogue__items", {
             slidesPerView: "1.3",
             spaceBetween: 30,
             breakpoints: {
@@ -379,11 +379,11 @@ function swiperPartitionsCatalog() {
         });
 
     }
-    if (document.querySelector(".items-partitions") && window.matchMedia('(min-width: 801px)').matches) {
+    if (document.querySelector(".catalogue__items") && window.matchMedia('(min-width: 801px)').matches) {
 
-        document.querySelector('.items-partitions').classList.remove('swiper');
-        document.querySelector('.items-partitions > div').classList.remove('swiper-wrapper');
-        document.querySelectorAll('.items-partitions .catalogue__item').forEach(el => el.classList.remove('swiper-slide'));
+        document.querySelector('.catalogue__items').classList.remove('swiper');
+        document.querySelector('.catalogue__items > div').classList.remove('swiper-wrapper');
+        document.querySelectorAll('.catalogue__item').forEach(el => el.classList.remove('swiper-slide'));
 
     }
 };
