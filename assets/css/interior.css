@@ -371,9 +371,10 @@
   }
 
   .popular__item-top-cover {
-    bottom: 35px;
-    left: 120px;
-    font-size: 60.701px;
+    bottom: 100px;
+    left: 86px;
+    font-size: 58.701px;
+    
   }
 
   .swiper-button-next {
