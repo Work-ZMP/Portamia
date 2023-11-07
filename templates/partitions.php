@@ -393,7 +393,7 @@ Template Name: Перегородки
 
 
             </div>
-            <a href="<?php echo get_permalink(642); ?>" class="banner__btn">подробнее</a>
+            <a href="<?php echo get_permalink(642); ?>" class="banner__btn projects__btn">все проекты</a>
         </div>
     </div>
 </section>

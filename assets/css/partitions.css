@@ -1955,6 +1955,16 @@
 .projects__item:nth-child(7) {
     display: none;
 }
+.projects__btn {
+    text-align: center;
+    max-width: 180px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+}
+.projects__item-title {
+    font-size: 16px;
+}
 
 }
 
@@ -1970,7 +1980,16 @@
   }
   .projects__items {
     grid-template-columns: 1fr;   
+    grid-template-rows: 1fr 1fr;
   }
+  .projects__item:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.projects__item:nth-child(2) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
   .projects__item:nth-child(3),
   .projects__item:nth-child(4) {
     display: none;
