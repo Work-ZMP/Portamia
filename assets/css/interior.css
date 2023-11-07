@@ -1780,6 +1780,24 @@
 }
 
 @media (max-width: 800px) {
+
+
+
+
+  .popular__item-top-cover {
+  left: 80px;
+  font-size: 38px;
+  text-wrap: nowrap;
+  width: fit-content !important;
+}
+
+.catalogue__item-top-cover {
+  width: fit-content !important;
+}
+
+
+
+
   .header__slide-title {
     font-size: 40px !important;
   }
@@ -2138,13 +2156,8 @@
   .popular__item-top-cover {
     left: 80px;
     font-size: 38px;
-    text-wrap: nowrap;
-    width: auto !important;
   }
 
-  .catalogue__item-top-cover {
-    width: auto !important;
-  }
 
   .popular__item-bottom {
     text-align: center;
