@@ -1786,6 +1786,7 @@ function lockNumber(butid) {
 }
 
 function lockItems(butid) {
+    
 
     btn = document.getElementById(butid);
     btns = document.querySelectorAll('#step__5 .lock-group .cfg-locksystem ');
@@ -1806,81 +1807,61 @@ function lockItems(butid) {
 
         if (butid == 'cfg-lock-item1') {
 
-            image.setAttribute('src', 'https://portalle.ru/storage/cfg-door-extend-locks/ea8116a199873c4a698620afd79c9c1e.png');
+            image.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/1/1.png');
             keytext.textContent = 'Сувальдный ключ';
-            keyimage.setAttribute('src', 'https://portalle.ru/assets/img/design/configurator/lock/key_suvald.png');
+            keyimage.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/keys/2.png');
 
         }
         else if (butid == 'cfg-lock-item2') {
 
-            image.setAttribute('src', 'https://portalle.ru/storage/cfg-door-extend-locks/ea8116a199873c4a698620afd79c9c1e.png');
+            image.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/1/2.png');
             keytext.textContent = 'Сувальдный ключ';
-            keyimage.setAttribute('src', 'https://portalle.ru/assets/img/design/configurator/lock/key_suvald.png');
+            keyimage.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/keys/2.png');
 
         }
         else if (butid == 'cfg-lock-item3') {
 
-            image.setAttribute('src', 'https://portalle.ru/storage/cfg-door-extend-locks/31b9fef1d16aca77fa5c791476c68c88.png');
-            keytext.textContent = 'Сувальдный ключ';
-            keyimage.setAttribute('src', 'https://portalle.ru/assets/img/design/configurator/lock/key_suvald.png');
+            image.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/1/3.png');
+            keytext.textContent = 'Цилиндровый ключ';
+            keyimage.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/keys/1.png');
 
         }
         else if (butid == 'cfg-lock-item4') {
 
-            image.setAttribute('src', 'https://portalle.ru/storage/cfg-door-extend-locks/5270ef94f97b5d3cd799359e23a04e7e.png');
+            image.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/1/4.png');
             keytext.textContent = 'Цилиндровый ключ';
-            keyimage.setAttribute('src', '	https://portalle.ru/assets/img/design/configurator/lock/key_cylinder.png');
+            keyimage.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/keys/1.png');
 
         }
         else if (butid == 'cfg-lock-item5') {
 
-            image.setAttribute('src', 'https://portalle.ru/storage/cfg-door-extend-locks/b4b9d7f9cb52eb48af33a75980160225.png');
-            keytext.textContent = 'Цилиндровый ключ';
-            keyimage.setAttribute('src', '	https://portalle.ru/assets/img/design/configurator/lock/key_cylinder.png');
+            image2.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/2/1.png');
+            keytext2.textContent = 'Сувальдный ключ';
+            keyimage2.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/keys/2.png');
 
         }
         else if (butid == 'cfg-lock-item6') {
 
-            image.setAttribute('src', 'https://portalle.ru/storage/cfg-door-extend-locks/8408c535a534d7ca12e69cf7fcdbf48e.png');
-            keytext.textContent = 'Цилиндровый ключ';
-            keyimage.setAttribute('src', '	https://portalle.ru/assets/img/design/configurator/lock/key_cylinder.png');
+            image2.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/2/2.png');
+            keytext2.textContent = 'Сувальдный ключ';
+            keyimage2.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/keys/2.png');
 
         }
         else if (butid == 'cfg-lock-item7') {
 
-            image2.setAttribute('src', 'https://portalle.ru/storage/cfg-door-extend-locks/047b74ec6908479dd706bb8c7cbbdb75.png');
-            keytext2.textContent = 'Сувальдный ключ';
-            keyimage2.setAttribute('src', 'https://portalle.ru/assets/img/design/configurator/lock/key_suvald.png');
+            image2.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/2/3.png');
+            keytext2.textContent = 'Цилиндровый ключ';
+            keyimage2.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/keys/1.png');
 
         }
         else if (butid == 'cfg-lock-item8') {
 
-            image2.setAttribute('src', 'https://portalle.ru/storage/cfg-door-extend-locks/b9bf828fe5ad6f443aa051e8ee1d05da.png');
+            image2.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/2/4.png');
             keytext2.textContent = 'Цилиндровый ключ';
-            keyimage2.setAttribute('src', '	https://portalle.ru/assets/img/design/configurator/lock/key_cylinder.png');
+            keyimage2.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/lock-types/keys/1.png');
 
         }
-        else if (butid == 'cfg-lock-item9') {
 
-            image2.setAttribute('src', 'https://portalle.ru/storage/cfg-door-extend-locks/bb35c0af2c0e9094b653c5a0173da4ae.png');
-            keytext2.textContent = 'Цилиндровый ключ';
-            keyimage2.setAttribute('src', '	https://portalle.ru/assets/img/design/configurator/lock/key_cylinder.png');
-
-        }
-        else if (butid == 'cfg-lock-item10') {
-
-            image2.setAttribute('src', 'https://portalle.ru/storage/cfg-door-extend-locks/06e69b929ae824ff94112f982332d654.png');
-            keytext2.textContent = 'Сувальдный ключ';
-            keyimage2.setAttribute('src', 'https://portalle.ru/assets/img/design/configurator/lock/key_suvald.png');
-
-        }
-        else if (butid == 'cfg-lock-item11') {
-
-            image2.setAttribute('src', 'https://portalle.ru/storage/cfg-door-extend-locks/c8d0eea0c33b9cd4e9712cc3d20831b2.png');
-            keytext2.textContent = 'Цилиндровый ключ';
-            keyimage2.setAttribute('src', '	https://portalle.ru/assets/img/design/configurator/lock/key_cylinder.png');
-
-        }
 
     }
 
