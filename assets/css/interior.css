@@ -1105,6 +1105,10 @@
   color: rgba(255, 255, 255, 0.5);
   height: 1px;
 }
+.catalogue__section .swiper-button-next, 
+.catalogue__section .swiper-button-prev {
+  display: none;
+}
 
 @media (max-width: 1480px) {
   .catalogue__title {
@@ -2019,6 +2023,10 @@
   .catalogue__item-top-cover {
     bottom: 60px;
   }
+  .catalogue__section .swiper-button-next, 
+.catalogue__section .swiper-button-prev {
+  display: flex;
+}
 
   /* .reviews__section.scrolled .reviews__line-2 > div,
   .reviews__section.scrolled .reviews__line-3 > div,
@@ -2232,6 +2240,10 @@
   .catalogue__items {
     grid-template-columns: 1fr;
   }
+  .catalogue__section .swiper-button-next, 
+.catalogue__section .swiper-button-prev {
+  display: none;
+}
 
 }
 

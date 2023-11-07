@@ -148,7 +148,7 @@ $(function () {
     
             document.querySelector('.catalogue__items').classList.add('swiper');
             document.querySelector('.catalogue__items > div').classList.add('swiper-wrapper');
-            document.querySelectorAll('.catalogue__item').forEach(el => el.classList.add('swiper-slide'));
+            document.querySelectorAll('.cottage-doors .catalogue__item').forEach(el => el.classList.add('swiper-slide'));
     
             var swiperDoorsCottage = new Swiper(".catalogue__items", {
                 slidesPerView: "1.3",

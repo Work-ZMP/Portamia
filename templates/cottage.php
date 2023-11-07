@@ -59,9 +59,9 @@ Template Name: Коттеджные двери
         <div class="popular__inner">
             <hr class="popular__line">
             <h1 class="popular__title">Популярные модели</h1>
-            <div class="popular__items">
-                <div class="">
-                    <div class="popular__item">
+            <div class="popular__items swiper">
+                <div class="swiper-wrapper">
+                    <div class="popular__item swiper-slide">
                         <div class="popular__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/popular-item-1.png" alt="" class="popular__item-img">
                             <div class="popular__item-top-cover">ESSENCE</div>
@@ -72,7 +72,7 @@ Template Name: Коттеджные двери
                             <a href="<?php echo get_permalink(522); ?>" class="popular__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="popular__item">
+                    <div class="popular__item swiper-slide">
                         <div class="popular__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/popular-item-2.png" alt="" class="popular__item-img">
                             <div class="popular__item-top-cover">LEVEL ONE</div>
@@ -83,7 +83,7 @@ Template Name: Коттеджные двери
                             <a href="<?php echo get_permalink(524); ?>" class="popular__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="popular__item">
+                    <div class="popular__item swiper-slide">
                         <div class="popular__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/popular-item-3.png" alt="" class="popular__item-img">
                             <div class="popular__item-top-cover">ROOM 47</div>
@@ -94,7 +94,7 @@ Template Name: Коттеджные двери
                             <a href="<?php echo get_permalink(526); ?>" class="popular__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="popular__item">
+                    <div class="popular__item swiper-slide">
                         <div class="popular__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/popular-item-2.png" alt="" class="popular__item-img">
                             <div class="popular__item-top-cover">LEVEL ONE</div>
@@ -105,7 +105,7 @@ Template Name: Коттеджные двери
                             <a href="<?php echo get_permalink(524); ?>" class="popular__btn">подробнее</a>
                         </div>
                     </div>
-                    <div class="popular__item">
+                    <div class="popular__item swiper-slide">
                         <div class="popular__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/popular-item-3.png" alt="" class="popular__item-img">
                             <div class="popular__item-top-cover">ROOM 47</div>
@@ -180,104 +180,106 @@ Template Name: Коттеджные двери
             <hr class="catalogue__line">
             <h2 class="catalogue__title">Коттеджные двери</h2>
             <p class="catalogue__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
-            <div class="catalogue__items">
-                <div class="catalogue__item unfinished">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-1.png" alt="" class=" catalogue__item-img">
-                        <div class="catalogue__item-top-cover">CREDO NEO</div>
+            <div class="catalogue__items cottage-doors">
+                <div class="">
+                    <div class="catalogue__item unfinished">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-1.png" alt="" class=" catalogue__item-img">
+                            <div class="catalogue__item-top-cover">CREDO NEO</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">CREDO NEO</div>
+                            <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">CREDO NEO</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item unfinished">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-2.png" alt="" class=" catalogue__item-img">
+                            <div class="catalogue__item-top-cover">FLEXO NEO</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">FLEXO NEO</div>
+                            <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="catalogue__item unfinished">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-2.png" alt="" class=" catalogue__item-img">
-                        <div class="catalogue__item-top-cover">FLEXO NEO</div>
+                    <div class="catalogue__item unfinished">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-3.png" alt="" class=" catalogue__item-img">
+                            <div class="catalogue__item-top-cover">CRYSTAL</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">CRYSTAL</div>
+                            <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">FLEXO NEO</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item unfinished">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-4.png" alt="" class=" catalogue__item-img">
+                            <div class="catalogue__item-top-cover">AURORA</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">AURORA</div>
+                            <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="catalogue__item unfinished">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-3.png" alt="" class=" catalogue__item-img">
-                        <div class="catalogue__item-top-cover">CRYSTAL</div>
+                    <div class="catalogue__item unfinished">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-5.png" alt="" class=" catalogue__item-img">
+                            <div class="catalogue__item-top-cover">VIRGIN</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">VIRGIN</div>
+                            <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">CRYSTAL</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item unfinished">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-6.png" alt="" class=" catalogue__item-img">
+                            <div class="catalogue__item-top-cover">GRAPHIC</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">GRAPHIC</div>
+                            <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="catalogue__item unfinished">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-4.png" alt="" class=" catalogue__item-img">
-                        <div class="catalogue__item-top-cover">AURORA</div>
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-7.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">ESSENCE</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">ESSENCE</div>
+                            <a href="<?php echo get_permalink(522); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">AURORA</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-8.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">LEVEL ONE</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">LEVEL ONE</div>
+                            <a href="<?php echo get_permalink(524); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
-                </div>
-                <div class="catalogue__item unfinished">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-5.png" alt="" class=" catalogue__item-img">
-                        <div class="catalogue__item-top-cover">VIRGIN</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">VIRGIN</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="catalogue__item unfinished">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-6.png" alt="" class=" catalogue__item-img">
-                        <div class="catalogue__item-top-cover">GRAPHIC</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">GRAPHIC</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="catalogue__item">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-7.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">ESSENCE</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">ESSENCE</div>
-                        <a href="<?php echo get_permalink(522); ?>" class="catalogue__btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="catalogue__item">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-8.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">LEVEL ONE</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">LEVEL ONE</div>
-                        <a href="<?php echo get_permalink(524); ?>" class="catalogue__btn">подробнее</a>
-                    </div>
-                </div>
-                <div class="catalogue__item unfinished">
-                    <div class="catalogue__item-top">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-9.png" alt="" class="catalogue__item-img">
-                        <div class="catalogue__item-top-cover">RAIN ONE</div>
-                    </div>
-                    <div class="catalogue__item-bottom">
-                        <div class="catalogue__item-subtitle">Модель</div>
-                        <div class="catalogue__item-title">RAIN ONE</div>
-                        <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                    <div class="catalogue__item unfinished">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/cottage/cat-item-9.png" alt="" class="catalogue__item-img">
+                            <div class="catalogue__item-top-cover">RAIN ONE</div>
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">RAIN ONE</div>
+                            <a href="<?php echo get_permalink(33); ?>" class="catalogue__btn">подробнее</a>
+                        </div>
                     </div>
                 </div>
             </div>
