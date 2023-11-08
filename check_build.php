@@ -652,25 +652,7 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])) :
 
                             <?php endif; ?>
 
-                            <?php if ($door_cfg['outdoorstyles']['value'] == 'milling') : ?>
 
-                                <div class="options-item">
-                                    <div class="options-item-l">
-                                        <div class="options-item-l-title">Отделка</div>
-                                        <div class="options-item-l-description">Фрезеровка</div>
-                                    </div>
-                                    <?php if (!empty($door_cfg['outdoorstyles']['price'])) : ?>
-                                        <div class="options-item-r">
-                                            <div class="options-item-r-cost"><?= $door_cfg['outdoorstyles']['price'] . ' ₽' ?></div>
-                                        </div>
-                                    <?php else : ?>
-                                        <div class="options-item-r">
-                                            <div class="options-item-r-included">Включено в базу</div>
-                                        </div>
-                                    <?php endif; ?>
-                                </div>
-
-                            <?php endif; ?>
 
                             <?php if ($door_cfg['outdoorstyles']['value'] == 'baguette') : ?>
 
@@ -1658,12 +1640,506 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])) :
 
                                 <?php endif; ?>
 
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor1') : ?>
 
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 001</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
 
+                                <?php endif; ?>
 
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor2') : ?>
 
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 002</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
 
+                                <?php endif; ?>
 
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor3') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 003</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor4') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 004</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor5') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 005</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor6') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 006</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor7') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 007</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor8') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 008</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor9') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 009</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor10') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 010</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor11') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 011</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor12') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 012</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor13') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 013</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor14') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 014</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor15') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 015</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor16') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 016</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor17') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 017</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor18') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 018</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor19') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 019</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor20') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 020</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor21') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 021</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor22') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 022</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor23') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 023</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor24') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 024</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['typemilledoutmodernoutdoor']['value'] == 'btn-milled-modern-outdoor25') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Отделка</div>
+                                            <div class="options-item-l-description">Фрезеровка: FS-MDF 025</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['typemilledoutmodernoutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['typemilledoutmodernoutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+                                
 
                             <?php endif; ?>
 
