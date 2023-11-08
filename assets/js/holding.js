@@ -21,7 +21,7 @@ function holdingBtn() {
             console.log('portamia');
             title.textContent = 'Portamia'
             subtitle.textContent = '(ООО “Завод МетПром”)'
-            subtitleBig.textContent = 'Изготовление кухонь, шкафов и др. мебели из МДФ'
+            subtitleBig.textContent = 'Производство высококачественных входных дверей'
             descr.textContent = '"Portamia" - это гарантия безопасности и стиля в вашем доме. Наше предприятие специализируется на производстве высококачественных металлических входных и межкомнатных дверей, которые сочетают в себе элегантный дизайн и надежную защиту.'
             link.setAttribute('href', 'https://portamia.ru/');
 
@@ -59,7 +59,7 @@ function holdingBtn() {
             console.log('zmp');
             title.textContent = 'Завод МетПром'
             subtitle.textContent = '(ООО “Завод МетПром”)'
-            subtitleBig.textContent = 'Изготовление кухонь, шкафов и др. мебели из МДФ'
+            subtitleBig.textContent = 'Производство металлоизделий и металлоконструкций'
             descr.textContent = '"Завод МетПром" - это надежный партнер для юридических лиц, специализирующийся на производстве высококачественных металлических дверей и металлоизделий. Наше производство обеспечивает компаниям прочные и стильные решения, сочетающие в себе безопасность и эстетику.'
             link.setAttribute('href', 'https://z-mp.ru/');
 
@@ -78,7 +78,7 @@ function holdingBtn() {
             console.log('mercato');
             title.textContent = 'Mercato'
             subtitle.textContent = '(ООО “Завод МетПром”)'
-            subtitleBig.textContent = 'Изготовление кухонь, шкафов и др. мебели из МДФ'
+            subtitleBig.textContent = 'Создание мебели из металла в стиле Лофты'
             descr.textContent = '"Mercato" - это место, где стиль и комфорт соединяются, чтобы создать уникальную лофт-мебель для каждого. Наша фабрика специализируется на производстве мебели в стиле лофт, который отличается своей смелостью и нестандартностью, привнося в интерьер ощущение свободы и современности.'
             link.setAttribute('href', 'https://fabricamercato.ru/');
 

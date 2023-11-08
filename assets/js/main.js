@@ -406,6 +406,41 @@ if (document.querySelector(".designers")) {
 
 };
 
+if (document.querySelector(".types__cnfg-block-items")) {
+    var swiperDes = new Swiper(".types__cnfg-block-items", {
+        slidesPerView: "1.3",
+        spaceBetween: 15,
+        breakpoints: {
+            650: {
+                spaceBetween: 20,
+                slidesPerView: "2.3",
+                loop: true,
+            },
+            800: {
+                spaceBetween: 30,
+                slidesPerView: "3",
+                loop: true,
+            },
+            1024: {
+                spaceBetween: 30,
+                slidesPerView: "2.3",
+                loop: true,
+            },
+            1480: {
+                spaceBetween: 30,
+                slidesPerView: "3",
+                loop: false,
+            },
+
+        keyboard: {
+            enabled: true,
+            onlyInViewport: false
+        },
+        loop: true,
+}});
+
+};
+
 
 
 $('.slider__inner').slick({
@@ -757,6 +792,11 @@ function popupGetNumbersOrder() {
         callblock.style.display = 'none';
     }
 }
+
+
+
+
+
 
 
 

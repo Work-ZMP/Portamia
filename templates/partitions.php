@@ -41,61 +41,73 @@ Template Name: Перегородки
                     <div class="types__cnfg-block block-1">
                         <div class="types__cnfg-block-name">Раздвижная</div>
                         <hr class="types__cnfg-block-line">
-                        <div class="types__cnfg-block-items">
-                            <div class="types__cnfg-block-item item-1 active">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-1-1.svg" alt="" class="types__cnfg-block-item-img">
+                        <div class="types__cnfg-block-items swiper">
+                            <div class="swiper-wrapper">
+                                <div class="types__cnfg-block-item item-1 active swiper-slide">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-1-1.svg" alt="" class="types__cnfg-block-item-img">
+                                </div>
+                                <div class="types__cnfg-block-item item-2 swiper-slide">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-1-2.svg" alt="" class="types__cnfg-block-item-img">
+                                </div>
+                                <div class="types__cnfg-block-item item-3 swiper-slide">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-1-3.svg" alt="" class="types__cnfg-block-item-img">
+                                </div>
                             </div>
-                            <div class="types__cnfg-block-item item-2">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-1-2.svg" alt="" class="types__cnfg-block-item-img">
-                            </div>
-                            <div class="types__cnfg-block-item item-3">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-1-3.svg" alt="" class="types__cnfg-block-item-img">
-                            </div>
+
                         </div>
                     </div>
                     <div class="types__cnfg-block block-2">
                         <div class="types__cnfg-block-name">Распашная</div>
                         <hr class="types__cnfg-block-line">
-                        <div class="types__cnfg-block-items">
-                            <div class="types__cnfg-block-item item-1">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-2-1.svg" alt="" class="types__cnfg-block-item-img">
+                        <div class="types__cnfg-block-items swiper">
+                            <div class="swiper-wrapper">
+                                <div class="types__cnfg-block-item item-1 swiper-slide">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-2-1.svg" alt="" class="types__cnfg-block-item-img">
+                                </div>
+                                <div class="types__cnfg-block-item item-2 swiper-slide">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-2-2.svg" alt="" class="types__cnfg-block-item-img">
+                                </div>
+                                <div class="types__cnfg-block-item item-3 swiper-slide">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-2-3.svg" alt="" class="types__cnfg-block-item-img">
+                                </div>
                             </div>
-                            <div class="types__cnfg-block-item item-2">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-2-2.svg" alt="" class="types__cnfg-block-item-img">
-                            </div>
-                            <div class="types__cnfg-block-item item-3">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-2-3.svg" alt="" class="types__cnfg-block-item-img">
-                            </div>
+
                         </div>
                     </div>
                     <div class="types__cnfg-block block-3">
                         <div class="types__cnfg-block-name">Книжка</div>
                         <hr class="types__cnfg-block-line">
-                        <div class="types__cnfg-block-items">
-                            <div class="types__cnfg-block-item item-1">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-3-1.svg" alt="" class="types__cnfg-block-item-img">
+                        <div class="types__cnfg-block-items swiper">
+                            <div class="swiper-wrapper">
+                                <div class="types__cnfg-block-item item-1 swiper-slide">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-3-1.svg" alt="" class="types__cnfg-block-item-img">
+                                </div>
+                                <div class="types__cnfg-block-item item-2 swiper-slide">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-3-2.svg" alt="" class="types__cnfg-block-item-img">
+                                </div>
+                                <div class="types__cnfg-block-item item-3 swiper-slide">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-3-3.svg" alt="" class="types__cnfg-block-item-img">
+                                </div>
                             </div>
-                            <div class="types__cnfg-block-item item-2">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-3-2.svg" alt="" class="types__cnfg-block-item-img">
-                            </div>
-                            <div class="types__cnfg-block-item item-3">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-3-3.svg" alt="" class="types__cnfg-block-item-img">
-                            </div>
+
                         </div>
                     </div>
                     <div class="types__cnfg-block block-4">
                         <div class="types__cnfg-block-name">Статичная</div>
                         <hr class="types__cnfg-block-line">
-                        <div class="types__cnfg-block-items">
-                            <div class="types__cnfg-block-item item-1">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-4-1.svg" alt="" class="types__cnfg-block-item-img">
+                        <div class="types__cnfg-block-items swiper">
+                            <div class="swiper-wrapper">
+                                <div class="types__cnfg-block-item item-1 swiper-slide">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-4-1.svg" alt="" class="types__cnfg-block-item-img">
+                                </div>
+                                <div class="types__cnfg-block-item item-2 swiper-slide">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-4-2.svg" alt="" class="types__cnfg-block-item-img">
+                                </div>
+                                <div class="types__cnfg-block-item item-3 swiper-slide">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-4-3.svg" alt="" class="types__cnfg-block-item-img">
+                                </div>
                             </div>
-                            <div class="types__cnfg-block-item item-2">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-4-2.svg" alt="" class="types__cnfg-block-item-img">
-                            </div>
-                            <div class="types__cnfg-block-item item-3">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/partitions/cnfg-item-4-3.svg" alt="" class="types__cnfg-block-item-img">
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -340,7 +352,7 @@ Template Name: Перегородки
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>
