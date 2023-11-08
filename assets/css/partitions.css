@@ -1989,6 +1989,18 @@
   opacity: 0;
   transition: all 0.3s ease-out;
 }
+
+.projects__btn {
+    display: block;
+    max-width: 207px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
 @media (max-width: 1480px) {
   .projects__title {
     font-size: 38px !important;
@@ -2029,6 +2041,13 @@
     grid-template-rows: repeat(4, 160px);
     gap: 20px;
   }
+  .projects__btn {
+    display: block;
+    max-width: 190px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
 }
 
 @media (max-width: 800px) {
@@ -2047,6 +2066,10 @@
   }
   .projects__items {
     grid-template-rows: repeat(4, 130px);    
+  }
+  .projects__btn {   
+    max-width: 160px;
+    font-size: 15px;    
   }
 }
 
