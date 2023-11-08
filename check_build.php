@@ -5180,35 +5180,7 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])) :
 
                         <?php endif; ?>
 
-                        <?php if (isset($door_cfg['furniture_vent_check']['value']) and $door_cfg['furniture_vent_check']['value'] == 1) : ?>
 
-                            <?php if ($door_cfg['furnitem_vent']['value'] == 'vent-item1-step_7') : ?>
-
-                                <li>
-
-                                    <div class="options-item">
-                                        <div class="options-item-l">
-                                            <div class="options-item-l-title">Вентиляционная решетка</div>
-                                            <div class="options-item-l-description">Да</div>
-                                        </div>
-                                        <?php if (!empty($door_cfg['furnitem_vent']['price'])) : ?>
-                                            <div class="options-item-r">
-                                                <div class="options-item-r-cost"><?= $door_cfg['furnitem_vent']['price'] . ' ₽' ?></div>
-                                                <div class="options-item-r-remove"></div>
-                                            </div>
-                                        <?php else : ?>
-                                            <div class="options-item-r">
-                                                <div class="options-item-r-included">Включено в базу</div>
-                                                <div class="options-item-r-remove"></div>
-                                            </div>
-                                        <?php endif; ?>
-                                    </div>
-
-                                </li>
-
-                            <?php endif; ?>
-
-                        <?php endif; ?>
 
                         <li>
 

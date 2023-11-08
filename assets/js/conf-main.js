@@ -83,7 +83,7 @@ function getDoorPictures() {
 
     $.each(door_cfg, function (key, val) {
 
-        console.log(key + ' : ' + val.value);
+        // console.log(key + ' : ' + val.value);
 
         if (val.value != 'size-item1-step_6' && val.value != 'size-item2-step_6' && val.value != 'size-item3-step_6' && val.value != 'size-item4-step_6' && val.value != 'met-item1-step_6' && val.value != 'met-item2-step_6') {
 
