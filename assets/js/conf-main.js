@@ -88,11 +88,12 @@ function getDoorPictures() {
         if (val.value != 'size-item1-step_6' && val.value != 'size-item2-step_6' && val.value != 'size-item3-step_6' && val.value != 'size-item4-step_6' && val.value != 'met-item1-step_6' && val.value != 'met-item2-step_6') {
 
             picture_url = picture_url + '/' + val.value;
-
+            console.log(picture_url);
         }
 
-    });
 
+    });
+    console.log(picture_url);
     $.ajax({
         url: '/wp-content/themes/mercato/get_indoor.php',
         method: 'GET',
