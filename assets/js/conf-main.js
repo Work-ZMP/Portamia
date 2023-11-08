@@ -200,7 +200,10 @@ function buildCheck() {
     $('#popup__share .popup__share-cost-old, #popup__toemail .popup__share-cost-old').text(total_cost + ' ₽');
     $('#popup__share .popup__share-cost-current, #popup__toemail .popup__share-cost-current').text(total_cost_new + ' ₽');
 
-    $('#popup__share .popup__share-left .popup__share-title, #popup__toemail .popup__share-left .popup__share-title').text(door_model);
+    $('#popup__get-order .popup__share-cost-old, #popup__toemail .popup__share-cost-old').text(total_cost + ' ₽');
+    $('#popup__get-order .popup__share-cost-current, #popup__toemail .popup__share-cost-current').text(total_cost_new + ' ₽');
+
+    $('#popup__share .popup__share-left .popup__share-title, #popup__toemail .popup__share-left .popup__share-title, #popup__get-order .popup__share-left .popup__share-title').text(door_model);
 
 }
 

@@ -145,23 +145,23 @@ $(function () {
     };
     function swiperDoorsCottage() {
         if (document.querySelector(".catalogue__items") && window.matchMedia('(max-width: 800px)').matches) {
-    
+
             document.querySelector('.catalogue__items').classList.add('swiper');
             document.querySelector('.catalogue__items > div').classList.add('swiper-wrapper');
             document.querySelectorAll('.catalogue__item').forEach(el => el.classList.add('swiper-slide'));
-    
+
             var swiperDoorsCottage = new Swiper(".catalogue__items", {
                 slidesPerView: "1.3",
                 spaceBetween: 30,
                 breakpoints: {
-    
+
                     640: {
                         slidesPerView: "2",
                         spaceBetween: 30,
                         loop: true,
                     },
-                  
-                    
+
+
                 },
                 navigation: {
                     nextEl: ".catalogue__section .swiper-button-next",
@@ -173,23 +173,23 @@ $(function () {
                 },
                 loop: true,
                 // spaceBetween: 30,
-    
+
             });
             window.addEventListener('resize', function () {
                 swiperDoorsCottage.update(); // Обновляем Swiper
             });
-    
+
         }
         if (document.querySelector(".catalogue__items") && window.matchMedia('(min-width: 801px)').matches) {
 
             document.querySelector('.catalogue__items').classList.remove('swiper');
             document.querySelector('.catalogue__items > div').classList.remove('swiper-wrapper');
             document.querySelectorAll('.catalogue__item').forEach(el => el.classList.remove('swiper-slide'));
-    
+
         }
     };
     swiperDoorsCottage();
-    
+
     if (document.querySelector(".interior-page .popular__items")) {
         var swiperInterior = new Swiper(".interior-page .popular__items", {
             slidesPerView: "1.3",
@@ -224,359 +224,363 @@ $(function () {
         swiperInterior()
     });
 
-function swiperDoors() {
-    if (document.querySelector(".catalogue__items") && window.matchMedia('(max-width: 800px)').matches) {
+    function swiperDoors() {
+        if (document.querySelector(".catalogue__items") && window.matchMedia('(max-width: 800px)').matches) {
 
-        document.querySelector('.catalogue__items').classList.add('swiper');
-        document.querySelector('.catalogue__items > div').classList.add('swiper-wrapper');
-        document.querySelectorAll('.catalogue__item').forEach(el => el.classList.add('swiper-slide'));
+            document.querySelector('.catalogue__items').classList.add('swiper');
+            document.querySelector('.catalogue__items > div').classList.add('swiper-wrapper');
+            document.querySelectorAll('.catalogue__item').forEach(el => el.classList.add('swiper-slide'));
 
-        var swiperDoors = new Swiper(".catalogue__items", {
+            var swiperDoors = new Swiper(".catalogue__items", {
+                slidesPerView: "1.3",
+                spaceBetween: 30,
+                breakpoints: {
+
+                    640: {
+                        slidesPerView: "2",
+                        spaceBetween: 30,
+                        loop: true,
+                    },
+
+
+                },
+                navigation: {
+                    nextEl: ".catalogue__section .swiper-button-next",
+                    prevEl: ".catalogue__section .swiper-button-prev",
+                },
+                keyboard: {
+                    enabled: true,
+                    onlyInViewport: false
+                },
+                loop: true,
+                // spaceBetween: 30,
+
+            });
+            window.addEventListener('resize', function () {
+                swiperDoors.update(); // Обновляем Swiper
+            });
+
+        }
+        if (document.querySelector(".catalogue__items") && window.matchMedia('(min-width: 801px)').matches) {
+
+            document.querySelector('.catalogue__items').classList.remove('swiper');
+            document.querySelector('.catalogue__items > div').classList.remove('swiper-wrapper');
+            document.querySelectorAll('.catalogue__item').forEach(el => el.classList.remove('swiper-slide'));
+
+        }
+    };
+    swiperDoors();
+
+    if (document.querySelector(".partitions-page .popular__items")) {
+        var swiperPartitions = new Swiper(".partitions-page .popular__items", {
             slidesPerView: "1.3",
             spaceBetween: 30,
             breakpoints: {
-
                 640: {
                     slidesPerView: "2",
                     spaceBetween: 30,
+                },
+                800: {
+                    slidesPerView: "2",
+                    spaceBetween: 30,
+                },
+                1024: {
+                    slidesPerView: "3",
+                    spaceBetween: 30,
+                },
+                1280: {
+                    slidesPerView: "4",
+                    spaceBetween: 30,
+                },
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false
+            },
+            loop: true,
+
+        });
+        window.addEventListener('resize', function () {
+            swiperPartitions.update(); // Обновляем Swiper
+        });
+
+    }
+    function swiperGlass() {
+        if (document.querySelector(".glass__items") && window.matchMedia('(max-width: 640px)').matches) {
+
+            document.querySelector('.glass__items').classList.add('swiper');
+            document.querySelector('.glass__items > div').classList.add('swiper-wrapper');
+            document.querySelectorAll('.glass__item').forEach(el => el.classList.add('swiper-slide'));
+
+            var swiperGlass = new Swiper(".glass__items", {
+                slidesPerView: "1.3",
+                spaceBetween: 30,
+
+
+                keyboard: {
+                    enabled: true,
+                    onlyInViewport: false
+                },
+                navigation: {
+                    nextEl: ".glass__section .swiper-button-next",
+                    prevEl: ".glass__section .swiper-button-prev",
+                },
+                loop: true,
+                // spaceBetween: 30,
+
+            });
+            window.addEventListener('resize', function () {
+                swiperGlass.update(); // Обновляем Swiper
+            });
+
+        }
+        if (document.querySelector(".glass__items") && window.matchMedia('(min-width: 641px)').matches) {
+
+            document.querySelector('.glass__items').classList.remove('swiper');
+            document.querySelector('.glass__items > div').classList.remove('swiper-wrapper');
+            document.querySelectorAll('.glass__item').forEach(el => el.classList.remove('swiper-slide'));
+
+        }
+    };
+    swiperGlass();
+
+
+    function swiperPartitionsCatalog() {
+        if (document.querySelector(".catalogue__items") && window.matchMedia('(max-width: 800px)').matches) {
+
+            document.querySelector('.catalogue__items').classList.add('swiper');
+            document.querySelector('.catalogue__items > div').classList.add('swiper-wrapper');
+            document.querySelectorAll('.catalogue__item').forEach(el => el.classList.add('swiper-slide'));
+
+            var swiperPartitionsCatalog = new Swiper(".catalogue__items", {
+                slidesPerView: "1.3",
+                spaceBetween: 30,
+                breakpoints: {
+                    640: {
+                        slidesPerView: "2",
+                        spaceBetween: 30,
+                    },
+
+                    keyboard: {
+                        enabled: true,
+                        onlyInViewport: false
+                    },
+
+                    loop: true,
+                    // spaceBetween: 30,
+
+                }
+            });
+            window.addEventListener('resize', function () {
+                swiperPartitionsCatalog.update(); // Обновляем Swiper
+            });
+
+        }
+        if (document.querySelector(".catalogue__items") && window.matchMedia('(min-width: 801px)').matches) {
+
+            document.querySelector('.catalogue__items').classList.remove('swiper');
+            document.querySelector('.catalogue__items > div').classList.remove('swiper-wrapper');
+            document.querySelectorAll('.catalogue__item').forEach(el => el.classList.remove('swiper-slide'));
+
+        }
+    };
+    swiperPartitionsCatalog();
+
+    if (document.querySelector(".designers")) {
+        var swiperDes = new Swiper(".projects__items", {
+            slidesPerView: "1.3",
+            breakpoints: {
+                640: {
+                    slidesPerView: "2",
+                    spaceBetween: 30,
+                },
+                1024: {
+                    slidesPerView: "3",
+                    spaceBetween: 30,
+                },
+
+                spaceBetween: 30,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                keyboard: {
+                    enabled: true,
+                    onlyInViewport: false
+                },
+                loop: true,
+            }
+        });
+
+    };
+
+    if (document.querySelector(".types__cnfg-block-items")) {
+        var swiperDes = new Swiper(".types__cnfg-block-items", {
+            slidesPerView: "1.3",
+            spaceBetween: 15,
+            breakpoints: {
+                650: {
+                    spaceBetween: 20,
+                    slidesPerView: "2.3",
                     loop: true,
                 },
-              
-                
-            },
-            navigation: {
-                nextEl: ".catalogue__section .swiper-button-next",
-                prevEl: ".catalogue__section .swiper-button-prev",
-            },
-            keyboard: {
-                enabled: true,
-                onlyInViewport: false
-            },
-            loop: true,
-            // spaceBetween: 30,
+                800: {
+                    spaceBetween: 30,
+                    slidesPerView: "3",
+                    loop: true,
+                },
+                1024: {
+                    spaceBetween: 30,
+                    slidesPerView: "2.3",
+                    loop: true,
+                },
+                1480: {
+                    spaceBetween: 30,
+                    slidesPerView: "3",
+                    loop: false,
+                },
 
+                keyboard: {
+                    enabled: true,
+                    onlyInViewport: false
+                },
+                loop: true,
+            }
         });
-        window.addEventListener('resize', function () {
-            swiperDoors.update(); // Обновляем Swiper
-        });
 
-    }
-    if (document.querySelector(".catalogue__items") && window.matchMedia('(min-width: 801px)').matches) {
+    };
 
-        document.querySelector('.catalogue__items').classList.remove('swiper');
-        document.querySelector('.catalogue__items > div').classList.remove('swiper-wrapper');
-        document.querySelectorAll('.catalogue__item').forEach(el => el.classList.remove('swiper-slide'));
 
-    }
-};
-swiperDoors();
 
-if (document.querySelector(".partitions-page .popular__items")) {
-    var swiperPartitions = new Swiper(".partitions-page .popular__items", {
-        slidesPerView: "1.3",
-        spaceBetween: 30,
-        breakpoints: {
-            640: {
-                slidesPerView: "2",
-                spaceBetween: 30,
-            },
-            800: {
-                slidesPerView: "2",
-                spaceBetween: 30,
-            },
-            1024: {
-                slidesPerView: "3",
-                spaceBetween: 30,
-            },
-            1280: {
-                slidesPerView: "4",
-                spaceBetween: 30,
-            },
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        keyboard: {
-            enabled: true,
-            onlyInViewport: false
-        },
-        loop: true,
+    $('.slider__inner').slick({
+        nextArrow: '<button type="button" class="slick-btn slick-next"></button>',
+        prevArrow: '<button type="button" class="slick-btn slick-prev"></button>',
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
 
     });
-    window.addEventListener('resize', function () {
-        swiperPartitions.update(); // Обновляем Swiper
+
+    $('.shortcode__inner').slick({
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 1200,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        swipeToSlide: true,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
     });
 
-}
-function swiperGlass() {
-    if (document.querySelector(".glass__items") && window.matchMedia('(max-width: 640px)').matches) {
+    AOS.init();
 
-        document.querySelector('.glass__items').classList.add('swiper');
-        document.querySelector('.glass__items > div').classList.add('swiper-wrapper');
-        document.querySelectorAll('.glass__item').forEach(el => el.classList.add('swiper-slide'));
+    //$('select').styler();
 
-        var swiperGlass = new Swiper(".glass__items", {
-            slidesPerView: "1.3",
-            spaceBetween: 30,
-           
-            
-            keyboard: {
-                enabled: true,
-                onlyInViewport: false
-            },
-            navigation: {
-                nextEl: ".glass__section .swiper-button-next",
-                prevEl: ".glass__section .swiper-button-prev",
-            },
-            loop: true,
-            // spaceBetween: 30,
-
-        });
-        window.addEventListener('resize', function () {
-            swiperGlass.update(); // Обновляем Swiper
-        });
-
-    }
-    if (document.querySelector(".glass__items") && window.matchMedia('(min-width: 641px)').matches) {
-
-        document.querySelector('.glass__items').classList.remove('swiper');
-        document.querySelector('.glass__items > div').classList.remove('swiper-wrapper');
-        document.querySelectorAll('.glass__item').forEach(el => el.classList.remove('swiper-slide'));
-
-    }
-};
-swiperGlass();
+    // наведение на обычную дверь
+    $(".doortype__img1").on("mouseover", function () {
+        $(".doortype__title").text('Входные двери'),
+            $(".doortype__descr").text('Наши ходные металлические двери отличаются своим качеством и надежностью'),
+            $(".doortype__block-text").addClass('active')
+    });
+    $(".doortype__img1").on("mouseout", function () {
+        $(".doortype__title").text('Двери на любой случай'),
+            $(".doortype__descr").text('Мы занимаемся производством металлических входных, а также противопожарных дверей'),
+            $(".doortype__block-text").removeClass('active')
+    });
 
 
-function swiperPartitionsCatalog() {
-    if (document.querySelector(".catalogue__items") && window.matchMedia('(max-width: 800px)').matches) {
+    // наведение на премиум дверь
+    $(".doortype__img2").on("mouseover", function () {
+        $(".doortype__title").text('Двери Премиум класса'),
+            $(".doortype__descr").text('Изготовим высококачественную дверь по Вашим предпочтениям и индивидуальным размерам'),
+            $(".doortype__block-text").addClass('active')
+    });
+    $(".doortype__img2").on("mouseout", function () {
+        $(".doortype__title").text('Двери на любой случай'),
+            $(".doortype__descr").text('Мы занимаемся производством металлических входных, а также противопожарных дверей'),
+            $(".doortype__block-text").removeClass('active')
+    });
 
-        document.querySelector('.catalogue__items').classList.add('swiper');
-        document.querySelector('.catalogue__items > div').classList.add('swiper-wrapper');
-        document.querySelectorAll('.catalogue__item').forEach(el => el.classList.add('swiper-slide'));
 
-        var swiperPartitionsCatalog = new Swiper(".catalogue__items", {
-            slidesPerView: "1.3",
-            spaceBetween: 30,
-            breakpoints: {
-            640: {
-                slidesPerView: "2",
-                spaceBetween: 30,
-            },
-           
-            keyboard: {
-                enabled: true,
-                onlyInViewport: false
-            },
-            
-            loop: true,
-            // spaceBetween: 30,
+    // наведение на противопожарную дверь
+    $(".doortype__img3").on("mouseover", function () {
+        $(".doortype__title").text('Противопожарные двери'),
+            $(".doortype__descr").text('Противопожарная дверь — дверь, обеспечивающая защиту помещений от распространения дыма и огня пожара'),
+            $(".doortype__block-text").addClass('active')
+    });
+    $(".doortype__img3").on("mouseout", function () {
+        $(".doortype__title").text('Двери на любой случай'),
+            $(".doortype__descr").text('Мы занимаемся производством металлических входных, а также противопожарных дверей'),
+            $(".doortype__block-text").removeClass('active')
+    });
 
-        }});
-        window.addEventListener('resize', function () {
-            swiperPartitionsCatalog.update(); // Обновляем Swiper
-        });
 
-    }
-    if (document.querySelector(".catalogue__items") && window.matchMedia('(min-width: 801px)').matches) {
+    // иконка вк становится цветной при наведении на ее блок
+    $(".sm__block-vk").on("mouseover", function () {
+        $('.sm__img-vk').addClass('active')
+    });
+    $(".sm__block-vk").on("mouseout", function () {
+        $('.sm__img-vk').removeClass('active')
 
-        document.querySelector('.catalogue__items').classList.remove('swiper');
-        document.querySelector('.catalogue__items > div').classList.remove('swiper-wrapper');
-        document.querySelectorAll('.catalogue__item').forEach(el => el.classList.remove('swiper-slide'));
+    });
 
-    }
-};
-swiperPartitionsCatalog();
 
-if (document.querySelector(".designers")) {
-    var swiperDes = new Swiper(".projects__items", {    slidesPerView: "1.3",
-        breakpoints: {
-            640: {
-                slidesPerView: "2",
-                spaceBetween: 30,
-            },
-            1024: {
-                slidesPerView: "3",
-                spaceBetween: 30,
-            },
-        
-        spaceBetween: 30,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        keyboard: {
-            enabled: true,
-            onlyInViewport: false
-        },
-        loop: true,
-    }});
-
-};
-
-if (document.querySelector(".types__cnfg-block-items")) {
-    var swiperDes = new Swiper(".types__cnfg-block-items", {
-        slidesPerView: "1.3",
-        spaceBetween: 15,
-        breakpoints: {
-            650: {
-                spaceBetween: 20,
-                slidesPerView: "2.3",
-                loop: true,
-            },
-            800: {
-                spaceBetween: 30,
-                slidesPerView: "3",
-                loop: true,
-            },
-            1024: {
-                spaceBetween: 30,
-                slidesPerView: "2.3",
-                loop: true,
-            },
-            1480: {
-                spaceBetween: 30,
-                slidesPerView: "3",
-                loop: false,
-            },
-
-        keyboard: {
-            enabled: true,
-            onlyInViewport: false
-        },
-        loop: true,
-}});
-
-};
+    // иконка тг становится цветной при наведении на ее блок
+    $(".sm__block-tg").on("mouseover", function () {
+        $('.sm__img-tg').addClass('active')
+    });
+    $(".sm__block-tg").on("mouseout", function () {
+        $('.sm__img-tg').removeClass('active')
+    });
 
 
 
-$('.slider__inner').slick({
-    nextArrow: '<button type="button" class="slick-btn slick-next"></button>',
-    prevArrow: '<button type="button" class="slick-btn slick-prev"></button>',
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
+    $(".pulse").on("mouseover", function () {
+        $(".pulse").addClass('active')
+    });
+    $(".pulse").on("mouseout", function () {
+        $(".pulse").removeClass('active')
+    });
 
-});
-
-$('.shortcode__inner').slick({
-    slidesToShow: 8,
-    slidesToScroll: 1,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 1200,
-    pauseOnHover: false,
-    pauseOnFocus: false,
-    swipeToSlide: true,
-    arrows: false,
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-    ]
-});
-
-AOS.init();
-
-//$('select').styler();
-
-// наведение на обычную дверь
-$(".doortype__img1").on("mouseover", function () {
-    $(".doortype__title").text('Входные двери'),
-        $(".doortype__descr").text('Наши ходные металлические двери отличаются своим качеством и надежностью'),
-        $(".doortype__block-text").addClass('active')
-});
-$(".doortype__img1").on("mouseout", function () {
-    $(".doortype__title").text('Двери на любой случай'),
-        $(".doortype__descr").text('Мы занимаемся производством металлических входных, а также противопожарных дверей'),
-        $(".doortype__block-text").removeClass('active')
-});
-
-
-// наведение на премиум дверь
-$(".doortype__img2").on("mouseover", function () {
-    $(".doortype__title").text('Двери Премиум класса'),
-        $(".doortype__descr").text('Изготовим высококачественную дверь по Вашим предпочтениям и индивидуальным размерам'),
-        $(".doortype__block-text").addClass('active')
-});
-$(".doortype__img2").on("mouseout", function () {
-    $(".doortype__title").text('Двери на любой случай'),
-        $(".doortype__descr").text('Мы занимаемся производством металлических входных, а также противопожарных дверей'),
-        $(".doortype__block-text").removeClass('active')
-});
-
-
-// наведение на противопожарную дверь
-$(".doortype__img3").on("mouseover", function () {
-    $(".doortype__title").text('Противопожарные двери'),
-        $(".doortype__descr").text('Противопожарная дверь — дверь, обеспечивающая защиту помещений от распространения дыма и огня пожара'),
-        $(".doortype__block-text").addClass('active')
-});
-$(".doortype__img3").on("mouseout", function () {
-    $(".doortype__title").text('Двери на любой случай'),
-        $(".doortype__descr").text('Мы занимаемся производством металлических входных, а также противопожарных дверей'),
-        $(".doortype__block-text").removeClass('active')
-});
-
-
-// иконка вк становится цветной при наведении на ее блок
-$(".sm__block-vk").on("mouseover", function () {
-    $('.sm__img-vk').addClass('active')
-});
-$(".sm__block-vk").on("mouseout", function () {
-    $('.sm__img-vk').removeClass('active')
-
-});
-
-
-// иконка тг становится цветной при наведении на ее блок
-$(".sm__block-tg").on("mouseover", function () {
-    $('.sm__img-tg').addClass('active')
-});
-$(".sm__block-tg").on("mouseout", function () {
-    $('.sm__img-tg').removeClass('active')
-});
-
-
-
-$(".pulse").on("mouseover", function () {
-    $(".pulse").addClass('active')
-});
-$(".pulse").on("mouseout", function () {
-    $(".pulse").removeClass('active')
-});
-
-$(".call_back.icon-phone-call").on("mouseover", function () {
-    $(".pulse").addClass('active')
-});
-$(".call_back.icon-phone-call").on("mouseout", function () {
-    $(".pulse").removeClass('active')
-});
+    $(".call_back.icon-phone-call").on("mouseover", function () {
+        $(".pulse").addClass('active')
+    });
+    $(".call_back.icon-phone-call").on("mouseout", function () {
+        $(".pulse").removeClass('active')
+    });
 
 
 
@@ -874,6 +878,10 @@ function pickDatePopup() {
             element.disabled = false;
         }
     };
+    let pickTimePopup = document.querySelector('#popup__time');
+    pickTimePopup.value = document.querySelector('#popup__time option:not([disabled])').value;
 }
-let pickTimePopup = document.querySelector('#popup__time');
-pickTimePopup.value = document.querySelector('#popup__time option:not([disabled])').value;
+
+document.querySelector('.btn-normal').addEventListener('click', function () {
+
+});
