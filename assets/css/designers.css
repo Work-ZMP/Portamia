@@ -121,6 +121,9 @@
   .cooperation__img-cover {
     left: 300px;
   }
+  .cooperation__img-cover-star-1 {
+    left: calc(50% + 601px);
+  }
 }
 @media (max-width: 800px) {
   .cooperation__section {
@@ -395,6 +398,9 @@
   }
 }
 @media (max-width: 1280px) {
+  .projects__section {
+    height: 900px;
+  }
   .projects__title {
     font-size: 30px;
   }
@@ -406,7 +412,7 @@
     max-width: 850px;
   }
   .swiper-wrapper {
-    height: 500px;
+    height: 510px;
   }
   .projects__item-img {
     height: 250px;
@@ -427,6 +433,45 @@
   .swiper-button-prev:hover::before {
     height: 98px;
     width: 39px;
+  }
+  .swiper-button-next:hover::before {
+    height: 98px;
+    width: 39px;
+  }
+}
+@media (max-width: 1024px) {
+  .projects__section {
+    height: 850px;
+  }
+}
+@media (max-width: 800px) {
+  .projects__title {
+    font-size: 28px;
+  }
+  .projects__descr {
+    max-width: 350px;
+  }
+}
+@media (max-width: 640px) {
+  .projects__title {
+    font-size: 24px;
+  }
+  .projects__descr {
+    max-width: 300px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .projects__line {
+    margin-bottom: 30px;
+  }
+  .projects__title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .projects__descr {
+    max-width: 200px;
+    margin-bottom: 30px;
   }
 }
 .advantages__line {

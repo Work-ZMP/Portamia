@@ -390,8 +390,17 @@ function swiperPartitionsCatalog() {
 swiperPartitionsCatalog();
 
 if (document.querySelector(".designers")) {
-    var swiperDes = new Swiper(".projects__items", {
-        slidesPerView: "3",
+    var swiperDes = new Swiper(".projects__items", {    slidesPerView: "1.3",
+        breakpoints: {
+            640: {
+                slidesPerView: "2",
+                spaceBetween: 30,
+            },
+            1024: {
+                slidesPerView: "3",
+                spaceBetween: 30,
+            },
+        
         spaceBetween: 30,
         navigation: {
             nextEl: ".swiper-button-next",
@@ -402,7 +411,7 @@ if (document.querySelector(".designers")) {
             onlyInViewport: false
         },
         loop: true,
-    });
+    }});
 
 };
 
