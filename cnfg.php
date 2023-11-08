@@ -2748,7 +2748,7 @@ if (isset($_GET['door_cfg'])) {
                             </button>
                         </div>
 
-                        <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-3step-style1" style='display: none;'>
+                        <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-3step-style1" style='display: flex;'>
                             <button type="button" class="btn accordion-header" id='close-button-3step-3' onclick='closeblock("aria-step3-style1", "close-button-3step-3", "checkbox-3step-style1" )'>
                                 <span class="accordion-head">
                                     Стиль
