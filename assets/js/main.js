@@ -827,7 +827,7 @@ function pickDate() {
             if (pickHours < nowHours) {
                 element.disabled = "true";
             }
-            if (pickHours == nowHours && pickMinutes == 00 && 0 < nowMinutes < 59) {
+            if (pickHours == nowHours && pickMinutes == 0 && 0 < nowMinutes < 59) {
                 element.disabled = "true";
             }
             if (pickHours == nowHours && pickMinutes == 30 && nowMinutes > 30) {
@@ -861,7 +861,7 @@ function pickDatePopup() {
             if (pickHours < nowHours) {
                 element.disabled = "true";
             }
-            if (pickHours == nowHours && pickMinutes == 00 && 0 < nowMinutes < 59) {
+            if (pickHours == nowHours && pickMinutes == 0 && 0 < nowMinutes < 59) {
                 element.disabled = "true";
             }
             if (pickHours == nowHours && pickMinutes == 30 && nowMinutes > 30) {
@@ -875,5 +875,5 @@ function pickDatePopup() {
         }
     };
 }
-let pickTime = document.querySelector('#popup__time');
-pickTime.value = document.querySelector('#popup__time option:not([disabled])').value;
+let pickTimePopup = document.querySelector('#popup__time');
+pickTimePopup.value = document.querySelector('#popup__time option:not([disabled])').value;
