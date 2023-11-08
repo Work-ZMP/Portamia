@@ -770,10 +770,10 @@ function popupGetNumbers() {
 
 
 function popupGetCallOrder() {
-    const numbtn = document.querySelector('#popup__get-order .popup-btn-numbers');
-    const callbtn = document.querySelector('#popup__get-order .popup-btn-call');
-    const numblock = document.querySelector('#popup__get-order .popup__call-form-inner-numbers');
-    const callblock = document.querySelector('#popup__get-order .popup__call-form-inner');
+    const numbtn = document.querySelector('.fancybox__content .popup-btn-numbers');
+    const callbtn = document.querySelector('.fancybox__content .popup-btn-call');
+    const numblock = document.querySelector('.fancybox__content .popup__call-form-inner-numbers');
+    const callblock = document.querySelector('.fancybox__content .popup__call-form-inner');
 
     if (callbtn.classList.contains('active')) {
 
@@ -786,10 +786,10 @@ function popupGetCallOrder() {
 }
 
 function popupGetNumbersOrder() {
-    const numbtn = document.querySelector('#popup__get-order .popup-btn-numbers');
-    const callbtn = document.querySelector('#popup__get-order .popup-btn-call');
-    const numblock = document.querySelector('#popup__get-order .popup__call-form-inner-numbers');
-    const callblock = document.querySelector('#popup__get-order .popup__call-form-inner');
+    const numbtn = document.querySelector('.fancybox__content .popup-btn-numbers');
+    const callbtn = document.querySelector('.fancybox__content .popup-btn-call');
+    const numblock = document.querySelector('.fancybox__content .popup__call-form-inner-numbers');
+    const callblock = document.querySelector('.fancybox__content .popup__call-form-inner');
 
 
     if (numbtn.classList.contains('active')) {
