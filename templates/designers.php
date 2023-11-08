@@ -15,7 +15,7 @@ Template Name: Дизайнерам
         <div class="cooperation__inner">
             <hr class="cooperation__line">
             <h2 class="cooperation__title">Мы сотрудничаем с дизайнерами</h2>
-            <p class="cooperation__descr">Наши металлические двери – надежная защита для вашего дома или офиса. Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="cooperation__descr">Наши металлические двери – надежная защита для вашего дома или офиса. </p>
             <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/coop-cover.svg" class="cooperation__img-cover" alt="">
             <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/coop-cover-star-1.svg" class="cooperation__img-cover-star-1" alt="">
             <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/coop-cover-star-2.svg" class="cooperation__img-cover-star-2" alt="">
@@ -55,8 +55,11 @@ Template Name: Дизайнерам
                                 <div class="projects__item swiper-slide">
                                     <img src="<?php the_field('img-object') ?>" alt="" class="projects__item-img">
                                     <div class="projects__item-text">
-                                        <div class="projects__item-subtitle">Проект</div>
-                                        <div class="projects__item-title"><?php the_field('item-title') ?></div>
+                                        <div class="projects__item-top">
+                                            <div class="projects__item-subtitle">Проект</div>
+                                            <div class="projects__item-title"><?php the_field('item-title') ?></div>
+                                        </div>
+
                                         <a href="<?php echo get_permalink(); ?>" class="projects__item-btn">подробнее</a>
                                     </div>
                                 </div>
