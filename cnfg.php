@@ -3831,7 +3831,7 @@ if (isset($_GET['door_cfg'])) {
                                                             Свайпайте чтобы <br> посмотреть все цвета
                                                         </span>
                                                         <div class="texture-group">
-                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor1" data-doorcoloutdoor="btndoorcoloutdoor1" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcolout']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor1') ? ' active' : '' ?>" id='btndoorcoloutdoor1' onclick='doorColOutdoor("btndoorcoloutdoor1")'>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor1" data-doorcoloutdoor="btndoorcoloutdoor1" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor1') ? ' active' : '' ?>" id='btndoorcoloutdoor1' onclick='doorColOutdoor("btndoorcoloutdoor1")'>
                                                                 <div class="texture-image-cover">
                                                                     <div class="texture-image wenge_light property-texture panel_in decoline">
                                                                         <div class="image"></div>
@@ -3840,7 +3840,7 @@ if (isset($_GET['door_cfg'])) {
                                                                 </div>
                                                                 <div class="texture-title">Венге</div>
                                                             </div>
-                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor2" data-doorcoloutdoor="btndoorcoloutdoor2" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcolout']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor2') ? ' active' : '' ?>" id='btndoorcoloutdoor2' onclick='doorColOutdoor("btndoorcoloutdoor2")'>
+                                                            <div data-variable-name="doorcoloutdoor" data-variable-value="btndoorcoloutdoor2" data-doorcoloutdoor="btndoorcoloutdoor2" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['doorcoloutdoor']) and $_GET['doorcoloutdoor'] == 'btndoorcoloutdoor2') ? ' active' : '' ?>" id='btndoorcoloutdoor2' onclick='doorColOutdoor("btndoorcoloutdoor2")'>
                                                                 <div class="texture-image-cover">
                                                                     <div class="texture-image milk_light property-texture panel_in decoline">
                                                                         <div class="image"></div>
