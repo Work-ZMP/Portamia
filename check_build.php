@@ -2988,6 +2988,450 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])) :
                             <?php endif; ?>
 
                         </li>
+
+                        <li>
+                            <?php if (isset($door_cfg['doorcoloutdoor']['value'])) : ?>
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor1') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Венге</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor2') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Белое дерево</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor3') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Коньячный дуб</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor4') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Ванильный дуб</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor5') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Милк</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor6') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Кофейное дерево</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor7') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Серый матовый</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor8') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Черный матовый</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor9') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Графитовое дерево</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor10') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Дымчатое дерево</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor11') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Сатиновое дерево</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor12') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Граб белый</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor13') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Венге бонобо</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor14') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Арктическая береза</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor15') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Бетон темный</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor16') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Бетон светлый</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor17') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Греческий платан</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor18') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Джут</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor19') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Джут белый</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor20') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Белый</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor21') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Дуб бренди</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['doorcoloutdoor']['value'] == 'btndoorcoloutdoor22') : ?>
+
+                                    <div class="options-item">
+                                        <div class="options-item-l">
+                                            <div class="options-item-l-title">Тип МДФ панели</div>
+                                            <div class="options-item-l-description">Дуб рустик</div>
+                                        </div>
+                                        <?php if (!empty($door_cfg['doorcoloutdoor']['price'])) : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-cost"><?= $door_cfg['doorcoloutdoor']['price'] . ' ₽' ?></div>
+                                            </div>
+                                        <?php else : ?>
+                                            <div class="options-item-r">
+                                                <div class="options-item-r-included">Включено в базу</div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+
+                                <?php endif; ?>
+                            <?php endif; ?>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -5560,6 +6004,8 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])) :
                             <?php endif; ?>
 
                         </li>
+
+
                     </ul>
                 </div>
             </div>
