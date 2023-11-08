@@ -104,7 +104,7 @@ Template Name: Дизайнерам
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/adv-icon-2.svg" alt="">
                     </div>
                     <div class="advantages__item-text">
-                        <div class="advantages__item-title">Творческая свобода</div>
+                        <div class="advantages__item-title title-creative">Творческая свобода</div>
                         <div class="advantages__item-descr">Возможность воплотить свои идеи и творческие концепции в жизнь</div>
                     </div>
                 </div>
