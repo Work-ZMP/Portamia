@@ -155,3 +155,123 @@
   font-style: normal;
   font-weight: 700;
 }
+
+@media (max-width: 1480px) {
+  .header__top.darkpage .header__top-lower {
+    width: 100%;
+    padding: 0 25px;
+  }
+  .header__top.darkpage .header__lower-title {
+    font-size: 58px;
+  }
+  .container {
+    width: 100%;
+    padding: 0 25px;
+  }
+  .collection__item {
+    height: 550px;
+  }
+  .collection__item-title {
+    font-size: 45px;
+  }
+  .collection__item-cover {
+    font-size: 35px;
+    height: 65px;
+    width: 340px;
+  }
+  .collection__item-btn {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1280px) {
+  .header__top.darkpage .header__lower-title {
+    font-size: 55px;
+  }
+  .collections__line {
+    margin-top: 80px;
+  }
+  .collection__item-title {
+    font-size: 30px;
+  }
+  .collections__descr {
+    font-size: 18px;
+    width: 505px;
+    margin-bottom: 60px;
+  }
+  .collection__item {
+    height: 450px;
+  }
+  .collection__item-cover {
+    font-size: 28px;
+    height: 50px;
+    width: 300px;
+  }
+  .collection__item-btn {
+    font-size: 18px;
+    padding: 7px 25px;
+  }
+}
+@media (max-width: 1024px) {
+  .header__top.darkpage .header__lower-title {
+    font-size: 33px;
+  }
+  .collections__line {
+    margin-top: 70px;
+  }
+  .collections__descr {
+    font-size: 16px;
+    max-width: 405px;
+    margin-bottom: 50px;
+  }
+  .collections__items {
+    margin-bottom: 70px;
+  }
+  .collection__item-hide-list li {
+    font-size: 20px;
+  }
+  .collection__item-btn {
+    font-size: 16px;
+  }
+  .collection__item-cover {
+    font-size: 22px;
+    height: 40px;
+    width: 240px;
+  }
+}
+@media (max-width: 800px) {
+  .collections__descr {
+    margin-bottom: 30px;
+  }
+  .collection__item {
+    height: 400px;
+  }
+  .collection__item-title {
+    font-size: 25px;
+  }
+  .collection__item-hide-list li {
+    font-size: 18px;
+  }
+  .collection__item-cover {
+    font-size: 20px;
+    height: 35px;
+    width: 200px;
+  }
+  .collection__item-btn {
+    font-size: 15px;
+  }
+}
+@media (max-width: 640px) {
+  .collections__line {
+    margin-top: 60px;
+  }
+  .collection__item-title {
+    font-size: 23px;
+  }
+  .collection__item-hide-list li {
+    font-size: 16px;
+    max-width: 90px;
+  }
+  .collection__item-hide-list {
+    gap: 15px;
+  }
+}
