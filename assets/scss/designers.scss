@@ -188,14 +188,16 @@
 
 @media (max-width: 480px) {
     .cooperation__section {
-        height: 620px;
+        height: 450px;
       }
   .cooperation__inner {
     align-items: center;
+    justify-content: flex-start;
     margin-bottom: 20px;
   }
   .cooperation__line {
     margin: 0 auto;
+    margin-top: 50px;
     margin-bottom: 40px;
   }
   .cooperation__title {
@@ -208,11 +210,11 @@
     text-align: center;
   }
   .cooperation__img-cover {
-    top: 75%;
+    top: 66%;
     transform: translateX(-50%);
   }
   .cooperation__img-cover-star-1 {
-    top: 150%;
+    top: 175%;
     left: calc(50%);
   }
 }
@@ -715,6 +717,9 @@
 @media(max-width: 800px) {
     .advantages__title {
         font-size: 28px !important;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 15px;
     }
     .advantages__descr {
         font-size: 16px;
@@ -1096,7 +1101,7 @@
 @media(max-width: 480px) {
     .work__title {
         font-size: 22px;
-        max-width: 200px;
+        max-width: 230px;
         margin-bottom: 20px;
     }
     .work__descr {
