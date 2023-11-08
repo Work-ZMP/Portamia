@@ -834,3 +834,37 @@ function pickDate() {
 }
 let pickTime = document.querySelector('.popup__form-inputs-hours');
 pickTime.value = document.querySelector('.popup__form-inputs-hours option:not([disabled])').value;
+
+
+
+
+function pickDatePopup() {
+    let nowHours = new Date().getHours();
+    let nowMinutes = new Date().getMinutes();
+    let pickTimeOptions = document.querySelectorAll('#popup__time option');
+    let pickDay = document.querySelector('#popup__name').value;
+    console.log(pickDay);
+
+    if (pickDay == 'сегодня') {
+        for (element of pickTimeOptions) {
+            let pickHours = element.value.slice(0, 2);
+            let pickMinutes = element.value.slice(3, 5);
+            if (pickHours < nowHours) {
+                element.disabled = "true";
+            }
+            if (pickHours == nowHours && pickMinutes == 00 && 0 < nowMinutes < 59) {
+                element.disabled = "true";
+            }
+            if (pickHours == nowHours && pickMinutes == 30 && nowMinutes > 30) {
+                element.disabled = "true";
+            }
+        }
+    };
+    if (pickDay == 'завтра') {
+        for (element of pickTimeOptions) {
+            element.disabled = false;
+        }
+    };
+}
+let pickTime = document.querySelector('#popup__time');
+pickTime.value = document.querySelector('#popup__time option:not([disabled])').value;

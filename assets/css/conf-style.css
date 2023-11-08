@@ -831,6 +831,7 @@ html,
     margin-top: -1px;
     padding: 11px 0;
     background: var(--color-accent-gradient);
+    cursor: default;
 }
 
 .tab.tab-2 {
