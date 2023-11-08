@@ -883,5 +883,5 @@ function pickDatePopup() {
 }
 
 document.querySelector('.btn-normal').addEventListener('click', function () {
-
+    pickDatePopup();
 });
