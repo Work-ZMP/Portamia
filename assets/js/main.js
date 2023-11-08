@@ -390,31 +390,31 @@ $(function () {
     };
     swiperPartitionsCatalog();
 
-    if (document.querySelector(".designers")) {
-        var swiperDes = new Swiper(".projects__items", {
-            slidesPerView: "1.3",
-            breakpoints: {
-                640: {
-                    slidesPerView: "2",
-                    spaceBetween: 30,
-                },
-                1024: {
-                    slidesPerView: "3",
-                    spaceBetween: 30,
-                },
-
+if (document.querySelector(".designers")) {
+    var swiperDes = new Swiper(".projects__items", {    
+        slidesPerView: "1.3",
+        spaceBetween: 30,
+        breakpoints: {
+            640: {
+                slidesPerView: "2",
                 spaceBetween: 30,
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-                keyboard: {
-                    enabled: true,
-                    onlyInViewport: false
-                },
-                loop: true,
-            }
-        });
+            },
+            1024: {
+                slidesPerView: "3",
+                spaceBetween: 30,
+            },
+        },
+        
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        keyboard: {
+            enabled: true,
+            onlyInViewport: false
+        },
+        loop: true,
+    });
 
     };
 
