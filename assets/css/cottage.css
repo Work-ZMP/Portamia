@@ -1811,7 +1811,7 @@
     display: none;
   }
   .difference__right > img {
-    transform: translate(-50%, -50%) rotate3d(0, 1, 0, 50deg);
+    transform: translate(-50%, -50%) ;
   }
   .difference__section.scrolled .difference__img-3 {
     left: calc(65%);
@@ -1914,7 +1914,7 @@
     margin: 0 auto !important;
   }
   .difference__right > img {
-    transform: translate(-80%, -50%) rotate3d(0, 1, 0, 50deg);
+    transform: translate(-80%, -50%) ;
   }
   .difference__section.scrolled .difference__img-1 {
     max-height: 250px;
