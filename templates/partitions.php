@@ -271,7 +271,7 @@ Template Name: Перегородки
             <hr class="catalogue__line">
             <h2 class="catalogue__title">Каталог перегородок</h2>
             <p class="catalogue__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
-            <div class="catalogue__items items-partitions">
+            <div class="catalogue__items">
                 <div class="">
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
@@ -405,6 +405,7 @@ Template Name: Перегородки
 
 
             </div>
+            <a href="<?php echo get_permalink(642); ?>" class="banner__btn projects__btn">все проекты</a>
         </div>
     </div>
 </section>

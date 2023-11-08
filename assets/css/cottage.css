@@ -187,6 +187,7 @@
   line-height: normal;
   transform: rotate(-90deg);
   text-wrap: nowrap;
+  white-space: nowrap;
   position: absolute;
   bottom: 53px;
   left: 150px;
@@ -909,6 +910,7 @@
   line-height: normal;
   transform: rotate(-90deg);
   text-wrap: nowrap;
+  white-space: nowrap;
   position: absolute;
   bottom: 53px;
   left: 150px;

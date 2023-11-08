@@ -757,6 +757,9 @@
   .catalogue__title {
     margin-bottom: 15px;
   }
+  .furniture__left {
+    display: none;
+  }
 
   .furniture__left img {
     position: absolute;

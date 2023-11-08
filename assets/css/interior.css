@@ -371,9 +371,10 @@
   }
 
   .popular__item-top-cover {
-    bottom: 35px;
-    left: 120px;
-    font-size: 60.701px;
+    bottom: 100px;
+    left: 86px;
+    font-size: 58.701px;
+    
   }
 
   .swiper-button-next {
@@ -1579,6 +1580,16 @@
     width: 280px;
     margin-right: 25px;
   }
+  .popular__item-top-cover {
+    bottom: 100px;
+    left: 75px;
+    font-size: 45.701px;
+}
+.catalogue__item-top-cover {
+  bottom: 90px;
+  left: 100px;
+  font-size: 45px;
+}
 
   .popular__items .swiper-wrapper {
     transform: translate3d(-900px, 0px, 0px);
@@ -1626,7 +1637,7 @@
 
   .popular__item-top-cover {
     bottom: 74px;
-    left: 88px;
+    left: 70px;
     font-size: 36px;
     text-wrap: nowrap;
   }
