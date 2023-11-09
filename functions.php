@@ -90,9 +90,7 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/collections.php")) {
         wp_enqueue_script('collections', get_template_directory_uri() . '/assets/js/collections.js', array('jquery'), 'null', true);
     };
-    if (is_page_template("templates/collection.php")) {
-        wp_enqueue_script('collection', get_template_directory_uri() . '/assets/js/collection.js', array('jquery'), 'null', true);
-    };
+
     if (is_page_template("templates/doorpage.php")) {
         wp_enqueue_script('doorpage', get_template_directory_uri() . '/assets/js/doorpage.js', array('jquery'), 'null', true);
     };
