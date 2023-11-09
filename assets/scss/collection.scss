@@ -230,6 +230,32 @@
   color: rgba(255, 255, 255, 0.5);
   height: 1px;
 }
+@media (max-width: 1480px) {
+  .catalogue__item-img {
+    max-height: 310px;
+}
+.catalogue__item-top {
+  height: 313px;
+}
+.catalogue__item-top-cover {
+  font-size: 55px;
+  left: 110px;
+}
+.catalogue__item-subtitle {
+  font-size: 12px;
+    margin-bottom: 5px;
+}
+.catalogue__item-title {
+  font-size: 22px;
+}
+.catalogue__item {
+  height: 505px;
+}
+.catalogue__btn {
+  font-size: 16px;
+  padding: 5px 25px;
+}
+}
 
 
 
