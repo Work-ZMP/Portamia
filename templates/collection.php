@@ -40,41 +40,42 @@ Template Name: Коллекция
             <h2 class="catalogue__title">Двери коллекции</h2>
             <p class="catalogue__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
             <div class="catalogue__items">
+                <div class="">
 
-                <?php
-                global $post;
+                    <?php
+                    global $post;
 
-                $posts_ids = get_field('posts-id');
+                    $posts_ids = get_field('posts-id');
 
-                $myposts = get_posts([
-                    'include' => $posts_ids,
-                    'order' => 'DESC',
-                    'orderby' => 'post__in',
-                    'post_type' => 'any'
-                ]);
+                    $myposts = get_posts([
+                        'include' => $posts_ids,
+                        'order' => 'DESC',
+                        'orderby' => 'post__in',
+                        'post_type' => 'any'
+                    ]);
 
-                if ($myposts) {
-                    foreach ($myposts as $post) {
-                        setup_postdata($post);
-                ?>
+                    if ($myposts) {
+                        foreach ($myposts as $post) {
+                            setup_postdata($post);
+                    ?>
 
-                        <div class="catalogue__item">
-                            <div class="catalogue__item-top">
-                                <img src="<?php the_field('colors-img-2') ?>" alt="" class="catalogue__item-img">
-                                <div class="catalogue__item-top-cover"><?php the_field('door-name') ?></div>
+                            <div class="catalogue__item">
+                                <div class="catalogue__item-top">
+                                    <img src="<?php the_field('colors-img-2') ?>" alt="" class="catalogue__item-img">
+                                    <div class="catalogue__item-top-cover"><?php the_field('door-name') ?></div>
+                                </div>
+                                <div class="catalogue__item-bottom">
+                                    <div class="catalogue__item-subtitle">Модель</div>
+                                    <div class="catalogue__item-title"><?php the_field('door-name') ?></div>
+                                    <a href="<?php echo get_permalink() ?>" class="catalogue__btn">подробнее</a>
+                                </div>
                             </div>
-                            <div class="catalogue__item-bottom">
-                                <div class="catalogue__item-subtitle">Модель</div>
-                                <div class="catalogue__item-title"><?php the_field('door-name') ?></div>
-                                <a href="<?php echo get_permalink() ?>" class="catalogue__btn">подробнее</a>
-                            </div>
-                        </div>
 
 
-                <?php }
-                }
-                wp_reset_postdata(); ?>
-
+                    <?php }
+                    }
+                    wp_reset_postdata(); ?>
+                </div>
             </div>
             <hr class="catalogue__line long-line">
         </div>
