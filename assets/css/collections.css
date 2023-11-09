@@ -2,6 +2,17 @@
   background: #2b2b2b;
 }
 
+.header__upper-left {
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 800px) {
+  .header__top.darkpage .header__top-lower {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .collections__line {
   margin-right: 0;
   border: none;
