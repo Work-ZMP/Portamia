@@ -406,7 +406,7 @@ body {
     align-items: flex-start;
     max-width: 1248px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 25px;
 }
 
 .header-darkpage .header__top-lower {
@@ -600,6 +600,12 @@ body {
     .header__top.darkpage .header__lower-text {
         align-items: center;
     }
+    .header__top.darkpage .header__top-lower {
+        
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
 
 @media (max-width: 450px) {
@@ -633,6 +639,12 @@ body {
     }
     .header__top.darkpage .header__lower-title {
         font-size: 28px;
+    }
+    .header__top.darkpage .header__top-lower {
+        
+        justify-content: center;
+        align-items: center;
+        
     }
 
 }
