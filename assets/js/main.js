@@ -453,6 +453,42 @@ if (document.querySelector(".designers")) {
         });
 
     };
+    function swiperCatalog() {
+        if (document.querySelector(".production__items") && window.matchMedia('(max-width: 480px)').matches) {
+
+            document.querySelector('.production__items').classList.add('swiper');
+            document.querySelector('.production__items > div').classList.add('swiper-wrapper');
+            document.querySelectorAll('.production__item-top').forEach(el => el.classList.add('swiper-slide'));
+
+            var swiperCatalog = new Swiper(".production__items", {
+                slidesPerView: "1.3",
+                spaceBetween: 30,
+                
+
+                    keyboard: {
+                        enabled: true,
+                        onlyInViewport: false
+                    },
+
+                    loop: true,
+                    // spaceBetween: 30,
+
+                
+            });
+            window.addEventListener('resize', function () {
+                swiperCatalog.update(); // Обновляем Swiper
+            });
+
+        }
+        if (document.querySelector(".production__items") && window.matchMedia('(min-width: 481px)').matches) {
+
+            document.querySelector('.production__items').classList.remove('swiper');
+            document.querySelector('.production__items > div').classList.remove('swiper-wrapper');
+            document.querySelectorAll('.production__item-top').forEach(el => el.classList.remove('swiper-slide'));
+
+        }
+    };
+    swiperCatalog();
 
 
 
