@@ -390,31 +390,31 @@ $(function () {
     };
     swiperPartitionsCatalog();
 
-if (document.querySelector(".designers")) {
-    var swiperDes = new Swiper(".projects__items", {    
-        slidesPerView: "1.3",
-        spaceBetween: 30,
-        breakpoints: {
-            640: {
-                slidesPerView: "2",
-                spaceBetween: 30,
+    if (document.querySelector(".designers")) {
+        var swiperDes = new Swiper(".projects__items", {
+            slidesPerView: "1.3",
+            spaceBetween: 30,
+            breakpoints: {
+                640: {
+                    slidesPerView: "2",
+                    spaceBetween: 30,
+                },
+                1024: {
+                    slidesPerView: "3",
+                    spaceBetween: 30,
+                },
             },
-            1024: {
-                slidesPerView: "3",
-                spaceBetween: 30,
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
-        },
-        
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        keyboard: {
-            enabled: true,
-            onlyInViewport: false
-        },
-        loop: true,
-    });
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false
+            },
+            loop: true,
+        });
 
     };
 
@@ -463,21 +463,16 @@ if (document.querySelector(".designers")) {
             var swiperCatalog = new Swiper(".production__items", {
                 slidesPerView: "1.3",
                 spaceBetween: 30,
-                
+                keyboard: {
+                    enabled: true,
+                    onlyInViewport: false
+                },
+                loop: true,
+                // spaceBetween: 30,
 
-                    keyboard: {
-                        enabled: true,
-                        onlyInViewport: false
-                    },
 
-                    loop: true,
-                    // spaceBetween: 30,
-
-                
             });
-            window.addEventListener('resize', function () {
-                swiperCatalog.update(); // Обновляем Swiper
-            });
+
 
         }
         if (document.querySelector(".production__items") && window.matchMedia('(min-width: 481px)').matches) {
@@ -880,9 +875,10 @@ function pickDate() {
             element.disabled = false;
         }
     };
-}
-let pickTime = document.querySelector('.popup__form-inputs-hours');
+    let pickTime = document.querySelector('.popup__form-inputs-hours');
 pickTime.value = document.querySelector('.popup__form-inputs-hours option:not([disabled])').value;
+}
+
 
 
 
@@ -918,6 +914,8 @@ function pickDatePopup() {
     pickTimePopup.value = document.querySelector('#popup__time option:not([disabled])').value;
 }
 
-document.querySelector('.btn-normal').addEventListener('click', function () {
+if(document.querySelector('.btn-normal')) {
+    document.querySelector('.btn-normal').addEventListener('click', function () {
     pickDatePopup();
 });
+}

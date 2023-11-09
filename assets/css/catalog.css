@@ -455,7 +455,8 @@
 .production__items > div {
   display: flex;
   width: auto;
-  gap: 0;
+  gap: 0 !important;
+  justify-content: flex-start;
 }
 .production__item {
   height: 275px;
@@ -473,6 +474,9 @@
 }
 .item4 img {
   transform: scaleY(1.15);
+}
+.production__items {
+  max-width: 100%;
 }
 }
 
