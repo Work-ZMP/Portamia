@@ -24,6 +24,15 @@
     padding: 0px 25px;
     max-width: 1050px;
   }
+  .title-default,
+  .catalogue__title {
+    font-size: 38px !important;
+  }
+  .descr-default,
+  .catalogue__descr {
+    font-size: 18px;
+    max-width: 505px;
+  }
 }
 @media (max-width: 800px) {
   .elegance__inner .elegance__items {
@@ -415,4 +424,26 @@
 
 .catalogue__item-top-cover {
   text-transform: uppercase;
+}
+
+@media (max-width: 1600px) {
+  .work__form {
+    left: 50%;
+  }
+  .work__form .popup__form-inputs-message {
+    height: 105px;
+  }
+  .work__form .work__form-descr {
+    max-width: 600px !important;
+  }
+  .work__form .popup__form-inputs-day, .work__form .popup__form-inputs-hours, .work__form .popup__form-inputs-name, .work__form .popup__form-inputs-phone, .work__form .popup__form-inputs-message {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+  .work__form-line {
+    margin-bottom: 15px;
+  }
+  .work__form .wpcf7-form {
+    gap: 20px;
+  }
 }
