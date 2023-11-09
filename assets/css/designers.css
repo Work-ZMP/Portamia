@@ -192,8 +192,11 @@
     transform: translateX(-50%);
   }
   .cooperation__img-cover-star-1 {
-    top: 175%;
+    top: 600px;
     left: 50%;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
   }
 }
 .projects__section {
@@ -1045,6 +1048,15 @@
   }
 }
 @media (max-width: 480px) {
+  .work__section {
+    overflow: hidden;
+  }
+  .work__form-shortcode::before {
+    width: 600px;
+    height: 630px;
+    background-size: cover;
+    right: -85px;
+  }
   .work__title {
     font-size: 22px;
     max-width: 230px;
