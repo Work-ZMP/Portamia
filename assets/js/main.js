@@ -485,6 +485,44 @@ $(function () {
     };
     swiperCatalog();
 
+    function swiperGallery() {
+        if (document.querySelector(".gallery__items-slider") && window.matchMedia('(max-width: 480px)').matches) {
+
+            document.querySelector('.gallery__items-slider').classList.add('swiper');
+            document.querySelector('.gallery__items').classList.add('swiper-wrapper');
+            document.querySelectorAll('.gallery__item').forEach(el => el.classList.add('swiper-slide'));
+
+            var swiperGallery = new Swiper(".gallery__items-slider", {
+                slidesPerView: "1.2",
+                spaceBetween: 20,
+                
+
+                    keyboard: {
+                        enabled: true,
+                        onlyInViewport: false
+                    },
+
+                    loop: true,
+                    // spaceBetween: 30,
+
+                
+            });
+            window.addEventListener('resize', function () {
+                swiperGallery.update(); // Обновляем Swiper
+            });
+
+        }
+        if (document.querySelector(".gallery__items-slider") && window.matchMedia('(min-width: 481px)').matches) {
+
+            document.querySelector('.gallery__items-slider').classList.remove('swiper');
+            document.querySelector('.gallery__items').classList.remove('swiper-wrapper');
+            document.querySelectorAll('.gallery__item').forEach(el => el.classList.remove('swiper-slide'));
+
+        }
+    };
+    swiperGallery();
+
+
 
 
     $('.slider__inner').slick({
