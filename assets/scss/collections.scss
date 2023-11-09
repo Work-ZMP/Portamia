@@ -170,7 +170,11 @@
     }
     .container {
         width: 100%;
+        max-width: 1050px;
         padding: 0 25px;
+      }
+      .collections__descr {
+        font-size: 18px;
       }
       .collection__item {
         height: 550px;
