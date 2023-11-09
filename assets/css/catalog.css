@@ -459,21 +459,21 @@
   justify-content: flex-start;
 }
 .production__item {
-  height: 275px;
-  
+  height: 320px;
+  padding-top: 20px;
   width: auto;
 }
 
 .production__subtitle {
   font-size: 19px;
-  width: 77%;
+  width: 50%;
 }
 
 .production__item img {
   width: 65%;
 }
 .item4 img {
-  transform: scaleY(1.15);
+  transform: scaleY(1);
 }
 .production__items {
   max-width: 100%;

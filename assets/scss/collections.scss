@@ -305,13 +305,22 @@
     .header__top.darkpage .header__top-lower {
         margin-top: 70px !important;
       }
+      .collections__line {
+        margin: 60px auto 30px;
+      }
     .collections__descr {
-      font-size: 14px;
+      font-size: 16px;
       max-width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 30px;
     }
     .collection__item-hide-list {
       display: none !important;
     }
+    .collections__items {
+      margin-bottom: 60px;
+  }
   }
   @media (max-width: 360px) {
     .collection__item-title {
