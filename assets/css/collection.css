@@ -75,6 +75,14 @@
   line-height: normal;
 }
 
+.style__inner .style__title {
+  margin-top: 125px;
+}
+
+.style__inner .style__descr {
+  margin-bottom: 100px;
+}
+
 .style__inner {
   display: flex;
   flex-direction: column;
