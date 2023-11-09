@@ -1128,5 +1128,9 @@
         margin: 0 auto;
         margin-bottom: 60px;        
     }
+    .work__form .popup__form-inputs-date {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
 }
 
