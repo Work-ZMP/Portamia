@@ -830,15 +830,16 @@
 .work__form .popup__form-inputs-name,
 .work__form .popup__form-inputs-phone,
 .work__form .popup__form-inputs-message {
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5) !important;
   background: #343434;
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.35);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.35) !important;
   color: #fff;
   font-family: "Raleway";
   font-size: 18px;
   max-width: 100% !important;
   padding: 12px 25px;
   transition: all 0.3s ease-out;
+  border-radius: 0 !important;
 }
 .work__form .popup__form-inputs-day:focus,
 .work__form .popup__form-inputs-hours:focus,
