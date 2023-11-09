@@ -3024,7 +3024,7 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
-                        <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-3step-milled" <?= (isset($_GET['indoorstylesmilled']) and $_GET['indoorstylesmilled'] == '1') ? '' : 'style="display: none;"' ?>>
+                        <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-3step-milled">
                             <button type="button" class="btn accordion-header" id='close-button-3step-5' onclick='closeblock("aria-step3-milled", "close-button-3step-5", "checkbox-3step-milled" )'>
                                 <span class="accordion-head">
                                     Фрезеровка
