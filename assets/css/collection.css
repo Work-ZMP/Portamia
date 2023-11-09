@@ -30,8 +30,11 @@
   }
   .descr-default,
   .catalogue__descr {
-    font-size: 18px;
-    max-width: 505px;
+    font-size: 18px !important;
+    max-width: 555px;
+  }
+  .style__descr {
+    max-width: 650px !important;
   }
 }
 @media (max-width: 800px) {
@@ -445,5 +448,8 @@
   }
   .work__form .wpcf7-form {
     gap: 20px;
+  }
+  .wpcf7-form :nth-child(6) {
+    margin-top: 25px;
   }
 }
