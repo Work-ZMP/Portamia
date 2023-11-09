@@ -175,21 +175,26 @@
       }
       .collections__descr {
         font-size: 18px;
+        max-width: 500px;
       }
+      .collection__item-cover {
+        font-size: 30px;
+        height: 45px;
+        width: 270px;
+    }
       .collection__item {
         height: 550px;
       }
       .collection__item-title {
-        font-size: 45px;
-      }
-      .collection__item-cover {
-        font-size: 35px;
-        height: 65px;
-        width: 340px;
-      }
-      .collection__item-btn {
-        font-size: 22px;
-      }
+        font-size: 38px;
+    }
+    .collection__item-hide-list li {
+      font-size: 18px;
+    }
+    .collection__item-btn {
+      font-size: 20px;
+      padding: 8px 30px;
+  }
 }
 
 
