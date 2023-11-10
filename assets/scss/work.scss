@@ -117,7 +117,7 @@
   margin-bottom: 75px;
   text-align: center;
 }
-.vacancy__items {
+.vacancy__items > div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
@@ -155,7 +155,7 @@
   width: 336px;
   background: #454545;
   padding: 25px;
-  height: 373px;
+  height: 465px;
 }
 
 .vacancy__block-descr {
@@ -175,10 +175,11 @@
 .spisok {
   color: rgba(255, 255, 255, 0.5);
   font-family: Raleway;
-  font-size: 20px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
+  margin: 10px auto;
 }
 
 .vacancy__case-btn {
@@ -386,6 +387,7 @@
   .container {
     max-width: 1050px;
     margin: 0 auto;
+    padding: 0 25px;
   }
 
   .header__top-lower {
@@ -394,14 +396,29 @@
 
   .header__top.darkpage .header__top-lower {
     max-width: 1050px;
+    padding: 0;
   }
+  .default-title {
+    font-size: 38px;
+  }
+  .work__icon {
+    width: 130px;
+    height: 130px;
+  }
+  .work__item img {
+    width: 70px;
+    height: 70px;
+}
   .work__subtitle {
-    font-size: 23px;
+    font-size: 22px;
     width: 100%;
+  }
+   .subtitle3 {
+    width: 80%;
   }
   .work__item-descr {
-    font-size: 19px;
-    width: 100%;
+    font-size: 18px;
+    width: 95%;
   }
   .vacancy__item {
     width: 100%;
@@ -416,7 +433,7 @@
   }
   .vacancy__block {
     width: 100%;
-    height: 440px;
+    height: 460px;
     padding: 20px;
   }
   .contacts__inner iframe {
@@ -442,32 +459,53 @@
   .header__top.darkpage .header__top-lower {
     padding-left: 30px;
   }
-  .container {
-    max-width: 900px;
-    padding: 0 25px;
-  }
+  
   .work__items {
     gap: 10px;
-    row-gap: 60px;
-    grid-template-columns: 1fr 1fr;
+    
   }
+  .work__subtitle {
+    font-size: 19px;
+    width: 100%;
+}
+.subtitle3 {
+  width: 75%;
+}
+.subtitle4 {
+  width: 85%;
+}
+.work__item-descr {
+  font-size: 16;
+  width: 100%
+}
+  .work__icon {
+    width: 110px;
+    height: 110px;
+}
+.work__item img {
+  width: 60px;
+  height: 60px;
+}
   .default-title {
-    font-size: 43px;
+    font-size: 30px;
   }
   .default-descr {
-    font-size: 22px;
+    font-size: 18px;
+    width: 500px;
+  }
+  .vacancy__descr {
+    width: 500px;
   }
 
-  .vacancy__items {
+  .vacancy__items > div {
     gap: 15px;
   }
   .work__subtitle {
     margin-top: 15px;
   }
-  .work__item-descr {
-    font-size: 20px;
-    width: 60%;
-  }
+ .vacancy__subtitle {
+  margin-bottom: 0;
+ }
   .vacancy__block {
     height: 370px;
   }
@@ -475,7 +513,10 @@
     font-size: 14px;
   }
   .vacancy__subtitle2 {
-    font-size: 23px;
+    font-size: 20px;
+  }
+  .item2 .vacancy__subtitle2 {
+    width: 70%;
   }
   .vacancy__block-descr {
     font-size: 20px;
@@ -506,11 +547,11 @@
   }
 
   .subtitle-default {
-    font-size: 25px;
+    font-size: 21px;
     text-align: center;
   }
   .contacts__element {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .contacts__form .popup__form-inputs-day,
@@ -524,32 +565,34 @@
 }
 
 @media (max-width: 1024px) {
+  .header__top.darkpage .header__lower-title {
+    font-size: 40px !important;
+}
   .work__section {
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .container {
-    max-width: 750px;
-  }
+ 
   .work__line {
     margin: 0 auto;
   }
   .default-title {
-    font-size: 35px;
+    font-size: 28px;
     text-align: center;
     margin-top: 25px;
   }
   .default-descr {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     max-width: 400px;
     margin-bottom: 50px;
     margin: 0 auto;
   }
-  .work__items {
-    gap: 0;
-    row-gap: 35px;
+  .work__items {    
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
+    gap: 0;
+    row-gap: 60px;
     margin-top: 50px;
   }
   .work__item {
@@ -571,16 +614,19 @@
     font-size: 17px;
     width: 100%;
   }
-  .vacancy__items {
+  .vacancy__items > div {
     margin-top: 50px;
   }
   .vacancy__block {
-    height: 470px;
+    height: 490px;
   }
 
   .contacts__section {
     margin-top: 50px;
     margin-bottom: 50px;
+  }
+  .contacts__line {
+    margin: 0 auto;
   }
   .contacts__inner iframe {
     margin-top: 50px;
@@ -593,13 +639,16 @@
     padding: 25px 30px;
   }
   .subtitle-default {
-    font-size: 23px;
+    font-size: 20px;
   }
   .contacts__element {
     font-size: 16px;
   }
   .contacts__icon {
     margin-left: 6px;
+  }
+  .contacts__form .popup__form-inputs-day, .contacts__form .popup__form-inputs-hours, .contacts__form .popup__form-inputs-name, .contacts__form .popup__form-inputs-phone, .contacts__form .popup__form-inputs-message {
+    padding: 6px 25px;
   }
 }
 
@@ -614,24 +663,21 @@
     margin: 0 auto;
     align-items: center;
   }
-  .default-line {
-    width: 100px;
-  }
+
   .work__section {
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
-  .container {
-    width: 100%;
-    padding: 0 25px;
-  }
+  
   .default-title {
-    font-size: 30px;
-    margin-top: 20px;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 15px;
   }
-  .vacancy__items {
+  .vacancy__items > div {
     grid-template-columns: 1fr;
     gap: 25px;
+    margin-top: 30px;
   }
   .vacancy__item {
     padding: 35px 70px;
@@ -643,20 +689,24 @@
     margin-bottom: 0;
   }
   .vacancy__subtitle1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .vacancy__subtitle2 {
-    font-size: 25px;
+    font-size: 22px;
   }
+  .item2 .vacancy__subtitle2 {
+    width: 100%;
+}
   .vacancy__block {
     height: auto;
     padding: 30px;
   }
   .vacancy__block-descr {
     text-align: center;
+    font-size: 18px;
   }
   .spisok {
-    font-size: 19px;
+    font-size: 16px;
   }
   .vacancy__case-btn {
     align-self: center;
@@ -690,6 +740,20 @@
 }
 
 @media (max-width: 640px) {
+  .default-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .default-descr {
+    max-width: 350px;
+  }
+  .work__items {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+  .work__item-descr {
+    font-size: 16px;
+  }
   .vacancy__block {
     margin-top: 15px;
   }
@@ -699,14 +763,26 @@
   .vacancy__item {
     padding: 30px 30px;
   }
+  .vacancy__subtitle {
+    height: 80px;
+  }
+  .vacancy__subtitle1 {
+    font-size: 16px;
+}
+.vacancy__subtitle2 {
+  font-size: 20px;
+}
+.contacts__inner iframe {
+  margin-top: 30px;
+}
 }
 
 @media (max-width: 480px) {
   .header__top.darkpage .header__lower-title {
-    font-size: 40px;
-  }
+    font-size: 28px !important;
+}
   .default-title {
-    font-size: 25px;
+    font-size: 22px !important;
     margin-bottom: 15px;
   }
   .default-descr {
@@ -729,14 +805,24 @@
   }
 
   .work__icon {
-    max-width: 110px;
-    max-height: 110px;
+    max-width: 100px;
+    max-height: 100px;
   }
   .work__item img {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
   }
-
+  .work__subtitle {
+    font-size: 18px;
+    
+}
+.swiper-wrapper {
+  height: 505px;
+}
+.vacancy__items > div {
+  display: flex;
+  gap: 0;
+}
   .vacancy__subtitle {
     height: 80px;
   }
@@ -744,18 +830,18 @@
     font-size: 16px;
   }
   .vacancy__subtitle2 {
-    font-size: 20px;
-  }
-  .vacancy__block-descr {
     font-size: 18px;
   }
+  .vacancy__block-descr {
+    font-size: 16px;
+  }
   .vacancy__item {
-    padding: 20px 10px;   
-    align-items: center; 
+    padding: 20px 10px;
+    align-items: center;
   }
   .vacancy__block {
-    width: 90%;
-    padding: 30px;
+    width: 100%;
+    padding: 20px;
     margin-top: 0;
   }
   .spisok {

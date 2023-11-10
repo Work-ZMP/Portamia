@@ -522,6 +522,43 @@ $(function () {
     };
     swiperGallery();
 
+    function swiperWork() {
+        if (document.querySelector(".vacancy__items") && window.matchMedia('(max-width: 480px)').matches) {
+
+            document.querySelector('.vacancy__items').classList.add('swiper');
+            document.querySelector('.vacancy__items > div').classList.add('swiper-wrapper');
+            document.querySelectorAll('.vacancy__item').forEach(el => el.classList.add('swiper-slide'));
+
+            var swiperWork = new Swiper(".vacancy__items", {
+                slidesPerView: "1.2",
+                spaceBetween: 20,
+                
+
+                    keyboard: {
+                        enabled: true,
+                        onlyInViewport: false
+                    },
+
+                    loop: true,
+                    // spaceBetween: 30,
+
+                
+            });
+            window.addEventListener('resize', function () {
+                swiperWork.update(); // Обновляем Swiper
+            });
+
+        }
+        if (document.querySelector(".vacancy__items") && window.matchMedia('(min-width: 481px)').matches) {
+
+            document.querySelector('.vacancy__items').classList.remove('swiper');
+            document.querySelector('.vacancy__items > div').classList.remove('swiper-wrapper');
+            document.querySelectorAll('.vacancy__item').forEach(el => el.classList.remove('swiper-slide'));
+
+        }
+    };
+    swiperWork();
+
 
 
 
