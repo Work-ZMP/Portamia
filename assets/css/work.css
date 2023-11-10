@@ -404,19 +404,25 @@
     padding: 0;
   }
   .default-title {
-    font-size: 38px;
+    font-size: 30px;
+  }
+  .default-descr {
+    font-size: 20px;
   }
   .work__icon {
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 110px;
   }
   .work__item img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
   .work__subtitle {
-    font-size: 22px;
+    font-size: 21px;
     width: 100%;
+  }
+  .subtitle-default {
+    font-size: 25px;
   }
   .subtitle3 {
     width: 80%;
@@ -434,7 +440,10 @@
   }
   .vacancy__subtitle2 {
     width: 100%;
-    font-size: 25px;
+    font-size: 23px;
+  }
+  .vacancy__block-descr {
+    font-size: 22px;
   }
   .vacancy__block {
     width: 100%;
@@ -443,6 +452,9 @@
   }
   .contacts__inner iframe {
     max-height: 400px;
+  }
+  .spisok {
+    font-size: 18px;
   }
 }
 @media (max-width: 1280px) {
@@ -478,14 +490,6 @@
   .work__item-descr {
     font-size: 16;
     width: 100%;
-  }
-  .work__icon {
-    width: 110px;
-    height: 110px;
-  }
-  .work__item img {
-    width: 60px;
-    height: 60px;
   }
   .default-title {
     font-size: 30px;
