@@ -68,7 +68,7 @@
             <div class="container">
                 <a href="" class="footer__logo">PORTAMIA</a>
                 <a href="<?php echo get_permalink(736); ?>" class="footer__holding-page footer__policy">Наши компании</a>
-                <a href="<?php echo get_permalink(99); ?>" class="footer__policy">Политика конфиденциальности </a>
+                <a href="<?php echo get_permalink(3); ?>" class="footer__policy">Политика конфиденциальности </a>
             </div>
         </div>
 
