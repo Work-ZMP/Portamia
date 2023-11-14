@@ -179,7 +179,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 
 .vacancy__case-btn {
@@ -823,7 +823,7 @@
     
 }
 .swiper-wrapper {
-  height: 505px;
+  height: 610px;
 }
 .vacancy__items > div {
   display: flex;
@@ -837,6 +837,7 @@
   }
   .vacancy__subtitle2 {
     font-size: 18px;
+    margin-bottom: 15px;
   }
   .vacancy__block-descr {
     font-size: 16px;
@@ -848,6 +849,7 @@
   .vacancy__block {
     width: 100%;
     padding: 20px;
+    max-height: 500px;
     margin-top: 0;
   }
   .spisok {
