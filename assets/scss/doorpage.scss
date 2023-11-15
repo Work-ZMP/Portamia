@@ -1497,6 +1497,9 @@
 
 
 @media(max-width: 480px) {
+  .header__slide-title {
+    font-size: 35px !important;
+  }
   .application__section {
     height: 740px;
     background-attachment: scroll;
