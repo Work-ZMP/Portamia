@@ -1099,8 +1099,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
   }
+  .colors__block-items {
+    max-width: 110px;
+  }
   .colors__block-subtitle {
     font-size: 16px;
+  }
+  .swiper-backface-hidden .swiper-slide {
+    margin-right: 0;
   }
   .colors__left {
     gap: 10px;
@@ -1108,6 +1114,12 @@
   }
   .colors__right {
     padding-top: 0;
+  }
+  .colors__left > img {
+    height: 312px;
+  }
+  .colors__block-item-title {
+    font-size: 12px;
   }
 }
 .work__form-shortcode {
