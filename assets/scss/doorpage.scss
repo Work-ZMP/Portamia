@@ -1223,9 +1223,13 @@
   }
   .colors__left > img {
     height: 312px;
+    width: 95%;
 }
   .colors__block-item-title {
   font-size: 12px;
+}
+.colors__block-item > img {
+  max-height: 75px;
 }
 }
 
@@ -1495,6 +1499,7 @@
 @media(max-width: 480px) {
   .application__section {
     height: 740px;
+    background-attachment: scroll;
   }
   .work__form {
     background-size: cover;

@@ -1,6 +1,7 @@
 if (document.querySelector(".colors__block-items")) {
     var swiperColors = new Swiper(".colors__block-items", {
         slidesPerView: "1.3",
+        spaceBetween: 10,
         breakpoints: {
             480: {
                 spaceBetween: 20,
@@ -12,7 +13,7 @@ if (document.querySelector(".colors__block-items")) {
             onlyInViewport: false
         },
         loop: false,
-        spaceBetween: 20,
+        
         freemode: true,
     });
 
