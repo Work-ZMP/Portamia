@@ -597,3 +597,120 @@
 .wpcf7-form .popup__form-inputs-email {
   max-width: 555px !important;
 }
+
+@media (max-width: 1480px) {
+  .application__section {
+    height: 500px;
+  }
+  .application__section .application__title {
+    font-size: 38px;
+  }
+  .application__section .application__descr {
+    font-size: 22px;
+  }
+  .wpcf7-form > p {
+    width: 300px;
+  }
+  .application__block .popup__call-form-submit {
+    width: 200px;
+    height: 40px;
+  }
+}
+@media (max-width: 1280px) {
+  .application__section .application__title {
+    font-size: 33px;
+  }
+  .application__section .application__descr {
+    font-size: 20px;
+  }
+  .wpcf7-form > p {
+    width: 250px;
+  }
+  .application__block .popup__call-form-submit {
+    width: 190px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  .application__section {
+    height: 450px;
+  }
+  .application__section .application__title {
+    font-size: 30px;
+  }
+  .application__section .application__descr {
+    font-size: 16px;
+    max-width: 400px;
+  }
+  .wpcf7-form > p {
+    width: 200px;
+  }
+  .application__block .popup__call-form-submit {
+    width: 170px;
+    height: 35px;
+  }
+}
+@media (max-width: 800px) {
+  .application__section {
+    height: 450px;
+  }
+  .application__section .application__title {
+    font-size: 28px;
+  }
+  .application__section .application__descr {
+    font-size: 16px;
+    max-width: 400px;
+  }
+  .wpcf7-form > p {
+    width: 170px;
+  }
+  .application__block .popup__call-form-submit {
+    width: 170px;
+    height: 35px;
+  }
+}
+@media (max-width: 640px) {
+  .application__section {
+    height: 400px;
+  }
+  .application__section .application__title {
+    font-size: 25px;
+  }
+  .application__section .application__descr {
+    font-size: 16px;
+    max-width: 300px;
+  }
+  .wpcf7-form > p {
+    width: 120px;
+  }
+  .application__block .popup__call-form-submit {
+    width: 130px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .application__section .application__line {
+    margin: 0 auto;
+  }
+  .application__section .application__title {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .application__section .application__descr {
+    text-align: center;
+  }
+  .wpcf7-form {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .wpcf7-form > p {
+    width: 200px;
+  }
+  .application__block .popup__call-form-submit {
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+  }
+}
