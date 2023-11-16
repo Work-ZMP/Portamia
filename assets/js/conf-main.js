@@ -1610,7 +1610,7 @@ function chooseGlassCol(butid) {
 function chooseExtraGrid(butid) {
 
     let btn = document.getElementById(butid);
-    let buttons = document.querySelectorAll('#step__1 .extra-grid .texture-item');
+    let buttons = document.querySelectorAll('#checkbox-2step-extra-grid .texture-item');
 
     if (btn.classList.contains('active')) {
 
@@ -2330,9 +2330,7 @@ function furnItem(butid, css) {
         btn.classList.add('active');
 
         if (butid == 'glass-type-item5' && css == '#step__1 .milling-item') {
-            document.querySelectorAll('#aria-step2-extra-grid .texture-group :nth-child(5)').forEach(b => b.style.display = 'none');
-            document.querySelectorAll('#aria-step2-extra-grid .texture-group :nth-child(6)').forEach(b => b.style.display = 'none');
-            document.querySelectorAll('#aria-step2-extra-grid .texture-group :nth-child(7)').forEach(b => b.style.display = 'none');
+            document.querySelectorAll('#aria-step2-extra-grid .texture-group :nth-child(3)').forEach(b => b.style.display = 'none');
         } else {
             document.querySelectorAll('#aria-step2-extra-grid .texture-group .texture-item').forEach(b => b.style.display = '');
         }
