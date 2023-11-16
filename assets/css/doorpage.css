@@ -1346,7 +1346,11 @@
   .work__form .popup__form-inputs-message {
     height: 160px;
   }
-  .work__form .popup__form-inputs-day, .work__form .popup__form-inputs-hours, .work__form .popup__form-inputs-name, .work__form .popup__form-inputs-phone, .work__form .popup__form-inputs-message {
+  .work__form .popup__form-inputs-day,
+  .work__form .popup__form-inputs-hours,
+  .work__form .popup__form-inputs-name,
+  .work__form .popup__form-inputs-phone,
+  .work__form .popup__form-inputs-message {
     font-size: 16px;
     padding: 7px 25px;
   }
@@ -1404,7 +1408,11 @@
   .work__form-line {
     margin-bottom: 15px;
   }
-  .work__form .popup__form-inputs-day, .work__form .popup__form-inputs-hours, .work__form .popup__form-inputs-name, .work__form .popup__form-inputs-phone, .work__form .popup__form-inputs-message {
+  .work__form .popup__form-inputs-day,
+  .work__form .popup__form-inputs-hours,
+  .work__form .popup__form-inputs-name,
+  .work__form .popup__form-inputs-phone,
+  .work__form .popup__form-inputs-message {
     font-size: 16px;
     padding: 6px 8px;
     margin-top: 0;
