@@ -68,7 +68,7 @@ Template Name: Работа у нас
             <p class="vacancy__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
 
             <div class="vacancy__items">
-                <!-- <div class="swiper-wrapper"> -->
+                <div class="">
                     <div class="vacancy__item item1">
                         <div class="vacancy__subtitle">
                             <span class="vacancy__subtitle1">Вакансия</span>
@@ -88,6 +88,8 @@ Template Name: Работа у нас
                             <div class="vacancy__btn">подробнее</div>
                         </a>
                     </div>
+                
+                
                     <div class="vacancy__item item2">
                         <div class="vacancy__subtitle">
                             <span class="vacancy__subtitle1">Вакансия</span>
@@ -107,6 +109,8 @@ Template Name: Работа у нас
                             <div class="vacancy__btn">подробнее</div>
                         </a>
                     </div>
+                
+                
                     <div class="vacancy__item item3">
                         <div class="vacancy__subtitle">
                             <span class="vacancy__subtitle1">Вакансия</span>
@@ -126,9 +130,9 @@ Template Name: Работа у нас
                             <div class="vacancy__btn">подробнее</div>
                         </a>
                     </div>
-                <!-- </div> -->
-                <!-- <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div> -->
+                </div>
+
+
             </div>
 
         </div>

@@ -1,12 +1,19 @@
 if (document.querySelector(".colors__block-items")) {
     var swiperColors = new Swiper(".colors__block-items", {
-        slidesPerView: "4",
+        slidesPerView: "1.3",
+        spaceBetween: 5,
+        breakpoints: {
+            480: {
+                spaceBetween: 20,
+                slidesPerView: "4",                
+            }
+        },    
         keyboard: {
             enabled: true,
             onlyInViewport: false
         },
         loop: false,
-        spaceBetween: 20,
+        
         freemode: true,
     });
 

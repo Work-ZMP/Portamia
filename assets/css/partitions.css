@@ -896,10 +896,12 @@
 
     .swiper-button-next {
         right: 10px;
+        display: none;
     }
 
     .swiper-button-prev {
         left: 10px;
+        display: none;
     }
 }
 

@@ -46,7 +46,7 @@ Template Name: Контакты
                             </div>
                             <div class="contacts__icon">
                                 <img src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon4.svg" alt="">
-                                <span class="contacts__element contacts-location">Оренбург. пер. Тупой, 55</span>
+                                <span class="contacts__element contacts-location">Оренбург пер. Тупой, 55</span>
                             </div>
                         </div>
                     </div>

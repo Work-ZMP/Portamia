@@ -141,7 +141,7 @@
   line-height: normal;
 }
 
-.catalogue__items > div {
+.catalogue__items {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 26px;
@@ -303,14 +303,6 @@
   .catalogue__btn {
     font-size: 16px;
     padding: 5px 25px;
-  }
-}
-@media (max-width:800px) {
-  .catalogue__items > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
   }
 }
 .work__form-shortcode {

@@ -119,7 +119,7 @@ Template Post Type: post, page, product
             <div class="materials__right">
                 <hr class="materials__line">
                 <h2 class="materials__title">Прошедшие проверку временем материалы</h2>
-                <p class="materials__descr">Наши металлические двери – надежная защита для вашего дома или офиса. Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+                <p class="materials__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
             </div>
         </div>
     </div>

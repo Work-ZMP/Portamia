@@ -81,29 +81,37 @@ Template Name: Дилерам
                     <div class="advantages__img">
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/dealers-icon1.svg" alt="">
                     </div>
-                    <h3 class="advantages__subtitle">Гибкие условия сотрудничества</h3>
-                    <p class="advantages__descr">Условия, которые будут соответствовать вашим потребностям</p>
+                    <div class="advantages__descr-top">
+                        <h3 class="advantages__subtitle">Гибкие условия сотрудничества</h3>
+                        <p class="advantages__descr">Условия, которые будут соответствовать вашим потребностям</p>
+                    </div>
                 </div>
                 <div class="advantages__item item2-1">
                     <div class="advantages__img">
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/dealers-icon2.svg" alt="">
                     </div>
-                    <h3 class="advantages__subtitle">Маркетинговая поддержка</h3>
-                    <p class="advantages__descr">Маркетинговые ресурсы для помощи в создании успешных кампаний</p>
+                    <div class="advantages__descr-top">
+                        <h3 class="advantages__subtitle">Маркетинговая поддержка</h3>
+                        <p class="advantages__descr">Маркетинговые ресурсы для помощи в создании успешных кампаний</p>
+                    </div>
                 </div>
                 <div class="advantages__item item3-1">
                     <div class="advantages__img">
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/dealers-icon3.svg" alt="">
                     </div>
-                    <h3 class="advantages__subtitle">Индивидуальная поддержка и обучение</h3>
-                    <p class="advantages__descr">Поддержка и необходимые инструменты для успешных продаж</p>
+                    <div class="advantages__descr-top">
+                        <h3 class="advantages__subtitle">Индивидуальная поддержка и обучение</h3>
+                        <p class="advantages__descr">Поддержка и необходимые инструменты для успешных продаж</p>
+                    </div>
                 </div>
                 <div class="advantages__item item4-1">
                     <div class="advantages__img">
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/dealers/dealers-icon4.svg" alt="">
                     </div>
-                    <h3 class="advantages__subtitle">Эксклюзивный ассортимент продукции</h3>
-                    <p class="advantages__descr">Доступ к уникальному и разнообразному ассортименту продукции</p>
+                    <div class="advantages__descr-top">
+                        <h3 class="advantages__subtitle">Эксклюзивный ассортимент продукции</h3>
+                        <p class="advantages__descr">Доступ к уникальному и разнообразному ассортименту продукции</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,7 +134,17 @@ Template Name: Дилерам
             <h2 class="conditions__title default-title">Условия сотрудничества</h2>
             <p class="conditions__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
             <div class="conditions__items">
-
+                <p class="conditions__item-top">Portamia предлагает вам уникальную возможность стать дилером нашей компании и получить эксклюзивные права на продажу нашей продукции в вашей области. Мы специализируемся на производстве и поставке высококачественных дверей и других товаров для интерьера.</p>
+                <p class="conditions__item-bottom">Мы предлагаем следующие условия для дилерства с Portamia:</p>
+                <div>
+                    <ol class="conditions__criterion">
+                        <li><div>Эксклюзивные права на продажу:</div> В качестве дилера Portamia вы получите эксклюзивное право на продажу нашей продукции в вашей области. Мы гарантируем, что не будем предоставлять право дилерства другим компаниям в той же области.</li>
+                        <li><div>Качественное обслуживание клиентов:</div> Мы ожидаем, что вы предоставите выдающееся обслуживание клиентов, включая консультации и помощь в выборе наших продуктов.</li>
+                        <li><div>Маркетинговая поддержка:</div> Мы предоставляем нашим дилерам маркетинговые материалы и рекламную поддержку для продвижения нашей продукции в вашей области.</li>
+                        <li><div>Поддержка и обучение:</div> Мы обеспечим вас необходимым обучением и информацией о наших продуктах, чтобы вы могли наилучшим образом представить их своим клиентам.</li>
+                        <li><div>Долгосрочное партнерство:</div> Мы стремимся к долгосрочным отношениям с нашими дилерами и готовы поддерживать вас в развитии бизнеса.</li>
+                    </ol>
+                </div>
             </div>
         </div>
     </div>
