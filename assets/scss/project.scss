@@ -392,15 +392,17 @@
     order: 2;
   }
   .partitions__section .container .partitions__line {
-    margin: 40px 0 25px 0;    
+    margin: 0 auto;   
+    margin-top: 40px;
+    margin-bottom: 25px; 
   }
   .partitions__section .container .partitions__subtitle {
     font-weight: 500;
-    max-width: 250px;
+    width: auto !important;
     text-align: center;
   }
   .partitions__section .container .partitions__descr {
-    width: auto;
+    width: auto !important;
     text-align: center;
     margin: 0 auto;
   }
@@ -470,6 +472,12 @@
 
 
 @media(max-width: 1480px) {
+  .section2 {
+    margin-bottom: 100px;
+  }
+  .project__inner {
+    align-items: center;
+  }
   .partitions__section .container .partitions__title {
     font-size: 33px;
   }
@@ -484,12 +492,39 @@
 
 
 @media(max-width: 1280px) {
-
+  .project__inner {
+    gap: 40px;
+  }
+  .partitions__section .container .partitions__title {
+    font-size: 30px;
+  }
+  .partitions__descr-li {
+    font-size: 16px;
+  }
+  .partitions-right {
+    width: 100%;
+    
+  }
 }
 
 
 @media(max-width: 1024px) {
-    
+  .section2 {
+    margin-bottom: 80px;
+  }
+  .partitions__section .container .partitions__title {
+    font-size: 28px;
+  }
+  .project__inner {
+    gap: 30px;
+  }
+  .partitions__descr-li {
+    margin-top: 20px;
+  }
+  .partitions-li {
+    font: initial;
+    padding-top: 10px;
+  }
 }
 
 
@@ -499,12 +534,35 @@
 
 
 @media(max-width: 640px) {
-    
+  .project__inner {
+    grid-template-columns: 1fr;
+  }
+  .partitions__section .container .partitions__line {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .partitions__section .container .partitions__title {
+    font-size: 25px;
+    text-align: center;
+}
+.partitions__section .container .partitions__descr {
+  max-width: 450px;
+  text-align: center;
+}
+
 }
 
 
 @media(max-width: 480px) {
-    
+  .partitions__section .container {
+    margin-top: 40;
+}
+.partitions__descr-li {
+  margin-bottom: 25px;
+}
+.partitions__right .img-object {
+  height: 300px;
+}
 }
 
 
