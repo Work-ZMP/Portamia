@@ -516,7 +516,7 @@ if (isset($_GET['door_cfg'])) {
                                                 Свайпайте чтобы <br> посмотреть все цвета
                                             </span>
                                             <div class="texture-group extra-grid">
-                                                <div data-variable-name="furnitem_extra-grid1" data-variable-value="extra-grid-step1-item1-step__1" data-furnitem_extra-grid1="extra-grid-step1-item1-step__1" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['furnitem_extra-grid1']) and $_GET['furnitem_extra-grid1'] == 'extra-grid-step1-item1-step__1') ? ' active' : '' ?>" id="extra-grid-step1-item1" onclick="furnItem('extra-grid-step1-item1', '#step__1 .extra-grid .texture-item')">
+                                                <div data-variable-name="furnitem_extra-grid1" data-variable-value="extra-grid-step1-item1-step__1" data-furnitem_extra-grid1="extra-grid-step1-item1-step__1" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['furnitem_extra-grid1']) and $_GET['furnitem_extra-grid1'] == 'extra-grid-step1-item1-step__1') ? ' active' : '' ?>" id="extra-grid-step1-item1" onclick="furnItem('extra-grid-step1-item1', '#checkbox-1step-extra-grid .texture-item')">
                                                     <div class="texture-image-cover">
                                                         <div class="texture-image asia property-texture section_grille base" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/extra-grid-img-1.jpg);">
                                                             <div class="image"></div>
@@ -526,7 +526,7 @@ if (isset($_GET['door_cfg'])) {
                                                     <div class="texture-title">Тип 1</div>
                                                 </div>
 
-                                                <div data-variable-name="furnitem_extra-grid1" data-variable-value="extra-grid-step1-item2-step__1" data-furnitem_extra-grid1="extra-grid-step1-item2-step__1" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['furnitem_extra-grid1']) and $_GET['furnitem_extra-grid1'] == 'extra-grid-step1-item2-step__1') ? ' active' : '' ?>" id="extra-grid-step1-item2" onclick="furnItem('extra-grid-step1-item2', '#step__1 .extra-grid .texture-item')">
+                                                <div data-variable-name="furnitem_extra-grid1" data-variable-value="extra-grid-step1-item2-step__1" data-furnitem_extra-grid1="extra-grid-step1-item2-step__1" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['furnitem_extra-grid1']) and $_GET['furnitem_extra-grid1'] == 'extra-grid-step1-item2-step__1') ? ' active' : '' ?>" id="extra-grid-step1-item2" onclick="furnItem('extra-grid-step1-item2', '#checkbox-1step-extra-grid .texture-item')">
                                                     <div class="texture-image-cover">
                                                         <div class="texture-image type_3 property-texture section_grille base" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/extra-grid-img-5.png);">
                                                             <div class="image"></div>
@@ -535,7 +535,7 @@ if (isset($_GET['door_cfg'])) {
                                                     </div>
                                                     <div class="texture-title">Тип 2</div>
                                                 </div>
-                                                <div data-variable-name="furnitem_extra-grid1" data-variable-value="extra-grid-step1-item3-step__1" data-furnitem_extra-grid1="extra-grid-step1-item3-step__1" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['furnitem_extra-grid1']) and $_GET['furnitem_extra-grid1'] == 'extra-grid-step1-item3-step__1') ? ' active' : '' ?>" id="extra-grid-step1-item3" onclick="furnItem('extra-grid-step1-item3', '#step__1 .extra-grid .texture-item')">
+                                                <div data-variable-name="furnitem_extra-grid1" data-variable-value="extra-grid-step1-item3-step__1" data-furnitem_extra-grid1="extra-grid-step1-item3-step__1" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['furnitem_extra-grid1']) and $_GET['furnitem_extra-grid1'] == 'extra-grid-step1-item3-step__1') ? ' active' : '' ?>" id="extra-grid-step1-item3" onclick="furnItem('extra-grid-step1-item3', '#checkbox-1step-extra-grid .texture-item')">
                                                     <div class="texture-image-cover">
                                                         <div class="texture-image type_4 property-texture section_grille base" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/extra-grid-img-6.png);">
                                                             <div class="image"></div>
@@ -545,7 +545,7 @@ if (isset($_GET['door_cfg'])) {
                                                     <div class="texture-title">Тип 3</div>
                                                 </div>
 
-                                                <div data-variable-name="furnitem_extra-grid1" data-variable-value="extra-grid-step1-item4-step__1" data-furnitem_extra-grid1="extra-grid-step1-item4-step__1" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['furnitem_extra-grid1']) and $_GET['furnitem_extra-grid1'] == 'extra-grid-step1-item4-step__1') ? ' active' : '' ?>" id="extra-grid-step1-item4" onclick="furnItem('extra-grid-step1-item4', '#step__1 .extra-grid .texture-item')">
+                                                <div data-variable-name="furnitem_extra-grid1" data-variable-value="extra-grid-step1-item4-step__1" data-furnitem_extra-grid1="extra-grid-step1-item4-step__1" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['furnitem_extra-grid1']) and $_GET['furnitem_extra-grid1'] == 'extra-grid-step1-item4-step__1') ? ' active' : '' ?>" id="extra-grid-step1-item4" onclick="furnItem('extra-grid-step1-item4', '#checkbox-1step-extra-grid .texture-item')">
                                                     <div class="texture-image-cover">
                                                         <div class="texture-image type_new property-texture section_grille base" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/extra-grid-img-new.png);">
                                                             <div class="image"></div>

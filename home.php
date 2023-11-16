@@ -67,9 +67,9 @@ Template Name: Home
 
 <section class="banner-part__section">
     <div class="container">
-        <div class="banner__title default-title">Перегородки для каждого дома</div>
-        <div class="banner__descr default-descr">Наши перегородки из высококачественных материалов идеально подойдут для любого интерьера.</div>
-        <a href="<?php echo get_permalink(37); ?>" class="banner__btn default-btn">перейти</a>
+        <div class="banner__title default-title">Наше производство</div>
+        <div class="banner__descr default-descr">Мы гордимся тем, что наше производство занимается изготовлением продукции разного профиля деятельности и учитывает потребности каждого.</div>
+        <a href="<?php echo get_permalink(736); ?>" class="banner__btn default-btn">перейти</a>
     </div>
 </section>
 
