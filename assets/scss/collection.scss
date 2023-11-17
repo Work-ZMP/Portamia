@@ -115,7 +115,7 @@
   align-items: center;
 
   .style__title {
-    width: 756px;
+    
     margin-top: 100px;
     margin-bottom: 16px;
   }
@@ -156,6 +156,9 @@
 
 
 @media (max-width: 480px) {
+  .style__inner .style__title {
+    margin-top: 70px;
+  }
   .style__inner .style__descr {
     width: 300px;
     margin-bottom: 70px;

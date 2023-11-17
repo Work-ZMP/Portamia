@@ -2755,7 +2755,12 @@
 
 
 @media(max-width: 1280px) {
-
+  .glass__section-popup .glass__line.first {
+    margin-bottom: 15px;
+  }
+  .glass__line-right > img {
+    height: 300px;
+  }
 }
 
 
@@ -2776,7 +2781,15 @@
 
 
 @media(max-width: 800px) {
-    
+  .glass__section-popup .glass__title {
+    font-size: 24px;
+  }
+  .glass__line-right > img {
+    height: 220px;
+  }
+  .glass__section-popup .glass__line.first {
+    align-items: end;
+  }
 }
 
 
