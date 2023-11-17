@@ -40,25 +40,49 @@
     max-width: 650px !important;
   }
 }
+
 @media (max-width: 1280px) {
   .title-default,
   .catalogue__title {
-    font-size: 33px !important;
-    max-width: 505px;
+    font-size: 33px !important;    
   }
 
 }
 @media (max-width: 1024px) {
+  .title-default,
+  .catalogue__title {
+    font-size: 30px !important;
+    
+  }
   .header-collection .header__slide-title::before {
     width: 120%;
   }
 }
 @media (max-width: 800px) {
+  .title-default,
+  .catalogue__title {
+    font-size: 25px !important;    
+  }
+  
   .elegance__inner .elegance__items {
     max-height: 300px;
     margin-top: 30px;
   }
 }
+
+
+@media (max-width: 640px) {
+  
+.title-default, .catalogue__title {
+  font-size: 22px !important;  
+}
+}
+
+
+
+
+
+
 .title-default {
   color: #fff;
   text-align: center;
@@ -113,6 +137,33 @@
     object-fit: cover;
   }
 }
+
+
+@media (max-width: 800px) {
+  .style__inner .style__descr {
+    width: 500px;
+    margin-bottom: 80px;
+}
+}
+
+
+@media (max-width: 640px) {
+  .style__inner .style__descr {
+    width: 400px;
+    margin-bottom: 80px;
+}
+}
+
+
+@media (max-width: 480px) {
+  .style__inner .style__descr {
+    width: 300px;
+    margin-bottom: 70px;
+}
+}
+
+
+
 
 .catalogue__line {
   border: none;
@@ -308,6 +359,27 @@
     padding: 5px 25px;
   }
 }
+
+
+@media (max-width: 800px) {
+.catalogue__line {
+  margin: 80px auto 50 auto;
+}
+}
+
+@media (max-width: 480px) {
+  .catalogue__line {
+    margin: 70px auto 40px auto;
+  }
+  .catalogue__title {
+    margin-bottom: 20px;
+  }
+  .catalogue__descr {
+    margin-bottom: 40px;
+  }
+  }
+
+
 .work__form-shortcode {
   border: 2px solid #373737;
   background: linear-gradient(342deg, rgba(0, 0, 0, 0.25) 28.57%, rgba(51, 51, 51, 0.09) 98.92%);
@@ -524,18 +596,111 @@
     margin-top: 25px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1480px) {
+  .work__form {
+    left: 50%;
+  }
   .application__section {
-    height: auto;
+    height: 740px;
+  }
+  .work__form-shortcode {
+    padding: 40px;
+    padding-bottom: 40px;
+    padding-top: 35px;
+  }
+  .work__form .wpcf7-form {
+    gap: 20px;
+  }
+  .work__form-line {
+    margin-bottom: 15px;
+  }
+  .work__form .work__form-descr {
+    font-size: 25px;
+  }
+  .work__form .popup__form-inputs-message {
+    height: 160px;
+  }
+  .work__form .popup__form-inputs-day,
+  .work__form .popup__form-inputs-hours,
+  .work__form .popup__form-inputs-name,
+  .work__form .popup__form-inputs-phone,
+  .work__form .popup__form-inputs-message {
+    font-size: 16px;
+    padding: 7px 25px;
+  }
+  .wpcf7-form :nth-child(6) {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .work__form {
+    left: calc(50% + 190px);
+  }
+  .work__form-shortcode {
+    width: 390px;
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 800px) {
+  .work__form-shortcode {
+    padding: 40px;
   }
   .work__form {
-    position: relative;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    transform: none !important;
+    left: calc(50%);
+    max-width: 450px;
   }
-  .work__inner {
-    padding: 25px 0;
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 480px) {
+  .header__slide-title {
+    font-size: 35px !important;
+  }
+  .application__section {
+    height: 740px;
+    background-attachment: scroll;
+  }
+  .work__form {
+    background-size: cover;
+    position: absolute;
+    top: 7%;
+    left: 20px;
+    right: 25px;
+    transform: translate(0, 0);
+    z-index: 2;
+  }
+  .work__form-shortcode {
+    max-width: 300px;
+    padding: 25px;
+  }
+  .work__form .popup__form-inputs-date {
+    gap: 20px;
+  }
+  .work__form .wpcf7-form {
+    gap: 15px;
+  }
+  .work__form .work__form-descr {
+    font-size: 20px;
+  }
+  .work__form-line {
+    margin-bottom: 15px;
+  }
+  .work__form .popup__form-inputs-day,
+  .work__form .popup__form-inputs-hours,
+  .work__form .popup__form-inputs-name,
+  .work__form .popup__form-inputs-phone,
+  .work__form .popup__form-inputs-message {
+    font-size: 16px;
+    padding: 6px 8px;
+    margin-top: 0;
+  }
+  .wpcf7-form :nth-child(6) {
+    margin-top: 15px;
   }
 }
