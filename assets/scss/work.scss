@@ -691,7 +691,7 @@
     flex-direction: column;
   }
   .vacancy__subtitle {
-    text-align: center;
+    
     margin-bottom: 0;
   }
   .vacancy__subtitle1 {
@@ -846,7 +846,7 @@
     font-size: 16px;
   }
   .vacancy__item {
-    padding: 20px 10px;
+    padding: 20px;
     align-items: center;
   }
   .vacancy__block {
@@ -857,12 +857,13 @@
   }
   .spisok {
     font-size: 16px;
+    line-height: 20px;
   }
   .vacancy__case-btn {
-    width: 40%;
+    width: 65%;
   }
   .vacancy__btn {
-    font-size: 13px;
+    font-size: 15px;
   }
   .contacts__section {
     margin-top: 60px;
