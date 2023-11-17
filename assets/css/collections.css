@@ -296,6 +296,10 @@
   }
 }
 @media (max-width: 480px) {
+  .header.header-darkpage .header__btn-menu {
+    border-color: rgba(2, 2, 2, 0.5) !important;
+    color: #000 !important;
+  }
   .header__top.darkpage .header__top-lower {
     margin-top: 70px !important;
   }
