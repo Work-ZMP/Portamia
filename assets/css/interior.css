@@ -2281,9 +2281,9 @@
   }
 
   .header__slide-btn {
-    width: 140px;
-    height: 30px;
-    font-size: 15px;
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
   }
 
   .advantages__title,
@@ -2390,11 +2390,11 @@
   }
 
   .mdf__descr {
-    font-size: 14px !important;
+    font-size: 16px !important;
     text-align: center;
    width: auto !important;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 15px;
   }
 
   .mdf__section.scrolled .mdf__right>img {
@@ -2505,6 +2505,8 @@
     font-size: 16px !important;
     text-align: center;
     margin: 0 auto;
+    width: auto;
+    padding: 0 15px;
   }
 
   .sizes__section.scrolled .sizes__img-1 {
