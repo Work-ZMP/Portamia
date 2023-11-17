@@ -79,7 +79,6 @@
 }
 
 .projects__item-title {
-  width: 606px;
   color: #fff;
   font-size: 28px;
   font-style: normal;
@@ -270,6 +269,6 @@
     display: none;
   }
   .projects__item-btn {
-    padding: 6px 28px;
+    padding: 6px 35px;
   }
 }
