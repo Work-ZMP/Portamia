@@ -1924,7 +1924,7 @@
   .furniture__btn,
   .reviews__btn {
     font-size: 15px;
-    padding: 5px 20px;
+    padding: 6px 20px;
   }
 
   .popular__inner {
@@ -1962,7 +1962,7 @@
   }
 
   .sizes__descr {
-    max-width: 200px;
+    max-width: 350px;
     font-size: 16px !important;
   }
 
@@ -2281,9 +2281,9 @@
   }
 
   .header__slide-btn {
-    width: 124px;
-    height: 23px;
-    font-size: 13px;
+    width: 140px;
+    height: 30px;
+    font-size: 15px;
   }
 
   .advantages__title,
@@ -2305,15 +2305,15 @@
   .why__descr,
   .banner__descr,
   .catalogue__descr {
-    font-size: 14px !important;
+    font-size: 16px !important;
     max-width: 280;
   }
 
   .banner__btn,
   .furniture__btn,
   .reviews__btn {
-    font-size: 14px;
-    padding: 4px 10px;
+    font-size: 15px;
+    padding: 6px 12px;
   }
 
   .popular__inner {
@@ -2392,8 +2392,9 @@
   .mdf__descr {
     font-size: 14px !important;
     text-align: center;
-    max-width: 240px !important;
+   width: auto !important;
     margin: 0 auto;
+    padding: 0 20px;
   }
 
   .mdf__section.scrolled .mdf__right>img {
@@ -2457,8 +2458,8 @@
   .banner__btn,
   .furniture__btn,
   .reviews__btn {
-    font-size: 12px;
-    padding: 4px 10px;
+    font-size: 15px;
+    padding: 6px 12px;
     margin: 0 auto;
   }
 
@@ -2501,23 +2502,23 @@
   }
 
   .sizes__descr {
-    font-size: 15px !important;
+    font-size: 16px !important;
     text-align: center;
     margin: 0 auto;
   }
 
   .sizes__section.scrolled .sizes__img-1 {
-    height: 170px;
+    height: 200px;
     width: 45%;
   }
 
   .sizes__section.scrolled .sizes__img-2 {
-    height: 154px;
+    height: 170px;
     left: calc(50% + 30px);
   }
 
   .sizes__section.scrolled .sizes__img-3 {
-    height: 135px;
+    height: 140px;
     left: calc(50% - 44px);
   }
 
@@ -2571,7 +2572,7 @@
   }
 
   .reviews__descr {
-    font-size: 14px;
+    font-size: 16px;
     max-width: 280px;
     text-align: center;
     margin: 0 auto;
