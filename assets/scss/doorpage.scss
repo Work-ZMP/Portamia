@@ -1021,6 +1021,9 @@
   margin-left: 10px;
   margin-bottom: 10px;
 }
+.no-colors-message {
+  color: #fff;
+}
 
 @media (max-width: 1480px) {
   .colors__title {
@@ -1056,7 +1059,7 @@
   .colors__block-item > img {
     max-height: 100px;
     height: 100%;
-    width: 80%;
+    width: 100%;
     object-fit: cover;
   }
   .swiper-backface-hidden .swiper-slide {
@@ -1180,6 +1183,10 @@
   }
   .colors__block-item > img {
     max-height: 75px;
+    width: 75px;
+  }
+  .no-colors-message {
+    font-size: 14px;
   }
 }
 
