@@ -438,7 +438,7 @@
 
     .types__cnfg-sale {
         font-size: 11px;
-        text-wrap: nowrap;
+        white-space: nowrap;
         padding-right: 0;
     }
 
@@ -2745,4 +2745,46 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 50px;
+}
+
+
+@media(max-width: 1480px) {
+
+}
+
+
+
+@media(max-width: 1280px) {
+
+}
+
+
+@media(max-width: 1024px) {
+  .glass__section-popup .glass__block {
+    gap: 20px;
+  }
+  .glass__section-popup .glass__line.first {
+    margin-top: 30px;
+  }
+  .glass__section-popup .glass__line-subtitle {
+    font-size: 24px;
+  }
+  .glass__section-popup .glass__line-descr {
+    font-size: 18px;
+  }
+}
+
+
+@media(max-width: 800px) {
+    
+}
+
+
+@media(max-width: 640px) {
+    
+}
+
+
+@media(max-width: 480px) {
+    
 }
