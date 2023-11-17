@@ -555,7 +555,7 @@ align-items: center;
 }
 
 .fancybox__content>.carousel__button.is-close {
-    top: 0 !important;
+    top: 10 !important;
     right: 10px !important;
 }
 
