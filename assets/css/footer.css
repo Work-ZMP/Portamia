@@ -554,6 +554,11 @@ align-items: center;
     outline: none !important;
 }
 
+.fancybox__content>.carousel__button.is-close {
+    top: 0 !important;
+    right: 10px !important;
+}
+
 .popup__form-inputs-date {
     display: grid;
     grid-template-columns: 1fr 1fr;

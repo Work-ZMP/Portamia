@@ -743,7 +743,7 @@
 }
 @media (max-width: 480px) {
   .application__section {
-    height: 480px;
+    height: 580px;
   }
   .application__section .application__line {
     margin: 0 auto;
