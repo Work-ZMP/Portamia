@@ -139,9 +139,15 @@
     width: 100%;
     padding: 0 25px;
   }
+  .elegance__inner {
+    max-height: 680px;
+  }
   .swiper {
     max-width: 950px;
   }
+  .swiper-wrapper img {
+    max-height: 650;
+}
   .swiper-button-prev {
     left: 10;
     width: 40px;
@@ -182,6 +188,9 @@
 
 
 @media(max-width: 1280px) {
+  .header__top.darkpage .header__lower-title {
+    font-size: 38px;
+}
   .swiper {
     max-width: 850px;
   }
@@ -215,6 +224,9 @@
 
 
 @media(max-width: 1024px) {
+  .header__top.darkpage .header__lower-title {
+    font-size: 30px;
+}
   .swiper {
     max-width: 650px;
   }
@@ -222,6 +234,9 @@
 
 
 @media(max-width: 800px) {
+  .header__top.darkpage .header__lower-title {
+    max-width: 400px;
+  }
   .swiper {
     width: 100%;
   }
@@ -233,15 +248,27 @@
 
 
 @media(max-width: 640px) {
+  .elegance__inner {
+    max-height: 530px;
+    position: relative;
+}
   .swiper-wrapper img {
-    max-height: 500;
+    max-height: 500px;
 }
 }
 
 
 @media(max-width: 480px) {
+  .header__top.darkpage .header__lower-title {
+    font-size: 28px;
+}
+
+  .elegance__inner {
+    max-height: 350px;
+    position: relative;
+}
   .swiper-wrapper img {
-    max-height: 300;
+    max-height: 320;
 }
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
   bottom: 0;
@@ -312,6 +339,7 @@
   .partitions__section .container .partitions__descr {
     font-size: 20px;
   }
+  
 }
 
 
@@ -474,6 +502,7 @@
 @media(max-width: 1480px) {
   .section2 {
     margin-bottom: 100px;
+    margin-top: 80px;
   }
   .project__inner {
     align-items: center;
@@ -505,18 +534,25 @@
     width: 100%;
     
   }
+  .partitions__right::after {
+    left: -30px;
+    bottom: -30px;
+  }
 }
 
 
 @media(max-width: 1024px) {
-  .section2 {
-    margin-bottom: 80px;
+  .section2 .container {
+    margin-top: 80px;
   }
   .partitions__section .container .partitions__title {
     font-size: 28px;
   }
   .project__inner {
     gap: 30px;
+  }
+  .partitions__left {
+    padding-right: 15px;
   }
   .partitions__descr-li {
     margin-top: 20px;
@@ -529,7 +565,9 @@
 
 
 @media(max-width: 800px) {
-    
+  .section2 .container {
+    margin-top: 60px;
+  }
 }
 
 
@@ -539,13 +577,19 @@
   }
   .partitions__section .container .partitions__line {
     margin: 0 auto;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
   .partitions__section .container .partitions__title {
     font-size: 25px;
     text-align: center;
 }
-.partitions__section .container .partitions__descr {
+  .partitions__section .container .partitions__subtitle {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20;
+    margin-top: 25px;
+}
+  .partitions__section .container .partitions__descr {
   max-width: 450px;
   text-align: center;
 }
@@ -557,11 +601,16 @@
   .partitions__section .container {
     margin-top: 40;
 }
+
 .partitions__descr-li {
   margin-bottom: 25px;
 }
 .partitions__right .img-object {
   height: 300px;
+}
+.partitions__right::after {
+  top: -15px;
+  left: -15px;
 }
 }
 
@@ -680,9 +729,10 @@
   }
   .application__section .application__descr {
     font-size: 22px;
-  }
+  } 
   .wpcf7-form > p {
     width: 300px;
+    max-width: 900px;
   }
   .application__block .popup__call-form-submit {
     width: 200px;
@@ -698,9 +748,10 @@
   }
   .application__section .application__descr {
     font-size: 20px;
-  }
+  } 
   .wpcf7-form > p {
     width: 250px;
+    max-width: 800px;
   }
   .application__block .popup__call-form-submit {
     width: 190px;
@@ -719,9 +770,11 @@
   .application__section .application__descr {
     font-size: 16px;
     max-width: 400px;
-  }
+    }
+  
   .wpcf7-form > p {
     width: 200px;
+    max-width: 600px;
   }
   .application__block .popup__call-form-submit {
     width: 170px;
@@ -774,8 +827,14 @@
 
 
 @media(max-width: 480px) {
+  .application__section {
+    height: 480px;
+}
   .application__section .application__line {
     margin: 0 auto;
+  }
+  .application__section .application__inner {
+    justify-content: center;
   }
   .application__section .application__title {
     font-size: 22px;
