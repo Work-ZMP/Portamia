@@ -305,7 +305,7 @@ if (isset($_GET['door_cfg'])) {
                                                                 <div class="furniture-item-image" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/types/door-type-img-6.svg);">
                                                                 </div>
                                                             </div>
-                                                            <div class="furniture-item-title">В разработке</div>
+                                                            <div class="furniture-item-title">Вид II</div>
                                                             <div class="furniture-item-title">С фрамугой по бокам</div>
                                                         </div>
 
@@ -315,7 +315,7 @@ if (isset($_GET['door_cfg'])) {
                                                                 <div class="furniture-item-image" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/types/door-type-img-7.svg)">
                                                                 </div>
                                                             </div>
-                                                            <div class="furniture-item-title">В разработке</div>
+                                                            <div class="furniture-item-title">Вид III</div>
                                                             <div class="furniture-item-title">С фрамугой по бокам и сверху</div>
                                                         </div>
 
