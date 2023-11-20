@@ -104,7 +104,9 @@
 }
 
 @media (max-width: 1480px) {
-
+  .production__subtitle {
+    font-size: 26px;
+  }
   .header__lower-title {
     font-size: 45px;
   }
