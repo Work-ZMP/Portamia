@@ -15,6 +15,9 @@
     --font-rl: "Raleway", sans-serif;
 }
 
+input:focus {
+    outline: none !important;
+}
 
 .footer .container {
     max-width: 1248px !important;
