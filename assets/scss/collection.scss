@@ -378,6 +378,10 @@
 .catalogue__items > div {
   column-gap: 0 !important;
   display: flex !important;
+  height: fit-content;
+}
+.catalogue__line.long-line {
+  margin-top: 50px;
 }
 }
 

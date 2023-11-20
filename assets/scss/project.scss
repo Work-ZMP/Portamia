@@ -724,6 +724,10 @@
 @media(max-width: 1480px) {
   .application__section {
     height: 500px;
+
+    & br {
+      display: none !important;
+    }
   }
   .application__section .application__title {
     font-size: 38px;
@@ -742,6 +746,7 @@
     width: 200px;
     height: 40px;
   }
+
 }
 
 
@@ -841,6 +846,9 @@
 @media(max-width: 480px) {
   .application__section {
     height: 580px;
+    & .wpcf7-form  {
+      margin-top: 25px;
+    }
 }
   .application__section .application__line {
     margin: 0 auto;
@@ -870,5 +878,9 @@
     height: 35px;
     font-size: 15px;
   }
+    .popup__call-form-submit {
+    margin-top: 15px;
+  }
+  
 }
 
