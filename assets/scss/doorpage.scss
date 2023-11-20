@@ -299,6 +299,7 @@
   -webkit-font-feature-settings: "lnum";
   -o-font-feature-settings: "lnum";
   cursor: default;
+  white-space: nowrap;
 }
 
 .popular__item-subtitle {
@@ -1175,7 +1176,7 @@
     padding-top: 0;
   }
   .colors__left > img {
-    height: 312px;
+    height: fit-content;
     width: 95%;
   }
   .colors__block-item-title {

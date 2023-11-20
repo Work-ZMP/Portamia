@@ -839,7 +839,7 @@
     width: 100%;
     padding: 20px;
     height: 500px;
-    margin-top: 0;
+    margin-top: 10px;
   }
   .spisok {
     font-size: 16px;
@@ -853,7 +853,7 @@
   }
   .contacts__section {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 75px;
   }
   .contacts__inner iframe {
     margin-top: 20px;
