@@ -17,6 +17,9 @@
 #panel {
     overflow: hidden;
 }
+input, textarea {
+    border-radius: 0 !important;
+}
 a {
     color: #666;
     text-decoration: none;
