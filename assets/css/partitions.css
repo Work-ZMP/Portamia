@@ -2781,6 +2781,14 @@
 
 
 @media(max-width: 800px) {
+  .fancybox__container {
+    width: 100%;
+    padding: 0 25px;
+  }
+  .fancybox__content>.carousel__button.is-close {
+    top: 40px !important;
+    right: 50px !important;
+}
   .glass__section-popup .glass__title {
     font-size: 24px;
   }
@@ -2794,10 +2802,63 @@
 
 
 @media(max-width: 640px) {
-    
+  .fancybox__content>.carousel__button.is-close {
+    top: 40px !important;
+    right: 70px !important;
+}
+  .glass__section-popup .glass__line-subtitle {
+    font-size: 20px;
+}
+.glass__section-popup .glass__line-descr {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+  .fancybox__content>.carousel__button.is-close {
+    top: 40px !important;
+    right: 65px !important;
+}
+.glass__line-right > img {
+  height: 160px;
+}
+.glass__line-left > img {
+  height: 200px;
+}
+.glass__section-popup .glass__line.first {
+  gap: 20px;
+  justify-items: center;
+}
+.glass__section-popup .glass__line.second {
+  grid-template-columns: 1fr;
+}
+.glass__line-right {
+  display: flex;
+  justify-content: center;
+}
+.glass__line-right:nth-child(1) {
+  height: 250px;
+}
 }
 
 
 @media(max-width: 480px) {
-    
+  .fancybox__container {
+    width: 100%;
+    padding: 0;
+  }
+  .fancybox__content>.carousel__button.is-close {
+    top: 20px !important;
+    right: 20px !important;
+}
+.glass__section-popup .glass__line.first {
+  grid-template-columns: 1fr;
+}
+.glass__line-right > img {
+  height: 160;
+}
+#glass01.fancybox__content, #glass02.fancybox__content, #glass03.fancybox__content, #glass04.fancybox__content {
+  padding: 75px 0px;
+}
+.fancybox__slide {
+  padding: 0px !important;
+}
 }
