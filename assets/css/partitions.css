@@ -2841,9 +2841,13 @@
 
 
 @media(max-width: 480px) {
+  .fancybox__container {
+    width: 100%;
+    padding: 0;
+  }
   .fancybox__content>.carousel__button.is-close {
     top: 20px !important;
-    right: 50px !important;
+    right: 20px !important;
 }
 .glass__section-popup .glass__line.first {
   grid-template-columns: 1fr;
@@ -2853,5 +2857,8 @@
 }
 #glass01.fancybox__content, #glass02.fancybox__content, #glass03.fancybox__content, #glass04.fancybox__content {
   padding: 75px 0px;
+}
+.fancybox__slide {
+  padding: 0px !important;
 }
 }
