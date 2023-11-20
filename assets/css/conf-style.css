@@ -221,7 +221,7 @@ html,
 
 /*дизайн названия модели*/
 .cfg-model-title {
-    font-size: 30px;
+    font-size: 26px;
     font-family: var(--font-rl);
     font-weight: 600;
     color: var(--col-dark-font);
