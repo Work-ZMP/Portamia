@@ -1378,6 +1378,12 @@
   .advantages__title {
     font-size: 35px !important;
   }
+  .reviews__title {
+    font-size: 38px !important;
+  }
+  .reviews__descr {
+    font-size: 18px !important;
+  }
 }
 
 @media (max-width: 1280px) {

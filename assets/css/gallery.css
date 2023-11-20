@@ -9,6 +9,7 @@
 
 .gallery__line {
   margin-top: 100px;
+  margin-bottom: 25px;
   margin-left: 0;
 }
 
@@ -118,7 +119,12 @@
 
 
 @media(max-width: 1480px) {
-
+.container {
+  max-width: 1050px;
+}
+.header__top-lower {
+  padding: 0;
+}
 }
 
 
