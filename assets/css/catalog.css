@@ -445,6 +445,9 @@
 
 
 @media (max-width: 480px) {
+  .production__section .container {
+    display: block;
+  }
 
 .default-descr {
   

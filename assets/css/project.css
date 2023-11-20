@@ -657,6 +657,9 @@
   .application__section .application__descr {
     font-size: 22px;
   }
+  .wpcf7-form {
+    width: 955px;
+  }
   .wpcf7-form > p {
     width: 300px;
     max-width: 900px;
@@ -681,6 +684,9 @@
     width: 190px;
     font-size: 16px;
   }
+  .wpcf7-form {
+    width: 800px;
+  }
 }
 @media (max-width: 1024px) {
   .application__section {
@@ -692,6 +698,9 @@
   .application__section .application__descr {
     font-size: 16px;
     max-width: 400px;
+  }
+  .wpcf7-form {
+    width: 565px;
   }
   .wpcf7-form > p {
     width: 200px;
@@ -732,6 +741,9 @@
     font-size: 16px;
     max-width: 300px;
   }
+  .wpcf7-form {
+    width: 410px;
+  }
   .wpcf7-form > p {
     width: 120px;
   }
@@ -758,6 +770,8 @@
   }
   .application__section .application__descr {
     text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
   }
   .wpcf7-form {
     grid-template-columns: 1fr;
