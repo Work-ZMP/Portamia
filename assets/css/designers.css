@@ -951,6 +951,9 @@
   }
 }
 @media (max-width: 1280px) {
+  .work__section {
+    overflow: hidden;
+  }
   .work__title {
     font-size: 30px;
     max-width: 500px;
