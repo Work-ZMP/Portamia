@@ -120,7 +120,8 @@
 
 @media(max-width: 1480px) {
 .container {
-  max-width: 1050px;
+  max-width: 1050px !important;
+  padding: 0 25px;
 }
 .header__top-lower {
   padding: 0;
