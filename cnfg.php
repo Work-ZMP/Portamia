@@ -62,7 +62,7 @@ if (isset($_GET['door_cfg'])) {
                                     <div class="cfg-model-name">
                                         <div class="cfg-model-naming">
                                             <p class="cfg-model-title">
-                                                Guard Pro
+                                                Portamia MW
                                             </p> <span class="cfg-model-cost">
                                                 от 79 400 ₽
                                             </span>
@@ -161,7 +161,7 @@ if (isset($_GET['door_cfg'])) {
                                     <div class="cfg-model-name">
                                         <div class="cfg-model-naming">
                                             <p class="cfg-model-title">
-                                                Guard Wood
+                                                Portamia MDF
                                             </p> <span class="cfg-model-cost">
                                                 от 109 900 ₽
                                             </span>

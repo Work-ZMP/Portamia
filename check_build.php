@@ -54,7 +54,7 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])) :
                                 <div class="options-item">
                                     <div class="options-item-l">
                                         <div class="options-item-l-title">База</div>
-                                        <div class="options-item-l-description">Guard Pro
+                                        <div class="options-item-l-description">Portamia MW
                                         </div>
                                     </div>
                                     <div class="options-item-r">
@@ -112,7 +112,7 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])) :
                                 <div class="options-item">
                                     <div class="options-item-l">
                                         <div class="options-item-l-title">База</div>
-                                        <div class="options-item-l-description">Guard Wood
+                                        <div class="options-item-l-description">Portamia MDF
                                         </div>
                                     </div>
                                     <div class="options-item-r">
