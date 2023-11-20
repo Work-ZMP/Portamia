@@ -2749,7 +2749,15 @@
 
 
 @media(max-width: 1480px) {
-
+  .glass__section-popup .glass__line-descr {
+    font-size: 20px;
+  }
+  .glass__section-popup .glass__block {
+    gap: 20px;
+  }
+  .glass__line-right > img {
+    height: 300px;
+  }
 }
 
 
@@ -2758,16 +2766,12 @@
   .glass__section-popup .glass__line.first {
     margin-bottom: 15px;
   }
-  .glass__line-right > img {
-    height: 300px;
-  }
+ 
 }
 
 
 @media(max-width: 1024px) {
-  .glass__section-popup .glass__block {
-    gap: 20px;
-  }
+ 
   .glass__section-popup .glass__line.first {
     margin-top: 30px;
   }
@@ -2911,7 +2915,19 @@
 
 
 @media(max-width: 640px) {
-    
+  .prt__block {
+    grid-template-columns: 1fr;
+  }
+  #partition01.fancybox__content, #partition02.fancybox__content, #partition03.fancybox__content, #partition04.fancybox__content, #partition05.fancybox__content, #partition06.fancybox__content, #partition07.fancybox__content {
+    padding: 75px 0px;
+}
+.prt__title {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.prt__line-subtitle {
+  font-size: 20px;
+}
 }
 
 
