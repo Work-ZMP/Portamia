@@ -20,6 +20,9 @@
 input, textarea {
     border-radius: 0 !important;
 }
+.popup__form-inputs-date > p > label > span {
+    margin-top: 5px;
+  }
 a {
     color: #666;
     text-decoration: none;
