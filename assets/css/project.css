@@ -141,13 +141,13 @@
     max-width: 1050px !important;
   }
   .elegance__inner {
-    max-height: 680px;
+    max-height: 550px;
   }
   .swiper {
-    max-width: 950px;
+    max-width: 770px;
   }
   .swiper-wrapper img {
-    max-height: 650;
+    max-height: 550px;
   }
   .swiper-button-prev {
     left: 10;
