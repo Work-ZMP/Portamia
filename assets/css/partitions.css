@@ -2932,5 +2932,7 @@
 
 
 @media(max-width: 480px) {
-    
+    .prt__left > img {
+      height: 320px;
+    }
 }
