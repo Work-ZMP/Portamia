@@ -128,6 +128,7 @@
 @media (max-width: 1480px) {
   .container {
     padding: 0 25px;
+    max-width: 1050px !important;
   }
   .projects__descr {
     max-width: 500px;
