@@ -406,9 +406,11 @@
   }
   .default-title {
     font-size: 30px;
+    margin-top: 35px;
   }
   .default-descr {
     font-size: 20px;
+    margin-bottom: 50px;
   }
   .work__icon {
     width: 110px;
