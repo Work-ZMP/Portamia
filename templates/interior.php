@@ -15,7 +15,7 @@ Template Name: Межкомнатные двери
         <div class="advantages__inner">
             <hr class="advantages__line">
             <h1 class="advantages__title">Наши преимущества</h1>
-            <p class="advantages__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="advantages__descr">Преимущества, которые открывают двери в мир исключительного качества и элегантного дизайна.</p>
             <div class="advantages__items">
                 <div class="advantages__item">
                     <div class="advantages__item-icon">
@@ -138,7 +138,7 @@ Template Name: Межкомнатные двери
         <div class="why__inner">
             <hr class="why__line">
             <h2 class="why__title">Почему наши двери?</h2>
-            <p class="why__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="why__descr">в каждой детали мы воплощаем выдающееся мастерство, обеспечивая вашему дому безопасность, стиль и неповторимый шарм.</p>
         </div>
     </div>
 </section>
@@ -169,7 +169,7 @@ Template Name: Межкомнатные двери
             <div class="furniture__right">
                 <hr class="furniture__line">
                 <h2 class="furniture__title">Премиум фурнитура</h2>
-                <p class="furniture__descr">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойденную эстетику и иновационные решения.</p>
+                <p class="furniture__descr">Качественная фурнитура – ключевой элемент наших дверей. Мы уделяем особое внимание каждой детали, обеспечивая надежность, безопасность и эстетическое совершенство для вашего пространства.</p>
                 <a data-fancybox data-src="#popup__form" class="furniture__btn">оставить заявку</a>
             </div>
         </div>
@@ -182,7 +182,7 @@ Template Name: Межкомнатные двери
             <div class="sizes__left">
                 <hr class="sizes__line">
                 <h2 class="sizes__title">Размеры дверей</h2>
-                <p class="sizes__descr">Наша продукция производится из лучших материалов и проходит строгие контрольные процедуры по качеству, чтобы обеспечить вам максимальное удобство и долговечность.</p>
+                <p class="sizes__descr">Размеры дверей, созданные с учетом вашего пространства. Наши двери идеально сочетаются с вашими потребностями, предлагая индивидуальные решения для каждого дома.</p>
             </div>
             <div class="sizes__right">
                 <img src="<?php bloginfo('template_url'); ?>/assets/img/interior/sizes-img-1.svg" alt="" class="sizes__img-1">
@@ -317,7 +317,7 @@ Template Name: Межкомнатные двери
             <div class="reviews__left">
                 <hr class="reviews__line">
                 <h2 class="reviews__title">Наши отзывы</h2>
-                <p class="reviews__descr">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойденную эстетику и иновационные решения.</p>
+                <p class="reviews__descr">Отзывы наших клиентов – ваш источник уверенности. Узнайте, почему наши межкомнатные двери оставляют яркие положительные впечатления, восхищая клиентов своим качеством, стилем и функциональностью.</p>
                 <a data-fancybox data-src="#popup__form" class="reviews__btn">оставить заявку</a>
             </div>
             <div class="reviews__right">
@@ -326,16 +326,16 @@ Template Name: Межкомнатные двери
                     <div class="reviews__line-item-1-2">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Виктор Л.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Профессиональный и инновационный подход делает этот бизнес надежным партнером. Рекомендую!</div>
                     </div>
                     <div class="reviews__line-item-1-3">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
                             <div class="reviews__line-name">Наталья М.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Отличное обслуживание, всегда на связи и готовы решить любые вопросы.</div>
                     </div>
                     <div class="reviews__line-item-1-4"></div>
                 </div>
@@ -344,9 +344,9 @@ Template Name: Межкомнатные двери
                     <div class="reviews__line-item-2-2">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Елена Г.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Сотрудничество с этим бизнесом принесло нам реальные результаты и увеличение эффективности.</div>
                     </div>
                     <div class="reviews__line-item-2-3"></div>
                     <div class="reviews__line-item-2-4"></div>
@@ -356,16 +356,16 @@ Template Name: Межкомнатные двери
                     <div class="reviews__line-item-3-2">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Сергей В.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Эксперты в своей области, оперативно реагируют на изменения на рынке.</div>
                     </div>
                     <div class="reviews__line-item-3-3">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Евгений К.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Партнер, на которого можно полагаться. Надежность в каждой сделке.</div>
                     </div>
                     <div class="reviews__line-item-3-4"></div>
                 </div>
@@ -374,9 +374,9 @@ Template Name: Межкомнатные двери
                     <div class="reviews__line-item-4-2">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Анна Д.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Индивидуальный подход к каждому клиенту создает удивительный опыт сотрудничества.</div>
                     </div>
                     <div class="reviews__line-item-4-3"></div>
                     <div class="reviews__line-item-4-4"></div>
@@ -386,16 +386,16 @@ Template Name: Межкомнатные двери
                     <div class="reviews__line-item-5-2">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Алексей Ш.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Команда профессионалов, готовых поддержать в любой ситуации. Безусловно, лучший выбор.</div>
                     </div>
                     <div class="reviews__line-item-5-3">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Дмитрий Н.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Производитель дверей номер один! Качество материалов и исключительный стиль делают наш дом уникальным.</div>
                     </div>
                     <div class="reviews__line-item-5-4"></div>
                 </div>
