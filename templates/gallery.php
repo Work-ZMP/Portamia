@@ -17,7 +17,7 @@ Template Name: Галерея
         <div class="gallery__inner">
             <hr class="gallery__line line-default">
             <div class="container__top">
-                <p class="gallery__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+                <p class="gallery__descr default-descr">Добро пожаловать в нашу галерею, где каждое изображение – это история о стиле, инновациях и качестве. </p>
                 <a class="footer__top-btn" data-fancybox="" data-src="#popup__form">оставить заявку</a>
             </div>
             <div class="gallery__items-slider">

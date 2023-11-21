@@ -16,7 +16,7 @@ Template Name: Все коллекции
     <div class="container">
         <div class="collections__inner">
             <hr class="collections__line">
-            <p class="collections__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="collections__descr">Насладитесь изысканным выбором в наших коллекциях межкомнатных дверей.</p>
             <div class="collections__items">
                 <?php
                 global $post;

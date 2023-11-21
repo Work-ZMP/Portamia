@@ -17,7 +17,7 @@ Template Name: Каталог
         <div class="production__inner">
             <hr class="production__line line-default">
             <div class="container__top">
-                <p class="production__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+                <p class="production__descr default-descr">Исследуйте разнообразие продукции в нашем каталоге. Наши уникальные дизайны и высококачественные материалы станут воплощением вашего вкуса и стиля в интерьере.</p>
                 <a class="footer__top-btn" data-fancybox="" data-src="#popup__form">оставить заявку</a>
             </div>
             <div class="production__items">

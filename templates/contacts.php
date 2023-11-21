@@ -18,7 +18,7 @@ Template Name: Контакты
     <div class="container">
         <div class="contacts__inner">
             <hr class="contacts__line default-line">
-            <p class="contacts__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="contacts__descr default-descr">Оставайтесь на связи с нами! В разделе 'Контакты' вы найдете все необходимое для того, чтобы связаться с нашей командой экспертов.</p>
             <div class="container__maps">
                 <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A231ff4fe348d2d6bdda7453c7b86ea0d7a5f1f2c03a6ef949a30e7edf8f04539&amp;source=constructor" width="1244" height="500" frameborder="0"></iframe>
             </div>
