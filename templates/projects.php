@@ -16,7 +16,7 @@ Template Name: Все проекты
     <div class="container">
         <div class="projects__inner">
             <hr class="projects__line">
-            <p class="projects__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="projects__descr">Погрузитесь в наш портфель проектов, где каждый проект – это увлекательная история создания неповторимых интерьеров с использованием наших дверей. </p>
             <div class="projects__items">
                 <?php
                 global $post;
