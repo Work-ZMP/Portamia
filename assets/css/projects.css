@@ -241,7 +241,8 @@
     text-align: center;
   }
   .projects__item {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     background: #454545;
     padding: 20px;
     gap: 0;
@@ -272,5 +273,6 @@
   }
   .projects__item-btn {
     padding: 6px 35px;
+    margin-bottom: 0;
   }
 }
