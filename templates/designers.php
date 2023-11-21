@@ -15,7 +15,7 @@ Template Name: Дизайнерам
         <div class="cooperation__inner">
             <hr class="cooperation__line">
             <h2 class="cooperation__title">Мы сотрудничаем с дизайнерами</h2>
-            <p class="cooperation__descr">Наши металлические двери – надежная защита для вашего дома или офиса. </p>
+            <p class="cooperation__descr">Мы гордимся партнерством с талантливыми дизайнерами, обеспечивая инновационные решения и высококачественные межкомнатные двери для уникальных проектов. </p>
             <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/coop-cover.svg" class="cooperation__img-cover" alt="">
             <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/coop-cover-star-1.svg" class="cooperation__img-cover-star-1" alt="">
             <img src="<?php bloginfo('template_url'); ?>/assets/img/designers/coop-cover-star-2.svg" class="cooperation__img-cover-star-2" alt="">
@@ -28,7 +28,7 @@ Template Name: Дизайнерам
         <div class="projects__inner">
             <hr class="projects__line">
             <h2 class="projects__title">Наши проекты</h2>
-            <div class="projects__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</div>
+            <div class="projects__descr">Обзор наших проектов — это путеводитель в мир утонченного дизайна и выдающегося мастерства.</div>
             <div class="projects__items-inner">
                 <div class="projects__items swiper">
                     <div class="swiper-wrapper">
@@ -88,7 +88,7 @@ Template Name: Дизайнерам
         <div class="advantages__inner">
             <hr class="advantages__line">
             <h2 class="advantages__title">Преимущества работы с нами</h2>
-            <div class="advantages__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</div>
+            <div class="advantages__descr">Преимущества работы с нами — это не только качественное сотрудничество, но и надежное партнерство, индивидуальный подход и эффективная поддержка. </div>
             <div class="advantages__items">
                 <div class="advantages__item item-1">
                     <div class="advantages__item-icon">
@@ -137,7 +137,7 @@ Template Name: Дизайнерам
         <div class="work__inner">
             <hr class="work__line">
             <h2 class="work__title">Хотели бы работать с нами? Оставьте заявку</h2>
-            <p class="work__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="work__descr">Оставьте заявку на сотрудничество, и мы свяжемся с вами для обсуждения перспективного партнерства.</p>
             <div class="work__form">
 
                 <div class="work__form-shortcode">

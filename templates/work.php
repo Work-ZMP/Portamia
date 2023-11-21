@@ -14,7 +14,7 @@ Template Name: Работа у нас
         <div class="work__inner">
             <hr class="work__line default-line">
             <h1 class="work__title default-title">Люди - наша главная ценность</h1>
-            <p class="work__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="work__descr default-descr">Мы ценим каждого члена нашей команды, каждого заказчика и каждого партнера, и стремимся создать вместе уникальные и успешные истории в мире дверей.</p>
             <div class="work__items">
                 <div class="work__item item1">
                     <div class="work__icon icon1">
@@ -65,7 +65,7 @@ Template Name: Работа у нас
         <div class="vacancy__inner">
             <hr class="vacancy__line default-line">
             <h1 class="vacancy__title default-title">Наши вакансии</h1>
-            <p class="vacancy__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="vacancy__descr default-descr">Присоединяйтесь к нашей дружной команде! В разделе 'Наши вакансии' вы найдете уникальные возможности для профессионального роста, творческого развития и вдохновляющей работы.</p>
 
             <div class="vacancy__items">
                 <div class="">
@@ -155,7 +155,7 @@ Template Name: Работа у нас
         <div class="contacts__inner">
             <hr class="contacts__line default-line">
             <h1 class="contacts__title default-title">Контакты</h1>
-            <p class="contacts__descr default-descr">Наши металлические двери – надежная защита для <br> вашего дома или офиса.</p>
+            <p class="contacts__descr default-descr">Оставайтесь на связи с нами! В разделе 'Контакты' вы найдете все необходимые данные для обратной связи.</p>
             <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A231ff4fe348d2d6bdda7453c7b86ea0d7a5f1f2c03a6ef949a30e7edf8f04539&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>
 
             <div class="contacts__items">

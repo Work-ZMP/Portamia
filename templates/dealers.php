@@ -15,7 +15,7 @@ Template Name: Дилерам
             <div class="dealers__items">
                 <hr class="line line-default">
                 <h2 class="dealers__title default-title">Партнерство с нами</h2>
-                <p class="dealers__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+                <p class="dealers__descr default-descr">Откройте новые горизонты бизнеса вместе с нами! Партнерство с нами — это возможность встретить высококачественные межкомнатные двери, инновационные решения и выгодные предложения. Давайте вместе создадим успешное будущее для вашего бизнеса.</p>
                 <a class="dealers__btn default-btn" data-fancybox="" data-src="#popup__form">оставить заявку</a>
             </div>
             <div class="dealers-img">
@@ -32,7 +32,7 @@ Template Name: Дилерам
         <div class="production__inner">
             <hr class="production__line line-default">
             <h2 class="production__title default-title">Продукция</h2>
-            <p class="production__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="production__descr default-descr">Исследуйте разнообразие в нашем каталоге продукции, где каждая страница представляет собой искусство совершенства в мире межкомнатных дверей.</p>
             <div class="production__items">
                 <a href="<?php echo get_permalink(7); ?>" class="production__item item1">
                     <h3 class="production__subtitle">Квартирные двери</h3>
@@ -75,7 +75,7 @@ Template Name: Дилерам
         <div class="advantages__inner">
             <hr class="advantages__line line-default">
             <h2 class="advantages__title default-title">Преимущества для дилеров:</h2>
-            <p class="default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="default-descr">Мы предлагаем выдающиеся условия сотрудничества, эксклюзивные предложения и персональную поддержку, чтобы сделать ваш бизнес с нами процветающим и успешным.</p>
             <div class="advantages__items">
                 <div class="advantages__item item1-1">
                     <div class="advantages__img">
@@ -167,7 +167,7 @@ Template Name: Дилерам
         <div class="contacts__inner">
             <hr class="contacts__line line-default">
             <h2 class="contacts__title default-title">Контакты для дилерства</h2>
-            <p class="contacts__descr default-descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="contacts__descr default-descr">Готовы стать нашим партнером? Наши контакты для дилерства ждут ваших запросов. Обсудим перспективы сотрудничества и создадим вместе успешные истории в мире межкомнатных дверей.</p>
             <div class="contacts__items">
                 <div class="contacts__input">
                     <?php echo do_shortcode('[contact-form-7 id="124b8b2" title="Оставить заявку на звонок ( контакты, дилерам)"]') ?>
@@ -178,11 +178,11 @@ Template Name: Дилерам
                         <div class="contacts__block">
                             <div class="contacts__icon">
                                 <img class="contacts__img" src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon1.svg" alt="">
-                                <a class="contacts__element contacts-num" href="tel:+79888888888">+7-988-888-88-88</a>
+                                <a class="contacts__element contacts-num" href="tel:+7 987 847-24-24">+7-987-847-24-24</a>
                             </div>
                             <div class="contacts__icon">
                                 <img class="contacts__img" src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon2.svg" alt="">
-                                <a class="contacts__element contacts-num" href="tel:+79888888888">+7-988-888-88-88</a>
+                                <a class="contacts__element contacts-num" href="tel:+7 3532 97-24-24">+7 (3532) 97-24-24</a>
                             </div>
                             <div class="contacts__icon">
                                 <img src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon3.svg" alt="">
