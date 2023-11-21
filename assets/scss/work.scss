@@ -407,8 +407,7 @@
     font-size: 18px;
     margin-bottom: 50px;
     width: 550px;
-    margin-right: 0;
-    margin-left: auto;
+    
   }
   .work__icon {
     width: 110px;
@@ -454,6 +453,10 @@
   }
   .contacts__inner iframe {
     max-height: 400px;
+  }
+  .contacts__descr {
+    margin-right: 0;
+    margin-left: auto;
   }
   .spisok {
     font-size: 18px;
