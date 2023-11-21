@@ -15,7 +15,7 @@ Template Name: Перегородки
         <div class="types__inner">
             <hr class="types__line">
             <h2 class="types__title">Виды перегородок</h2>
-            <p class="types__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="types__descr">Разнообразие видов перегородок для каждого вкуса и стиля. </p>
             <div class="types__cnfg">
                 <div class="types__cnfg-left">
                     <div class="types__cnfg-img">
@@ -121,7 +121,7 @@ Template Name: Перегородки
         <div class="popular__inner">
             <hr class="popular__line">
             <h1 class="popular__title">Популярные перегородки</h1>
-            <p class="popular__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="popular__descr">Популярные перегородки, завоевавшие признание наших клиентов. </p>
             <div class="popular__items swiper">
                 <div class="swiper-wrapper">
                     <div class="popular__item swiper-slide">
@@ -203,7 +203,7 @@ Template Name: Перегородки
         <div class="glass__inner">
             <hr class="glass__line">
             <h2 class="glass__title">Стекла</h2>
-            <p class="glass__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="glass__descr">Исключительные виды стекол для перегородок, предоставляющие не только прочность, но и эстетическое великолепие. </p>
 
             <div class="glass__items">
                 <div class="">
@@ -258,7 +258,7 @@ Template Name: Перегородки
             <div class="materials__right">
                 <hr class="materials__line">
                 <h2 class="materials__title">Высококачественные материалы</h2>
-                <p class="materials__descr">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойденную эстетику и иновационные решения.</p>
+                <p class="materials__descr">Высококачественные материалы — основа наших межкомнатных дверей. Мы используем только лучшие материалы, чтобы обеспечить вашему дому прочность, элегантность и безупречное качество.</p>
                 <a data-fancybox data-src="#popup__form" class="materials__btn">оставить заявку</a>
             </div>
         </div>
@@ -270,7 +270,7 @@ Template Name: Перегородки
         <div class="catalogue__inner">
             <hr class="catalogue__line">
             <h2 class="catalogue__title">Каталог перегородок</h2>
-            <p class="catalogue__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="catalogue__descr">Разнообразие стилей и функциональных решений в нашем каталоге перегородок.</p>
             <div class="catalogue__items">
                 <div class="">
                     <div class="catalogue__item">
@@ -362,7 +362,7 @@ Template Name: Перегородки
         <div class="projects__inner">
             <hr class="projects__line">
             <h2 class="projects__title">Наши проекты</h2>
-            <p class="projects__descr">Наши металлические двери – надежная защита для вашего дома или офиса.</p>
+            <p class="projects__descr">Наша галерея проектов — это вдохновляющий путеводитель по миру уникальных межкомнатных дверей. </p>
             <div class="projects__items">
 
 
@@ -416,7 +416,7 @@ Template Name: Перегородки
             <div class="reviews__left">
                 <hr class="reviews__line">
                 <h2 class="reviews__title">Наши отзывы</h2>
-                <p class="reviews__descr">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойденную эстетику и иновационные решения.</p>
+                <p class="reviews__descr">Отзывы наших клиентов — это не просто слова, а подтверждение нашей превосходной работы. Довольные партнеры отмечают наш профессионализм, надежность и отличное обслуживание.</p>
                 <a data-fancybox data-src="#popup__form" class="reviews__btn">оставить заявку</a>
             </div>
             <div class="reviews__right">
@@ -425,16 +425,16 @@ Template Name: Перегородки
                     <div class="reviews__line-item-1-2">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Виктор Л.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Профессиональный и инновационный подход делает этот бизнес надежным партнером. Рекомендую!</div>
                     </div>
                     <div class="reviews__line-item-1-3">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
                             <div class="reviews__line-name">Наталья М.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Отличное обслуживание, всегда на связи и готовы решить любые вопросы.</div>
                     </div>
                     <div class="reviews__line-item-1-4"></div>
                 </div>
@@ -443,9 +443,9 @@ Template Name: Перегородки
                     <div class="reviews__line-item-2-2">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Елена Г.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Сотрудничество с этим бизнесом принесло нам реальные результаты и увеличение эффективности.</div>
                     </div>
                     <div class="reviews__line-item-2-3"></div>
                     <div class="reviews__line-item-2-4"></div>
@@ -455,16 +455,16 @@ Template Name: Перегородки
                     <div class="reviews__line-item-3-2">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Сергей В.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Эксперты в своей области, оперативно реагируют на изменения на рынке.</div>
                     </div>
                     <div class="reviews__line-item-3-3">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Евгений К.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Партнер, на которого можно полагаться. Надежность в каждой сделке.</div>
                     </div>
                     <div class="reviews__line-item-3-4"></div>
                 </div>
@@ -473,9 +473,9 @@ Template Name: Перегородки
                     <div class="reviews__line-item-4-2">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Анна Д.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Индивидуальный подход к каждому клиенту создает удивительный опыт сотрудничества.</div>
                     </div>
                     <div class="reviews__line-item-4-3"></div>
                     <div class="reviews__line-item-4-4"></div>
@@ -485,16 +485,16 @@ Template Name: Перегородки
                     <div class="reviews__line-item-5-2">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Алексей Ш.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Команда профессионалов, готовых поддержать в любой ситуации. Безусловно, лучший выбор.</div>
                     </div>
                     <div class="reviews__line-item-5-3">
                         <div class="reviews__line-top">
                             <div class="reviews__line-icon"></div>
-                            <div class="reviews__line-name">Наталья М.</div>
+                            <div class="reviews__line-name">Дмитрий Н.</div>
                         </div>
-                        <div class="reviews__line-bottom">Мы рады представить Вам наши коллекции эксклюзивных дверей, которые воплощают непревзойде</div>
+                        <div class="reviews__line-bottom">Производитель дверей номер один! Качество материалов и исключительный стиль.</div>
                     </div>
                     <div class="reviews__line-item-5-4"></div>
                 </div>

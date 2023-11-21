@@ -395,7 +395,7 @@ Template Name: Межкомнатные двери
                             <div class="reviews__line-icon"></div>
                             <div class="reviews__line-name">Дмитрий Н.</div>
                         </div>
-                        <div class="reviews__line-bottom">Производитель дверей номер один! Качество материалов и исключительный стиль делают наш дом уникальным.</div>
+                        <div class="reviews__line-bottom">Производитель дверей номер один! Качество материалов и исключительный стиль.</div>
                     </div>
                     <div class="reviews__line-item-5-4"></div>
                 </div>
