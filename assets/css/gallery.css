@@ -126,6 +126,16 @@
 .header__top.darkpage .header__top-lower{
   padding: 0 !important;
 }
+.gallery__descr {
+  width: 500px;
+}
+.default-descr {
+  font-size: 18px;
+}
+.footer__top-btn {
+  width: 210px;
+  height: 40px;
+}
 
 }
 
@@ -141,8 +151,11 @@
   }
   .gallery__descr {
     width: 490px;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 15px;
+}
+.footer__top-btn {
+  font-size: 17px;
 }
   .gallery__item {
     min-height: 370px;
