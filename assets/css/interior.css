@@ -2420,7 +2420,7 @@
 
   .furniture__section {
     position: relative;
-    height: 630px;
+    height: 860px;
   }
 
   .furniture__inner {
@@ -2477,7 +2477,7 @@
   }
 
   .furniture__left>img {
-    top: 315px;
+    top: 420px;
     width: 100%;
     position: absolute;
   }
