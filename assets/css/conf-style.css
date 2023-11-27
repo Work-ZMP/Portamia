@@ -5,7 +5,9 @@
     border: 0;
 }
 
-
+#panel {
+    overflow: visible !important;
+}
 
 body #magicPointer {
     background: #ec3636 !important;
