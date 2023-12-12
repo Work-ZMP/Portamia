@@ -1453,7 +1453,7 @@ function doorColOutdoor(butid) {
 function typeMilledOutClassic(butid) {
 
     let button = document.getElementById(butid);
-    let elemens = document.querySelectorAll('#classicmilled-block .milling-item');
+    let elemens = document.querySelectorAll('#checkbox-3step-milled #classicmilled-block .milling-item');
 
     if (button.classList.contains('active')) {
 
@@ -1475,7 +1475,7 @@ function typeMilledOutClassic(butid) {
 function typeMilledOutModern(butid) {
 
     let button = document.getElementById(butid);
-    let elemens = document.querySelectorAll('#modernmilled-block .milling-item');
+    let elemens = document.querySelectorAll('#checkbox-3step-milled #modernmilled-block .milling-item');
 
     if (button.classList.contains('active')) {
 
@@ -1498,7 +1498,7 @@ function typeMilledOutModern(butid) {
 function typeMilledOutClassicOutdoor(butid) {
 
     let button = document.getElementById(butid);
-    let elemens = document.querySelectorAll('#classicmilledout-block .milling-item');
+    let elemens = document.querySelectorAll('#checkbox-2step-milled #classicmilledout-block .milling-item');
 
     if (button.classList.contains('active')) {
 
@@ -1520,7 +1520,7 @@ function typeMilledOutClassicOutdoor(butid) {
 function typeMilledOutModernOutdoor(butid) {
 
     let button = document.getElementById(butid);
-    let elemens = document.querySelectorAll('#modernmilledout-block .milling-item');
+    let elemens = document.querySelectorAll('#checkbox-2step-milled #modernmilledout-block .milling-item');
 
     if (button.classList.contains('active')) {
 
