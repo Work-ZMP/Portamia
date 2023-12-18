@@ -34,8 +34,9 @@ $dompdf->render();
 
 // Вывод файла в браузер:
 
-$dompdf->stream($filename); 
-           
+//$dompdf->stream($filename); 
+file_put_contents('/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/pdfread/'.$filename.'.pdf', $dompdf->output());           
+echo $filename;
             die();
 
         }

@@ -86,9 +86,9 @@ function insert_base64_encoded_image($img, $print = false)
 
 if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
 
-    $fullpath = '/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/wp-content/themes/mercato/doors_parts-indoor/';
+    $fullpath = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts-indoor/';
 
-    $base_path = '/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/wp-content/themes/mercato/doors_parts-indoor/';
+    $base_path = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts-indoor/';
 
     if (!isset($_GET['proportions']) or empty($_GET['proportions'])) {
 
@@ -711,6 +711,10 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'closer-item1-step_6',
                 'closer-item2-step_6',
                 'closer-item3-step_6'
+            ),
+            '2' => array(
+                'side-item1-step_6',
+                'side-item2-step_6'
             )
         ),
         'handler' => array(
@@ -783,7 +787,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
 
         if (strripos($info->getPathname(), 'door.png')) {
 
-            //$paths[$i]['path'] = str_replace('/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/wp-content/themes/mercato/doors_parts', '', $info->getPathname());
+            //$paths[$i]['path'] = str_replace('/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts', '', $info->getPathname());
             $paths[$i]['path'] = $info->getPathname();
 
             $i++;
@@ -902,7 +906,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
 
     if (in_array('slditem1', $path_parts['base-met'])) {
 
-        $proportions = '190x410';
+        $proportions = '317x683';
     }
 
     if (in_array('slditem2', $path_parts['base-met'])) {
@@ -915,11 +919,11 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
     }
     if (in_array('slditem4', $path_parts['base-met'])) {
 
-        $proportions = '275x410';
+        $proportions = '458x683';
     }
     if (in_array('slditem5', $path_parts['base-met'])) {
 
-        $proportions = '275x410';
+        $proportions = '458x683';
     }
     if (in_array('dlditem1', $path_parts['base-met'])) {
 

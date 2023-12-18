@@ -93,9 +93,9 @@
 
     if (isset($_GET['door_cfg']) AND !empty($_GET['door_cfg'])) {
 
-        $fullpath = '/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/wp-content/themes/mercato/doors_parts/';
+        $fullpath = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts/';
 
-        $base_path = '/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/wp-content/themes/mercato/doors_parts/';
+        $base_path = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts/';
 
         if (!isset($_GET['proportions']) OR empty($_GET['proportions'])) {
 
@@ -394,7 +394,7 @@
 
             if (strripos($info->getPathname(), 'door.png')) {
 
-                //$paths[$i]['path'] = str_replace('/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/wp-content/themes/mercato/doors_parts', '', $info->getPathname());
+                //$paths[$i]['path'] = str_replace('/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts', '', $info->getPathname());
                 $paths[$i]['path'] = $info->getPathname();
 
                 $i++;

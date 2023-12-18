@@ -7,13 +7,20 @@ Template Name: Applications
 <?php get_header(); ?>
 
  <?php 
+ 
+ 
+ 
+ 
                 $queried_object = get_queried_object(); 
                 $taxonomy = $queried_object->taxonomy;
                 $term_id = $queried_object->term_id;  
                   ?>
 <div class="list_all">
     <div class="list_wrapper">
- <?php $argsitems = array(
+ <?php 
+ if ( is_user_logged_in() ) {
+ 
+ $argsitems = array(
              'post_type' => 'sales',
              'orderby' => 'menu_order', 
              'order' => 'ASC'
@@ -33,11 +40,8 @@ Template Name: Applications
                         <div class="list_wrapper_one_date_create">
                             Дата создания
                         </div>    
-                          <div class="list_wrapper_one_date_last_user">
-                            Пользователь
-                        </div>    
-                        <div class="list_wrapper_one_date_last_status">
-                            Дата передачи на обработку
+                        <div class="list_wrapper_one_date_create">
+                            Телефон клиента
                         </div>    
                         <div class="list_wrapper_one_date_action">
                             Действия
@@ -65,11 +69,9 @@ Template Name: Applications
                              <?php the_date('F j, Y в G:i'); ?>
                         </div>    
                         <div class="list_wrapper_one_date_last_user">
-                            Ivanov
+                            <?php echo get_field('utel', $idsk)?>
                         </div>    
-                        <div class="list_wrapper_one_date_last_status">
-                            22.07.2023
-                        </div>    
+                                                    
                         <div class="list_wrapper_one_date_action">
                             <a href="#" data-edit="<?php echo $idsk; ?>" data-usr="1" class="edits">Редактировать</a>
                           
@@ -80,6 +82,10 @@ Template Name: Applications
                      
              
 <?php $num++; endwhile;?>
+<?php } else { ?>        
+        <div class="tls">Для просмотра данной страницы вы должны быть авторизованы</div>
+<?php } ?>        
         </div>    
 </div>    
+
 <?php get_footer(); ?>
