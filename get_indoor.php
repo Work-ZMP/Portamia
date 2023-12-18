@@ -105,7 +105,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
 
         $door_cfg = array(
             'model' => array(
-                'value' => '1',
+                'value' => 'model1',
                 'order' => 0
             ),
             'leaf' => array(

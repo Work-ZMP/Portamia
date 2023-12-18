@@ -117,7 +117,7 @@
 
             $door_cfg = array(
                 'model' => array(
-                    'value' => '1',
+                    'value' => 'model1',
                     'order' => 0
                 ),
                 'leaf' => array(
