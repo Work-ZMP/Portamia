@@ -578,12 +578,12 @@
             ),
             'outerdoor_lining' => array(
                 '0' => array(
-                    '1'
-                ),
-                '1' => array(
                     'baguette',
                     'glazed',
                     'classic'
+                ),
+                '1' => array(
+                    '1'
                 ),
                 '2' => array(
                     'slditem1',
