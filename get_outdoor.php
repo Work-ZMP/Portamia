@@ -117,7 +117,7 @@
 
             $door_cfg = array(
                 'model' => array(
-                    'value' => 'model1',
+                    'value' => 1,
                     'order' => 0
                 ),
                 'leaf' => array(
@@ -365,7 +365,7 @@
             ),
             'outdoor_glazed' => array(
                 '0' => array(
-                    'model2'
+                    '2'
                 ),
                 '1' => array(
                     'slditem1',
@@ -578,7 +578,7 @@
             ),
             'outerdoor_lining' => array(
                 '0' => array(
-                    'model1'
+                    '1'
                 ),
                 '1' => array(
                     'baguette',
