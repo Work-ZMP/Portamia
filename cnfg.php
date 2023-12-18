@@ -15,7 +15,7 @@ if (isset($_GET['door_cfg'])) {
 } else {
 
     $_GET = array(
-        'model' => 1,
+        'model' => 'model1',
         'leaf' => 'single',
         'leafdooritems_single' => 'slditem1',
         'outdoorstyles' => 'classic',
@@ -56,7 +56,7 @@ if (isset($_GET['door_cfg'])) {
                     <div class="step" id="step__0" btn="">
                         <h1 style="text-align: left;">Модель двери</h1>
                         <div class="cfg-model-wrapper">
-                            <div data-variable-name="model" data-variable-value="1" data-model="1" data-price="69400" data-image="" data-order="1" class="cfg-model<?= (isset($_GET['model']) and $_GET['model'] == '1') ? ' active' : '' ?>" id="cfg-secondmodel" onclick='cfgDoorModel1()'>
+                            <div data-variable-name="model" data-variable-value="model1" data-model="1" data-price="69400" data-image="" data-order="1" class="cfg-model<?= (isset($_GET['model']) and $_GET['model'] == '1') ? ' active' : '' ?>" id="cfg-secondmodel" onclick='cfgDoorModel1()'>
                                 <div class="cfg-model-inner">
                                     <i class="info-btn">i</i>
                                     <div class="cfg-model-name">
@@ -155,7 +155,7 @@ if (isset($_GET['door_cfg'])) {
                                     </div>
                                 </div>
                             </div>
-                            <div data-variable-name="model" data-variable-value="2" data-model="2" data-price="109900" data-image="" data-order="1" class=" cfg-model<?= (isset($_GET['model']) and $_GET['model'] == '2') ? ' active' : '' ?>" id="cfg-firstmodel" onclick='cfgDoorModel2()'>
+                            <div data-variable-name="model" data-variable-value="model2" data-model="2" data-price="109900" data-image="" data-order="1" class=" cfg-model<?= (isset($_GET['model']) and $_GET['model'] == '2') ? ' active' : '' ?>" id="cfg-firstmodel" onclick='cfgDoorModel2()'>
                                 <div class="cfg-model-inner">
                                     <i class="info-btn">i</i>
                                     <div class="cfg-model-name">

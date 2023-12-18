@@ -365,7 +365,7 @@
             ),
             'outdoor_glazed' => array(
                 '0' => array(
-                    '2'
+                    'model2'
                 ),
                 '1' => array(
                     'slditem1',
@@ -578,12 +578,12 @@
             ),
             'outerdoor_lining' => array(
                 '0' => array(
+                    'model1'
+                ),
+                '1' => array(
                     'baguette',
                     'glazed',
                     'classic'
-                ),
-                '1' => array(
-                    '1'
                 ),
                 '2' => array(
                     'slditem1',
