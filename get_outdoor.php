@@ -365,6 +365,9 @@
             ),
             'outdoor_glazed' => array(
                 '0' => array(
+                    '2'
+                ),
+                '1' => array(
                     'slditem1',
                     'slditem2',
                     'slditem3',
@@ -375,7 +378,7 @@
                     'dlditem2',
                     'dlditem3'
                 ),
-                '1' => array(
+                '2' => array(
                     'glass-type-item1-step__2',
                     'glass-type-item2-step__2',
                     'glass-type-item3-step__2',
@@ -389,7 +392,7 @@
                     'glass-type-item11-step__2'
     
                 ),
-                '2' => array(
+                '3' => array(
                     'btncol1',
                     'btncol2',
                     'btncol3',
@@ -575,11 +578,14 @@
             ),
             'outerdoor_lining' => array(
                 '0' => array(
+                    '1'
+                ),
+                '1' => array(
                     'baguette',
                     'glazed',
                     'classic'
                 ),
-                '1' => array(
+                '2' => array(
                     'slditem1',
                     'slditem2',
                     'slditem3',
@@ -593,7 +599,7 @@
                     'dlditem2',
                     'dlditem3'
                 ),
-                '2' => array(
+                '3' => array(
                     'baguette-item1-step__2',
                     'baguette-item2-step__2',
                     'baguette-item3-step__2',
