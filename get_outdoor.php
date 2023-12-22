@@ -575,13 +575,10 @@
             ),
             'outerdoor_lining' => array(
                 '0' => array(
-                    '1'
-                ),
-                '1' => array(
                     'baguette',
                     'classic'
                 ),
-                '2' => array(
+                '1' => array(
                     'slditem1',
                     'slditem2',
                     'slditem3',
@@ -595,7 +592,7 @@
                     'dlditem2',
                     'dlditem3'
                 ),
-                '3' => array(
+                '2' => array(
                     'baguette-item1-step__2',
                     'baguette-item2-step__2',
                     'baguette-item3-step__2',
