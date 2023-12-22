@@ -364,9 +364,6 @@
                 ),
             ),
             'outdoor_glazed' => array(
-                '0' => array(
-                    '2'
-                ),
                 '1' => array(
                     'slditem1',
                     'slditem2',
@@ -582,7 +579,6 @@
                 ),
                 '1' => array(
                     'baguette',
-                    'glazed',
                     'classic'
                 ),
                 '2' => array(
