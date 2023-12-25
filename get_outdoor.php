@@ -650,7 +650,12 @@
                     'glass-col-item2',
                     'glass-col-item3',
                     'glass-col-item4',
-                    'glass-col-item5'
+                    'glass-col-item5',
+                    'glass-col-item1-panel',
+                    'glass-col-item2-panel',
+                    'glass-col-item3-panel',
+                    'glass-col-item4-panel',
+                    'glass-col-item5-panel'
                 )
             ),
             'grid_2_2' => array(
