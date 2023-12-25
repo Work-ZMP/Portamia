@@ -1819,7 +1819,7 @@ if (isset($_GET['door_cfg'])) {
                                                     Свайпайте чтобы <br> посмотреть все цвета
                                                 </span>
                                                 <div class="texture-group glass-col">
-                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item1" data-glasscol="glass-col-item1" data-price="25400" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item1') ? ' active' : '' ?>" id="glass-col-item1" onclick="chooseGlassCol('glass-col-item1')">
+                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item1-panel" data-glasscol="glass-col-item1-panel" data-price="25400" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item1-panel') ? ' active' : '' ?>" id="glass-col-item1-panel" onclick="chooseGlassCol('glass-col-item1-panel')">
                                                         <div class="texture-image-cover">
                                                             <div class="texture-image silver property-texture inset inset v001">
                                                                 <div class="image"></div>
@@ -1828,7 +1828,7 @@ if (isset($_GET['door_cfg'])) {
                                                         </div>
                                                         <div class="texture-title">Серебро</div>
                                                     </div>
-                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item2" data-glasscol="glass-col-item3" data-price="34600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item2') ? ' active' : '' ?>" id="glass-col-item2" onclick="chooseGlassCol('glass-col-item2')">
+                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item2-panel" data-glasscol="glass-col-item3-panel" data-price="34600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item2-panel') ? ' active' : '' ?>" id="glass-col-item2-panel" onclick="chooseGlassCol('glass-col-item2-panel')">
                                                         <div class="texture-image-cover">
                                                             <div class="texture-image silver-gray property-texture inset inset v001">
                                                                 <div class="image"></div>
@@ -1837,7 +1837,7 @@ if (isset($_GET['door_cfg'])) {
                                                         </div>
                                                         <div class="texture-title">Серебристо-серый</div>
                                                     </div>
-                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item3" data-glasscol="glass-col-item3" data-price="34600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item3') ? ' active' : '' ?>" id="glass-col-item3" onclick="chooseGlassCol('glass-col-item3')">
+                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item3-panel" data-glasscol="glass-col-item3-panel" data-price="34600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item3-panel') ? ' active' : '' ?>" id="glass-col-item3-panel" onclick="chooseGlassCol('glass-col-item3-panel')">
                                                         <div class="texture-image-cover">
                                                             <div class="texture-image bronze property-texture inset inset v001">
                                                                 <div class="image"></div>
@@ -1846,7 +1846,7 @@ if (isset($_GET['door_cfg'])) {
                                                         </div>
                                                         <div class="texture-title">Бронза</div>
                                                     </div>
-                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item4" data-glasscol="glass-col-item4" data-price="34600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item4') ? ' active' : '' ?>" id="glass-col-item4" onclick="chooseGlassCol('glass-col-item4')">
+                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item4-panel" data-glasscol="glass-col-item4-panel" data-price="34600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item4-panel') ? ' active' : '' ?>" id="glass-col-item4-panel" onclick="chooseGlassCol('glass-col-item4-panel')">
                                                         <div class="texture-image-cover">
                                                             <div class="texture-image blue property-texture inset inset v001">
                                                                 <div class="image"></div>
@@ -1855,7 +1855,7 @@ if (isset($_GET['door_cfg'])) {
                                                         </div>
                                                         <div class="texture-title">Голубой</div>
                                                     </div>
-                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item5" data-glasscol="glass-col-item5" data-price="34600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item5') ? ' active' : '' ?>" id="glass-col-item5" onclick="chooseGlassCol('glass-col-item5')">
+                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item5-panel" data-glasscol="glass-col-item5-panel" data-price="34600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item5-panel') ? ' active' : '' ?>" id="glass-col-item5-panel" onclick="chooseGlassCol('glass-col-item5-panel')">
                                                         <div class="texture-image-cover">
                                                             <div class="texture-image multi property-texture inset inset v001">
                                                                 <div class="image"></div>
