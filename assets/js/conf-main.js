@@ -299,8 +299,8 @@ function cfgDoorModel2() {
         baguetteStyleBtn.style.display = 'none';
         defaultStyleBtn.querySelector('span > em').textContent = 'Панель гладкая';
         fusingStyleBtn.style.display = 'none';
-        glazedStyleBtn.style.display = '';
-        glazedPanelStyleBtn.style.display = 'none';
+        glazedStyleBtn.style.display = 'none';
+        glazedPanelStyleBtn.style.display = '';
 
 
         item2.classList.add('active');

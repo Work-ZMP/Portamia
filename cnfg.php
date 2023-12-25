@@ -592,7 +592,7 @@ if (isset($_GET['door_cfg'])) {
 
                                                 </span>
                                             </button>
-                                            <button data-variable-name="outdoorstyles" data-variable-value="glazed-panel" data-outdoorstyles="glazed-panel" data-price="0" data-image="" data-order="1" type="button" class="cfg-btn cfg-btn-group btn btn-normal btn-gradient-primary<?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'glazed-panel') ? ' active' : '' ?>" id="btn2step6" onclick="outdoorStylesGlazedPanel()">
+                                            <button data-variable-name="outdoorstyles" data-variable-value="glazed-panel" data-outdoorstyles="glazed-panel" data-price="0" data-image="" data-order="1" type="button" class="cfg-btn cfg-btn-group btn btn-normal btn-gradient-primary<?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'glazed-panel') ? ' active' : '' ?>" id="btn2step6" style="display: none;" onclick="outdoorStylesGlazedPanel()">
                                                 <span>
                                                     <em>Остекление панель</em>
 
