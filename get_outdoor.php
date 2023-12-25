@@ -376,17 +376,17 @@
                     'dlditem3'
                 ),
                 '2' => array(
-                    'glass-type-item1-step__2',
-                    'glass-type-item2-step__2',
-                    'glass-type-item3-step__2',
-                    'glass-type-item4-step__2',
-                    'glass-type-item5-step__2',
-                    'glass-type-item6-step__2',
-                    'glass-type-item7-step__2',
-                    'glass-type-item8-step__2',
-                    'glass-type-item9-step__2',
-                    'glass-type-item10-step__2',
-                    'glass-type-item11-step__2'
+                    'glass-type-panel-item1-step__2',
+                    'glass-type-panel-item2-step__2',
+                    'glass-type-panel-item3-step__2',
+                    'glass-type-panel-item4-step__2',
+                    'glass-type-panel-item5-step__2',
+                    'glass-type-panel-item6-step__2',
+                    'glass-type-panel-item7-step__2',
+                    'glass-type-panel-item8-step__2',
+                    'glass-type-panel-item9-step__2',
+                    'glass-type-panel-item10-step__2',
+                    'glass-type-panel-item11-step__2'
     
                 ),
                 '3' => array(
@@ -576,7 +576,8 @@
             'outerdoor_lining' => array(
                 '0' => array(
                     'baguette',
-                    'classic'
+                    'classic',
+                    'glazed',
                 ),
                 '1' => array(
                     'slditem1',

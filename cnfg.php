@@ -588,7 +588,13 @@ if (isset($_GET['door_cfg'])) {
                                             </button>
                                             <button data-variable-name="outdoorstyles" data-variable-value="glazed" data-outdoorstyles="glazed" data-price="0" data-image="" data-order="1" type="button" class="cfg-btn cfg-btn-group btn btn-normal btn-gradient-primary<?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'glazed') ? ' active' : '' ?>" id="btn2step3" onclick="outdoorStylesGlazed()">
                                                 <span>
-                                                    <em>Остекление</em>
+                                                    <em>Остекление металл</em>
+
+                                                </span>
+                                            </button>
+                                            <button data-variable-name="outdoorstyles" data-variable-value="glazed-panel" data-outdoorstyles="glazed-panel" data-price="0" data-image="" data-order="1" type="button" class="cfg-btn cfg-btn-group btn btn-normal btn-gradient-primary<?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'glazed-panel') ? ' active' : '' ?>" id="btn2step6" onclick="outdoorStylesGlazedPanel()">
+                                                <span>
+                                                    <em>Остекление панель</em>
 
                                                 </span>
                                             </button>
@@ -1418,7 +1424,7 @@ if (isset($_GET['door_cfg'])) {
                                     <div class="accordion-content">
                                         <div class="milling-group">
                                             <div>
-                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item1-step__2" data-furnitem_baguette="baguette-item1-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item1-step__2') ? ' active' : '' ?>" id="baguette-item1" onclick="furnItem('baguette-item1', '#step__1 .milling-item')">
+                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item1-step__2" data-furnitem_baguette="baguette-item1-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item1-step__2') ? ' active' : '' ?>" id="baguette-item1" onclick="furnItem('baguette-item1', '#checkbox-2step-baguette .milling-item')">
                                                     <div class="milling-image-cover">
                                                         <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/baguette/1.svg);">
                                                         </div>
@@ -1427,7 +1433,7 @@ if (isset($_GET['door_cfg'])) {
                                                 </div>
                                             </div>
                                             <div>
-                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item2-step__2" data-furnitem_baguette="baguette-item2-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item2-step__2') ? ' active' : '' ?>" id="baguette-item2" onclick="furnItem('baguette-item2', '#step__1 .milling-item')">
+                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item2-step__2" data-furnitem_baguette="baguette-item2-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item2-step__2') ? ' active' : '' ?>" id="baguette-item2" onclick="furnItem('baguette-item2', '#checkbox-2step-baguette .milling-item')">
                                                     <div class="milling-image-cover">
                                                         <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/baguette/2.svg);">
                                                         </div>
@@ -1436,7 +1442,7 @@ if (isset($_GET['door_cfg'])) {
                                                 </div>
                                             </div>
                                             <div>
-                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item3-step__2" data-furnitem_baguette="baguette-item3-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item3-step__2') ? ' active' : '' ?>" id="baguette-item3" onclick="furnItem('baguette-item3', '#step__1 .milling-item')">
+                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item3-step__2" data-furnitem_baguette="baguette-item3-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item3-step__2') ? ' active' : '' ?>" id="baguette-item3" onclick="furnItem('baguette-item3', '#checkbox-2step-baguette .milling-item')">
                                                     <div class="milling-image-cover">
                                                         <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/baguette/3.svg);">
                                                         </div>
@@ -1445,7 +1451,7 @@ if (isset($_GET['door_cfg'])) {
                                                 </div>
                                             </div>
                                             <div>
-                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item4-step__2" data-furnitem_baguette="baguette-item4-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item4-step__2') ? ' active' : '' ?>" id="baguette-item4" onclick="furnItem('baguette-item4', '#step__1 .milling-item')">
+                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item4-step__2" data-furnitem_baguette="baguette-item4-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item4-step__2') ? ' active' : '' ?>" id="baguette-item4" onclick="furnItem('baguette-item4', '#checkbox-2step-baguette .milling-item')">
                                                     <div class="milling-image-cover">
                                                         <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/baguette/4.svg);">
                                                         </div>
@@ -1454,7 +1460,7 @@ if (isset($_GET['door_cfg'])) {
                                                 </div>
                                             </div>
                                             <div>
-                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item5-step__2" data-furnitem_baguette="baguette-item5-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item5-step__2') ? ' active' : '' ?>" id="baguette-item5" onclick="furnItem('baguette-item5', '#step__1 .milling-item')">
+                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item5-step__2" data-furnitem_baguette="baguette-item5-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item5-step__2') ? ' active' : '' ?>" id="baguette-item5" onclick="furnItem('baguette-item5', '#checkbox-2step-baguette .milling-item')">
                                                     <div class="milling-image-cover">
                                                         <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/baguette/5.svg);">
                                                         </div>
@@ -1463,7 +1469,7 @@ if (isset($_GET['door_cfg'])) {
                                                 </div>
                                             </div>
                                             <div>
-                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item6-step__2" data-furnitem_baguette="baguette-item6-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item6-step__2') ? ' active' : '' ?>" id="baguette-item6" onclick="furnItem('baguette-item6', '#step__1 .milling-item')">
+                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item6-step__2" data-furnitem_baguette="baguette-item6-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item6-step__2') ? ' active' : '' ?>" id="baguette-item6" onclick="furnItem('baguette-item6', '#checkbox-2step-baguette .milling-item')">
                                                     <div class="milling-image-cover">
                                                         <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/baguette/6.svg);">
                                                         </div>
@@ -1472,7 +1478,7 @@ if (isset($_GET['door_cfg'])) {
                                                 </div>
                                             </div>
                                             <div>
-                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item7-step__2" data-furnitem_baguette="baguette-item7-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item7-step__2') ? ' active' : '' ?>" id="baguette-item7" onclick="furnItem('baguette-item7', '#step__1 .milling-item')">
+                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item7-step__2" data-furnitem_baguette="baguette-item7-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item7-step__2') ? ' active' : '' ?>" id="baguette-item7" onclick="furnItem('baguette-item7', '#checkbox-2step-baguette .milling-item')">
                                                     <div class="milling-image-cover">
                                                         <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/baguette/7.svg);">
                                                         </div>
@@ -1481,7 +1487,7 @@ if (isset($_GET['door_cfg'])) {
                                                 </div>
                                             </div>
                                             <div>
-                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item8-step__2" data-furnitem_baguette="baguette-item8-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item8-step__2') ? ' active' : '' ?>" id="baguette-item8" onclick="furnItem('baguette-item8', '#step__1 .milling-item')">
+                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item8-step__2" data-furnitem_baguette="baguette-item8-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item8-step__2') ? ' active' : '' ?>" id="baguette-item8" onclick="furnItem('baguette-item8', '#checkbox-2step-baguette .milling-item')">
                                                     <div class="milling-image-cover">
                                                         <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/baguette/8.svg);">
                                                         </div>
@@ -1490,7 +1496,7 @@ if (isset($_GET['door_cfg'])) {
                                                 </div>
                                             </div>
                                             <div>
-                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item9-step__2" data-furnitem_baguette="baguette-item9-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item9-step__2') ? ' active' : '' ?>" id="baguette-item9" onclick="furnItem('baguette-item9', '#step__1 .milling-item')">
+                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item9-step__2" data-furnitem_baguette="baguette-item9-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item9-step__2') ? ' active' : '' ?>" id="baguette-item9" onclick="furnItem('baguette-item9', '#checkbox-2step-baguette .milling-item')">
                                                     <div class="milling-image-cover">
                                                         <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/baguette/9.svg);">
                                                         </div>
@@ -1499,7 +1505,7 @@ if (isset($_GET['door_cfg'])) {
                                                 </div>
                                             </div>
                                             <div>
-                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item10-step__2" data-furnitem_baguette="baguette-item10-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item10-step__2') ? ' active' : '' ?>" id="baguette-item10" onclick="furnItem('baguette-item10', '#step__1 .milling-item')">
+                                                <div data-variable-name="furnitem_baguette" data-variable-value="baguette-item10-step__2" data-furnitem_baguette="baguette-item10-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_baguette']) and $_GET['furnitem_baguette'] == 'baguette-item10-step__2') ? ' active' : '' ?>" id="baguette-item10" onclick="furnItem('baguette-item10', '#checkbox-2step-baguette .milling-item')">
                                                     <div class="milling-image-cover">
                                                         <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/baguette/10.svg);">
                                                         </div>
@@ -1525,7 +1531,7 @@ if (isset($_GET['door_cfg'])) {
                                         <div>
                                             <div class="milling-group">
                                                 <div>
-                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item1-step__2" data-furnitem_glass-type="glass-type-item1-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item1-step__2') ? ' active' : '' ?>" id="glass-type-item1" onclick="furnItem('glass-type-item1', '#step__1 .milling-item')">
+                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item1-step__2" data-furnitem_glass-type="glass-type-item1-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item1-step__2') ? ' active' : '' ?>" id="glass-type-item1" onclick="furnItem('glass-type-item1', '#checkbox-2step-glass-type .milling-item')">
                                                         <div class="milling-image-cover">
                                                             <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/1.svg);">
                                                             </div>
@@ -1534,7 +1540,7 @@ if (isset($_GET['door_cfg'])) {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item2-step__2" data-furnitem_glass-type="glass-type-item2-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item2-step__2') ? ' active' : '' ?>" id="glass-type-item2" onclick="furnItem('glass-type-item2', '#step__1 .milling-item')">
+                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item2-step__2" data-furnitem_glass-type="glass-type-item2-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item2-step__2') ? ' active' : '' ?>" id="glass-type-item2" onclick="furnItem('glass-type-item2', '#checkbox-2step-glass-type .milling-item')">
                                                         <div class="milling-image-cover">
                                                             <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/2.svg);">
                                                             </div>
@@ -1543,7 +1549,7 @@ if (isset($_GET['door_cfg'])) {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item3-step__2" data-furnitem_glass-type="glass-type-item3-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item3-step__2') ? ' active' : '' ?>" id="glass-type-item3" onclick="furnItem('glass-type-item3', '#step__1 .milling-item')">
+                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item3-step__2" data-furnitem_glass-type="glass-type-item3-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item3-step__2') ? ' active' : '' ?>" id="glass-type-item3" onclick="furnItem('glass-type-item3', '#checkbox-2step-glass-type .milling-item')">
                                                         <div class="milling-image-cover">
                                                             <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/3.svg);">
                                                             </div>
@@ -1552,7 +1558,7 @@ if (isset($_GET['door_cfg'])) {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item4-step__2" data-furnitem_glass-type="glass-type-item4-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item4-step__2') ? ' active' : '' ?>" id="glass-type-item4" onclick="furnItem('glass-type-item4', '#step__1 .milling-item')">
+                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item4-step__2" data-furnitem_glass-type="glass-type-item4-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item4-step__2') ? ' active' : '' ?>" id="glass-type-item4" onclick="furnItem('glass-type-item4', '#checkbox-2step-glass-type .milling-item')">
                                                         <div class="milling-image-cover">
                                                             <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/4.svg);">
                                                             </div>
@@ -1561,7 +1567,7 @@ if (isset($_GET['door_cfg'])) {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item5-step__2" data-furnitem_glass-type="glass-type-item5-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item5-step__2') ? ' active' : '' ?>" id="glass-type-item5" onclick="furnItem('glass-type-item5', '#step__1 .milling-item')">
+                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item5-step__2" data-furnitem_glass-type="glass-type-item5-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item5-step__2') ? ' active' : '' ?>" id="glass-type-item5" onclick="furnItem('glass-type-item5', '#checkbox-2step-glass-type .milling-item')">
                                                         <div class="milling-image-cover">
                                                             <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/5.svg);">
                                                             </div>
@@ -1570,7 +1576,7 @@ if (isset($_GET['door_cfg'])) {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item6-step__2" data-furnitem_glass-type="glass-type-item6-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item6-step__2') ? ' active' : '' ?>" id="glass-type-item6" onclick="furnItem('glass-type-item6', '#step__1 .milling-item')">
+                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item6-step__2" data-furnitem_glass-type="glass-type-item6-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item6-step__2') ? ' active' : '' ?>" id="glass-type-item6" onclick="furnItem('glass-type-item6', '#checkbox-2step-glass-type .milling-item')">
                                                         <div class="milling-image-cover">
                                                             <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/6.svg);">
                                                             </div>
@@ -1579,7 +1585,7 @@ if (isset($_GET['door_cfg'])) {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item7-step__2" data-furnitem_glass-type="glass-type-item7-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item7-step__2') ? ' active' : '' ?>" id="glass-type-item7" onclick="furnItem('glass-type-item7', '#step__1 .milling-item')">
+                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item7-step__2" data-furnitem_glass-type="glass-type-item7-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item7-step__2') ? ' active' : '' ?>" id="glass-type-item7" onclick="furnItem('glass-type-item7', '#checkbox-2step-glass-type .milling-item')">
                                                         <div class="milling-image-cover">
                                                             <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/7.svg);">
                                                             </div>
@@ -1588,7 +1594,7 @@ if (isset($_GET['door_cfg'])) {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item8-step__2" data-furnitem_glass-type="glass-type-item8-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item8-step__2') ? ' active' : '' ?>" id="glass-type-item8" onclick="furnItem('glass-type-item8', '#step__1 .milling-item')">
+                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item8-step__2" data-furnitem_glass-type="glass-type-item8-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item8-step__2') ? ' active' : '' ?>" id="glass-type-item8" onclick="furnItem('glass-type-item8', '#checkbox-2step-glass-type .milling-item')">
                                                         <div class="milling-image-cover">
                                                             <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/8.png);">
                                                             </div>
@@ -1597,7 +1603,7 @@ if (isset($_GET['door_cfg'])) {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item9-step__2" data-furnitem_glass-type="glass-type-item9-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item9-step__2') ? ' active' : '' ?>" id="glass-type-item9" onclick="furnItem('glass-type-item9', '#step__1 .milling-item')">
+                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item9-step__2" data-furnitem_glass-type="glass-type-item9-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item9-step__2') ? ' active' : '' ?>" id="glass-type-item9" onclick="furnItem('glass-type-item9', '#checkbox-2step-glass-type .milling-item')">
                                                         <div class="milling-image-cover">
                                                             <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/9.png);">
                                                             </div>
@@ -1606,7 +1612,7 @@ if (isset($_GET['door_cfg'])) {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item10-step__2" data-furnitem_glass-type="glass-type-item10-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item10-step__2') ? ' active' : '' ?>" id="glass-type-item10" onclick="furnItem('glass-type-item10', '#step__1 .milling-item')">
+                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item10-step__2" data-furnitem_glass-type="glass-type-item10-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item10-step__2') ? ' active' : '' ?>" id="glass-type-item10" onclick="furnItem('glass-type-item10', '#checkbox-2step-glass-type .milling-item')">
                                                         <div class="milling-image-cover">
                                                             <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/10.png);">
                                                             </div>
@@ -1615,7 +1621,184 @@ if (isset($_GET['door_cfg'])) {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item11-step__2" data-furnitem_glass-type="glass-type-item11-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item11-step__2') ? ' active' : '' ?>" id="glass-type-item11" onclick="furnItem('glass-type-item11', '#step__1 .milling-item')">
+                                                    <div data-variable-name="furnitem_glass-type" data-variable-value="glass-type-item11-step__2" data-furnitem_glass-type="glass-type-item11-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type']) and $_GET['furnitem_glass-type'] == 'glass-type-item11-step__2') ? ' active' : '' ?>" id="glass-type-item11" onclick="furnItem('glass-type-item11', '#checkbox-2step-glass-type .milling-item')">
+                                                        <div class="milling-image-cover">
+                                                            <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/11.png);">
+                                                            </div>
+                                                        </div>
+                                                        <div class="milling-title">G 011</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <hr>
+
+                                            <div class="cfg-option-changer-wrapper">
+                                                <div class="cfg-option-changer-title">
+                                                    Цвет стекла
+                                                </div>
+                                            </div>
+                                            <div><span class="swipe-info">
+                                                    Свайпайте чтобы <br> посмотреть все цвета
+                                                </span>
+                                                <div class="texture-group glass-col">
+                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item1" data-glasscol="glass-col-item1" data-price="25400" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item1') ? ' active' : '' ?>" id="glass-col-item1" onclick="chooseGlassCol('glass-col-item1')">
+                                                        <div class="texture-image-cover">
+                                                            <div class="texture-image silver property-texture inset inset v001">
+                                                                <div class="image"></div>
+                                                            </div>
+                                                            <div class="texture-price">25 400 ₽</div>
+                                                        </div>
+                                                        <div class="texture-title">Серебро</div>
+                                                    </div>
+                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item2" data-glasscol="glass-col-item3" data-price="34600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item2') ? ' active' : '' ?>" id="glass-col-item2" onclick="chooseGlassCol('glass-col-item2')">
+                                                        <div class="texture-image-cover">
+                                                            <div class="texture-image silver-gray property-texture inset inset v001">
+                                                                <div class="image"></div>
+                                                            </div>
+                                                            <div class="texture-price">34 600 ₽</div>
+                                                        </div>
+                                                        <div class="texture-title">Серебристо-серый</div>
+                                                    </div>
+                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item3" data-glasscol="glass-col-item3" data-price="34600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item3') ? ' active' : '' ?>" id="glass-col-item3" onclick="chooseGlassCol('glass-col-item3')">
+                                                        <div class="texture-image-cover">
+                                                            <div class="texture-image bronze property-texture inset inset v001">
+                                                                <div class="image"></div>
+                                                            </div>
+                                                            <div class="texture-price">34 600 ₽</div>
+                                                        </div>
+                                                        <div class="texture-title">Бронза</div>
+                                                    </div>
+                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item4" data-glasscol="glass-col-item4" data-price="34600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item4') ? ' active' : '' ?>" id="glass-col-item4" onclick="chooseGlassCol('glass-col-item4')">
+                                                        <div class="texture-image-cover">
+                                                            <div class="texture-image blue property-texture inset inset v001">
+                                                                <div class="image"></div>
+                                                            </div>
+                                                            <div class="texture-price">34 600 ₽</div>
+                                                        </div>
+                                                        <div class="texture-title">Голубой</div>
+                                                    </div>
+                                                    <div data-variable-name="glasscol" data-variable-value="glass-col-item5" data-glasscol="glass-col-item5" data-price="34600" data-image="" data-order="1" class="texture-item<?= (isset($_GET['glasscol']) and $_GET['glasscol'] == 'glass-col-item5') ? ' active' : '' ?>" id="glass-col-item5" onclick="chooseGlassCol('glass-col-item5')">
+                                                        <div class="texture-image-cover">
+                                                            <div class="texture-image multi property-texture inset inset v001">
+                                                                <div class="image"></div>
+                                                            </div>
+                                                            <div class="texture-price">34 600 ₽</div>
+                                                        </div>
+                                                        <div class="texture-title">Мультифункциональное</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-2step-glass-type-panel" <?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'glazed-panel') ? '' : 'style="display: none;"' ?>>
+                            <button type="button" class="btn accordion-header" id="close-button-2step7" onclick="closeblock('aria-step2-glass-type-panel', 'close-button-2step7', 'checkbox-2step-glass-type-panel')">
+                                <span class="accordion-head">
+                                    Вид остекления
+                                </span>
+                                <span class="accordion-head-tab"></span>
+                            </button>
+                            <div id="aria-step2-glass-type-panel">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <div>
+                                            <div class="milling-group">
+                                                <div>
+                                                    <div data-variable-name="furnitem_glass-type-panel" data-variable-value="glass-type-panel-item1-step__2" data-furnitem_glass-type-panel="glass-type-panel-item1-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type-panel']) and $_GET['furnitem_glass-type-panel'] == 'glass-type-panel-item1-step__2') ? ' active' : '' ?>" id="glass-type-panel-item1" onclick="furnItem('glass-type-panel-item1', '#checkbox-2step-glass-type-panel .milling-item')">
+                                                        <div class="milling-image-cover">
+                                                            <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/1.svg);">
+                                                            </div>
+                                                        </div>
+                                                        <div class="milling-title">G 001</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div data-variable-name="furnitem_glass-type-panel" data-variable-value="glass-type-panel-item2-step__2" data-furnitem_glass-type-panel="glass-type-panel-item2-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type-panel']) and $_GET['furnitem_glass-type-panel'] == 'glass-type-panel-item2-step__2') ? ' active' : '' ?>" id="glass-type-panel-item2" onclick="furnItem('glass-type-panel-item2', '#checkbox-2step-glass-type-panel .milling-item')">
+                                                        <div class="milling-image-cover">
+                                                            <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/2.svg);">
+                                                            </div>
+                                                        </div>
+                                                        <div class="milling-title">G 002</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div data-variable-name="furnitem_glass-type-panel" data-variable-value="glass-type-panel-item3-step__2" data-furnitem_glass-type-panel="glass-type-panel-item3-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type-panel']) and $_GET['furnitem_glass-type-panel'] == 'glass-type-panel-item3-step__2') ? ' active' : '' ?>" id="glass-type-panel-item3" onclick="furnItem('glass-type-panel-item3', '#checkbox-2step-glass-type-panel .milling-item')">
+                                                        <div class="milling-image-cover">
+                                                            <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/3.svg);">
+                                                            </div>
+                                                        </div>
+                                                        <div class="milling-title">G 003</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div data-variable-name="furnitem_glass-type-panel" data-variable-value="glass-type-panel-item4-step__2" data-furnitem_glass-type-panel="glass-type-panel-item4-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type-panel']) and $_GET['furnitem_glass-type-panel'] == 'glass-type-panel-item4-step__2') ? ' active' : '' ?>" id="glass-type-panel-item4" onclick="furnItem('glass-type-panel-item4', '#checkbox-2step-glass-type-panel .milling-item')">
+                                                        <div class="milling-image-cover">
+                                                            <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/4.svg);">
+                                                            </div>
+                                                        </div>
+                                                        <div class="milling-title">G 004</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div data-variable-name="furnitem_glass-type-panel" data-variable-value="glass-type-panel-item5-step__2" data-furnitem_glass-type-panel="glass-type-panel-item5-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type-panel']) and $_GET['furnitem_glass-type-panel'] == 'glass-type-panel-item5-step__2') ? ' active' : '' ?>" id="glass-type-panel-item5" onclick="furnItem('glass-type-panel-item5', '#checkbox-2step-glass-type-panel .milling-item')">
+                                                        <div class="milling-image-cover">
+                                                            <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/5.svg);">
+                                                            </div>
+                                                        </div>
+                                                        <div class="milling-title">G 005</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div data-variable-name="furnitem_glass-type-panel" data-variable-value="glass-type-panel-item6-step__2" data-furnitem_glass-type-panel="glass-type-panel-item6-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type-panel']) and $_GET['furnitem_glass-type-panel'] == 'glass-type-panel-item6-step__2') ? ' active' : '' ?>" id="glass-type-panel-item6" onclick="furnItem('glass-type-panel-item6', '#checkbox-2step-glass-type-panel .milling-item')">
+                                                        <div class="milling-image-cover">
+                                                            <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/6.svg);">
+                                                            </div>
+                                                        </div>
+                                                        <div class="milling-title">G 006</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div data-variable-name="furnitem_glass-type-panel" data-variable-value="glass-type-panel-item7-step__2" data-furnitem_glass-type-panel="glass-type-panel-item7-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type-panel']) and $_GET['furnitem_glass-type-panel'] == 'glass-type-panel-item7-step__2') ? ' active' : '' ?>" id="glass-type-panel-item7" onclick="furnItem('glass-type-panel-item7', '#checkbox-2step-glass-type-panel .milling-item')">
+                                                        <div class="milling-image-cover">
+                                                            <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/7.svg);">
+                                                            </div>
+                                                        </div>
+                                                        <div class="milling-title">G 007</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div data-variable-name="furnitem_glass-type-panel" data-variable-value="glass-type-panel-item8-step__2" data-furnitem_glass-type-panel="glass-type-panel-item8-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type-panel']) and $_GET['furnitem_glass-type-panel'] == 'glass-type-panel-item8-step__2') ? ' active' : '' ?>" id="glass-type-panel-item8" onclick="furnItem('glass-type-panel-item8', '#checkbox-2step-glass-type-panel .milling-item')">
+                                                        <div class="milling-image-cover">
+                                                            <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/8.png);">
+                                                            </div>
+                                                        </div>
+                                                        <div class="milling-title">G 008</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div data-variable-name="furnitem_glass-type-panel" data-variable-value="glass-type-panel-item9-step__2" data-furnitem_glass-type-panel="glass-type-panel-item9-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type-panel']) and $_GET['furnitem_glass-type-panel'] == 'glass-type-panel-item9-step__2') ? ' active' : '' ?>" id="glass-type-panel-item9" onclick="furnItem('glass-type-panel-item9', '#checkbox-2step-glass-type-panel .milling-item')">
+                                                        <div class="milling-image-cover">
+                                                            <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/9.png);">
+                                                            </div>
+                                                        </div>
+                                                        <div class="milling-title">G 009</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div data-variable-name="furnitem_glass-type-panel" data-variable-value="glass-type-panel-item10-step__2" data-furnitem_glass-type-panel="glass-type-panel-item10-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type-panel']) and $_GET['furnitem_glass-type-panel'] == 'glass-type-panel-item10-step__2') ? ' active' : '' ?>" id="glass-type-panel-item10" onclick="furnItem('glass-type-panel-item10', '#checkbox-2step-glass-type-panel .milling-item')">
+                                                        <div class="milling-image-cover">
+                                                            <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/10.png);">
+                                                            </div>
+                                                        </div>
+                                                        <div class="milling-title">G 010</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div data-variable-name="furnitem_glass-type-panel" data-variable-value="glass-type-panel-item11-step__2" data-furnitem_glass-type-panel="glass-type-panel-item11-step__2" data-price="0" data-image="" data-order="1" class="milling-item<?= (isset($_GET['furnitem_glass-type-panel']) and $_GET['furnitem_glass-type-panel'] == 'glass-type-panel-item11-step__2') ? ' active' : '' ?>" id="glass-type-panel-item11" onclick="furnItem('glass-type-panel-item11', '#checkbox-2step-glass-type-panel .milling-item')">
                                                         <div class="milling-image-cover">
                                                             <div class="milling-image" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/glass/11.png);">
                                                             </div>
