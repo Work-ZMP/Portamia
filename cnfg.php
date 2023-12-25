@@ -1521,7 +1521,7 @@ if (isset($_GET['door_cfg'])) {
                         <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-2step-glass-type" <?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'glazed') ? '' : 'style="display: none;"' ?>>
                             <button type="button" class="btn accordion-header" id="close-button-2step4" onclick="closeblock('aria-step2-glass-type', 'close-button-2step4', 'checkbox-2step-glass-type')">
                                 <span class="accordion-head">
-                                    Вид остекления
+                                    Вид остекления металл
                                 </span>
                                 <span class="accordion-head-tab"></span>
                             </button>
@@ -1698,7 +1698,7 @@ if (isset($_GET['door_cfg'])) {
                         <div class="checkbox-accordion accordion accordion--with-plus" id="checkbox-2step-glass-type-panel" <?= (isset($_GET['outdoorstyles']) and $_GET['outdoorstyles'] == 'glazed-panel') ? '' : 'style="display: none;"' ?>>
                             <button type="button" class="btn accordion-header" id="close-button-2step7" onclick="closeblock('aria-step2-glass-type-panel', 'close-button-2step7', 'checkbox-2step-glass-type-panel')">
                                 <span class="accordion-head">
-                                    Вид остекления
+                                    Вид остекления панель
                                 </span>
                                 <span class="accordion-head-tab"></span>
                             </button>
