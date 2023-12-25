@@ -947,7 +947,7 @@ function outdoorStylesGlazedPanel() {
 
 
         furnItem('glass-type-panel-item1', '#checkbox-2step-glass-type-panel .milling-item')
-        chooseGlassCol('glass-col-item1');
+        chooseGlassCol('glass-col-item1-panel');
 
 
 
