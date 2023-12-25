@@ -457,7 +457,18 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'glass-type-item8-step__2',
                 'glass-type-item9-step__2',
                 'glass-type-item10-step__2',
-                'glass-type-item11-step__2'
+                'glass-type-item11-step__2',
+                'glass-type-panel-item1-step__2',
+                'glass-type-panel-item2-step__2',
+                'glass-type-panel-item3-step__2',
+                'glass-type-panel-item4-step__2',
+                'glass-type-panel-item5-step__2',
+                'glass-type-panel-item6-step__2',
+                'glass-type-panel-item7-step__2',
+                'glass-type-panel-item8-step__2',
+                'glass-type-panel-item9-step__2',
+                'glass-type-panel-item10-step__2',
+                'glass-type-panel-item11-step__2'
             ),
             '2' => array(
                 'glass-col-item1',
@@ -465,12 +476,11 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'glass-col-item3',
                 'glass-col-item4',
                 'glass-col-item5',
-                'glass-col-item6',
-                'glass-col-item7',
-                'glass-col-item8',
-                'glass-col-item9',
-                'glass-col-item10',
-                'glass-col-item11'
+                'glass-col-item1-panel',
+                'glass-col-item2-panel',
+                'glass-col-item3-panel',
+                'glass-col-item4-panel',
+                'glass-col-item5-panel'
             )
         ),
 
