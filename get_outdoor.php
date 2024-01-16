@@ -985,6 +985,11 @@
             $proportions = '485x683';
 
         }
+        if (in_array('slditem9', $path_parts['base'])) {
+
+            $proportions = '628x835';
+
+        }
         if (in_array('dlditem1', $path_parts['base'])) {
 
             $proportions = '374x410';
