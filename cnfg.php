@@ -360,13 +360,13 @@ if (isset($_GET['door_cfg'])) {
                                                             <div class="furniture-item-title">В разработке</div>
                                                             <div class="furniture-item-title">С фрамугой справа и сверху</div>
                                                         </div>
-                                                        <div data-variable-name="leafdooritems_single" data-variable-value="slditem9" data-leafdooritems_single="slditem9" data-price="0" data-image="" data-order="1" class="unfinished furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_single']) and $_GET['leafdooritems_single'] == 'slditem9') ? ' active' : '' ?>" id="slditem9" onclick="leafdooritems('slditem9')">
+                                                        <div data-variable-name="leafdooritems_single" data-variable-value="slditem9" data-leafdooritems_single="slditem9" data-price="0" data-image="" data-order="1" class="furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_single']) and $_GET['leafdooritems_single'] == 'slditem9') ? ' active' : '' ?>" id="slditem9" onclick="leafdooritems('slditem9')">
                                                             <div class="furniture-item-image-cover">
                                                                 <span class="furniture-item-image-country"></span>
                                                                 <div class="furniture-item-image" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/types/door-type-img-5.svg)">
                                                                 </div>
                                                             </div>
-                                                            <div class="furniture-item-title">В разработке</div>
+                                                            <div class="furniture-item-title">Вид 8</div>
                                                             <div class="furniture-item-title">С фрамугой слева и сверху</div>
                                                         </div>
                                                         <div data-variable-name="leafdooritems_single" data-variable-value="slditem3" data-leafdooritems_single="slditem3" data-price="0" data-image="" data-order="1" class="unfinished furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_single']) and $_GET['leafdooritems_single'] == 'slditem3') ? ' active' : '' ?>" id="slditem3" onclick="leafdooritems('slditem3')">
