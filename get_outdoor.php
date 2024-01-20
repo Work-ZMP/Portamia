@@ -997,7 +997,7 @@
         }
         if (in_array('dlditem2', $path_parts['base'])) {
 
-            $proportions = '374x501';
+            $proportions = '633x838';
 
         }
         if (in_array('dlditem3', $path_parts['base'])) {
