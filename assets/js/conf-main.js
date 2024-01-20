@@ -533,7 +533,7 @@ function leafdooritems(button) {
 
         btn.classList.add('active');
 
-        if (button === 'slditem2' || button === 'slditem3' || button === 'dlditem3' || button === 'dlditem2' || button === 'slditem4' || button === 'slditem5') {
+        if (button === 'slditem2' || button === 'slditem3' || button === 'dlditem3' || button === 'dlditem2' || button === 'slditem4' || button === 'slditem5' || button === 'slditem9') {
 
             glasscol.style.display = '';
             glasscol2.style.display = '';
