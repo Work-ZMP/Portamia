@@ -197,6 +197,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -238,6 +239,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -275,6 +277,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -312,6 +315,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -339,6 +343,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -388,6 +393,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -453,6 +459,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -503,6 +510,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -566,6 +574,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -591,6 +600,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -625,6 +635,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -705,6 +716,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -724,6 +736,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
@@ -746,6 +759,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'slditem4',
                 'slditem5',
                 'slditem6',
+                'slditem9',
                 'dlditem1',
                 'dlditem2',
                 'dlditem3'
