@@ -254,6 +254,9 @@
                     'slditem4',
                     'slditem5',
                     'slditem6',
+                    'slditem7',
+                    'slditem8',
+                    'slditem9',
                     'dlditem1',
                     'dlditem2',
                     'dlditem3'
@@ -291,6 +294,9 @@
                     'slditem4',
                     'slditem5',
                     'slditem6',
+                    'slditem7',
+                    'slditem8',
+                    'slditem9',
                     'dlditem1',
                     'dlditem2',
                     'dlditem3'
@@ -371,6 +377,9 @@
                     'slditem4',
                     'slditem5',
                     'slditem6',
+                    'slditem7',
+                    'slditem8',
+                    'slditem9',
                     'dlditem1',
                     'dlditem2',
                     'dlditem3'
