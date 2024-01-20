@@ -952,7 +952,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
     }
     if (in_array('dlditem1', $path_parts['base-met'])) {
 
-        $proportions = '374x410';
+        $proportions = '584x815';
     }
     if (in_array('dlditem2', $path_parts['base-met'])) {
 

@@ -388,13 +388,13 @@ if (isset($_GET['door_cfg'])) {
 
                                                     </div>
                                                     <div class="furniture-group construction-body double-leaf" id="doubleleafdoor" <?= (isset($_GET['leaf']) and $_GET['leaf'] == 'double') ? '' : 'style="display: none;"' ?>>
-                                                        <div data-variable-name="leafdooritems_double" data-variable-value="dlditem1" data-leafdooritems_double="dlditem1" data-price="0" data-image="" data-order="1" class="unfinished furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_double']) and $_GET['leafdooritems_double'] == 'dlditem1') ? ' active' : '' ?>" id="dlditem1" onclick="leafdooritems('dlditem1')">
+                                                        <div data-variable-name="leafdooritems_double" data-variable-value="dlditem1" data-leafdooritems_double="dlditem1" data-price="0" data-image="" data-order="1" class="furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_double']) and $_GET['leafdooritems_double'] == 'dlditem1') ? ' active' : '' ?>" id="dlditem1" onclick="leafdooritems('dlditem1')">
                                                             <div class="furniture-item-image-cover">
                                                                 <span class="furniture-item-image-country"></span>
                                                                 <div class="furniture-item-image" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/types/door-type-img-10.svg);">
                                                                 </div>
                                                             </div>
-                                                            <div class="furniture-item-title">В разработке</div>
+                                                            <div class="furniture-item-title">Вид 1</div>
                                                             <div class="furniture-item-title">Базовое</div>
                                                         </div>
                                                         <div data-variable-name="leafdooritems_double" data-variable-value="dlditem2" data-leafdooritems_double="dlditem2" data-price="0" data-image="" data-order="1" class="unfinished furniture-item furniture-item--big<?= (isset($_GET['leafdooritems_double']) and $_GET['leafdooritems_double'] == 'dlditem2') ? ' active' : '' ?>" id="dlditem2" onclick="leafdooritems('dlditem2')">
