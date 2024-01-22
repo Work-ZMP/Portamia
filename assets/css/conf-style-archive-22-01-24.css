@@ -2507,13 +2507,6 @@ html,
     /* Firefox */
     -ms-interpolation-mode: nearest-neighbor;
     /* IE */
-
-
-    max-height: 380px;
-    width: auto;
-    max-width: 100%;
-    margin-right: 0;
-    margin-left: auto;
 }
 
 .container-door-preview-placeholder {
@@ -4099,9 +4092,10 @@ align-items: center;
     }
 
     .cfg-door .container-door-preview-placeholder {
-        display: flex !important;
+        display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        gap: 35px;
         overflow-x: scroll;
         overflow-y: hidden;
         padding: 35px;
