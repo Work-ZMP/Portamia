@@ -2530,6 +2530,8 @@ html,
 
 .door-preview-indoor {
     max-height: 370px !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 .cfg-price {
