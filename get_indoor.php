@@ -172,8 +172,8 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
     }
 
     $dependencies = array(
-        '0' => 'base-pan',
-        '1' => 'base-met',
+        '0' => 'base-met',
+        '1' => 'base-pan',
         '2' => 'handler',
         '3' => 'lock',
         '4' => 'glass_1_1',
@@ -189,46 +189,6 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
     );
 
     $lines = array(
-        'base-pan' => array(
-            '0' => array(
-                'slditem1',
-                'slditem2',
-                'slditem3',
-                'slditem4',
-                'slditem5',
-                'slditem6',
-                'slditem7',
-                'slditem8',
-                'slditem9',
-                'dlditem1',
-                'dlditem2',
-                'dlditem3'
-            ),
-            '1' => array(
-                'btndoorcolout1',
-                'btndoorcolout2',
-                'btndoorcolout3',
-                'btndoorcolout4',
-                'btndoorcolout5',
-                'btndoorcolout6',
-                'btndoorcolout7',
-                'btndoorcolout8',
-                'btndoorcolout9',
-                'btndoorcolout10',
-                'btndoorcolout11',
-                'btndoorcolout12',
-                'btndoorcolout13',
-                'btndoorcolout14',
-                'btndoorcolout15',
-                'btndoorcolout16',
-                'btndoorcolout17',
-                'btndoorcolout18',
-                'btndoorcolout19',
-                'btndoorcolout20',
-                'btndoorcolout21',
-                'btndoorcolout22'
-            ),
-        ),
         'base-met' => array(
             '0' => array(
                 'slditem1',
@@ -271,6 +231,46 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'btncolout23',
                 'btncolout24',
                 'btncolout25'
+            ),
+        ),
+        'base-pan' => array(
+            '0' => array(
+                'slditem1',
+                'slditem2',
+                'slditem3',
+                'slditem4',
+                'slditem5',
+                'slditem6',
+                'slditem7',
+                'slditem8',
+                'slditem9',
+                'dlditem1',
+                'dlditem2',
+                'dlditem3'
+            ),
+            '1' => array(
+                'btndoorcolout1',
+                'btndoorcolout2',
+                'btndoorcolout3',
+                'btndoorcolout4',
+                'btndoorcolout5',
+                'btndoorcolout6',
+                'btndoorcolout7',
+                'btndoorcolout8',
+                'btndoorcolout9',
+                'btndoorcolout10',
+                'btndoorcolout11',
+                'btndoorcolout12',
+                'btndoorcolout13',
+                'btndoorcolout14',
+                'btndoorcolout15',
+                'btndoorcolout16',
+                'btndoorcolout17',
+                'btndoorcolout18',
+                'btndoorcolout19',
+                'btndoorcolout20',
+                'btndoorcolout21',
+                'btndoorcolout22'
             ),
         ),
         'lock' => array(
