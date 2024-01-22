@@ -2464,6 +2464,7 @@ html,
 
 .cfg-door .swiper-slide{
     height: auto !important;
+    padding-bottom: 15px;
 }
 .cfg-preview-content {
     overflow: hidden;
