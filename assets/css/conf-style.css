@@ -3250,7 +3250,7 @@ a {
 }
 
 #popup__fullsize {
-    height: 100%;
+    height: auto;
     max-height: none !important;
     max-width: none !important;
 }
