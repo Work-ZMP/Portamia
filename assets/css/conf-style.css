@@ -3251,7 +3251,6 @@ a {
 
 #popup__fullsize {
     height: auto;
-    height: auto;
     max-height: none !important;
     max-width: none !important;
 }
