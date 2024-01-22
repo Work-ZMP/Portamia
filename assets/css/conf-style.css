@@ -2462,6 +2462,9 @@ html,
     margin-top: -15px;
 }
 
+.cfg-door .swiper-slide{
+    height: auto !important;
+}
 .cfg-preview-content {
     overflow: hidden;
 }
