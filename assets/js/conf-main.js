@@ -235,6 +235,7 @@ function cfgDoorModel1() {
     }
     else {
         document.querySelectorAll('#checkbox-2step-style .cfg-btn-group-wrapper > button').forEach(b => b.classList.remove('active'))
+        indoorStylesPanel()
         outdoorStylesClassic();
 
         millingStyleBtn.style.display = 'none';
@@ -292,7 +293,8 @@ function cfgDoorModel2() {
     }
     else {
 
-        document.querySelectorAll('#checkbox-2step-style .cfg-btn-group-wrapper > button').forEach(b => b.classList.remove('active'))
+        document.querySelectorAll('#checkbox-2step-style .cfg-btn-group-wrapper > button').forEach(b => b.classList.remove('active'));
+        indoorStylesPanel();
         outdoorStylesClassic();
 
         millingStyleBtn.style.display = '';
