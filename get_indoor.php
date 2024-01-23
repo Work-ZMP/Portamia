@@ -542,8 +542,18 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'glass-type-item8-step__2',
                 'glass-type-item9-step__2',
                 'glass-type-item10-step__2',
-                'glass-type-item11-step__2'
-
+                'glass-type-item11-step__2',
+                'glass-type-panel-item1-step__2',
+                'glass-type-panel-item2-step__2',
+                'glass-type-panel-item3-step__2',
+                'glass-type-panel-item4-step__2',
+                'glass-type-panel-item5-step__2',
+                'glass-type-panel-item6-step__2',
+                'glass-type-panel-item7-step__2',
+                'glass-type-panel-item8-step__2',
+                'glass-type-panel-item9-step__2',
+                'glass-type-panel-item10-step__2',
+                'glass-type-panel-item11-step__2'
             ),
             '2' => array(
                 'extra-grid-item1',
