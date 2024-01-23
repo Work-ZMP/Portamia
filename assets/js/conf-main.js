@@ -1101,8 +1101,8 @@ function outdoorStylesMilling() {
 
     const milledmirrorcards = document.querySelectorAll('#milled-mirror-block .milling-item');
     const panelmirrorcards = document.querySelectorAll('#panel-mirror-block .milling-item');
-    const classicmilledcards = document.querySelectorAll('#classicmilled-block .milling-item');
-    const modernmilledcards = document.querySelectorAll('#modernmilled-block .milling-item');
+    const classicmilledcards = document.querySelectorAll('#checkbox-2step-milled #classicmilled-block .milling-item');
+    const modernmilledcards = document.querySelectorAll('#checkbox-2step-milled #modernmilled-block .milling-item');
 
 
     if (btn5.classList.contains('active')) {
