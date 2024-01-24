@@ -2,7 +2,7 @@
 // Формирование цен в конфигураторе через переменные
 
 // Модель дверей
-const costModelDoor1 = '91000'; // Guard Pro модель
+const costModelDoor1 = '95000'; // Guard Pro модель
 const costModelDoor2 = '109000'; // Guard Pro модель
 
 // Форма двери
