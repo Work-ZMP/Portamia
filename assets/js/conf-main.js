@@ -2956,9 +2956,9 @@ function togglerCloserStep6() {
 
 function togglerExtraHandlerStep5() {
 
-    let toggler = document.querySelector('#checkbox-5step-extrahandler-closer .checkbox-pseudo-input');
+    let toggler = document.querySelector('#checkbox-5step-extrahandler .checkbox-pseudo-input');
     let block = document.getElementById('aria-step5-extrahandler-closer');
-    let line = document.getElementById('checkbox-5step-extrahandler-closer');
+    let line = document.getElementById('checkbox-5step-extrahandler');
     let cards = document.querySelectorAll('#aria-step5-extrahandler-closer .furniture-item');
 
     if (toggler.classList.contains('checked')) {
