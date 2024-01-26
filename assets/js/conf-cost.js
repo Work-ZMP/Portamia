@@ -32,7 +32,7 @@ const costGridType1_2 = '25400'; // Тип 2
 const costGridType1_3 = '25400'; // Тип 3
 const costGridType1_4 = '25400'; // Тип 4
 
-// Вид остекления
+// Вид остекления (когда внешняя сторона - металл)
 const costGlassType2_1 = '27900'; // G 001
 const costGlassType2_2 = '27900'; // G 002
 const costGlassType2_3 = '27900'; // G 003
@@ -44,6 +44,19 @@ const costGlassType2_8 = '65500'; // G 008
 const costGlassType2_9 = '65500'; // G 009
 const costGlassType2_10 = '65500'; // G 010
 const costGlassType2_11 = '65500'; // G 011
+
+// Вид остекления (когда внешняя сторона - панель)
+const costGlassTypePanel2_1 = '27900'; // G 001
+const costGlassTypePanel2_2 = '27900'; // G 002
+const costGlassTypePanel2_3 = '27900'; // G 003
+const costGlassTypePanel2_4 = '27900'; // G 004
+const costGlassTypePanel2_5 = '40200'; // G 005
+const costGlassTypePanel2_6 = '63600'; // G 006
+const costGlassTypePanel2_7 = '27900'; // G 007
+const costGlassTypePanel2_8 = '65500'; // G 008
+const costGlassTypePanel2_9 = '65500'; // G 009
+const costGlassTypePanel2_10 = '65500'; // G 010
+const costGlassTypePanel2_11 = '65500'; // G 011
 
 // Цвет стекла в остеклении
 const costGlassCol2_1 = '0'; // Серебро
@@ -151,6 +164,72 @@ const costMdfCol19 = '16600'; // Джут белый
 const costMdfCol20 = '19800'; // Белый
 const costMdfCol21 = '18600'; // Дуб бренди
 const costMdfCol22 = '18600'; // Дуб рустик
+
+// Виды фрезеровок на внутренней стороне
+const costMillingOutdoorTypeKIn1 = '0'; // FK-MDF 001
+const costMillingOutdoorTypeKIn2 = '0'; // FK-MDF 002
+const costMillingOutdoorTypeKIn3 = '0'; // FK-MDF 003
+const costMillingOutdoorTypeKIn4 = '0'; // FK-MDF 004
+const costMillingOutdoorTypeKIn5 = '0'; // FK-MDF 005
+const costMillingOutdoorTypeKIn6 = '0'; // FK-MDF 006
+const costMillingOutdoorTypeKIn7 = '0'; // FK-MDF 007
+const costMillingOutdoorTypeKIn8 = '0'; // FK-MDF 008
+const costMillingOutdoorTypeKIn9 = '0'; // FK-MDF 009
+const costMillingOutdoorTypeKIn10 = '0'; // FK-MDF 010
+const costMillingOutdoorTypeKIn11 = '0'; // FK-MDF 011
+const costMillingOutdoorTypeKIn12 = '0'; // FK-MDF 012
+const costMillingOutdoorTypeKIn13 = '0'; // FK-MDF 013
+const costMillingOutdoorTypeKIn14 = '0'; // FK-MDF 014
+const costMillingOutdoorTypeKIn15 = '0'; // FK-MDF 015
+const costMillingOutdoorTypeKIn16 = '0'; // FK-MDF 016
+const costMillingOutdoorTypeKIn17 = '0'; // FK-MDF 017
+const costMillingOutdoorTypeKIn18 = '0'; // FK-MDF 018
+const costMillingOutdoorTypeKIn19 = '0'; // FK-MDF 019
+const costMillingOutdoorTypeKIn20 = '0'; // FK-MDF 020
+const costMillingOutdoorTypeKIn21 = '0'; // FK-MDF 021
+const costMillingOutdoorTypeKIn22 = '0'; // FK-MDF 022
+const costMillingOutdoorTypeKIn23 = '0'; // FK-MDF 023
+const costMillingOutdoorTypeKIn24 = '0'; // FK-MDF 024
+const costMillingOutdoorTypeKIn25 = '0'; // FK-MDF 025
+const costMillingOutdoorTypeKIn26 = '0'; // FK-MDF 026
+const costMillingOutdoorTypeKIn27 = '0'; // FK-MDF 027
+const costMillingOutdoorTypeKIn28 = '0'; // FK-MDF 028
+const costMillingOutdoorTypeKIn29 = '0'; // FK-MDF 029
+const costMillingOutdoorTypeKIn30 = '0'; // FK-MDF 030
+const costMillingOutdoorTypeKIn31 = '0'; // FK-MDF 031
+const costMillingOutdoorTypeKIn32 = '0'; // FK-MDF 032
+const costMillingOutdoorTypeKIn33 = '0'; // FK-MDF 033
+const costMillingOutdoorTypeKIn34 = '0'; // FK-MDF 034
+const costMillingOutdoorTypeKIn35 = '0'; // FK-MDF 035
+const costMillingOutdoorTypeKIn36 = '0'; // FK-MDF 036
+const costMillingOutdoorTypeKIn37 = '0'; // FK-MDF 037
+const costMillingOutdoorTypeKIn38 = '0'; // FK-MDF 038
+const costMillingOutdoorTypeKIn39 = '0'; // FK-MDF 039
+const costMillingOutdoorTypeSIn1 = '45000'; // FS-MDF 001
+const costMillingOutdoorTypeSIn2 = '45000'; // FS-MDF 002
+const costMillingOutdoorTypeSIn3 = '45000'; // FS-MDF 003
+const costMillingOutdoorTypeSIn4 = '45000'; // FS-MDF 004
+const costMillingOutdoorTypeSIn5 = '45000'; // FS-MDF 005
+const costMillingOutdoorTypeSIn6 = '45000'; // FS-MDF 006
+const costMillingOutdoorTypeSIn7 = '45000'; // FS-MDF 007
+const costMillingOutdoorTypeSIn8 = '45000'; // FS-MDF 008
+const costMillingOutdoorTypeSIn9 = '45000'; // FS-MDF 009
+const costMillingOutdoorTypeSIn10 = '45000'; // FS-MDF 010
+const costMillingOutdoorTypeSIn11 = '45000'; // FS-MDF 011
+const costMillingOutdoorTypeSIn12 = '45000'; // FS-MDF 012
+const costMillingOutdoorTypeSIn13 = '45000'; // FS-MDF 013
+const costMillingOutdoorTypeSIn14 = '45000'; // FS-MDF 014
+const costMillingOutdoorTypeSIn15 = '45000'; // FS-MDF 015
+const costMillingOutdoorTypeSIn16 = '45000'; // FS-MDF 016
+const costMillingOutdoorTypeSIn17 = '45000'; // FS-MDF 017
+const costMillingOutdoorTypeSIn18 = '45000'; // FS-MDF 018
+const costMillingOutdoorTypeSIn19 = '45000'; // FS-MDF 019
+const costMillingOutdoorTypeSIn20 = '45000'; // FS-MDF 020
+const costMillingOutdoorTypeSIn21 = '45000'; // FS-MDF 021
+const costMillingOutdoorTypeSIn22 = '45000'; // FS-MDF 022
+const costMillingOutdoorTypeSIn23 = '45000'; // FS-MDF 023
+const costMillingOutdoorTypeSIn24 = '45000'; // FS-MDF 024
+const costMillingOutdoorTypeSIn25 = '45000'; // FS-MDF 025
 
 // Виды фрезеровок на внутренней стороне
 const costMillingTypeKIn1 = '0'; // FK-MDF 001
@@ -283,6 +362,18 @@ const costHandlerType8 = '0'; // SKS (50см)
 const costHandlerType9 = '0'; // SPS (100см)
 const costHandlerType10 = '0'; // SPS (50см)
 
+// Вид ручки (дополнительная (вторая) ручка, когда выбрана двустворчатая дверь)
+const costExtraHandlerType1 = '0'; // Arena
+const costExtraHandlerType2 = '0'; // Pyramide Sircle
+const costExtraHandlerType3 = '0'; // Pyramide Quadro
+const costExtraHandlerType4 = '0'; // Vitoria
+const costExtraHandlerType5 = '0'; // Dallas
+const costExtraHandlerType6 = '0'; // Rania
+const costExtraHandlerType7 = '0'; // SKS (100см)
+const costExtraHandlerType8 = '0'; // SKS (50см)
+const costExtraHandlerType9 = '0'; // SPS (100см)
+const costExtraHandlerType10 = '0'; // SPS (50см)
+
 // Размер двери
 const costSize1 = '0'; // Не знаю
 const costSize2 = '0'; // 960 х 2050
@@ -363,6 +454,18 @@ defaultCost('glass-type-item8',costGlassType2_8);
 defaultCost('glass-type-item9',costGlassType2_9);
 defaultCost('glass-type-item10',costGlassType2_10);
 defaultCost('glass-type-item11',costGlassType2_11);
+
+defaultCost('glass-type-panel-item1',costGlassTypePanel2_1);
+defaultCost('glass-type-panel-item2',costGlassTypePanel2_2);
+defaultCost('glass-type-panel-item3',costGlassTypePanel2_3);
+defaultCost('glass-type-panel-item4',costGlassTypePanel2_4);
+defaultCost('glass-type-panel-item5',costGlassTypePanel2_5);
+defaultCost('glass-type-panel-item6',costGlassTypePanel2_6);
+defaultCost('glass-type-panel-item7',costGlassTypePanel2_7);
+defaultCost('glass-type-panel-item8',costGlassTypePanel2_8);
+defaultCost('glass-type-panel-item9',costGlassTypePanel2_9);
+defaultCost('glass-type--panelitem10',costGlassTypePanel2_10);
+defaultCost('glass-type--panelitem11',costGlassTypePanel2_11);
 
 standartCost('glass-col-item1',costGlassCol2_1);
 standartCost('glass-col-item2',costGlassCol2_2);
@@ -532,6 +635,73 @@ defaultCost('btn-milled-modern24',costMillingTypeSIn24);
 defaultCost('btn-milled-modern25',costMillingTypeSIn25);
 
 
+defaultCost('btn-milled-classic-outdoor1',costMillingOutdoorTypeKIn1);
+defaultCost('btn-milled-classic-outdoor2',costMillingOutdoorTypeKIn2);
+defaultCost('btn-milled-classic-outdoor3',costMillingOutdoorTypeKIn3);
+defaultCost('btn-milled-classic-outdoor4',costMillingOutdoorTypeKIn4);
+defaultCost('btn-milled-classic-outdoor5',costMillingOutdoorTypeKIn5);
+defaultCost('btn-milled-classic-outdoor6',costMillingOutdoorTypeKIn6);
+defaultCost('btn-milled-classic-outdoor7',costMillingOutdoorTypeKIn7);
+defaultCost('btn-milled-classic-outdoor8',costMillingOutdoorTypeKIn8);
+defaultCost('btn-milled-classic-outdoor9',costMillingOutdoorTypeKIn9);
+defaultCost('btn-milled-classic-outdoor10',costMillingOutdoorTypeKIn10);
+defaultCost('btn-milled-classic-outdoor11',costMillingOutdoorTypeKIn11);
+defaultCost('btn-milled-classic-outdoor12',costMillingOutdoorTypeKIn12);
+defaultCost('btn-milled-classic-outdoor13',costMillingOutdoorTypeKIn13);
+defaultCost('btn-milled-classic-outdoor14',costMillingOutdoorTypeKIn14);
+defaultCost('btn-milled-classic-outdoor15',costMillingOutdoorTypeKIn15);
+defaultCost('btn-milled-classic-outdoor16',costMillingOutdoorTypeKIn16);
+defaultCost('btn-milled-classic-outdoor17',costMillingOutdoorTypeKIn17);
+defaultCost('btn-milled-classic-outdoor18',costMillingOutdoorTypeKIn18);
+defaultCost('btn-milled-classic-outdoor19',costMillingOutdoorTypeKIn19);
+defaultCost('btn-milled-classic-outdoor20',costMillingOutdoorTypeKIn20);
+defaultCost('btn-milled-classic-outdoor21',costMillingOutdoorTypeKIn21);
+defaultCost('btn-milled-classic-outdoor22',costMillingOutdoorTypeKIn22);
+defaultCost('btn-milled-classic-outdoor23',costMillingOutdoorTypeKIn23);
+defaultCost('btn-milled-classic-outdoor24',costMillingOutdoorTypeKIn24);
+defaultCost('btn-milled-classic-outdoor25',costMillingOutdoorTypeKIn25);
+defaultCost('btn-milled-classic-outdoor26',costMillingOutdoorTypeKIn26);
+defaultCost('btn-milled-classic-outdoor27',costMillingOutdoorTypeKIn27);
+defaultCost('btn-milled-classic-outdoor28',costMillingOutdoorTypeKIn28);
+defaultCost('btn-milled-classic-outdoor29',costMillingOutdoorTypeKIn29);
+defaultCost('btn-milled-classic-outdoor30',costMillingOutdoorTypeKIn30);
+defaultCost('btn-milled-classic-outdoor31',costMillingOutdoorTypeKIn31);
+defaultCost('btn-milled-classic-outdoor32',costMillingOutdoorTypeKIn32);
+defaultCost('btn-milled-classic-outdoor33',costMillingOutdoorTypeKIn33);
+defaultCost('btn-milled-classic-outdoor34',costMillingOutdoorTypeKIn34);
+defaultCost('btn-milled-classic-outdoor35',costMillingOutdoorTypeKIn35);
+defaultCost('btn-milled-classic-outdoor36',costMillingOutdoorTypeKIn36);
+defaultCost('btn-milled-classic-outdoor37',costMillingOutdoorTypeKIn37);
+defaultCost('btn-milled-classic-outdoor38',costMillingOutdoorTypeKIn38);
+defaultCost('btn-milled-classic-outdoor39',costMillingOutdoorTypeKIn39);
+
+defaultCost('btn-milled-modern-outdoor1',costMillingOutdoorTypeSIn1);
+defaultCost('btn-milled-modern-outdoor2',costMillingOutdoorTypeSIn2);
+defaultCost('btn-milled-modern-outdoor3',costMillingOutdoorTypeSIn3);
+defaultCost('btn-milled-modern-outdoor4',costMillingOutdoorTypeSIn4);
+defaultCost('btn-milled-modern-outdoor5',costMillingOutdoorTypeSIn5);
+defaultCost('btn-milled-modern-outdoor6',costMillingOutdoorTypeSIn6);
+defaultCost('btn-milled-modern-outdoor7',costMillingOutdoorTypeSIn7);
+defaultCost('btn-milled-modern-outdoor8',costMillingOutdoorTypeSIn8);
+defaultCost('btn-milled-modern-outdoor9',costMillingOutdoorTypeSIn9);
+defaultCost('btn-milled-modern-outdoor10',costMillingOutdoorTypeSIn10);
+defaultCost('btn-milled-modern-outdoor11',costMillingOutdoorTypeSIn11);
+defaultCost('btn-milled-modern-outdoor12',costMillingOutdoorTypeSIn12);
+defaultCost('btn-milled-modern-outdoor13',costMillingOutdoorTypeSIn13);
+defaultCost('btn-milled-modern-outdoor14',costMillingOutdoorTypeSIn14);
+defaultCost('btn-milled-modern-outdoor15',costMillingOutdoorTypeSIn15);
+defaultCost('btn-milled-modern-outdoor16',costMillingOutdoorTypeSIn16);
+defaultCost('btn-milled-modern-outdoor17',costMillingOutdoorTypeSIn17);
+defaultCost('btn-milled-modern-outdoor18',costMillingOutdoorTypeSIn18);
+defaultCost('btn-milled-modern-outdoor19',costMillingOutdoorTypeSIn19);
+defaultCost('btn-milled-modern-outdoor20',costMillingOutdoorTypeSIn20);
+defaultCost('btn-milled-modern-outdoor21',costMillingOutdoorTypeSIn21);
+defaultCost('btn-milled-modern-outdoor22',costMillingOutdoorTypeSIn22);
+defaultCost('btn-milled-modern-outdoor23',costMillingOutdoorTypeSIn23);
+defaultCost('btn-milled-modern-outdoor24',costMillingOutdoorTypeSIn24);
+defaultCost('btn-milled-modern-outdoor25',costMillingOutdoorTypeSIn25);
+
+
 defaultCost('btn-mirrorin1',costMirrorTypeFIn1);
 defaultCost('btn-mirrorin2',costMirrorTypeFIn2);
 defaultCost('btn-mirrorin3',costMirrorTypeFIn3);
@@ -589,6 +759,17 @@ advancedCost('furn-item-7',costHandlerType7,'.furniture-item-title:last-child');
 advancedCost('furn-item-8',costHandlerType8,'.furniture-item-title:last-child');
 advancedCost('furn-item-9',costHandlerType9,'.furniture-item-title:last-child');
 advancedCost('furn-item-10',costHandlerType10,'.furniture-item-title:last-child');
+
+advancedCost('furn-item-1',costExtraHandlerType1,'.furniture-item-title:last-child');
+advancedCost('furn-item-2',costExtraHandlerType2,'.furniture-item-title:last-child');
+advancedCost('furn-item-3',costExtraHandlerType3,'.furniture-item-title:last-child');
+advancedCost('furn-item-4',costExtraHandlerType4,'.furniture-item-title:last-child');
+advancedCost('furn-item-5',costExtraHandlerType5,'.furniture-item-title:last-child');
+advancedCost('furn-item-6',costExtraHandlerType6,'.furniture-item-title:last-child');
+advancedCost('furn-item-7',costExtraHandlerType7,'.furniture-item-title:last-child');
+advancedCost('furn-item-8',costExtraHandlerType8,'.furniture-item-title:last-child');
+advancedCost('furn-item-9',costExtraHandlerType9,'.furniture-item-title:last-child');
+advancedCost('furn-item-10',costExtraHandlerType10,'.furniture-item-title:last-child');
 
 defaultCost('size-item1',costSize1);
 defaultCost('size-item2',costSize2);
