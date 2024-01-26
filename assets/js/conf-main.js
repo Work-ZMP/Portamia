@@ -2954,6 +2954,40 @@ function togglerCloserStep6() {
 
 }
 
+function togglerExtraHandlerStep5() {
+
+    let toggler = document.querySelector('#checkbox-5step-extrahandler-closer .checkbox-pseudo-input');
+    let block = document.getElementById('aria-step5-extrahandler-closer');
+    let line = document.getElementById('checkbox-5step-extrahandler-closer');
+    let cards = document.querySelectorAll('#aria-step5-extrahandler-closer .furniture-item');
+
+    if (toggler.classList.contains('checked')) {
+
+        $(block).slideUp('slow');
+
+        toggler.classList.remove('checked');
+        block.classList.add('closing');
+        line.classList.add('colored');
+        line.classList.remove('active');
+        cards.forEach(b => b.classList.remove('active'));
+    }
+    else {
+
+        $(block).slideDown('slow');
+
+        toggler.classList.add('checked');
+        block.classList.remove('closing');
+        line.classList.remove('colored');
+        line.classList.add('active');
+        cards[0].classList.add('active');
+    }
+
+    setConfig();
+
+    buildCheck();
+
+}
+
 function togglerGridStep6() {
 
     let toggler = document.querySelector('#checkbox-6step-ventil-grate .checkbox-pseudo-input');

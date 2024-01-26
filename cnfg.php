@@ -4642,7 +4642,7 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
-                        <div data-variable-name="furniture_closer_check" data-variable-value="1" data-furniture_closer_check="1" data-price="0" data-image="" data-order="1" class="checkbox-accordion accordion accordion--with-plus colored" id="checkbox-6step-closer">
+                        <div data-variable-name="furniture_closer_check" data-variable-value="1" data-furniture_closer_check="1" data-price="0" data-image="" data-order="1" class="checkbox-accordion accordion accordion--with-plus colored" id="checkbox-5step-extrahandler-closer">
                             <!---->
                             <div class="checkbox-accordion-header" onclick="togglerCloserStep6()">
                                 <div class="title">
@@ -4658,7 +4658,7 @@ if (isset($_GET['door_cfg'])) {
                                     </label>
                                 </div>
                             </div>
-                            <div id="aria-step4-closer" <?= (isset($_GET['furniture_closer_check'])) ? '' : 'style="display: none;"' ?> class="closing">
+                            <div id="aria-step5-extrahandler-closer" <?= (isset($_GET['furniture_closer_check'])) ? '' : 'style="display: none;"' ?> class="closing">
                                 <div class="accordion-body">
                                     <div class="accordion-content">
                                         <div class="furniture-group closer-items">
@@ -5212,7 +5212,7 @@ if (isset($_GET['door_cfg'])) {
                             </div>
                         </div>
                         <div data-variable-name="furniture_extrahandler_check" data-variable-value="1" data-furniture_extrahandler_check="1" data-price="0" data-image="" data-order="1" class="checkbox-accordion accordion accordion--with-plus accordion-closed colored" id="checkbox-5step-extrahandler">
-                            <div class="checkbox-accordion-header" id="close-button-5step-2" onclick=" 5()">
+                            <div class="checkbox-accordion-header" id="close-button-5step-2" onclick="togglerExtraHandlerStep5()">
                                 <div class="title">
                                     <span>Вторая ручка</span>
                                 </div>
@@ -5226,121 +5226,25 @@ if (isset($_GET['door_cfg'])) {
                                     </label>
                                 </div>
                             </div>
-                            <div id="aria-step4-handle-type">
+                            <div id="aria-step5-extrahandler" <?= (isset($_GET['furniture_extrahandler_check'])) ? '' : 'style="display: none;"' ?>>
                                 <div class="accordion-body">
                                     <div class="accordion-content">
-                                        <div class="tabs-group">
-                                            <div class="tabs-group-item tabs-2">
-                                                <div class="tab active tab-2" id="btn-handler-1" onclick="handlerType1()">Cтандартные ручки</div>
-                                                <div class=" tab tab-2" id="btn-handler-2" onclick="handlerType2()">Дизайнерские ручки</div>
-                                            </div>
-
-                                            <hr>
-
-                                            <div class="tabs-group-body">
-                                                <div>
-
-                                                    <div class="furniture-group handler-type-1 active">
-                                                        <div data-variable-name="furnituretype" data-variable-value="furn-item-1" data-furnituretype="furn-item-1" data-price="0" data-image="" data-order="3" class="furniture-item furniture-item--big<?= (isset($_GET['furnituretype']) and $_GET['furnituretype'] == 'furn-item-1') ? ' active' : '' ?>" id="furn-item-1" onclick="furnitureType('furn-item-1')">
-                                                            <div class="furniture-item-image-cover">
-                                                                <span class="furniture-item-image-country it"></span>
-                                                                <div class="furniture-item-image" id="furn-item-img-1" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-1/col-1.webp);">
-                                                                </div>
-                                                            </div>
-                                                            <div class="furniture-item-title">Arena</div>
-                                                            <div class="furniture-item-title">Базовое</div>
-                                                        </div>
-                                                        <div data-variable-name="furnituretype" data-variable-value="furn-item-2" data-furnituretype="furn-item-2" data-price="6900" data-image="" data-order="3" class="furniture-item furniture-item--big<?= (isset($_GET['furnituretype']) and $_GET['furnituretype'] == 'furn-item-2') ? ' active' : '' ?>" id="furn-item-2" onclick="furnitureType('furn-item-2')">
-                                                            <div class="furniture-item-image-cover">
-                                                                <span class="furniture-item-image-country it"></span>
-                                                                <div class="furniture-item-image" id="furn-item-img-2" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-2/col-1.webp);">
-                                                                </div>
-                                                            </div>
-                                                            <div class="furniture-item-title">Pyramide Sircle</div>
-                                                            <div class="furniture-item-title">6900 ₽</div>
-                                                        </div>
-                                                        <div data-variable-name="furnituretype" data-variable-value="furn-item-3" data-furnituretype="furn-item-3" data-price="10200" data-image="" data-order="3" class="furniture-item furniture-item--big<?= (isset($_GET['furnituretype']) and $_GET['furnituretype'] == 'furn-item-3') ? ' active' : '' ?>" id="furn-item-3" onclick="furnitureType('furn-item-3')">
-                                                            <div class="furniture-item-image-cover">
-                                                                <span class="furniture-item-image-country it"></span>
-                                                                <div class="furniture-item-image" id="furn-item-img-3" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-3/col-1.webp);">
-                                                                </div>
-                                                            </div>
-                                                            <div class="furniture-item-title">Pyramide Quadro</div>
-                                                            <div class="furniture-item-title">10 200 ₽</div>
-                                                        </div>
-                                                        <div data-variable-name="furnituretype" data-variable-value="furn-item-4" data-furnituretype="furn-item-4" data-price="10200" data-image="" data-order="3" class="furniture-item furniture-item--big<?= (isset($_GET['furnituretype']) and $_GET['furnituretype'] == 'furn-item-4') ? ' active' : '' ?>" id="furn-item-4" onclick="furnitureType('furn-item-4')">
-                                                            <div class="furniture-item-image-cover">
-                                                                <span class="furniture-item-image-country de"></span>
-                                                                <div class="furniture-item-image" id="furn-item-img-4" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-4/col-1.webp);">
-                                                                </div>
-                                                            </div>
-                                                            <div class="furniture-item-title">Vitoria</div>
-                                                            <div class="furniture-item-title">10 200 ₽</div>
-                                                        </div>
-                                                        <div data-variable-name="furnituretype" data-variable-value="furn-item-5" data-furnituretype="furn-item-5" data-price="10200" data-image="" data-order="3" class="furniture-item furniture-item--big<?= (isset($_GET['furnituretype']) and $_GET['furnituretype'] == 'furn-item-5') ? ' active' : '' ?>" id="furn-item-5" onclick="furnitureType('furn-item-5')">
-                                                            <div class="furniture-item-image-cover">
-                                                                <span class="furniture-item-image-country de"></span>
-                                                                <div class="furniture-item-image" id="furn-item-img-5" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-5/col-1.webp);">
-                                                                </div>
-                                                            </div>
-                                                            <div class="furniture-item-title">Dallas</div>
-                                                            <div class="furniture-item-title">10 200 ₽</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="furniture-group handler-type-2" style="display: none;">
-                                                        <div data-variable-name="furnituretype" data-variable-value="furn-item-6" data-furnituretype="furn-item-6" data-price="10000" data-image="" data-order="3" class="furniture-item furniture-item--big<?= (isset($_GET['furnituretype']) and $_GET['furnituretype'] == 'furn-item-6') ? ' active' : '' ?>" id="furn-item-6" onclick="furnitureType('furn-item-6')">
-                                                            <div class="furniture-item-image-cover">
-                                                                <span class="furniture-item-image-country it"></span>
-                                                                <div class="furniture-item-image" id="furn-item-img-6" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-6/col-1.webp);">
-                                                                </div>
-                                                            </div>
-                                                            <div class="furniture-item-title">Rania</div>
-                                                            <div class="furniture-item-title">10 000 ₽</div>
-                                                        </div>
-                                                        <div data-variable-name="furnituretype" data-variable-value="furn-item-7" data-furnituretype="furn-item-7" data-price="6900" data-image="" data-order="3" class="furniture-item furniture-item--big<?= (isset($_GET['furnituretype']) and $_GET['furnituretype'] == 'furn-item-7') ? ' active' : '' ?>" id="furn-item-7" onclick="furnitureType('furn-item-7')">
-                                                            <div class="furniture-item-image-cover">
-                                                                <span class="furniture-item-image-country it"></span>
-                                                                <div class="furniture-item-image" id="furn-item-img-7" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-7/col-1.webp);">
-                                                                </div>
-                                                            </div>
-                                                            <div class="furniture-item-title">SKS (100см)</div>
-                                                            <div class="furniture-item-title">6900 ₽</div>
-                                                        </div>
-                                                        <div data-variable-name="furnituretype" data-variable-value="furn-item-8" data-furnituretype="furn-item-8" data-price="6900" data-image="" data-order="3" class="furniture-item furniture-item--big<?= (isset($_GET['furnituretype']) and $_GET['furnituretype'] == 'furn-item-8') ? ' active' : '' ?>" id="furn-item-8" onclick="furnitureType('furn-item-8')">
-                                                            <div class="furniture-item-image-cover">
-                                                                <span class="furniture-item-image-country it"></span>
-                                                                <div class="furniture-item-image" id="furn-item-img-8" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-8/col-1.webp);">
-                                                                </div>
-                                                            </div>
-                                                            <div class="furniture-item-title">SKS (50см)</div>
-                                                            <div class="furniture-item-title">6900 ₽</div>
-                                                        </div>
-                                                        <div data-variable-name="furnituretype" data-variable-value="furn-item-9" data-furnituretype="furn-item-9" data-price="10200" data-image="" data-order="3" class="furniture-item furniture-item--big<?= (isset($_GET['furnituretype']) and $_GET['furnituretype'] == 'furn-item-9') ? ' active' : '' ?>" id="furn-item-9" onclick="furnitureType('furn-item-9')" style="display: none">
-                                                            <div class="furniture-item-image-cover">
-                                                                <span class="furniture-item-image-country it"></span>
-                                                                <div class="furniture-item-image" id="furn-item-img-9" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-9/col-1.webp);">
-                                                                </div>
-                                                            </div>
-                                                            <div class="furniture-item-title">SPS (100см)</div>
-                                                            <div class="furniture-item-title">10 200 ₽</div>
-                                                        </div>
-                                                        <div data-variable-name="furnituretype" data-variable-value="furn-item-10" data-furnituretype="furn-item-10" data-price="10200" data-image="" data-order="3" class="furniture-item furniture-item--big<?= (isset($_GET['furnituretype']) and $_GET['furnituretype'] == 'furn-item-10') ? ' active' : '' ?>" id="furn-item-10" onclick="furnitureType('furn-item-10')" style="display: none">
-                                                            <div class="furniture-item-image-cover">
-                                                                <span class="furniture-item-image-country it"></span>
-                                                                <div class="furniture-item-image" id="furn-item-img-10" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-10/col-1.webp);">
-                                                                </div>
-                                                            </div>
-                                                            <div class="furniture-item-title">SPS (50см)</div>
-                                                            <div class="furniture-item-title">10 200 ₽</div>
-                                                        </div>
+                                        <div class="furniture-group extrahandler-type">
+                                            <div data-variable-name="extrahandlertype" data-variable-value="furn-extra-item-1" data-extrahandlertype="furn-extra-item-1" data-price="0" data-image="" data-order="3" class="furniture-item furniture-item--big<?= (isset($_GET['extrahandlertype']) and $_GET['extrahandlertype'] == 'furn-extra-item-1') ? ' active' : '' ?>" id="furn-extra-item-1" onclick="furnitureTypeExtra('furn-extra-item-1')">
+                                                <div class="furniture-item-image-cover">
+                                                    <span class="furniture-item-image-country it"></span>
+                                                    <div class="furniture-item-image" id="furn-extra-item-img-1" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-1/col-1.webp);">
                                                     </div>
                                                 </div>
-
+                                                <div class="furniture-item-title">Дополнительная ручка</div>
+                                                <div class="furniture-item-title">Базовое</div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
 
                     </div>
