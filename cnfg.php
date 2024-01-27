@@ -5236,7 +5236,7 @@ if (isset($_GET['door_cfg'])) {
                                                     <div class="furniture-item-image" id="furn-extra-item-img-1" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/extrahandler.svg);">
                                                     </div>
                                                 </div>
-                                                <div class="furniture-item-title">Дополнительная ручка</div>
+                                                <div class="furniture-item-title">Вторая ручка</div>
                                                 <div class="furniture-item-title">Базовое</div>
                                             </div>
 
