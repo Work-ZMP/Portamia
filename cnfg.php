@@ -5232,7 +5232,7 @@ if (isset($_GET['door_cfg'])) {
                                         <div class="furniture-group extrahandler-type">
                                             <div data-variable-name="extrahandlertype" data-variable-value="furn-extra-item-1" data-extrahandlertype="furn-extra-item-1" data-price="0" data-image="" data-order="3" class="furniture-item furniture-item--big<?= (isset($_GET['extrahandlertype']) and $_GET['extrahandlertype'] == 'furn-extra-item-1') ? ' active' : '' ?>" id="furn-extra-item-1" onclick="furnitureTypeExtra('furn-extra-item-1')">
                                                 <div class="furniture-item-image-cover">
-                                                    <span class="furniture-item-image-country it"></span>
+                                                    <span class="furniture-item-image-country"></span>
                                                     <div class="furniture-item-image" id="furn-extra-item-img-1" style="background-image: url(https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/extrahandler.svg);">
                                                     </div>
                                                 </div>
