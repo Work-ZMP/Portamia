@@ -563,8 +563,7 @@ function leafdooritems(button) {
 
 
         if (button === 'dlditem1' || button === 'dlditem2' || button === 'dlditem3') {
-                document.querySelector('#checkbox-5step-extrahandler').style.display = '';
-            
+            document.querySelector('#checkbox-5step-extrahandler').style.display = '';
         }
         else {
             if (document.querySelector('#checkbox-5step-extrahandler').classList.contains('active')) {

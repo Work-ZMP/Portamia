@@ -816,6 +816,48 @@
                     'side-item2-step_6'
                 ),  
             ),
+            'extrahandler' => array(
+                '0' => array(
+                    'furn-extra-item-1'
+                ),
+                '1' => array(
+                    'slditem1',
+                    'slditem2',
+                    'slditem3',
+                    'slditem4',
+                    'slditem5',
+                    'slditem6',
+                    'slditem7',
+                    'slditem8',
+                    'slditem9',
+                    'dlditem1',
+                    'dlditem2',
+                    'dlditem3'
+                ),
+                '2' => array(
+                    'furn-col-1',
+                    'furn-col-2',
+                    'furn-col-3',
+                    'furn-col-4',
+                    'furn-col-5'
+                ),
+                '3' => array(
+                    'furn-item-1',
+                    'furn-item-2',
+                    'furn-item-3',
+                    'furn-item-4',
+                    'furn-item-5',
+                    'furn-item-6',
+                    'furn-item-7',
+                    'furn-item-8',
+                    'furn-item-9',
+                    'furn-item-10'
+                ),
+                '4' => array(
+                    'side-item1-step_6',
+                    'side-item2-step_6'
+                ),  
+            ),
         );
 
         unset($door_cfg['model']);
