@@ -5211,7 +5211,7 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
-                        <div data-variable-name="furniture_extrahandler_check" data-variable-value="1" data-furniture_extrahandler_check="1" data-price="0" data-image="" data-order="1" class="checkbox-accordion accordion accordion--with-plus accordion-closed colored" id="checkbox-5step-extrahandler">
+                        <div data-variable-name="furniture_extrahandler_check" data-variable-value="1" data-furniture_extrahandler_check="1" data-price="0" data-image="" data-order="1" class="checkbox-accordion accordion accordion--with-plus accordion-closed colored" id="checkbox-5step-extrahandler" style="display: none;">
                             <div class="checkbox-accordion-header" id="close-button-5step-2" onclick="togglerExtraHandlerStep5()">
                                 <div class="title">
                                     <span>Вторая ручка</span>
@@ -5226,7 +5226,7 @@ if (isset($_GET['door_cfg'])) {
                                     </label>
                                 </div>
                             </div>
-                            <div id="aria-step5-extrahandler" style="display: none;">
+                            <div id="aria-step5-extrahandler"  <?= (isset($_GET['furniture_extrahandler_check'])) ? '' : 'style="display: none;"' ?>>
                                 <div class="accordion-body">
                                     <div class="accordion-content">
                                         <div class="furniture-group extrahandler-type">
