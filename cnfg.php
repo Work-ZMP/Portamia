@@ -5226,7 +5226,7 @@ if (isset($_GET['door_cfg'])) {
                                     </label>
                                 </div>
                             </div>
-                            <div id="aria-step5-extrahandler" style="display: none;" <?= (isset($_GET['furniture_extrahandler_check'])) ? '' : 'style="display: none;"' ?>>
+                            <div id="aria-step5-extrahandler" style="display: none;">
                                 <div class="accordion-body">
                                     <div class="accordion-content">
                                         <div class="furniture-group extrahandler-type">
