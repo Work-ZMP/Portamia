@@ -4658,7 +4658,7 @@ if (isset($_GET['door_cfg'])) {
                                     </label>
                                 </div>
                             </div>
-                            <div id="aria-step5-extrahandler-closer" <?= (isset($_GET['furniture_closer_check'])) ? '' : 'style="display: none;"' ?> class="closing">
+                            <div id="aria-step4-closer" <?= (isset($_GET['furniture_closer_check'])) ? '' : 'style="display: none;"' ?> class="closing">
                                 <div class="accordion-body">
                                     <div class="accordion-content">
                                         <div class="furniture-group closer-items">
