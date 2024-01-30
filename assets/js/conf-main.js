@@ -650,7 +650,7 @@ function outdoorStylesClassic() {
         milledoutcards.forEach(b => b.classList.remove('active'));
         glasspancards.forEach(b => b.classList.remove('active'));
 
-        blockmilled.style.display = 'none';
+        blockmilled.style.display = '';
         blockmetcol.style.display = '';
         blockglazedstyle.style.display = 'none';
         blockstyle1.style.display = '';
@@ -736,7 +736,7 @@ function outdoorStylesBaguette() {
         blockmilledout.style.display = 'none';
         blockglasspan.style.display = 'none';
 
-        blockmilled.style.display = 'none';
+        blockmilled.style.display = '';
         blockmetcol.style.display = '';
         blockglazedstyle.style.display = 'none';
         blockstyle1.style.display = '';
