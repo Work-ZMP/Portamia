@@ -4642,7 +4642,7 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
-                        <div data-variable-name="furniture_closer_check" data-variable-value="1" data-furniture_closer_check="1" data-price="0" data-image="" data-order="1" class="checkbox-accordion accordion accordion--with-plus colored" id="checkbox-5step-extrahandler-closer">
+                        <div data-variable-name="furniture_closer_check" data-variable-value="1" data-furniture_closer_check="1" data-price="0" data-image="" data-order="1" class="checkbox-accordion accordion accordion--with-plus colored" id="checkbox-6step-closer">
                             <!---->
                             <div class="checkbox-accordion-header" onclick="togglerCloserStep6()">
                                 <div class="title">
