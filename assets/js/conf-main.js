@@ -2150,7 +2150,7 @@ function furnitureCol(butid) {
             img1.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-1/col-5.webp");');
             img2.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-2/col-5.webp");');
             img3block.style.display = '';
-            img3.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-2/col-5.webp");');
+            img3.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-3/col-5.webp");');
             img4.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-4/col-5.webp");');
             img5.setAttribute('style', 'background-image: url("https://portamia.ru/wp-content/themes/mercato/assets/img/cnfg/handler/type-5/col-5.webp");');
             img6block.style.display = "none";

@@ -1074,16 +1074,6 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
     //print '<pre>';
     //print_r($paths);
     //print '</pre>';
-    function merge_images_with_delay($paths, $proportions)
-    {
-        // Установка задержки в 0.5 секунды (500 миллисекунд)
-        usleep(700000);
 
-        merge_images($paths, $proportions);
-    }
-
-    // ... (ваш остальной код)
-
-    // Вызов функции с установленной задержкой
-    merge_images_with_delay($paths, $proportions);
+    merge_images($paths, $proportions);
 }
