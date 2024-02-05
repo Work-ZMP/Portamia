@@ -1,51 +1,48 @@
 <?php
 
-    function merge_images($images, $proportions) {
+function merge_images($images, $proportions)
+{
 
-        if (!empty($proportions)) {
+    if (!empty($proportions)) {
 
-            $proportions = explode('x', $proportions);
+        $proportions = explode('x', $proportions);
+    } else {
 
-        }
-        else {
+        $proportions[0] = '203';
+        $proportions[1] = '410';
+    }
 
-            $proportions[0] = '203';
-            $proportions[1] = '410';
+    $x = $proportions[0];
+    $y = $proportions[1];
 
-        }
+    $final_img = imagecreatetruecolor($x, $y);
 
-        $x = $proportions[0];
-        $y = $proportions[1];
+    foreach ($images as $key => $image) {
 
-        $final_img = imagecreatetruecolor($x, $y);
+        $new_image[$key] = imagecreatefrompng($image);
 
-        foreach ($images as $key => $image) {
-            
-            $new_image[$key] = imagecreatefrompng($image);
+        imagealphablending($final_img, true);
 
-            imagealphablending($final_img, true);
-            
-            imagesavealpha($final_img, true);
+        imagesavealpha($final_img, true);
 
-            imagecopy($final_img, $new_image[$key], 0, 0, 0, 0, $x, $y);
+        imagecopy($final_img, $new_image[$key], 0, 0, 0, 0, $x, $y);
+    }
 
-        }
+    ob_start();
 
-        ob_start();
-        
-        imagepng($final_img);
-        
-        $watermarkedImg = ob_get_contents(); // Capture the output
-       
-        ob_end_clean(); // Clear the output buffer
+    imagepng($final_img);
 
-        //header('Content-Type: image/png');
-        
-        //print $watermarkedImg;
+    $watermarkedImg = ob_get_contents(); // Capture the output
 
-        insert_base64_encoded_image($watermarkedImg, true);
+    ob_end_clean(); // Clear the output buffer
 
-        /* // dimensions of the final image
+    //header('Content-Type: image/png');
+
+    //print $watermarkedImg;
+
+    insert_base64_encoded_image($watermarkedImg, true);
+
+    /* // dimensions of the final image
         $final_img = imagecreatetruecolor($x, $y);
 
         // Create our image resources from the files
@@ -69,363 +66,347 @@
 
         header('Content-Type: image/png');
         echo $watermarkedImg; */
+}
 
+function insert_base64_encoded_image($img, $print = false)
+{
+
+    $imageData = base64_encode($img);
+    //$imageHTML = "<img src='data:;base64,{$imageData}' />";
+    $imageHTML = "data:;base64,{$imageData}";
+
+    if ($print == true) {
+
+        print $imageHTML;
+    } else {
+
+        return $imageHTML;
+    }
+}
+
+if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
+
+    $fullpath = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts/';
+
+    $base_path = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts/';
+
+    if (!isset($_GET['proportions']) or empty($_GET['proportions'])) {
+
+        $proportions = '203x410';
+    } else {
+
+        $proportions = $_GET['proportions'];
     }
 
-    function insert_base64_encoded_image($img, $print = false) {
-        
-        $imageData = base64_encode($img);
-        //$imageHTML = "<img src='data:;base64,{$imageData}' />";
-        $imageHTML = "data:;base64,{$imageData}";
-    
-        if ($print == true) {
-            
-            print $imageHTML;
+    if (isset($_GET)) {
 
-        }
-        else {
-            
-            return $imageHTML;
+        $door_cfg = json_decode($_GET['door_cfg'], true);
+    } else {
 
-        }
-
+        $door_cfg = array(
+            'model' => array(
+                'value' => '1',
+                'order' => 0
+            ),
+            'leaf' => array(
+                'value' => 'single',
+                'order' => 1
+            ),
+            'leafdooritems_single' => array(
+                'value' => 'slditem1',
+                'order' => 1
+            ),
+            'outdoorstyles' => array(
+                'value' => 'classic',
+                'order' => 1
+            ),
+            'metalcolin' => array(
+                'value' => 'btncol1',
+                'order' => 0
+            ),
+            'metalcolout' => array(
+                'value' => 'btncolout1',
+                'order' => 1
+            ),
+            'locknumber' => array(
+                'value' => 'lockbtn1',
+                'order' => 1
+            ),
+            'lockitems' => array(
+                'value' => 'cfg-lock-item1',
+                'order' => 1
+            ),
+            'furniturecol' => array(
+                'value' => 'furn-col-1',
+                'order' => 1
+            ),
+            'furnituretype' => array(
+                'value' => 'furn-item-1',
+                'order' => 1
+            ),
+            'hinges' => array(
+                'value' => 'furn-hinges-item1',
+                'order' => 1
+            ),
+            'doorcolout' => array(
+                'value' => 'btndoorcolout1',
+                'order' => 1
+            ),
+            'furnituredoorsteptype' => array(
+                'value' => 'doorstep-item1',
+                'order' => 1
+            ),
+            'furnitem_size' => array(
+                'value' => 'size-item3-step_6',
+                'order' => 1
+            ),
+            'furnitem_side' => array(
+                'value' => 'side-item1-step_6',
+                'order' => 1
+            ),
+            'furnitem_met' => array(
+                'value' => 'met-item1-step_6',
+                'order' => 1
+            )
+        );
     }
 
-    if (isset($_GET['door_cfg']) AND !empty($_GET['door_cfg'])) {
+    $dependencies = array(
+        '0' => 'base',
+        '1' => 'handler',
+        '2' => 'lock',
+        '3' => 'onlay',
+        '4' => 'doorstep',
+        '5' => 'ventilation',
+        '6' => 'glass_1_1',
+        '7' => 'glass_2_1',
+        '8' => 'grid_1_2',
+        '9' => 'grid_2_2',
+        '10' => 'outerdoor_lining'
+    );
 
-        $fullpath = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts/';
+    $lines = array(
+        'base' => array(
+            '0' => array(
+                'slditem1',
+                'slditem2'
+            ),
+            '1' => array(
+                'btncol1'
+            ),
+            '2' => array(
+                'furn-hinges-item1',
+                'furn-hinges-item2'
+            ),
+        ),
+        'handler' => array(
+            '0' => array(
+                'slditem1',
+                'slditem2'
+            ),
+            '1' => array(
+                'furn-col-1',
+                'furn-col-2',
+                'furn-col-3',
+                'furn-col-4',
+                'furn-col-5'
+            ),
+            '2' => array(
+                'furn-item-1',
+                'furn-item-2',
+                'furn-item-3'
+            ),
+            '3' => array(
+                'side-item1-step_6'
+            ),
+        ),
+        'lock' => array(
+            '0' => array(
+                'slditem1',
+                'slditem2'
+            ),
+            '1' => array(
+                'cfg-lock-item1',
+                'cfg-lock-item2',
+                'cfg-lock-item3',
+                'cfg-lock-item4',
+                'cfg-lock-item5',
+                'cfg-lock-item6'
+            ),
+            '2' => array(
+                'furn-col-1',
+                'furn-col-2',
+                'furn-col-3',
+                'furn-col-4',
+                'furn-col-5'
+            ),
+            '3' => array(
+                'side-item1-step_6'
+            ),
+        ),
+        'onlay' => array(
+            '0' => array(
+                'slditem1',
+                'slditem2',
+            ),
+            '1' => array(
+                'furn-list-item-1',
+                'furn-list-item-2',
+                'furn-list-item-3',
+                'furn-list-item-4'
+            )
+        ),
+        'doorstep' => array(
+            '0' => array(
+                'slditem2'
+            ),
+            '1' => array(
+                'doorstep-item1',
+                'doorstep-item2',
+                'doorstep-item3',
+                'doorstep-item4'
+            )
+        ),
+        'ventilation' => array(
+            '0' => array(
+                'slditem1',
+                'slditem2'
+            ),
+            '1' => array(
+                'btncol1'
+            ),
+            '2' => array(
+                'vent-item1-step_7'
+            )
+        ),
+        'glass_1_1' => array(
+            '0' => array(
+                'slditem2'
+            ),
+            '1' => array(
+                'glass-frame-col-item1',
+                'glass-frame-col-item2',
+                'glass-frame-col-item3',
+                'glass-frame-col-item4'
+            )
+        ),
+        'glass_2_1' => array(
+            '0' => array(
+                'slditem2'
+            ),
+            '1' => array(
+                'glass-type-item1-step__2'
+            ),
+            '2' => array(
+                'glass-col-item1',
+                'glass-col-item2',
+                'glass-col-item3',
+                'glass-col-item4'
+            )
+        ),
+        'grid_1_2' => array(
+            '0' => array(
+                'slditem2'
+            ),
+            '1' => array(
+                'extra-grid-step1-item1-step__1',
+                'extra-grid-step1-item2-step__1'
+            ),
+            '2' => array(
+                'btncol1'
+            )
+        ),
+        'grid_2_2' => array(
+            '0' => array(
+                'slditem2'
+            ),
+            '1' => array(
+                'extra-grid-step1-item1-step__1',
+                'extra-grid-step1-item2-step__1'
+            ),
+            '2' => array(
+                'btncol1'
+            )
+        ),
+        'outerdoor_lining' => array(
+            '0' => array(
+                'baguette',
+                'glazed',
+                'classic'
+            ),
+            '1' => array(
+                'slditem1',
+                'slditem2'
+            ),
+            '2' => array(
+                'baguette-item1-step__2',
+                'glass-type-item1-step__2'
+            ),
+            '3' => array(
+                'btncol1'
+            ),
+        ),
+    );
 
-        $base_path = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts/';
+    unset($door_cfg['model']);
 
-        if (!isset($_GET['proportions']) OR empty($_GET['proportions'])) {
+    usort($door_cfg, function ($a, $b) {
 
-            $proportions = '203x410';
+        return ($a['order'] - $b['order']);
+    });
 
+    //print '<pre>';
+    //print_r($door_cfg);
+    //print '</pre>';
+
+    //die();
+
+    $path = __DIR__ . '/doors_parts/';
+    $directory = new \RecursiveDirectoryIterator($path);
+    $iterator = new \RecursiveIteratorIterator($directory);
+    $files = array();
+    $bad = 0;
+    $ok = 0;
+
+    $paths = array();
+    $paths_with_dependencies = array();
+    $i = 0;
+
+    foreach ($iterator as $info) {
+
+        //if (strripos($info->getPathname(), 'door'))
+
+        //print $info->getPathname()."<br><br>";
+
+        if (strripos($info->getPathname(), 'door.png')) {
+
+            //$paths[$i]['path'] = str_replace('/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts', '', $info->getPathname());
+            $paths[$i]['path'] = $info->getPathname();
+
+            $i++;
         }
-        else {
+    }
 
-            $proportions = $_GET['proportions'];
+    foreach ($dependencies as $dependency_key => $dependency) {
 
-        }
+        foreach ($paths as $path) {
 
-        if (isset($_GET)) {
+            if (strripos($path['path'], '/' . $dependency . '/')) {
 
-            $door_cfg = json_decode($_GET['door_cfg'], true);
-
-        }
-        else {
-
-            $door_cfg = array(
-                'model' => array(
-                    'value' => '1',
-                    'order' => 0
-                ),
-                'leaf' => array(
-                    'value' => 'single',
-                    'order' => 1
-                ),
-                'leafdooritems_single' => array(
-                    'value' => 'slditem1',
-                    'order' => 1
-                ),
-                'outdoorstyles' => array(
-                    'value' => 'classic',
-                    'order' => 1
-                ),
-                'metalcolin' => array(
-                    'value' => 'btncol1',
-                    'order' => 0
-                ),
-                'metalcolout' => array(
-                    'value' => 'btncolout1',
-                    'order' => 1
-                ),
-                'locknumber' => array(
-                    'value' => 'lockbtn1',
-                    'order' => 1
-                ),
-                'lockitems' => array(
-                    'value' => 'cfg-lock-item1',
-                    'order' => 1
-                ),
-                'furniturecol' => array(
-                    'value' => 'furn-col-1',
-                    'order' => 1
-                ),
-                'furnituretype' => array(
-                    'value' => 'furn-item-1',
-                    'order' => 1
-                ),
-                'hinges' => array(
-                    'value' => 'furn-hinges-item1',
-                    'order' => 1
-                ),
-                'doorcolout' => array(
-                    'value' => 'btndoorcolout1',
-                    'order' => 1
-                ),
-                'furnituredoorsteptype' => array(
-                    'value' => 'doorstep-item1',
-                    'order' => 1
-                ),
-                'furnitem_size' => array(
-                    'value' => 'size-item3-step_6',
-                    'order' => 1
-                ),
-                'furnitem_side' => array(
-                    'value' => 'side-item1-step_6',
-                    'order' => 1
-                ),
-                'furnitem_met' => array(
-                    'value' => 'met-item1-step_6',
-                    'order' => 1
-                )
-            );
-
-        }
-
-        $dependencies = array(
-            '0' => 'base',
-            '1' => 'handler',
-            '2' => 'lock',
-            '3' => 'onlay',
-            '4' => 'doorstep',
-            '5' => 'ventilation',
-            '6' => 'glass_1_1',
-            '7' => 'glass_2_1',
-            '8' => 'grid_1_2',
-            '9' => 'grid_2_2',
-            '10' => 'outerdoor_lining'
-        );
-
-        $lines = array(
-            'base' => array(
-                '0' => array(
-                    'slditem1',
-                    'slditem2'
-                ),
-                '1' => array(
-                    'btncol1'
-                ),
-                '2' => array(
-                    'furn-hinges-item1',
-                    'furn-hinges-item2'
-                ),
-            ),
-            'handler' => array(
-                '0' => array(
-                    'slditem1',
-                    'slditem2'
-                ),
-                '1' => array(
-                    'furn-col-1',
-                    'furn-col-2',
-                    'furn-col-3',
-                    'furn-col-4',
-                    'furn-col-5'
-                ),
-                '2' => array(
-                    'furn-item-1',
-                    'furn-item-2',
-                    'furn-item-3'
-                ),
-                '3' => array(
-                    'side-item1-step_6'
-                ),  
-            ),
-            'lock' => array(
-                '0' => array(
-                    'slditem1',
-                    'slditem2'
-                ),
-                '1' => array(
-                    'cfg-lock-item1',
-                    'cfg-lock-item2',
-                    'cfg-lock-item3',
-                    'cfg-lock-item4',
-                    'cfg-lock-item5',
-                    'cfg-lock-item6'
-                ),
-                '2' => array(
-                    'furn-col-1',
-                    'furn-col-2',
-                    'furn-col-3',
-                    'furn-col-4',
-                    'furn-col-5'
-                ),
-                '3' => array(
-                    'side-item1-step_6'
-                ),
-            ),
-            'onlay' => array(
-                '0' => array(
-                    'slditem1',
-                    'slditem2',
-                ),
-                '1' => array(
-                    'furn-list-item-1',
-                    'furn-list-item-2',
-                    'furn-list-item-3',
-                    'furn-list-item-4'
-                )
-            ),
-            'doorstep' => array(
-                '0' => array(
-                    'slditem2'
-                ),
-                '1' => array(
-                    'doorstep-item1',
-                    'doorstep-item2',
-                    'doorstep-item3',
-                    'doorstep-item4'
-                )
-            ),
-            'ventilation' => array(
-                '0' => array(
-                    'slditem1',
-                    'slditem2'
-                ),
-                '1' => array(
-                    'btncol1'
-                ),
-                '2' => array(
-                    'vent-item1-step_7'
-                )
-            ),
-            'glass_1_1' => array(
-                '0' => array(
-                    'slditem2'
-                ),
-                '1' => array(
-                    'glass-frame-col-item1',
-                    'glass-frame-col-item2',
-                    'glass-frame-col-item3',
-                    'glass-frame-col-item4'
-                )
-            ),
-            'glass_2_1' => array(
-                '0' => array(
-                    'slditem2'
-                ),
-                '1' => array(
-                    'glass-type-item1-step__2'
-                ),
-                '2' => array(
-                    'glass-col-item1',
-                    'glass-col-item2',
-                    'glass-col-item3',
-                    'glass-col-item4'
-                )
-            ),
-            'grid_1_2' => array(
-                '0' => array(
-                    'slditem2'
-                ),
-                '1' => array(
-                    'extra-grid-step1-item1-step__1',
-                    'extra-grid-step1-item2-step__1'
-                ),
-                '2' => array(
-                    'btncol1'
-                )
-            ),
-            'grid_2_2' => array(
-                '0' => array(
-                    'slditem2'
-                ),
-                '1' => array(
-                    'extra-grid-step1-item1-step__1',
-                    'extra-grid-step1-item2-step__1'
-                ),
-                '2' => array(
-                    'btncol1'
-                )
-            ),
-            'outerdoor_lining' => array(
-                '0' => array(
-                    'baguette',
-                    'glazed',
-                    'classic'
-                ),
-                '1' => array(
-                    'slditem1',
-                    'slditem2'
-                ),
-                '2' => array(
-                    'baguette-item1-step__2',
-                    'glass-type-item1-step__2'
-                ),
-                '3' => array(
-                    'btncol1'
-                ),                
-            ),
-        );
-
-        unset($door_cfg['model']);
-
-        usort($door_cfg, function($a, $b){
-            
-            return ($a['order'] - $b['order']);
-            
-        });
-
-        //print '<pre>';
-        //print_r($door_cfg);
-        //print '</pre>';
-
-        //die();
-
-        $path = __DIR__ . '/doors_parts/';
-        $directory = new \RecursiveDirectoryIterator($path);
-        $iterator = new \RecursiveIteratorIterator($directory);
-        $files = array();
-        $bad = 0;
-        $ok = 0;
-
-        $paths = array();
-        $paths_with_dependencies = array();
-        $i = 0;
-        
-        foreach ($iterator as $info) {
-
-            //if (strripos($info->getPathname(), 'door'))
-
-            //print $info->getPathname()."<br><br>";
-
-            if (strripos($info->getPathname(), 'door.png')) {
-
-                //$paths[$i]['path'] = str_replace('/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts', '', $info->getPathname());
-                $paths[$i]['path'] = $info->getPathname();
-
-                $i++;
-
+                $paths_with_dependencies[$dependency][] = $path;
             }
-
         }
+    }
 
-        foreach ($dependencies as $dependency_key => $dependency) {
+    //print '<pre>';
+    //print_r($paths_with_dependencies);
+    //print '</pre>';
 
-            foreach ($paths as $path) {
-            
-                if (strripos($path['path'], '/'.$dependency.'/')) {
+    //die();
 
-                    $paths_with_dependencies[$dependency][] = $path;
+    $new_paths = array();
 
-                }
-
-            }
-
-        }
-
-        //print '<pre>';
-        //print_r($paths_with_dependencies);
-        //print '</pre>';
-
-        //die();
-
-        $new_paths = array();
-
-        /* foreach ($paths_with_dependencies as $key_path_with_dependency => $path_with_dependency) {
+    /* foreach ($paths_with_dependencies as $key_path_with_dependency => $path_with_dependency) {
 
             foreach ($path_with_dependency as $key_path_with_dependency_value => $path_with_dependency_value) {
                 
@@ -456,7 +437,7 @@
 
         } */
 
-        /* foreach ($lines as $key_line => $line) {
+    /* foreach ($lines as $key_line => $line) {
 
             foreach ($door_cfg as $key_cfg => $cfg) {
 
@@ -489,66 +470,67 @@
             
         } */
 
-        $path_parts = array();
-            
-        foreach ($lines as $key_dependency => $dependency) {
+    $path_parts = array();
 
-            foreach ($dependency as $values) {
+    foreach ($lines as $key_dependency => $dependency) {
 
-                foreach ($values as $key_value => $value) {
+        foreach ($dependency as $values) {
 
-                    foreach ($door_cfg as $key_cfg => $cfg) {
+            foreach ($values as $key_value => $value) {
 
-                        if ($cfg['value'] == $value) {
+                foreach ($door_cfg as $key_cfg => $cfg) {
 
-                            //print $cfg['value'] . '=' . $value . ' / ';                            
+                    if ($cfg['value'] == $value) {
 
-                            $path_parts[$key_dependency][] = $cfg['value'];
+                        //print $cfg['value'] . '=' . $value . ' / ';                            
 
-                        }
-
+                        $path_parts[$key_dependency][] = $cfg['value'];
                     }
-
                 }
-
             }
-
         }
+    }
 
-        //print '<pre>';
-        //print_r($path_parts);
-        //print '</pre>';
+    //print '<pre>';
+    //print_r($path_parts);
+    //print '</pre>';
 
-        //die();
+    //die();
 
-        if (in_array('slditem1', $path_parts['base'])) {
+    if (in_array('slditem1', $path_parts['base'])) {
 
-            $proportions = '203x410';
+        $proportions = '203x410';
+    }
 
+    if (in_array('slditem2', $path_parts['base'])) {
+
+        $proportions = '160x405';
+    }
+
+    $paths = array();
+
+    foreach ($path_parts as $key => $path) {
+
+        if (file_exists($base_path . $key . '/' . implode('/', $path) . '/door.png')) {
+
+            $paths[$key] = $base_path . $key . '/' . implode('/', $path) . '/door.png';
         }
+    }
 
-        if (in_array('slditem2', $path_parts['base'])) {
+    //print '<pre>';
+    //print_r($paths);
+    //print '</pre>';
 
-            $proportions = '160x405';
-
-        }
-
-        $paths = array();
-
-        foreach ($path_parts as $key => $path) {
-
-            if (file_exists($base_path . $key . '/' . implode('/', $path) . '/door.png')) {
-
-                $paths[$key] = $base_path . $key . '/' . implode('/', $path) . '/door.png';                
-
-            }
-
-        }
-
-        //print '<pre>';
-        //print_r($paths);
-        //print '</pre>';
+    function merge_images_with_delay($paths, $proportions)
+    {
+        // Установка задержки в 0.5 секунды (500 миллисекунд)
+        usleep(500000);
 
         merge_images($paths, $proportions);
-
     }
+
+    // ... (ваш остальной код)
+
+    // Вызов функции с установленной задержкой
+    merge_images_with_delay($paths, $proportions);
+}
