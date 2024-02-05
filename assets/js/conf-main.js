@@ -572,6 +572,11 @@ function leafdooritems(button) {
             document.querySelector('#checkbox-5step-extrahandler').style.display = 'none';
         }
 
+        if (button === 'slditem9') {
+            document.querySelector('.container-door-preview-placeholder').classList.add('type-8');
+        } else {
+            document.querySelector('.container-door-preview-placeholder').classList.remove('type-8');
+        }
     }
 
     setConfig();
@@ -3090,3 +3095,6 @@ $(document).ready(function () {
     buildCheck();
 
 });
+
+
+

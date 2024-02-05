@@ -2525,10 +2525,12 @@ html,
     align-items: flex-end;
     padding: 0 15px;
     display: grid;
-    grid-template-columns: 1.05fr 1fr;
+    grid-template-columns: 1.09fr 1fr !important;
     gap: clamp(2.188rem, 2.054rem + 0.67vw, 3.125rem);
 }
-
+.container-door-preview-placeholder.type-8 {
+    grid-template-columns: 1.05fr 1fr !important;
+}
 .door-preview-indoor {
     max-height: 370px !important;
     margin-left: 0 !important;
