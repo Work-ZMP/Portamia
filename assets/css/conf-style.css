@@ -2625,7 +2625,7 @@ html,
     flex-direction: row;
     gap: 10px;
     justify-content: flex-end;
-    margin-right: 10px;
+    width: 100%;
 }
 .cfg-price-general-module .button-manufacture {
     width: 100%;
@@ -4227,7 +4227,11 @@ align-items: center;
     .checkbox-accordion-header {
         padding: 13px 25px;
     }
-
+#door-cfg-manufacture {
+    width: 100% !important;
+    height: 35px !important;
+    max-width: 500px;
+}
     .furniture-group .furniture-item-title {
         text-align: left;
         font-size: 12px;
