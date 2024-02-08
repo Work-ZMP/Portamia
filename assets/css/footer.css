@@ -676,10 +676,20 @@ align-items: center;
     margin-top: 35px;
 }
 
+
+
+.wpcf7 form.cf7sr-g-recaptcha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .popup__call-form-submit {
     border: 2px solid transparent;
     width: 180px;
     height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -700,6 +710,11 @@ align-items: center;
 .popup__call-form-submit[disabled] {
     background: var(--color-font-dark-tr);
     opacity: 1;
+}
+
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output {
+    color: #FFF !important;
 }
 
 
