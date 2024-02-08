@@ -678,7 +678,7 @@ align-items: center;
 
 
 
-.wpcf7 form.cf7sr-g-recaptcha {
+.wpcf7 form .cf7sr-g-recaptcha {
     display: flex;
     justify-content: center;
     align-items: center;
