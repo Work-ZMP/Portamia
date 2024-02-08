@@ -2462,10 +2462,6 @@ html,
     margin-top: -15px;
 }
 
-.cfg-door .swiper-slide{
-    height: auto !important;
-    padding-bottom: 15px;
-}
 .cfg-preview-content {
     overflow: hidden;
 }
@@ -2501,7 +2497,7 @@ html,
 
 .cfg-door .container-door-preview img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -2511,13 +2507,6 @@ html,
     /* Firefox */
     -ms-interpolation-mode: nearest-neighbor;
     /* IE */
-
-
-    max-height: 380px;
-    width: auto;
-    max-width: 100%;
-    margin-right: 0;
-    margin-left: auto;
 }
 
 .container-door-preview-placeholder {
@@ -2525,16 +2514,12 @@ html,
     align-items: flex-end;
     padding: 0 15px;
     display: grid;
-    grid-template-columns: 1.09fr 1fr !important;
+    grid-template-columns: 1.05fr 1fr;
     gap: clamp(2.188rem, 2.054rem + 0.67vw, 3.125rem);
 }
-.container-door-preview-placeholder.type-8 {
-    grid-template-columns: 1.05fr 1fr !important;
-}
+
 .door-preview-indoor {
     max-height: 370px !important;
-    margin-left: 0 !important;
-    margin-right: auto !important;
 }
 
 .cfg-price {
@@ -2625,7 +2610,7 @@ html,
     flex-direction: row;
     gap: 10px;
     justify-content: flex-end;
-    width: 100%;
+    margin-right: 10px;
 }
 .cfg-price-general-module .button-manufacture {
     width: 100%;
@@ -3252,7 +3237,7 @@ a {
 }
 
 #popup__fullsize {
-    height: auto;
+    height: 100%;
     max-height: none !important;
     max-width: none !important;
 }
@@ -4107,9 +4092,10 @@ align-items: center;
     }
 
     .cfg-door .container-door-preview-placeholder {
-        display: flex !important;
+        display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        gap: 35px;
         overflow-x: scroll;
         overflow-y: hidden;
         padding: 35px;
@@ -4227,11 +4213,7 @@ align-items: center;
     .checkbox-accordion-header {
         padding: 13px 25px;
     }
-#door-cfg-manufacture {
-    width: 100% !important;
-    height: 35px !important;
-    max-width: 500px;
-}
+
     .furniture-group .furniture-item-title {
         text-align: left;
         font-size: 12px;

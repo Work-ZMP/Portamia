@@ -1,4 +1,84 @@
 $(document).ready(function(){
+
+    $('#door-cfg-download').click(function(){
+        var url_string = 'https://portamia.ru/'+$('#door-cfg-download-btn1').attr('href'); 
+        $.ajax({
+			type: "GET",
+			url: url_string,
+ 			success: function(data){
+                          let tm =  'https://portamia.ru/pdfread/'+data+'.pdf';
+                          document.location.href= tm;
+			}
+		}); 
+        return false;
+    })
+    
+    $('#pol1').click(function(){
+        var url_string = 'https://portamia.ru/'+$('#door-cfg-download-btn1').attr('href'); 
+        $.ajax({
+			type: "GET",
+			url: url_string,
+ 			success: function(data){
+                          let tm =  'https://portamia.ru/pdfread/'+data+'.pdf';
+                           $('#ems').val(tm);
+			}
+		}); 
+     })
+     
+     
+     $('#door-cfg-manufacture').click(function(){
+        var url_string = 'https://portamia.ru/'+$('#door-cfg-download-btn1').attr('href'); 
+        $.ajax({
+			type: "GET",
+			url: url_string,
+ 			success: function(data){
+                          let tm =  'https://portamia.ru/pdfread/'+data+'.pdf';
+                           $('#fsit').val(tm);
+                           
+			}
+		}); 
+     })
+     
+     
+     
+     
+      $('#door-cfg-print1').click(function(){
+        var url_string = 'https://portamia.ru/'+$('#door-cfg-download-btn1').attr('href'); 
+        $.ajax({
+			type: "GET",
+			url: url_string,
+ 			success: function(data){
+                          let tm =  'https://portamia.ru/pdfread/'+data+'.pdf';
+                            printJS({printable:tm, type:'pdf', showModal:false});
+			}
+		}); 
+      })
+    
+    
+    $('#srtmail1').click(function(){
+        file = $('#fsit').val();
+        mls = $('#pwt').val();
+        var url_string = 'https://portamia.ru/'+$('#door-cfg-download-btn').attr('href'); 
+        var url = new URL(url_string);
+        var c = url.searchParams.get("door_cfg");
+        $.post('/wp-admin/admin-ajax.php', {'action':'create_appl', 'file':file, 'mls':mls, 'uid': c  }, function(response){
+            alert('Заявка отправлена на производство. Наши менеджеры свяжутся с Вами!');
+        });
+        return false;
+    })
+    
+    
+    
+    $('#srtmail').click(function(){
+        file = $('#ems').val();
+        mls = $('#mmls').val();
+        $.post('/wp-admin/admin-ajax.php', {'action':'mlsme', 'file':file, 'mls':mls }, function(response){
+           alert('Файл отправлен на указанную почту');
+        }); 
+        return false;
+    })
+    
+    
     
     $('.edits').click(function(){
         var uid = $(this).attr('data-edit');
@@ -11,20 +91,36 @@ $(document).ready(function(){
     });
     $('#door-cfg-download-btn1').click(function(){
         var uid = 1;
-        var url_string = 'https://portamia.ru/configurator/'+$('#door-cfg-download-btn').attr('href'); 
-        var url = new URL(url_string);
-         console.log(c);
-
-        var c = url.searchParams.get("door_cfg");
+        var url_string = 'https://portamia.ru/'+$('#door-cfg-download-btn1').attr('href'); 
+       /* var url = new URL(url_string);
         console.log(c);
+        var c = url.searchParams.get("door_cfg");
+        console.log(c); */
+        $.ajax({
+			type: "GET",
+			url: url_string,
+ 			success: function(data){
+                          let tm =  'https://portamia.ru/pdfread/'+data+'.pdf';
+                      //    $('#door-cfg-download, #door-cfg-print').attr('href',tm);
+//                          $('#ems').val(tm);
+  //                        $('.cfg-price-general').append('<a class="downs" href="'+tm+'">Скачать файл</a>');
+                          
+				document.location.href= tm;
+			}
+		});
         
         
-        $.post('/wp-admin/admin-ajax.php', {'action':'create_appl', 'uid':c  }, function(response){
-             
-        }); 
-        
+         /*$.post('/wp-admin/admin-ajax.php', {'action':'create_appl', 'uid':c  }, function(response){
+            alert(response);
+         }); */
+         
+         return false;
     });
-    
+ $(document).on('click','#door-cfg-print',function(){
+     var po = $(this).attr('href');
+     printJS({printable:po, type:'pdf', showModal:true});
+     return false;
+ });    
  $(document).on('click','.sends',function(){
         idk = $(this).attr('data-edit');
         $.post('/wp-admin/admin-ajax.php', {'action':'ftp', 'idk':idk }, function(response){

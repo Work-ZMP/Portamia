@@ -3714,7 +3714,7 @@ function create_appl_func()
 
     $text = $uid;
 
-    $filename = '/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/json/' . $post_id . '.json';
+    $filename = '/var/www/u2316901/data/www/portamia.ru/json/' . $post_id . '.json';
     file_put_contents($filename, $text);
 
 
@@ -3784,7 +3784,7 @@ function ftp_send()
     fwrite($file, $text);
     rewind($file);
     if (ftp_fput($conn_id, 'usb1-part1/' . $idk . '.txt', $file, FTP_ASCII)) {
-        //if (ftp_put($conn_id,  '/usb1-part1/1.json', '	/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/1.json', FTP_ASCII)  ) {
+        //if (ftp_put($conn_id,  '/usb1-part1/1.json', '	/var/www/u2316901/data/www/portamia.ru/1.json', FTP_ASCII)  ) {
         echo 'Файл создан';
     } else {
         echo 'Не удалось создать файл';
@@ -3812,7 +3812,7 @@ add_action('wp_ajax_nopriv_mlsme', 'mlsmef');
 function mlsmef () {
     $fls = $_POST['file'];
     $mls = $_POST['mls'];
-$pt = '/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/pdfread/';
+$pt = '/var/www/u2316901/data/www/portamia.ru/pdfread/';
 $et = str_replace('https://portamia.ru/pdfread/', '', $fls);
 $allp = $pt.$et;
 $attachments = array(WP_CONTENT_DIR . '/uploads/file_to_attach.zip');
