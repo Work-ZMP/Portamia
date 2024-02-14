@@ -4532,7 +4532,7 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
-                        <div data-variable-name="furniture_knocker_check" data-variable-value="1" data-furniture_listtype_check="1" data-price="0" data-image="" data-order="1" class="unfinished checkbox-accordion accordion accordion--with-plus accordion-closed colored" id="checkbox-4step-knocker"><!---->
+                        <div data-variable-name="furniture_knocker_check" data-variable-value="1" data-furniture_listtype_check="1" data-price="0" data-image="" data-order="1" class=" checkbox-accordion accordion accordion--with-plus accordion-closed colored" id="checkbox-4step-knocker"><!---->
                             <div class="checkbox-accordion-header" id="close-button-4step-5" onclick="togglerKnockerStep4()">
                                 <div class="title">
                                     <span>Кнокер (в разработке)</span>
@@ -4700,7 +4700,7 @@ if (isset($_GET['door_cfg'])) {
 
 
 
-                        <div data-variable-name="furniture_platband_check" data-variable-value="1" data-furniture_closer_check="1" data-price="0" data-image="" data-order="1" class="unfinished checkbox-accordion accordion accordion--with-plus colored" id="checkbox-4step-platband"><!---->
+                        <div data-variable-name="furniture_platband_check" data-variable-value="1" data-furniture_closer_check="1" data-price="0" data-image="" data-order="1" class=" checkbox-accordion accordion accordion--with-plus colored" id="checkbox-4step-platband"><!---->
                             <div class="checkbox-accordion-header" onclick="togglerPlatbandStep4()">
                                 <div class="title">
                                     <span>Декоративный наличник (в разработке)</span>
@@ -4766,7 +4766,7 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
-                        <div data-variable-name="furniture_dodings_check" data-variable-value="1" data-furniture_dodings_check="1" data-price="0" data-image="" data-order="1" class="unfinished checkbox-accordion accordion accordion--with-plus colored" id="checkbox-4step-dodings"><!---->
+                        <div data-variable-name="furniture_dodings_check" data-variable-value="1" data-furniture_dodings_check="1" data-price="0" data-image="" data-order="1" class=" checkbox-accordion accordion accordion--with-plus colored" id="checkbox-4step-dodings"><!---->
                             <div class="checkbox-accordion-header" onclick="togglerDodingsStep4()">
                                 <div class="title">
                                     <span>Доборы (в разработке)</span>
@@ -4811,7 +4811,7 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
-                        <div data-variable-name="extra-cornice_check" data-variable-value="1" data-extra_cornice_check="1" data-price="0" data-image="" data-order="1" class="unfinished checkbox-accordion accordion accordion--with-plus colored" id="checkbox-2step-extra-cornice">
+                        <div data-variable-name="extra-cornice_check" data-variable-value="1" data-extra_cornice_check="1" data-price="0" data-image="" data-order="1" class=" checkbox-accordion accordion accordion--with-plus colored" id="checkbox-2step-extra-cornice">
                             <div class="checkbox-accordion-header" onclick="togglerCorniceStep4()">
                                 <div class="title">
                                     <span>Карниз (в разработке)</span>
