@@ -518,7 +518,7 @@ if (isset($_GET['door_cfg'])) {
                                             <div class="texture-group extra-grid">
                                                 <div data-variable-name="furnitem_extra-grid1" data-variable-value="extra-grid-step1-item1-step__1" data-furnitem_extra-grid1="extra-grid-step1-item1-step__1" data-price="0" data-image="" data-order="1" class="texture-item<?= (isset($_GET['furnitem_extra-grid1']) and $_GET['furnitem_extra-grid1'] == 'extra-grid-step1-item1-step__1') ? ' active' : '' ?>" id="extra-grid-step1-item1" onclick="furnItem('extra-grid-step1-item1', '#checkbox-1step-extra-grid .texture-item')">
                                                     <div class="texture-image-cover">
-                                                        <div class="texture-image asia property-texture section_grille base" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/extra-grid-img-1.jpg);">
+                                                        <div class="texture-image asia property-texture section_grille base" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/extra-grid-img-1.png);">
                                                             <div class="image"></div>
                                                         </div>
                                                         <div class="texture-price">Базовое</div>
@@ -1895,7 +1895,7 @@ if (isset($_GET['door_cfg'])) {
                                             <div class="texture-group extra-grid">
                                                 <div class="texture-item<?= (isset($_GET['furnitem_extra-grid2']) and $_GET['furnitem_extra-grid2'] == 'extra-grid-item1') ? ' active' : '' ?>" id="extra-grid-item1" onclick="chooseExtraGrid('extra-grid-item1')" data-variable-name="furnitem_extra-grid2" data-variable-value="extra-grid-item1" data-furnitem_extra-grid2="extra-grid-item1" data-price="23600" data-image="" data-order="1">
                                                     <div class="texture-image-cover">
-                                                        <div class="texture-image asia property-texture grille_glazing base" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/extra-grid-img-1.jpg);">
+                                                        <div class="texture-image asia property-texture grille_glazing base" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/img/cnfg/extra-grid-img-1.png);">
                                                             <div class="image"></div>
                                                         </div>
                                                         <div class="texture-price">23 600 ₽</div>
