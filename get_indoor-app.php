@@ -86,9 +86,9 @@ function insert_base64_encoded_image($img, $print = false)
 
 if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
 
-    $fullpath = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts-indoor/';
+    $fullpath = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/door-appartment/doors_parts-indoor/';
 
-    $base_path = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts-indoor/';
+    $base_path = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/door-appartment/doors_parts-indoor/';
 
     if (!isset($_GET['proportions']) or empty($_GET['proportions'])) {
 

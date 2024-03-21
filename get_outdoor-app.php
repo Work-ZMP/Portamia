@@ -93,9 +93,9 @@
 
     if (isset($_GET['door_cfg']) AND !empty($_GET['door_cfg'])) {
 
-        $fullpath = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts/';
+        $fullpath = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/door-appartment/doors_parts/';
 
-        $base_path = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/doors_parts/';
+        $base_path = '/var/www/u2316901/data/www/portamia.ru/wp-content/themes/mercato/door-appartment/doors_parts/';
 
         if (!isset($_GET['proportions']) OR empty($_GET['proportions'])) {
 
