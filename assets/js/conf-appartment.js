@@ -95,13 +95,13 @@ function getDoorPictures() {
     });
     console.log(picture_url);
     $.ajax({
-        url: '/wp-content/themes/mercato/get_indoor.php',
+        url: '/wp-content/themes/mercato/get_indoor-app.php',
         method: 'GET',
         data: { door_cfg: localStorage.getItem('door_cfg') },
         success: function (response_indoor) {
 
             $.ajax({
-                url: '/wp-content/themes/mercato/get_outdoor.php',
+                url: '/wp-content/themes/mercato/get_outdoor-app.php',
                 method: 'GET',
                 data: { door_cfg: localStorage.getItem('door_cfg') },
                 success: function (response_outdoor) {
@@ -138,7 +138,7 @@ function buildCheck() {
     //console.log('restored:', restored);
 
     $.ajax({
-        url: '/wp-content/themes/mercato/check_build.php',
+        url: '/wp-content/themes/mercato/check_build-app.php',
         method: 'POST',
         //dataType: 'json',
         data: { door_cfg: localStorage.getItem('door_cfg') },
@@ -155,7 +155,7 @@ function buildCheck() {
     });
 
     $.ajax({
-        url: '/wp-content/themes/mercato/check_build_popup.php',
+        url: '/wp-content/themes/mercato/check_build_popup-app.php',
         method: 'POST',
         //dataType: 'json',
         data: { door_cfg: localStorage.getItem('door_cfg') },
