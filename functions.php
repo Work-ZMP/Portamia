@@ -96,6 +96,10 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_script('conf-script', get_template_directory_uri() . '/assets/js/conf-main.js', array('jquery'), 'null', true);
         wp_enqueue_script('conf-cost', get_template_directory_uri() . '/assets/js/conf-cost.js', array('jquery'), 'null', true);
     };
+    if (is_page_template("cnfg-appartment.php")) {
+        wp_enqueue_script('conf-script-app', get_template_directory_uri() . '/assets/js/conf-appartment.js', array('jquery'), 'null', true);
+        wp_enqueue_script('conf-cost-app', get_template_directory_uri() . '/assets/js/conf-cost.js', array('jquery'), 'null', true);
+    };
     if (is_page_template("templates/collections.php")) {
         wp_enqueue_script('collections', get_template_directory_uri() . '/assets/js/collections.js', array('jquery'), 'null', true);
     };
