@@ -25,6 +25,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("cnfg.php")) {
         wp_enqueue_style('confstyle', get_template_directory_uri() . '/assets/css/conf-style.css');
     };
+    if (is_page_template("cnfg-appartment.php")) {
+        wp_enqueue_style('confstyle', get_template_directory_uri() . '/assets/css/conf-appartment.min.css');
+    };
     if (is_page_template("templates/cottage.php")) {
         wp_enqueue_style('cottage', get_template_directory_uri() . '/assets/css/cottage.css');
     };
