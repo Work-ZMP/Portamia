@@ -5348,6 +5348,7 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])) :
                             <?php else : ?>
                                 <div class="options-item-r">
                                     <div class="options-item-r-included">Включено в базу</div>
+                                    
                                 </div>
                             <?php endif; ?>
                         </div>
