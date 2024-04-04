@@ -71,8 +71,10 @@ function getConfigUrl() {
 
 }
 
-function getDoorPictures() {
-
+function getDoorPictures(event) {
+    if (event.isPropagationStopped()) {
+        return;
+      }
     let door_cfg = localStorage.getItem('door_cfg');
     let door_left = '';
     let door_right = '';
@@ -116,7 +118,7 @@ function getDoorPictures() {
         }
 
     });
-
+    event.stopPropagation();
 }
 
 function buildCheck() {
@@ -212,7 +214,7 @@ function buildCheck() {
  * кнопка выбора первой модели (guardpro)
  * */
 function cfgDoorModel1() {
-
+    
     let item2 = document.getElementById('cfg-firstmodel'); // guard wood
     let item1 = document.getElementById('cfg-secondmodel'); // guard pro
 
