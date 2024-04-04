@@ -71,10 +71,8 @@ function getConfigUrl() {
 
 }
 
-function getDoorPictures(event) {
-    if (event.isPropagationStopped()) {
-        return;
-      }
+function getDoorPictures() {
+
     let door_cfg = localStorage.getItem('door_cfg');
     let door_left = '';
     let door_right = '';
@@ -83,8 +81,10 @@ function getDoorPictures(event) {
 
     var picture_url = 'https://portamia.ru/door-cfg-generator-images/door';
 
-    $.each(door_cfg, function (key, val) {
-
+    $.each(door_cfg, function (key, val,event) {
+        if (event.isPropagationStopped()) {
+            return;
+          }
         // console.log(key + ' : ' + val.value);
 
         if (val.value != 'size-item1-step_6' && val.value != 'size-item2-step_6' && val.value != 'size-item3-step_6' && val.value != 'size-item4-step_6' && val.value != 'met-item1-step_6' && val.value != 'met-item2-step_6') {
@@ -93,7 +93,7 @@ function getDoorPictures(event) {
             console.log(picture_url);
         }
 
-
+        event.stopPropagation();
     });
     console.log(picture_url);
     $.ajax({
@@ -118,7 +118,7 @@ function getDoorPictures(event) {
         }
 
     });
-    event.stopPropagation();
+
 }
 
 function buildCheck() {
