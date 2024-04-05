@@ -72,7 +72,7 @@ function getConfigUrl() {
 
 function getDoorPictures(event) {
     //event.preventDefault();
-    event.stopImmediatePropagation();
+    //event.stopImmediatePropagation();
     let door_cfg = localStorage.getItem('door_cfg');
     let door_left = '';
     let door_right = '';
