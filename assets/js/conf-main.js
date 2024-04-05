@@ -71,7 +71,9 @@ function getConfigUrl() {
 }
 
 function getDoorPictures(event) {
-    event.stopPropagation();
+    if (event.isPropagationStopped()) {
+        return;
+      }
     let door_cfg = localStorage.getItem('door_cfg');
     let door_left = '';
     let door_right = '';
@@ -115,7 +117,7 @@ function getDoorPictures(event) {
         }
 
     });
-
+    event.stopPropagation();
 }
 
 function numberWithSpaces(number) {
