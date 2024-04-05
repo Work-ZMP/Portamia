@@ -31,7 +31,6 @@ function setConfig() {
     let o = JSON.parse(localStorage.getItem('door_cfg'));
 
     let restored = toAssociative(Object.keys(o), Object.values(o));
-
 }
 
 function getConfigUrl() {
@@ -81,10 +80,8 @@ function getDoorPictures() {
 
     var picture_url = 'https://portamia.ru/door-cfg-generator-images/door';
 
-    $.each(door_cfg, function (key, val,event) {
-        if (event.isPropagationStopped()) {
-            return;
-          }
+    $.each(door_cfg, function (key, val,) {
+        
         // console.log(key + ' : ' + val.value);
 
         if (val.value != 'size-item1-step_6' && val.value != 'size-item2-step_6' && val.value != 'size-item3-step_6' && val.value != 'size-item4-step_6' && val.value != 'met-item1-step_6' && val.value != 'met-item2-step_6') {
@@ -93,7 +90,7 @@ function getDoorPictures() {
             console.log(picture_url);
         }
 
-        event.stopPropagation();
+        
     });
     console.log(picture_url);
     $.ajax({
