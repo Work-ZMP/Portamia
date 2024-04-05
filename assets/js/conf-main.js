@@ -206,7 +206,8 @@ function buildCheck() {
 
     $('#popupget-order .popupshare-cost-old, #popuptoemail .popupshare-cost-old').text(numberWithSpaces(total_cost) + ' ₽');
     $('#popupget-order .popupshare-cost-current, #popuptoemail .popupshare-cost-current').text(numberWithSpaces(total_cost_new) + ' ₽');
-
+ 
+    
     // $('#cfg-total-cost').text(total_cost + ' ₽');
     // $('#cfg-price-group-cost-old').text(total_cost + ' ₽');
     // $('#cfg-price-group-cost-current').text(total_cost_new + ' ₽');

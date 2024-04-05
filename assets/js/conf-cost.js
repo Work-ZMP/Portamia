@@ -411,7 +411,8 @@ function standartCost (el, cost) {
 function numberWithSpaces(number) {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
   }
-
+ 
+  
 function advancedCost (el, cost, selector) {
     document.querySelector(`#${el}`).dataset.price = `${cost}`;
     document.querySelector(`#${el} ${selector}`).textContent = numberWithSpaces(cost) + " ₽";
