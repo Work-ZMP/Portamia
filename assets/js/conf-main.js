@@ -70,9 +70,15 @@ function getConfigUrl() {
 
 }
 
-function getDoorPictures(event) {
-    //event.preventDefault();
-    //event.stopImmediatePropagation();
+var xhr = null; // переменная для хранения объекта XMLHttpRequest
+
+
+function getDoorPictures() {
+
+    if (xhr !== null) {
+        xhr.abort(); // прерываем предыдущий запрос
+      }
+
     let door_cfg = localStorage.getItem('door_cfg');
     let door_left = '';
     let door_right = '';
@@ -94,28 +100,52 @@ function getDoorPictures(event) {
 
     });
     console.log(picture_url);
-    $.ajax({
+
+    xhr = $.ajax({
         url: '/wp-content/themes/mercato/get_indoor.php',
         method: 'GET',
         data: { door_cfg: localStorage.getItem('door_cfg') },
         success: function (response_indoor) {
+          // ваша обработка успешного выполнения запроса
+          
+          $.ajax({
+                        url: '/wp-content/themes/mercato/get_outdoor.php',
+                        method: 'GET',
+                        data: { door_cfg: localStorage.getItem('door_cfg') },
+                        success: function (response_outdoor) {
+        
+                            $('img.door-preview-indoor').attr('src', response_indoor);
+                            $('img.door-preview-outdoor').attr('src', response_outdoor);
+                        }
 
-            $.ajax({
-                url: '/wp-content/themes/mercato/get_outdoor.php',
-                method: 'GET',
-                data: { door_cfg: localStorage.getItem('door_cfg') },
-                success: function (response_outdoor) {
-
-                    $('img.door-preview-indoor').attr('src', response_indoor);
-                    $('img.door-preview-outdoor').attr('src', response_outdoor);
-
-                }
-
-            });
-
+             });
+                    
         }
-
+                    
     });
+    // $.ajax({
+        
+    //     url: '/wp-content/themes/mercato/get_indoor.php',
+    //     method: 'GET',
+    //     data: { door_cfg: localStorage.getItem('door_cfg') },
+    //     success: function (response_indoor) {
+
+    //         $.ajax({
+    //             url: '/wp-content/themes/mercato/get_outdoor.php',
+    //             method: 'GET',
+    //             data: { door_cfg: localStorage.getItem('door_cfg') },
+    //             success: function (response_outdoor) {
+
+    //                 $('img.door-preview-indoor').attr('src', response_indoor);
+    //                 $('img.door-preview-outdoor').attr('src', response_outdoor);
+
+    //             }
+
+    //         });
+
+    //     }
+
+    // });
     
 }
 
