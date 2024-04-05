@@ -412,7 +412,7 @@ function numberWithSpaces(number) {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
   }
  
-  
+
 function advancedCost (el, cost, selector) {
     document.querySelector(`#${el}`).dataset.price = `${cost}`;
     document.querySelector(`#${el} ${selector}`).textContent = numberWithSpaces(cost) + " ₽";
@@ -421,6 +421,7 @@ function advancedCost (el, cost, selector) {
         document.querySelector(`#${el} ${selector}`).textContent = 'Базовое'
     }
 }
+
 
 
  advancedCost('cfg-secondmodel',costModelDoor1,'.cfg-model-cost');
