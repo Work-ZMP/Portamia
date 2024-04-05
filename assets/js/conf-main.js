@@ -70,8 +70,8 @@ function getConfigUrl() {
 
 }
 
-function getDoorPictures() {
-    
+function getDoorPictures(event) {
+    event.stopImmediatePropagation()
     let door_cfg = localStorage.getItem('door_cfg');
     let door_left = '';
     let door_right = '';
