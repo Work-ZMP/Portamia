@@ -2027,7 +2027,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23039 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">5400 ₽</div>
+                                                                        <div class="texture-price">5 400 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23039</div>
                                                                 </div>
@@ -2036,7 +2036,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23239 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">5400 ₽</div>
+                                                                        <div class="texture-price">5 400 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23239</div>
                                                                 </div>
@@ -2045,7 +2045,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n43009 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">5400 ₽</div>
+                                                                        <div class="texture-price">5 400 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N43009</div>
                                                                 </div>
@@ -2063,7 +2063,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23129 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">5400 ₽</div>
+                                                                        <div class="texture-price">5 400 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23129</div>
                                                                 </div>
@@ -2072,7 +2072,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23219 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23219</div>
                                                                 </div>
@@ -2081,7 +2081,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image r23009 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">5400 ₽</div>
+                                                                        <div class="texture-price">5 400 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">R23009</div>
                                                                 </div>
@@ -2090,7 +2090,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23019 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23019</div>
                                                                 </div>
@@ -2099,7 +2099,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23049 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23049</div>
                                                                 </div>
@@ -2108,7 +2108,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23109 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23109</div>
                                                                 </div>
@@ -2117,7 +2117,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23079 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23079</div>
                                                                 </div>
@@ -2126,7 +2126,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23089 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23089</div>
                                                                 </div>
@@ -2135,7 +2135,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23099 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23099</div>
                                                                 </div>
@@ -2144,7 +2144,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23009 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23009</div>
                                                                 </div>
@@ -2153,7 +2153,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23139 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23139</div>
                                                                 </div>
@@ -2162,7 +2162,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23189 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23189</div>
                                                                 </div>
@@ -2171,7 +2171,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23149 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23149</div>
                                                                 </div>
@@ -2180,7 +2180,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23209 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23209</div>
                                                                 </div>
@@ -2189,7 +2189,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23159 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23159</div>
                                                                 </div>
@@ -2198,7 +2198,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23179 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23179</div>
                                                                 </div>
@@ -2209,7 +2209,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23059 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23059</div>
                                                                 </div>
@@ -2218,7 +2218,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23229 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23229</div>
                                                                 </div>
@@ -2227,7 +2227,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23069 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23069</div>
                                                                 </div>
@@ -2236,7 +2236,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image sa3039 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">6000 ₽</div>
+                                                                        <div class="texture-price">6 000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">SA3039</div>
                                                                 </div>
@@ -2270,7 +2270,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23039 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">5400 ₽</div>
+                                                                        <div class="texture-price">5 400 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23039</div>
                                                                 </div>
@@ -2279,7 +2279,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n23239 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">5400 ₽</div>
+                                                                        <div class="texture-price">5 400 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N23239</div>
                                                                 </div>
@@ -2288,7 +2288,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image n43009 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">5400 ₽</div>
+                                                                        <div class="texture-price">5 400 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">N43009</div>
                                                                 </div>
@@ -2297,7 +2297,7 @@ if (isset($_GET['door_cfg'])) {
                                                                         <div class="texture-image sx3019 property-texture color_out  base">
                                                                             <div class="image"></div>
                                                                         </div>
-                                                                        <div class="texture-price">15 000 ₽</div>
+                                                                        <div class="texture-price">15000 ₽</div>
                                                                     </div>
                                                                     <div class="texture-title">SX3019</div>
                                                                 </div>

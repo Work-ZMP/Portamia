@@ -408,15 +408,22 @@ function standartCost (el, cost) {
 
 }
 
+function numberWithSpaces(number) {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  }
+
 function advancedCost (el, cost, selector) {
     document.querySelector(`#${el}`).dataset.price = `${cost}`;
-    document.querySelector(`#${el} ${selector}`).textContent = `${cost} ₽`;
+    document.querySelector(`#${el} ${selector}`).textContent = numberWithSpaces(cost) + " ₽";
+    //document.querySelector(`#${el} ${selector}`).textContent = `${cost} ₽`;
     if (cost == 0) {
         document.querySelector(`#${el} ${selector}`).textContent = 'Базовое'
     }
 }
-advancedCost('cfg-secondmodel',costModelDoor1,'.cfg-model-cost');
-advancedCost('cfg-firstmodel',costModelDoor2,'.cfg-model-cost');
+
+
+ advancedCost('cfg-secondmodel',costModelDoor1,'.cfg-model-cost');
+ advancedCost('cfg-firstmodel',costModelDoor2,'.cfg-model-cost');
 
 defaultCost('slditem1',costTypeDoor1);
 defaultCost('slditem2',costTypeDoor2);

@@ -81,7 +81,7 @@ function getDoorPictures() {
     var picture_url = 'https://portamia.ru/door-cfg-generator-images/door';
 
     $.each(door_cfg, function (key, val,) {
-        
+
         // console.log(key + ' : ' + val.value);
 
         if (val.value != 'size-item1-step_6' && val.value != 'size-item2-step_6' && val.value != 'size-item3-step_6' && val.value != 'size-item4-step_6' && val.value != 'met-item1-step_6' && val.value != 'met-item2-step_6') {
@@ -90,7 +90,7 @@ function getDoorPictures() {
             console.log(picture_url);
         }
 
-        
+
     });
     console.log(picture_url);
     $.ajax({
@@ -116,6 +116,10 @@ function getDoorPictures() {
 
     });
 
+}
+
+function numberWithSpaces(number) {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
 function buildCheck() {
@@ -193,15 +197,25 @@ function buildCheck() {
 
     let total_cost_new = total_cost - (parseInt(total_cost) / 100 * 10);
 
-    $('#cfg-total-cost').text(total_cost + ' ₽');
-    $('#cfg-price-group-cost-old').text(total_cost + ' ₽');
-    $('#cfg-price-group-cost-current').text(total_cost_new + ' ₽');
+    $('#cfg-total-cost').text(numberWithSpaces(total_cost) + ' ₽');
+    $('#cfg-price-group-cost-old').text(numberWithSpaces(total_cost) + ' ₽');
+    $('#cfg-price-group-cost-current').text(numberWithSpaces(total_cost_new) + ' ₽');
 
-    $('#popup__share .popup__share-cost-old, #popup__toemail .popup__share-cost-old').text(total_cost + ' ₽');
-    $('#popup__share .popup__share-cost-current, #popup__toemail .popup__share-cost-current').text(total_cost_new + ' ₽');
+    $('#popupshare .popupshare-cost-old, #popuptoemail .popupshare-cost-old').text(numberWithSpaces(total_cost) + ' ₽');
+    $('#popupshare .popupshare-cost-current, #popuptoemail .popupshare-cost-current').text(numberWithSpaces(total_cost_new) + ' ₽');
 
-    $('#popup__get-order .popup__share-cost-old, #popup__toemail .popup__share-cost-old').text(total_cost + ' ₽');
-    $('#popup__get-order .popup__share-cost-current, #popup__toemail .popup__share-cost-current').text(total_cost_new + ' ₽');
+    $('#popupget-order .popupshare-cost-old, #popuptoemail .popupshare-cost-old').text(numberWithSpaces(total_cost) + ' ₽');
+    $('#popupget-order .popupshare-cost-current, #popuptoemail .popupshare-cost-current').text(numberWithSpaces(total_cost_new) + ' ₽');
+
+    // $('#cfg-total-cost').text(total_cost + ' ₽');
+    // $('#cfg-price-group-cost-old').text(total_cost + ' ₽');
+    // $('#cfg-price-group-cost-current').text(total_cost_new + ' ₽');
+
+    // $('#popup__share .popup__share-cost-old, #popup__toemail .popup__share-cost-old').text(total_cost + ' ₽');
+    // $('#popup__share .popup__share-cost-current, #popup__toemail .popup__share-cost-current').text(total_cost_new + ' ₽');
+
+    // $('#popup__get-order .popup__share-cost-old, #popup__toemail .popup__share-cost-old').text(total_cost + ' ₽');
+    // $('#popup__get-order .popup__share-cost-current, #popup__toemail .popup__share-cost-current').text(total_cost_new + ' ₽');
 
     $('#popup__share .popup__share-left .popup__share-title, #popup__toemail .popup__share-left .popup__share-title, #popup__get-order .popup__share-left .popup__share-title').text(door_model);
 
@@ -211,7 +225,7 @@ function buildCheck() {
  * кнопка выбора первой модели (guardpro)
  * */
 function cfgDoorModel1() {
-    
+
     let item2 = document.getElementById('cfg-firstmodel'); // guard wood
     let item1 = document.getElementById('cfg-secondmodel'); // guard pro
 
@@ -260,7 +274,6 @@ function cfgDoorModel1() {
     buildCheck();
 
 }
-
 
 
 
