@@ -70,8 +70,8 @@ function getConfigUrl() {
 
 }
 
-function getDoorPictures(event) {
-    event.preventDefault();
+function getDoorPictures() {
+    
     let door_cfg = localStorage.getItem('door_cfg');
     let door_left = '';
     let door_right = '';
@@ -122,8 +122,8 @@ function numberWithSpaces(number) {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
-function buildCheck() {
-
+function buildCheck(event) {
+    event.preventDefault();
     let toAssociative = (keys, values) =>
 
         values.reduce((acc, cv) => {
