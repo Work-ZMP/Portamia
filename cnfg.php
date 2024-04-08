@@ -5463,7 +5463,7 @@ if (isset($_GET['door_cfg'])) {
                                 <div class="cfg-price-general-module">
                                     <div class="button-group">
                                         <a href="/?page_id=10" class="cfg-btn-service cfg-btn-close"></a>
-                                        <a id="door-cfg-download-btn1" class="cfg-btn-service cfg-btn-pdf"></a>
+                                        <a id="door-cfg-download-btn1" class="cfg-btn-service cfg-btn-pdf" target="_blank"></a>
                                         <a id="door-cfg-download-btn" style="display:none" class="cfg-btn-service cfg-btn-pdf"></a>
                                         <button class="cfg-btn-service cfg-btn-fullscreen" data-fancybox data-src="#popup__fullsize">
                                             <div class="swiper-lazy-preloader"></div>
