@@ -50,4 +50,6 @@ echo $filename;
 
     }
 
+    header('Location: https://portamia.ru/pdfread/');
+
 ?>
