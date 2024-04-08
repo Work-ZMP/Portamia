@@ -37,7 +37,8 @@ $dompdf->render();
 
 //$dompdf->stream($filename); 
 //file_put_contents('/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/pdfread/'.$filename.'.pdf', $dompdf->output());
-file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());       
+file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());
+header('Content-Disposition: inline; filename=../../../pdfread/'.$filename.'.pdf');       
 echo $filename;
             die();
 
@@ -50,6 +51,6 @@ echo $filename;
 
     }
 
-    header('Location: https://portamia.ru/pdfread/');
+    
 
 ?>
