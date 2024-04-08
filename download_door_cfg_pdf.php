@@ -18,7 +18,7 @@
             }
             
 //require_once "/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/dompdf/autoload.inc.php";
-require_once "/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/dompdf/autoload.inc.php";
+require_once "/www/portamia.ru/dompdf/autoload.inc.php";
 $dompdf = new Dompdf\Dompdf();
 $dompdf->set_option('isRemoteEnabled', TRUE);
 $dompdf->set_option('defaultFont', 'DejaVu Sans');
