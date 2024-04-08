@@ -68,16 +68,21 @@ function getConfigUrl() {
     $('#popup__share #ok-share').attr('href', 'https://connect.ok.ru/offer?url=https://portamia.ru/?page_id=10&' + cfg_url);
     $('#popup__share input[name="download_link"]').val('https://portamia.ru/?page_id=10&' + cfg_url);
 
-    $(document).ready(function() {
-        $('#door-cfg-download-btn1').click(function() {
-            // Получение текущего адреса страницы
-            var currentUrl = window.location.href;
-            // Создание URL-адреса для вызова скрипта
-            var downloadUrl = currentUrl.replace(/download_door_cfg\.php$/i, 'download.php?door_cfg=your-config-parameter');
-            // Открытие нового окна или вкладки для скачивания файла
-            window.open(downloadUrl, '_blank');
-        });
-    });
+    // $(document).ready(function() {
+    //     $('#door-cfg-download-btn1').click(function() {
+    //         // AJAX-запрос для генерации и загрузки PDF-файла
+    //         $.ajax({
+    //             url: '/wp-content/themes/mercato/download_door_cfg.php?door_cfg=' + localStorage.getItem('door_cfg'),  // Путь к вашему скрипту, генерирующему PDF
+    //             dataType: 'binary',  // Ожидаемый тип данных (для загрузки бинарного файла)
+    //             success: function(response) {
+    //                 // Создание ссылки на сгенерированный PDF-файл
+    //                 var fileUrl = URL.createObjectURL(response.blob);  
+    //                 // Открытие нового окна или вкладки для скачивания файла
+    //                 window.open(fileUrl, '_blank');
+    //             }
+    //         });
+    //     });
+    // });
 
 }
 
