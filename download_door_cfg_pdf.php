@@ -38,7 +38,10 @@ $dompdf->render();
 //file_put_contents('/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/pdfread/'.$filename.'.pdf', $dompdf->output());
 file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());
 
-echo '<script>window.open("'.$filename.'.pdf", "_blank");</script>';
+// Открытие файла в новой вкладке браузера
+header('Content-Type: application/pdf');
+header('Content-Disposition: inline; filename="'.$filename.'.pdf"');
+readfile($filename.'.pdf"');
 
 //echo $filename;
             die();
