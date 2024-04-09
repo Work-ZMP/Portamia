@@ -33,20 +33,20 @@ error_reporting(E_ERROR | E_PARSE);
             
             <title>Ваша идеальная дверь - (дата создания двери: <?=date('d.m.Y H:i')?>)</title>
             <style>
-                * {font-family: Helvetica; }
-                body {font-family: Helvetica; }
-                table {font-family: Helvetica; }
-                table td {font-family: Helvetica; }
-                table th {font-family: Helvetica; }
-                table tr th {font-family: Helvetica; }
-                table tr td {font-family: Helvetica; }
+                * {font-family: DejaVu Sans; }
+                body {font-family: DejaVu Sans; }
+                table {font-family: DejaVu Sans; }
+                table td {font-family: DejaVu Sans; }
+                table th {font-family: DejaVu Sans; }
+                table tr th {font-family: DejaVu Sans; }
+                table tr td {font-family: DejaVu Sans; }
                  @media print {
 
                     section {
                          margin: auto;
                         page-break-before: always;
                     }
-                    * {font-family: Helvetica; }
+                    * {font-family: DejaVu Sans; }
 
                     @page {
                         margin: 0mm;
@@ -370,8 +370,8 @@ section {
                    
                 </table>
             </section>
-            <section class="cheque-1" style="font-family : Helvetica">
-                <table border="0" cellpadding="0" cellspacing="0" style="font-family : Helvetica">
+            <section class="cheque-1" style="font-family : DejaVu Sans">
+                <table border="0" cellpadding="0" cellspacing="0" style="font-family : DejaVu Sans">
                       <tr class="header" style="width:100%;">
                         <th style="text-align:left;width:50%;padding-bottom: 20px"><img  style="margin-top:10px" src="https://portamia.ru/lpt.png" class="pdf__logo"></th>
                         <th style="text-align:right;width:50%;padding-bottom: 20px" class="pdf__number">+7(961)949-48-48</th>
@@ -3471,7 +3471,7 @@ section {
             </section>
             <section id="lolo" class="cheque-2">
                 
-                <table border="0" cellpadding="0" cellspacing="0" style="font-family : Helvetica">
+                <table border="0" cellpadding="0" cellspacing="0" style="font-family : DejaVu Sans">
                        <tr class="header" style="width:100%;border: 0">
                         <th style="text-align:left;width:50%;padding-bottom: 20px"><img  style="margin-top:10px" src="https://portamia.ru/lpt.png" class="pdf__logo"></th>
                         <th style="text-align:right;width:50%;padding-bottom: 20px;border-bottom:1px solid #000000;color:#000000;opacity: 1" class="pdf__number">+7(961)949-48-48</th>
@@ -3482,7 +3482,7 @@ section {
                     </tr>
               </table>      
                 <div class="mtttop" style="margin-top:100px">
-               <table border="0" cellpadding="0" cellspacing="0" style="font-family : Helvetica">   
+               <table border="0" cellpadding="0" cellspacing="0" style="font-family : DejaVu Sans">   
                     <tr class="cheque__space"></tr>
                     <tr class="cheque__total">
                         <th rowspan="2" class="cheque__total-cost" style="padding-left:25px">Общая стоимость</th>
@@ -3513,8 +3513,8 @@ section {
             </section>
             
             <style>
-               * {font-family: Helvetica; }
-               th,td {font-family: Helvetica; }
+               * {font-family: DejaVu Sans; }
+               th,td {font-family: DejaVu Sans; }
                       #lolo .header td {  border-bottom: 0}
                  #lolo .header th {  border-bottom: 0}
                  #lolo table {  border: 0}
