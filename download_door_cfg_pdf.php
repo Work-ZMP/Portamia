@@ -42,11 +42,8 @@ file_put_contents($filepath2, $dompdf->output());
 //file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());
 
 
-echo '<script type="text/javascript">';
-echo 'window.open("' . $filename . '", "_blank");';
-echo '</script>';
 
-//echo $filename;
+echo $filename;
             die();
 
         }
