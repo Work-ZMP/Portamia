@@ -39,8 +39,7 @@ $dompdf->render();
 //file_put_contents('/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/pdfread/'.$filename.'.pdf', $dompdf->output());
 file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());
 $jsCode = '
-    var pdfUrl = "'.$filename.'";
-    window.open(pdfUrl, "_blank");
+    window.open('.$filename.', "_blank");
 ';
 
 // Выводим JavaScript код
