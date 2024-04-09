@@ -40,8 +40,8 @@ file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());
 
 // Открытие файла в новой вкладке браузера
 header('Content-Type: application/pdf');
-header('Content-Disposition: inline; filename="'.$filename.'.pdf"');
-readfile($filename.'.pdf"');
+header('Content-Disposition: inline; filename="../../../pdfread/'.$filename.'.pdf"');
+readfile('../../../pdfread/'.$filename.'.pdf"');
 
 //echo $filename;
             die();
