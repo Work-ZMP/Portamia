@@ -38,7 +38,7 @@ $dompdf->render();
 //file_put_contents('/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/pdfread/'.$filename.'.pdf', $dompdf->output());
 file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());
 
-echo '<script>window.open("../../../pdfread/'.$filename.'.pdf", "_blank");</script>';
+echo '<script>window.open("'.$filename.'.pdf", "_blank");</script>';
 
 //echo $filename;
             die();
