@@ -34,15 +34,11 @@ $dompdf->render();
  
 
 // Вывод файла в браузер:
-
 //$dompdf->stream($filename); 
 //file_put_contents('/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/pdfread/'.$filename.'.pdf', $dompdf->output());
 file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());
-$jsCode = '
-    window.open(../../../pdfread/'.$filename.'.pdf, "_blank");';
 
-// Выводим JavaScript код
-echo '<script>' . $jsCode . '</script>';
+echo '<script>window.open("../../../pdfread/'.$filename.'.pdf", "_blank");</script>';
 
 //echo $filename;
             die();
