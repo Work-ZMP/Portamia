@@ -41,8 +41,15 @@ $filepath2= $_SERVER['DOCUMENT_ROOT'] . '/pdfread/' . $filename . '.pdf';
 file_put_contents($filepath2, $dompdf->output());
 //file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());
 
+header('Content-Type: application/pdf');
+header('Content-Disposition: inline; filename="' . $filename . '"');
+header('Content-Transfer-Encoding: binary');
+header('Accept-Ranges: bytes');
 
-echo $filename;
+// Отправляем содержимое файла на вывод
+readfile($filepath);
+
+//echo $filename;
             die();
 
         }
