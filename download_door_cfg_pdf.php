@@ -36,12 +36,14 @@ $dompdf->render();
 // Вывод файла в браузер:
 //$dompdf->stream($filename); 
 //file_put_contents('/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/pdfread/'.$filename.'.pdf', $dompdf->output());
-file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());
+$filepath2='../../../pdfread/'.$filename.'.pdf';
+file_put_contents($filepath2, $dompdf->output());
+//file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());
 
 // Открытие файла в новой вкладке браузера
 header('Content-Type: application/pdf');
-header('Content-Disposition: inline; filename="../../../pdfread/'.$filename.'.pdf"');
-readfile('../../../pdfread/'.$filename.'.pdf"');
+header('Content-Disposition: inline; filename="'.filepath2.'"');
+readfile($filepath2);
 
 //echo $filename;
             die();
