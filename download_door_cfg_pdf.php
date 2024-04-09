@@ -41,15 +41,12 @@ $filepath2= $_SERVER['DOCUMENT_ROOT'] . '/pdfread/' . $filename . '.pdf';
 file_put_contents($filepath2, $dompdf->output());
 //file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());
 
-header('Content-Type: application/pdf');
-header('Content-Disposition: inline; filename="' . $filepath2 . '"');
-header('Content-Transfer-Encoding: binary');
-header('Accept-Ranges: bytes');
 
-// Отправляем содержимое файла на вывод
-readfile($filepath);
+echo '<script type="text/javascript">';
+echo 'window.open("' . $filepath2 . '", "_blank");';
+echo '</script>';
 
-echo $filename;
+//echo $filename;
             die();
 
         }
