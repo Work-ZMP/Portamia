@@ -43,7 +43,7 @@ file_put_contents($filepath2, $dompdf->output());
 
 
 echo '<script type="text/javascript">';
-echo 'window.open("' . $filepath2 . '", "_blank");';
+echo 'window.open("' . $filename . '", "_blank");';
 echo '</script>';
 
 //echo $filename;
