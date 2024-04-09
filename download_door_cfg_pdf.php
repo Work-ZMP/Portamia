@@ -49,7 +49,7 @@ header('Accept-Ranges: bytes');
 // Отправляем содержимое файла на вывод
 readfile($filepath);
 
-//echo $filename;
+echo $filename;
             die();
 
         }
