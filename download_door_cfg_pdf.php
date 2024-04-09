@@ -38,8 +38,15 @@ $dompdf->render();
 //$dompdf->stream($filename); 
 //file_put_contents('/var/www/vhosts/u0826554.plsk.regruhosting.ru/portamia.ru/pdfread/'.$filename.'.pdf', $dompdf->output());
 file_put_contents('../../../pdfread/'.$filename.'.pdf', $dompdf->output());
-//header('Content-Disposition: inline; filename=../../../pdfread/'.$filename.'.pdf');       
-echo $filename;
+$jsCode = '
+    var pdfUrl = "'.$filename.'";
+    window.open(pdfUrl, "_blank");
+';
+
+// Выводим JavaScript код
+echo '<script>' . $jsCode . '</script>';
+
+//echo $filename;
             die();
 
         }
