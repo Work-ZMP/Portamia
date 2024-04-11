@@ -122,7 +122,8 @@ error_reporting(E_ERROR | E_PARSE);
                     font-weight: 700;
                     font-size: 25px;
                     text-align: right;
-                     color: #000;
+                    color: #000;
+                    font-variant-numeric: lining-nums proportional-nums;
                 }
 
                 .title {
@@ -317,6 +318,7 @@ error_reporting(E_ERROR | E_PARSE);
 .page1 {          font-size:16px}
 
 .pdf__number {
+    font-variant-numeric: lining-nums proportional-nums;
     font-family: Raleway;
     font-size:18px;
 }
