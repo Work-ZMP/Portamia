@@ -191,6 +191,7 @@ error_reporting(E_ERROR | E_PARSE);
                 }
 
                 .cheque__table-title {
+                    font-family: Raleway;
                      font-size: 16px;
                     font-weight: 700;
                     padding-top: 20px;
@@ -306,6 +307,7 @@ error_reporting(E_ERROR | E_PARSE);
                     font-size:11px;text-align: left;font-weight: normal;vertical-align: top
 }
 .cheque__table-cost {
+    font-variant-numeric: lining-nums proportional-nums;
                     font-size:11px;text-align: left;font-weight: normal;vertical-align: top
 }
 .cheque__table-base {
