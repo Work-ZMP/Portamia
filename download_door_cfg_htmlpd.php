@@ -364,7 +364,7 @@ section {
                 <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
                     <tr class="header" style="width:100%;">
                         <th style="text-align:left;width:50%;padding-bottom: 20px"><img  style="margin-top:10px" src="https://portamia.ru/lpt.png" class="pdf__logo"></th>
-                        <th style="text-align:right;width:50%;padding-bottom: 20px" class="pdf__number">+7(961)949-48-48</th>
+                        <th style="font-family: Raleway;text-align:right;width:50%;padding-bottom: 20px" class="pdf__number">+7(961)949-48-48</th>
                     </tr>
                     <tr class="title" style="">
                         <th style="font-size:35px;padding-top:40px;font-weight: 600; font-family: Raleway" colspan="2">Ваша идеальная дверь</th>
@@ -416,7 +416,7 @@ section {
                                     
                                     <tr>
                                         <th class="cheque__table-name">База</th>
-                                        <th class="cheque__table-cost" style="font-variant-numeric: lining-nums proportional-nums; font-family: Raleway"><?=$door_cfg['model']['price']?> ₽123456780</th>
+                                        <th class="cheque__table-cost" style="font-variant-numeric: lining-nums proportional-nums; "><?=$door_cfg['model']['price']?> ₽123456780</th>
                                     </tr>
                                     <tr>
                                         <th class="cheque__table-descr">Termo</th>
