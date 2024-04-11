@@ -40,6 +40,7 @@ error_reporting(E_ERROR | E_PARSE);
                 table th {font-family: Raleway; }
                 table tr th {font-family: Raleway; }
                 table tr td {font-family: Raleway; }
+
                  @media print {
 
                     section {
@@ -117,6 +118,7 @@ error_reporting(E_ERROR | E_PARSE);
                 }
 
                 .pdf__number {
+                    font-family: Raleway;
                     font-weight: 700;
                     font-size: 25px;
                     text-align: right;
@@ -315,7 +317,8 @@ error_reporting(E_ERROR | E_PARSE);
 .page1 {          font-size:16px}
 
 .pdf__number {
-       font-size:18px;
+    font-family: Raleway;
+    font-size:18px;
 }
  
  
