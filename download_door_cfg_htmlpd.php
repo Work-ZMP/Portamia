@@ -3547,8 +3547,8 @@ section {
 #lolo .cheque-title__block th {  border-bottom: 0;border-top: 0;}
 #lolo .cheque-title__block th {  border-bottom: 0;border-top: 0;}
 
-#lolo .header th {border-bottom:1px solid #000000 !important;}
-#lolo .header th.pdf__number {border-bottom:1px solid #000000 !important;opacity: 1}
+#lolo .header th {border-bottom:1px solid #000000;}
+#lolo .header th.pdf__number {border-bottom:1px solid #000000;opacity: 1}
             </style>   
         </body>
 
