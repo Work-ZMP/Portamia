@@ -183,7 +183,10 @@ error_reporting(E_ERROR | E_PARSE);
                     padding: 0 20px;
                 }
 
-                .cheque__table-cost,
+                .cheque__table-cost
+                {
+                    font-variant-numeric: lining-nums proportional-nums;
+                }
                 .cheque__table-base {
                     text-align: right;
                     font-size: 14px;
@@ -235,7 +238,7 @@ error_reporting(E_ERROR | E_PARSE);
                     border-bottom: 1px solid #000;
                     font-size: 24px;
                     line-height: 30px;
-                    font-weight: bold;
+                    font-weight: bold
                     color: #252525;
                     height: 30px;
                     vertical-align: top;
