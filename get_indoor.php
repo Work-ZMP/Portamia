@@ -185,7 +185,8 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
         '10' => 'mirror-col',
         '11' => 'indoor_milling',
         '12' => 'doorstep',
-        '13' => 'closer'
+        '13' => 'closer',
+        '14' => 'dobor'//добор
     );
 
     $lines = array(
@@ -656,6 +657,15 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'btn-mirrorcolin6'
                 
             )
+        ),
+        //добор
+        'dobor' => array(
+            '0' => array(
+                'slditem1',
+            ),
+            '1' => array(
+                'dobor-item1',
+            ),
         ),
         'indoor_milling' => array(
             '0' => array(

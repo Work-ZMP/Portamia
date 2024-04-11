@@ -35,6 +35,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])):
         <style>
             html {
                 font-family: Raleway !important;
+                
             }
 
             * {
