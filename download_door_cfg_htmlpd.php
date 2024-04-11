@@ -72,6 +72,7 @@ error_reporting(E_ERROR | E_PARSE);
             
                 }
 .door th {
+    font-family: Raleway;
     font-variant-numeric: lining-nums proportional-nums;
     vertical-align: top;
 }
@@ -189,6 +190,7 @@ error_reporting(E_ERROR | E_PARSE);
 
                 .cheque__table-cost
                 {
+                    font-family: Raleway;
                     font-variant-numeric: lining-nums proportional-nums;
                 }
                 .cheque__table-base {
@@ -311,22 +313,27 @@ error_reporting(E_ERROR | E_PARSE);
   font-weight: 700;
 }
 .cheque__table-name {
+    font-family: Raleway;
     font-variant-numeric: lining-nums proportional-nums;
                     font-size:11px;text-align: left;font-weight: normal;vertical-align: top
 }
 .cheque__table-cost {
+    font-family: Raleway;
     font-variant-numeric: lining-nums proportional-nums;
                     font-size:11px;text-align: left;font-weight: normal;vertical-align: top
 }
 .cheque__table-base {
+    font-family: Raleway;
     font-variant-numeric: lining-nums proportional-nums;
                     font-size:11px;text-align: left;font-weight: normal;vertical-align: top
 }
 .cheque__table-descr {
+    font-family: Raleway;
     font-variant-numeric: lining-nums proportional-nums;
                     font-size:11px;text-align: left;font-weight: normal;vertical-align: top
 }
-.cheque-title {           
+.cheque-title {  
+    font-family: Raleway;        
     font-variant-numeric: lining-nums proportional-nums;font-size:18px;text-align: left;}
 .page1 {          font-size:16px}
 
@@ -409,7 +416,7 @@ section {
                                     
                                     <tr>
                                         <th class="cheque__table-name">База</th>
-                                        <th class="cheque__table-cost" style="font-variant-numeric: lining-nums proportional-nums"><?=$door_cfg['model']['price']?> ₽123456780</th>
+                                        <th class="cheque__table-cost" style="font-variant-numeric: lining-nums proportional-nums; font-family: Raleway"><?=$door_cfg['model']['price']?> ₽123456780</th>
                                     </tr>
                                     <tr>
                                         <th class="cheque__table-descr">Termo</th>
@@ -421,7 +428,7 @@ section {
                                     
                                     <tr>
                                         <th class="cheque__table-name">База</th>
-                                        <th class="cheque__table-cost" style="font-variant-numeric: lining-nums proportional-nums"><?=$door_cfg['model']['price']?> ₽</th>
+                                        <th class="cheque__table-cost" style="font-variant-numeric: lining-nums proportional-nums; font-family: Raleway"><?=$door_cfg['model']['price']?> ₽</th>
                                     </tr>
                                     <tr>
                                         <th class="cheque__table-descr">Termo Plus</th>
@@ -3504,11 +3511,11 @@ section {
                     <tr class="cheque__space"></tr>
                     <tr class="cheque__total">
                         <th rowspan="2" class="cheque__total-cost" style="padding-left:25px">Общая стоимость</th>
-                        <th class="cheque__total-old-cost" style="font-variant-numeric: lining-nums proportional-nums"><?=$total_cost_old?> ₽</th>
+                        <th class="cheque__total-old-cost" style="font-variant-numeric: lining-nums proportional-nums; font-family: Raleway"><?=$total_cost_old?> ₽</th>
 
                     </tr>
                     <tr class="cheque__total">
-                        <th class="cheque__total-current-cost" style="font-variant-numeric: lining-nums proportional-nums"><?=$total_cost?> ₽</th>
+                        <th class="cheque__total-current-cost" style="font-variant-numeric: lining-nums proportional-nums; font-family: Raleway "><?=$total_cost?> ₽</th>
                     </tr>
                
                 
@@ -3520,7 +3527,7 @@ section {
                                 <img src="<?=$indoor?>">
                             </div>
                         </td>
-                        <td style="padding-top: 40px;vertical-align: top;" class="cheque__total-name1" style="font-size:14px;color:#000000">Дата создания двери: <span style="font-size:14px;color:#00000080 font-variant-numeric: lining-nums proportional-nums"><?=date('d.m.Y H:i')?></span>
+                        <td style="padding-top: 40px;vertical-align: top;" class="cheque__total-name1" style="font-size:14px;color:#000000">Дата создания двери: <span style="font-size:14px;color:#00000080; font-family: Raleway; font-variant-numeric: lining-nums proportional-nums"><?=date('d.m.Y H:i')?></span>
                         
                         </td>
                          
