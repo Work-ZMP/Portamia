@@ -409,7 +409,7 @@ section {
                                     
                                     <tr>
                                         <th class="cheque__table-name">База</th>
-                                        <th class="cheque__table-cost"><?=$door_cfg['model']['price']?> ₽123456780</th>
+                                        <th class="cheque__table-cost" style="font-variant-numeric: lining-nums proportional-nums"><?=$door_cfg['model']['price']?> ₽123456780</th>
                                     </tr>
                                     <tr>
                                         <th class="cheque__table-descr">Termo</th>
@@ -421,7 +421,7 @@ section {
                                     
                                     <tr>
                                         <th class="cheque__table-name">База</th>
-                                        <th class="cheque__table-cost"><?=$door_cfg['model']['price']?> ₽</th>
+                                        <th class="cheque__table-cost" style="font-variant-numeric: lining-nums proportional-nums"><?=$door_cfg['model']['price']?> ₽</th>
                                     </tr>
                                     <tr>
                                         <th class="cheque__table-descr">Termo Plus</th>
@@ -3504,11 +3504,11 @@ section {
                     <tr class="cheque__space"></tr>
                     <tr class="cheque__total">
                         <th rowspan="2" class="cheque__total-cost" style="padding-left:25px">Общая стоимость</th>
-                        <th class="cheque__total-old-cost"><?=$total_cost_old?> ₽</th>
+                        <th class="cheque__total-old-cost" style="font-variant-numeric: lining-nums proportional-nums"><?=$total_cost_old?> ₽</th>
 
                     </tr>
                     <tr class="cheque__total">
-                        <th class="cheque__total-current-cost"><?=$total_cost?> ₽</th>
+                        <th class="cheque__total-current-cost" style="font-variant-numeric: lining-nums proportional-nums"><?=$total_cost?> ₽</th>
                     </tr>
                
                 
@@ -3520,7 +3520,7 @@ section {
                                 <img src="<?=$indoor?>">
                             </div>
                         </td>
-                        <td style="padding-top: 40px;vertical-align: top;" class="cheque__total-name1" style="font-size:14px;color:#000000">Дата создания двери: <span style="font-size:14px;color:#00000080"><?=date('d.m.Y H:i')?></span>
+                        <td style="padding-top: 40px;vertical-align: top;" class="cheque__total-name1" style="font-size:14px;color:#000000">Дата создания двери: <span style="font-size:14px;color:#00000080 font-variant-numeric: lining-nums proportional-nums"><?=date('d.m.Y H:i')?></span>
                         
                         </td>
                          
