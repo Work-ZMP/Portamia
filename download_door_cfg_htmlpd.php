@@ -342,7 +342,7 @@ section {
                         <th style="text-align:right;width:50%;padding-bottom: 20px" class="pdf__number">+7(961)949-48-48</th>
                     </tr>
                     <tr class="title" style="">
-                        <th style="font-size:35px;padding-top:40px;font-weight: 600" colspan="2">Ваша идеальная дверь</th>
+                        <th style="font-size:35px;padding-top:40px;font-weight: 600; font-family: Raleway" colspan="2">Ваша идеальная дверь</th>
                     </tr>
                     <tr class="descr">
                         <th colspan="2" style="font-size:30px;padding-top: 0px;font-weight: 400">Внешняя сторона</th>
@@ -359,7 +359,7 @@ section {
                         <th style="text-align:right;width:50%;padding-bottom: 20px" class="pdf__number">+7(961)949-48-48</th>
                     </tr>
                     <tr class="title" style="">
-                        <th style="font-size:35px;padding-top:40px;font-weight: 600" colspan="2">Ваша идеальная дверь</th>
+                        <th style="font-size:35px;padding-top:40px;font-weight: 600; font-family: Raleway" colspan="2">Ваша идеальная дверь</th>
                     </tr>
                     <tr class="descr">
                         <th colspan="2" style="font-size:30px;padding-top: 0px;font-weight: 400">Внутренняя сторона</th>
