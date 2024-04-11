@@ -37,9 +37,12 @@ error_reporting(E_ERROR | E_PARSE);
                 body {font-family: Raleway; }
                 table {font-family: Raleway; }
                 table td {font-family: Raleway; }
-                table th {font-family: Raleway; }
-                table tr th {font-family: Raleway; }
-                table tr td {font-family: Raleway; }
+                table th {font-family: Raleway;
+                    font-variant-numeric: lining-nums proportional-nums; }
+                table tr th {font-family: Raleway;
+                    font-variant-numeric: lining-nums proportional-nums; }
+                table tr td {font-family: Raleway;
+                    font-variant-numeric: lining-nums proportional-nums; }
 
                  @media print {
 
@@ -69,6 +72,7 @@ error_reporting(E_ERROR | E_PARSE);
             
                 }
 .door th {
+    font-variant-numeric: lining-nums proportional-nums;
     vertical-align: top;
 }
 
@@ -307,6 +311,7 @@ error_reporting(E_ERROR | E_PARSE);
   font-weight: 700;
 }
 .cheque__table-name {
+    font-variant-numeric: lining-nums proportional-nums;
                     font-size:11px;text-align: left;font-weight: normal;vertical-align: top
 }
 .cheque__table-cost {
@@ -314,12 +319,15 @@ error_reporting(E_ERROR | E_PARSE);
                     font-size:11px;text-align: left;font-weight: normal;vertical-align: top
 }
 .cheque__table-base {
+    font-variant-numeric: lining-nums proportional-nums;
                     font-size:11px;text-align: left;font-weight: normal;vertical-align: top
 }
 .cheque__table-descr {
+    font-variant-numeric: lining-nums proportional-nums;
                     font-size:11px;text-align: left;font-weight: normal;vertical-align: top
 }
-.cheque-title {           font-size:18px;text-align: left;}
+.cheque-title {           
+    font-variant-numeric: lining-nums proportional-nums;font-size:18px;text-align: left;}
 .page1 {          font-size:16px}
 
 .pdf__number {
