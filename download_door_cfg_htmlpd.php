@@ -401,7 +401,7 @@ section {
                                     
                                     <tr>
                                         <th class="cheque__table-name">База</th>
-                                        <th class="cheque__table-cost"><?=$door_cfg['model']['price']?> ₽</th>
+                                        <th class="cheque__table-cost"><?=$door_cfg['model']['price']?> ₽123456780</th>
                                     </tr>
                                     <tr>
                                         <th class="cheque__table-descr">Termo</th>
