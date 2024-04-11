@@ -33,7 +33,7 @@ error_reporting(E_ERROR | E_PARSE);
             <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
             <title>Ваша идеальная дверь - (дата создания двери: <?=date('d.m.Y H:i')?>)</title>
             <style>
-                * {font-family: Raleway; }
+                * {font-family: Raleway !important; }
                 body {font-family: Raleway; }
                 table {font-family: Raleway; }
                 table td {font-family: Raleway; }
