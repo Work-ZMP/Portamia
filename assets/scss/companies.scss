@@ -102,12 +102,6 @@
         cursor: pointer;
         transition: all 0.3s ease-out;
     }
-    .companies__btn.active {
-        transform: scale(1.12);
-        opacity: 1;
-        border: 2.5px solid #fff;
-        cursor: default;
-    }
 }
 
 .companies__title {
@@ -196,9 +190,6 @@
     .companies__section .companies__btn {
         width: 200px;
         height: 40px;
-    }
-    .companies__section .companies__btn.active {
-        transform: scale(1.09);
     }
 }
 
