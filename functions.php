@@ -73,6 +73,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/holding.php")) {
         wp_enqueue_style('holding', get_template_directory_uri() . '/assets/css/holding.css');
     };
+    if (is_page_template("templates/companies.php")) {
+        wp_enqueue_style('companies', get_template_directory_uri() . '/assets/css/companies.css');
+    };
     if (is_page_template("templates/privacy.php")) {
         wp_enqueue_style('privacy', get_template_directory_uri() . '/assets/css/privacy.css');
     };
