@@ -11,11 +11,8 @@ function companiesBtn() {
         let overlay = document.querySelector('.companies__overlay');
         let overlayimg = document.querySelector('.companies__overlay-img');
 
-        let link = document.querySelector('.companies__link');
-
         if (el.classList.contains('link-portamia')) {
             console.log('portamia');
-            link.setAttribute('href', 'https://portamia.ru/');
 
             overlayimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/companies/cover-portamia.webp');
             overlay.classList.add('active');
@@ -30,7 +27,6 @@ function companiesBtn() {
         }
         if (el.classList.contains('link-leyenda')) {
             console.log('leyenda');
-            link.setAttribute('href', 'https://leyenda.ru/');
             btns.classList.add('load');
 
             overlayimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/companies/cover-leyenda.webp');
@@ -45,7 +41,6 @@ function companiesBtn() {
         }
         if (el.classList.contains('link-zmp')) {
             console.log('zmp');
-            link.setAttribute('href', 'https://z-mp.ru/');
 
             overlayimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/companies/cover-zmp.webp');
             overlay.classList.add('active');
@@ -60,7 +55,6 @@ function companiesBtn() {
         }
         if (el.classList.contains('link-mercato')) {
             console.log('mercato');
-            link.setAttribute('href', 'https://fabricamercato.ru/');
 
             overlayimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/companies/cover-mercato.webp');
             overlay.classList.add('active');
