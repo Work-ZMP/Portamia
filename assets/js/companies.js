@@ -16,18 +16,15 @@ function companiesBtn() {
 
             overlayimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/companies/cover-portamia.webp');
             overlay.classList.add('active');
-            btns.classList.add('load');
 
             setTimeout(function () {
                 backgroundimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/companies/cover-portamia.webp')
                 overlay.classList.remove('active');
-                btns.classList.remove('load');
             }, 1600);
 
         }
         if (el.classList.contains('link-leyenda')) {
             console.log('leyenda');
-            btns.classList.add('load');
 
             overlayimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/companies/cover-leyenda.webp');
             overlay.classList.add('active');
@@ -35,7 +32,6 @@ function companiesBtn() {
             setTimeout(function () {
                 backgroundimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/companies/cover-leyenda.webp')
                 overlay.classList.remove('active');
-                btns.classList.remove('load');
             }, 1600);
 
         }
@@ -44,12 +40,10 @@ function companiesBtn() {
 
             overlayimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/companies/cover-zmp.webp');
             overlay.classList.add('active');
-            btns.classList.add('load');
 
             setTimeout(function () {
                 backgroundimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/companies/cover-zmp.webp')
                 overlay.classList.remove('active');
-                btns.classList.remove('load');
             }, 1600);
 
         }
@@ -58,12 +52,10 @@ function companiesBtn() {
 
             overlayimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/companies/cover-mercato.webp');
             overlay.classList.add('active');
-            btns.classList.add('load');
 
             setTimeout(function () {
                 backgroundimg.setAttribute('src', 'https://portamia.ru/wp-content/themes/mercato/assets/img/companies/cover-mercato.webp')
                 overlay.classList.remove('active');
-                btns.classList.remove('load');
             }, 1600);
 
         }
