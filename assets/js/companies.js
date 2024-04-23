@@ -1,7 +1,7 @@
 
 
 function companiesBtn() {
-    document.querySelectorAll('.companies__btn').forEach(el => el.addEventListener('mouseon', function () {
+    document.querySelectorAll('.companies__btn').forEach(el => el.addEventListener('mouseover', function () {
         document.querySelectorAll('.companies__btn').forEach(b => b.classList.remove('active'))
         el.classList.add('active');
 
