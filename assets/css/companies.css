@@ -103,6 +103,9 @@
   transition: all 0.3s ease-out;
   border-radius: 15px;
 }
+.companies__section .companies__btn:hover {
+  opacity: 1;
+}
 
 .companies__title {
   color: #fff;
