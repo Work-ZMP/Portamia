@@ -149,7 +149,7 @@ html,
 
 /*значение невыбранной модели*/
 .cfg-model {
-    opacity: 0.3;
+    opacity: 0.65;
     position: relative;
     transition: all 0.3s linear;
 }

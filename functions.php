@@ -73,6 +73,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/holding.php")) {
         wp_enqueue_style('holding', get_template_directory_uri() . '/assets/css/holding.css');
     };
+    if (is_page_template("templates/companies.php")) {
+        wp_enqueue_style('companies', get_template_directory_uri() . '/assets/css/companies.css');
+    };
     if (is_page_template("templates/privacy.php")) {
         wp_enqueue_style('privacy', get_template_directory_uri() . '/assets/css/privacy.css');
     };
@@ -121,6 +124,9 @@ add_action('wp_enqueue_scripts', function () {
     };
     if (is_page_template("templates/mailsent.php")) {
         wp_enqueue_script('mailsent', get_template_directory_uri() . '/assets/js/mailsent.js', array('jquery'), 'null', true);
+    };
+    if (is_page_template("templates/companies.php")) {
+        wp_enqueue_script('companies', get_template_directory_uri() . '/assets/js/companies.js', array('jquery'), 'null', true);
     };
     wp_enqueue_script('printme', get_template_directory_uri() . '/assets/js/print.min.js', array('jquery'), 'null', true);
 });
