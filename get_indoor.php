@@ -659,15 +659,6 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 
             )
         ),
-        //добор
-        'dodings' => array(
-            '0' => array(
-                'slditem1',
-            ),
-            '1' => array(
-                'dodings-item1',
-            )
-        ),
         'indoor_milling' => array(
             '0' => array(
                 'slditem1',
@@ -878,6 +869,16 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'side-item1-step_6',
                 'side-item2-step_6'
             ),  
+        ),
+
+            //добор
+        'dodings' => array(
+            '0' => array(
+                'slditem1',
+            ),
+            '1' => array(
+                'dodings-item1-step_4',
+            )
         ),
     );
 
