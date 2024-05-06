@@ -16,6 +16,16 @@ function merge_images($images, $proportions)
     $y = $proportions[1];
 
     $final_img = imagecreatetruecolor($x, $y);
+    //beta
+    // Определяем размеры изображения
+    $new_image = [];
+    $key = 0;
+    $image_width = imagesx($new_image[$key]);
+    $image_height = imagesy($new_image[$key]);
+
+    // Вычисляем координаты для центрирования
+    $center_x = ($x - $image_width) / 2;
+    $center_y = ($y - $image_height) / 2;
 
     foreach ($images as $key => $image) {
 
@@ -25,8 +35,20 @@ function merge_images($images, $proportions)
 
         imagesavealpha($final_img, true);
 
-        imagecopy($final_img, $new_image[$key], 0, 0, 0, 0, $x, $y);
+        // Копируем изображение на холст с учетом центрирования
+        imagecopy($final_img, $new_image[$key], $center_x, $center_y, 0, 0, $image_width, $image_height);
+
     }
+    // foreach ($images as $key => $image) {
+
+    //     $new_image[$key] = imagecreatefrompng($image);
+
+    //     imagealphablending($final_img, true);
+
+    //     imagesavealpha($final_img, true);
+
+    //     imagecopy($final_img, $new_image[$key], 0, 0, 0, 0, $x, $y);
+    // }
 
     ob_start();
 
