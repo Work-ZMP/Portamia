@@ -141,7 +141,7 @@
                     <div class="form__block-number-descr">(основной)</div>
                     <a href="tel:+7(987)847-24-24" class="form__block-number">+7 (987) 847-24-24</a>
                     <div class="form__block-number-descr">(мобильный телефон)</div>
-                    <a href="tel:+73532203377" class="form__block-number">+ 7 (353) 220-33-77</a>
+                    <a href="tel:+73532203377" class="form__block-number">+7 (353) 220-33-77</a>
                     <div class="form__block-number-descr">(дополнительный)</div>                   
                 </div>
             </div>
@@ -162,7 +162,7 @@
                             <div class="form__block-number-descr">(основной)</div>
                             <a href="tel:+7(987)847-24-24" class="form__block-number">+7 (987) 847-24-24</a>
                             <div class="form__block-number-descr">(мобильный телефон)</div>
-                            <a href="tel:+73532203377" class="form__block-number">+ 7 (353) 220-33-77</a>
+                            <a href="tel:+73532203377" class="form__block-number">+7 (353) 220-33-77</a>
                             <div class="form__block-number-descr">(дополнительный)</div>  
                         </div>
                     </div>
@@ -186,7 +186,7 @@
                             <div class="form__block-number-descr">(основной)</div>
                             <a href="tel:+7(987)847-24-24" class="form__block-number">+7 (987) 847-24-24</a>
                             <div class="form__block-number-descr">(мобильный телефон)</div>
-                            <a href="tel:+73532203377" class="form__block-number">+ 7 (353) 220-33-77</a>
+                            <a href="tel:+73532203377" class="form__block-number">+7 (353) 220-33-77</a>
                              <div class="form__block-number-descr">(дополнительный)</div>  
                         </div>
                     </div>
