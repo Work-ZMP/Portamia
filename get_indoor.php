@@ -25,15 +25,15 @@ function merge_images($images, $proportions)
         $image_height = imagesy($new_image[$key]);//
 
         $dest_x = ($x - $image_width) / 2;//
-        $dest_y = ($y - $image_height) / 2;//
+        //$dest_y = ($y - $image_height) / 2;//
         $bottom_y = $y - $image_height;//
         imagealphablending($final_img, true);
         
         imagesavealpha($final_img, true);
-        imagecopy($final_img, $new_image[$key], $dest_x, $dest_y, 0, 0, $image_width, $image_height);//
+        //imagecopy($final_img, $new_image[$key], $dest_x, $dest_y, 0, 0, $image_width, $image_height);//
         //imagecopy($final_img, $new_image[$key], 0, 0, 0, 0, $x, $y);
 
-        // Нижнее выравнивание
+        //  выравнивание
         imagecopy($final_img, $new_image[$key], $dest_x, $bottom_y, 0, 0, $image_width, $image_height);//
     }
 
