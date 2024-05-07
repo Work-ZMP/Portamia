@@ -28,7 +28,7 @@ function merge_images($images, $proportions)
         //$dest_y = ($y - $image_height) / 2;//
         $bottom_y = $y - $image_height;//
         imagealphablending($final_img, true);
-        
+
         imagesavealpha($final_img, true);
         //imagecopy($final_img, $new_image[$key], $dest_x, $dest_y, 0, 0, $image_width, $image_height);//
         //imagecopy($final_img, $new_image[$key], 0, 0, 0, 0, $x, $y);
@@ -177,7 +177,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'value' => 'met-item1-step_6',
                 'order' => 1
             )
-            
+
         );
     }
 
@@ -196,7 +196,9 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
         '11' => 'indoor_milling',
         '12' => 'doorstep',
         '13' => 'closer',
-        '14' => 'dodings'//добор
+        '14' => 'dodings',//добор
+        '15' => 'platband'//Наличник
+
     );
 
     $lines = array(
@@ -665,7 +667,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'btn-mirrorcolin4',
                 'btn-mirrorcolin5',
                 'btn-mirrorcolin6'
-                
+
             )
         ),
         'indoor_milling' => array(
@@ -835,7 +837,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
             '3' => array(
                 'side-item1-step_6',
                 'side-item2-step_6'
-            ),  
+            ),
         ),
         'extrahandler' => array(
             '0' => array(
@@ -877,16 +879,27 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
             '4' => array(
                 'side-item1-step_6',
                 'side-item2-step_6'
-            ),  
+            ),
         ),
 
-            //добор
+        //добор
         'dodings' => array(
             '0' => array(
                 'slditem1',
             ),
             '1' => array(
                 'dodings-item1-step_4',
+            )
+        ),
+        //добор
+        'platband' => array(
+            '0' => array(
+                'slditem1',
+            ),
+            '1' => array(
+                'platband-item1-step_4',
+                'platband-item2-step_4',
+                'platband-item3-step_4',
             )
         ),
     );
