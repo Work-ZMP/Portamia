@@ -23,12 +23,18 @@
         foreach ($images as $key => $image) {
             
             $new_image[$key] = imagecreatefrompng($image);
+            //test
+            $image_width = imagesx($new_image[$key]);
+            $image_height = imagesy($new_image[$key]);
+
+            $dest_x = ($x - $image_width) / 2;
+            $dest_y = ($y - $image_height) / 2;
 
             imagealphablending($final_img, true);
             
             imagesavealpha($final_img, true);
-
-            imagecopy($final_img, $new_image[$key], 0, 0, 0, 0, $x, $y);
+            imagecopy($final_img, $new_image[$key], $dest_x, $dest_y, 0, 0, $image_width, $image_height);
+            //imagecopy($final_img, $new_image[$key], 0, 0, 0, 0, $x, $y);
 
         }
 
