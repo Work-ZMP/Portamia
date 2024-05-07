@@ -169,11 +169,11 @@ Template Name: Работа у нас
                         <div class="contacts__block">
                             <div class="contacts__icon">
                                 <img class="contacts__img" src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon1.svg" alt="">
-                                <a class="contacts__element contacts-num" href="tel:+79888888888">+7-988-888-88-88</a>
+                                <a class="contacts__element contacts-num" href="tel:+79878472424">+7 (987) 847-24-24</a>
                             </div>
                             <div class="contacts__icon">
                                 <img class="contacts__img" src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon2.svg" alt="">
-                                <a class="contacts__element contacts-num" href="tel:+79888888888">+7-988-888-88-88</a>
+                                <a class="contacts__element contacts-num" href="tel:+7(3532)97-24-24">+7 (3532) 97-24-24</a>
                             </div>
                             <div class="contacts__icon">
                                 <img src="<?php bloginfo('template_url'); ?>/assets/img/work/contacts-icon3.svg" alt="">

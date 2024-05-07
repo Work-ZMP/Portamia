@@ -148,6 +148,7 @@ Template Name: Дизайнерам
                 <h4 class="work__form-subtitle">или свяжитесь с нами</h4>
                 <div class="work__form-contacts">
                     <a href="tel:+7(3532) 97-24-24" class="work__form-number">+7(3532) 97-24-24</a>
+                    <a href="tel:+73532203377" class="work__form-number">+7 (3532) 20-33-77</a>
                     <hr class="work__form-line">
                     <a href="mailto:info@portamia.ru" class="work__form-email">info@portamia.ru</a>
                 </div>
