@@ -17,6 +17,9 @@ function merge_images($images, $proportions)
 
     $final_img = imagecreatetruecolor($x, $y);
 
+    $white = imagecolorallocate($final_img, 255, 255, 255);
+    imagefill($final_img, 0, 0, $white);
+
     foreach ($images as $key => $image) {
 
         $new_image[$key] = imagecreatefrompng($image);
