@@ -17,8 +17,12 @@ function merge_images($images, $proportions)
 
     $final_img = imagecreatetruecolor($x, $y);
 
-    $white = imagecolorallocate($final_img, 250, 250, 250);
-    imagefill($final_img, 0, 0, $white);
+    //$white = imagecolorallocate($final_img, 250, 250, 250);
+    //imagefill($final_img, 0, 0, $white);
+    imagealphablending($final_img, false);
+    imagesavealpha($final_img, true);
+    $transparent = imagecolorallocatealpha($final_img, 0, 0, 0, 127);
+    imagefilledrectangle($final_img, 0, 0, $x, $y, $transparent);
 
     foreach ($images as $key => $image) {
 
