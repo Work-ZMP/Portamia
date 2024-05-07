@@ -898,7 +898,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'dodings-item1-step_4',
             )
         ),
-        //добор
+        //Наличник
         'platband' => array(
             '0' => array(
                 'slditem1',
