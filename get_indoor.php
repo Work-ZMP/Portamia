@@ -202,9 +202,9 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
         '10' => 'mirror-col',
         '11' => 'indoor_milling',
         '12' => 'doorstep',
-        '13' => 'closer'
-        //'14' => 'dodings',//добор
-        //'15' => 'platband'//Наличник
+        '13' => 'closer',
+        '14' => 'dodings',//добор
+        '15' => 'platband'//Наличник
 
     );
 
