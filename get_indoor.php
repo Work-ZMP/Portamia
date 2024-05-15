@@ -895,6 +895,17 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
         'dodings' => array(
             '0' => array(
                 'slditem1',
+                'slditem2',
+                'slditem3',
+                'slditem4',
+                'slditem5',
+                'slditem6',
+                'slditem7',
+                'slditem8',
+                'slditem9',
+                'dlditem1',
+                'dlditem2',
+                'dlditem3'
             ),
             '1' => array(
                 'dodings-item1-step_4',
@@ -928,6 +939,17 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
         'platband' => array(
             '0' => array(
                 'slditem1',
+                'slditem2',
+                'slditem3',
+                'slditem4',
+                'slditem5',
+                'slditem6',
+                'slditem7',
+                'slditem8',
+                'slditem9',
+                'dlditem1',
+                'dlditem2',
+                'dlditem3'
             ),
             '1' => array(
                 'platband-item1-step_4',
