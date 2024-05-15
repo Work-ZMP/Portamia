@@ -744,12 +744,12 @@ advancedCost('doorstep-item2',costDoorstep2,'.furniture-item-title:last-child');
 advancedCost('doorstep-item3',costDoorstep3,'.furniture-item-title:last-child');
 advancedCost('doorstep-item4',costDoorstep4,'.furniture-item-title:last-child');
 //Доборы -step_4
-advancedCost('dodings-item2-step_4',costDodings1,'.furniture-item-title:last-child');
+advancedCost('dodings-item2',costDodings1,'.furniture-item-title:last-child');
 
 //Наличники -step_4
-advancedCost('platband-item1-step_4',costplatband1,'.furniture-item-title:last-child');
-advancedCost('platband-item2-step_4',costplatband2,'.furniture-item-title:last-child');
-advancedCost('platband-item3-step_4',costplatband3,'.furniture-item-title:last-child');
+advancedCost('platband-item1',costplatband1,'.furniture-item-title:last-child');
+advancedCost('platband-item2',costplatband2,'.furniture-item-title:last-child');
+advancedCost('platband-item3',costplatband3,'.furniture-item-title:last-child');
 
 
 advancedCost('closer-item1',costCloser1,'.furniture-item-title:last-child');
