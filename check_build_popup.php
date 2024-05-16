@@ -4289,7 +4289,7 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])):
                         <div class="options-item">
                             <div class="options-item-l">
                                 <div class="options-item-l-title">Наличники</div>
-                                <div class="options-item-l-description">Стандартные</div>
+                                <div class="options-item-l-description">Декоративные</div>
                             </div>
                             <?php if (!empty($door_cfg['furnitem_platband']['price'])): ?>
                                 <div class="options-item-r">
@@ -4308,7 +4308,7 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])):
                         <div class="options-item">
                             <div class="options-item-l">
                                 <div class="options-item-l-title">Наличники</div>
-                                <div class="options-item-l-description">Стандартные</div>
+                                <div class="options-item-l-description">Фигурные</div>
                             </div>
                             <?php if (!empty($door_cfg['furnitem_platband']['price'])): ?>
                                 <div class="options-item-r">
