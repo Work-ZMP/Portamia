@@ -4260,7 +4260,7 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])):
 
                     <?php endif; ?>
 
-                    <?php if (isset($door_cfg['furnitem_platband_check']['value']) and $door_cfg['furnitem_platband_check']['value'] == 1): ?>
+                    <?php if (isset($door_cfg['furniture_platband_check']['value']) and $door_cfg['furniture_platband_check']['value'] == 1): ?>
 
                     <><!-- Наличник -->
 
