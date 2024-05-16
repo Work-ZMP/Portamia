@@ -4259,7 +4259,11 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])):
                         </div>
 
                     <?php endif; ?>
-                    <li><!-- Наличник -->
+
+                    <?php if (isset($door_cfg['furniture_closer_check']['value']) and $door_cfg['furniture_closer_check']['value'] == 1): ?>
+
+                    <><!-- Наличник -->
+
                     <?php if ($door_cfg['furnitem_platband']['value'] == 'platband-item1-step_4'): ?>
 
                         <div class="options-item">
@@ -4319,7 +4323,11 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])):
 
                     <?php endif; ?>
                 </li>
+                <?php endif; ?>
+                <?php if (isset($door_cfg['furniture_closer_check']['value']) and $door_cfg['furniture_closer_check']['value'] == 1): ?>
                 <li><!-- Доборы -->
+                
+
                     <?php if ($door_cfg['furniture_dodings_check']['value'] == 'dodings-item1-step_4'): ?>
 
                         <div class="options-item">
@@ -4339,8 +4347,9 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])):
                         </div>
 
                     <?php endif; ?>
+                    
                 </li>
-
+                <?php endif; ?>                    
                 </li>
             </ul>
         </div>
