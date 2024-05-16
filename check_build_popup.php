@@ -1689,7 +1689,7 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])):
 
                 </li>
                 <li><!-- Наличник -->
-                    <?php if ($door_cfg['platband']['value'] == 'platband-item1-step_4'): ?>
+                    <?php if ($door_cfg['furnitem_platband']['value'] == 'platband-item1-step_4'): ?>
 
                         <div class="options-item">
                             <div class="options-item-l">
