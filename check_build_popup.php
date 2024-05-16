@@ -1688,7 +1688,7 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])):
                     <?php endif; ?>
 
                 </li>
-                <li><!--Наличник-->
+                <li><!-- Наличник -->
                     <?php if ($door_cfg['platband']['value'] == 'platband-item1-step_4'): ?>
 
                         <div class="options-item">
@@ -1709,16 +1709,16 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])):
 
                     <?php endif; ?>
 
-                    <?php if ($door_cfg['platband']['value'] == 'platband-item2-step_4'): ?>
+                    <?php if ($door_cfg['furnitem_platband']['value'] == 'platband-item2-step_4'): ?>
 
                         <div class="options-item">
                             <div class="options-item-l">
                                 <div class="options-item-l-title">Наличники</div>
                                 <div class="options-item-l-description">Стандартные</div>
                             </div>
-                            <?php if (!empty($door_cfg['platband']['price'])): ?>
+                            <?php if (!empty($door_cfg['furnitem_platband']['price'])): ?>
                                 <div class="options-item-r">
-                                    <div class="options-item-r-cost"><?= $door_cfg['platband']['price'] . ' ₽' ?></div>
+                                    <div class="options-item-r-cost"><?= $door_cfg['furnitem_platband']['price'] . ' ₽' ?></div>
                                 </div>
                             <?php else: ?>
                                 <div class="options-item-r">
@@ -1728,16 +1728,16 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])):
                         </div>
 
                     <?php endif; ?>
-                    <?php if ($door_cfg['platband']['value'] == 'platband-item3-step_4'): ?>
+                    <?php if ($door_cfg['furnitem_platband']['value'] == 'platband-item3-step_4'): ?>
 
                         <div class="options-item">
                             <div class="options-item-l">
                                 <div class="options-item-l-title">Наличники</div>
                                 <div class="options-item-l-description">Стандартные</div>
                             </div>
-                            <?php if (!empty($door_cfg['platband']['price'])): ?>
+                            <?php if (!empty($door_cfg['furnitem_platband']['price'])): ?>
                                 <div class="options-item-r">
-                                    <div class="options-item-r-cost"><?= $door_cfg['platband']['price'] . ' ₽' ?></div>
+                                    <div class="options-item-r-cost"><?= $door_cfg['furnitem_platband']['price'] . ' ₽' ?></div>
                                 </div>
                             <?php else: ?>
                                 <div class="options-item-r">
@@ -1748,17 +1748,17 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])):
 
                     <?php endif; ?>
                 </li>
-                <li><!--Доборы-->
-                    <?php if ($door_cfg['dodings']['value'] == 'dodings-item1-step_4'): ?>
+                <li><!-- Доборы -->
+                    <?php if ($door_cfg['furniture_dodings_check']['value'] == 'dodings-item1-step_4'): ?>
 
                         <div class="options-item">
                             <div class="options-item-l">
                                 <div class="options-item-l-title">Доборы</div>
                                 <div class="options-item-l-description">Стандартные</div>
                             </div>
-                            <?php if (!empty($door_cfg['dodings']['price'])): ?>
+                            <?php if (!empty($door_cfg['furniture_dodings_check']['price'])): ?>
                                 <div class="options-item-r">
-                                    <div class="options-item-r-cost"><?= $door_cfg['dodings']['price'] . ' ₽' ?></div>
+                                    <div class="options-item-r-cost"><?= $door_cfg['furniture_dodings_check']['price'] . ' ₽' ?></div>
                                 </div>
                             <?php else: ?>
                                 <div class="options-item-r">

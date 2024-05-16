@@ -4699,7 +4699,7 @@ if (isset($_GET['door_cfg'])) {
                         </div>
 
 
-
+                        <!-- Наличники -->
                         <div data-variable-name="furniture_platband_check" data-variable-value="1" data-furniture_closer_check="1" data-price="0" data-image="" data-order="1" class=" checkbox-accordion accordion accordion--with-plus colored" id="checkbox-4step-platband"><!---->
                             <div class="checkbox-accordion-header" onclick="togglerPlatbandStep4()">
                                 <div class="title">
@@ -4766,6 +4766,7 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
+                        <!-- Доборы -->
                         <div data-variable-name="furniture_dodings_check" data-variable-value="1" data-furniture_dodings_check="1" data-price="0" data-image="" data-order="1" class=" checkbox-accordion accordion accordion--with-plus colored" id="checkbox-4step-dodings"><!---->
                             <div class="checkbox-accordion-header" onclick="togglerDodingsStep4()">
                                 <div class="title">
