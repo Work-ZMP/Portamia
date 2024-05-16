@@ -4271,9 +4271,9 @@ if (isset($_POST['door_cfg']) and !empty($_POST['door_cfg'])):
                                 <div class="options-item-l-title">Наличники</div>
                                 <div class="options-item-l-description">Стандартные</div>
                             </div>
-                            <?php if (!empty($door_cfg['platband']['price'])): ?>
+                            <?php if (!empty($door_cfg['furnitem_platband']['price'])): ?>
                                 <div class="options-item-r">
-                                    <div class="options-item-r-cost"><?= $door_cfg['platband']['price'] . ' ₽' ?></div>
+                                    <div class="options-item-r-cost"><?= $door_cfg['furnitem_platband']['price'] . ' ₽' ?></div>
                                 </div>
                             <?php else: ?>
                                 <div class="options-item-r">
