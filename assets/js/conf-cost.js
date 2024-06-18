@@ -322,6 +322,16 @@ const costDoorstep2 = '11000'; // Накладной порог Хром
 const costDoorstep3 = '13000'; // Накладной порог Латунь
 const costDoorstep4 = '18000'; // Цельнопрофильный порог Матовый Хром
 
+//Добор
+const costDodings0 = '0'; //Добора нету 
+const costDodings1 = '0'; //Добор есть 
+
+//Наличник
+const costplatband0 = '0'; // Наличника нету
+const costplatband1 = '0'; // Наличники Стандартные
+const costplatband2 = '0'; // Наличники Декоративные
+const costplatband3 = '0'; // Наличники Фигурные
+
 // Доводчики
 const costCloser1 = '6900'; // Черный
 const costCloser2 = '6900'; // Коричневый
@@ -733,6 +743,14 @@ advancedCost('doorstep-item1',costDoorstep1,'.furniture-item-title:last-child');
 advancedCost('doorstep-item2',costDoorstep2,'.furniture-item-title:last-child');
 advancedCost('doorstep-item3',costDoorstep3,'.furniture-item-title:last-child');
 advancedCost('doorstep-item4',costDoorstep4,'.furniture-item-title:last-child');
+//Доборы -step_4
+advancedCost('dodings-item2',costDodings1,'.furniture-item-title:last-child');
+
+//Наличники -step_4
+advancedCost('platband-item1',costplatband1,'.furniture-item-title:last-child');
+advancedCost('platband-item2',costplatband2,'.furniture-item-title:last-child');
+advancedCost('platband-item3',costplatband3,'.furniture-item-title:last-child');
+
 
 advancedCost('closer-item1',costCloser1,'.furniture-item-title:last-child');
 advancedCost('closer-item2',costCloser2,'.furniture-item-title:last-child');

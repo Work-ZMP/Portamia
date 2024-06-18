@@ -3424,6 +3424,7 @@ Template Name: Configurator
                             </div>
                         </div>
                     </div>
+                    
                     <div class="step" id="step__6" btn="">
                         <div class="step-header">
                             <div class="step-header-title">

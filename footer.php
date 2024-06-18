@@ -35,6 +35,8 @@
                             <hr class="footer-menu__line">
                             <div class="footer-menu__items">
                                 <a href="tel:+7(3532)97-24-24" class="footer-menu__item">+7 (3532) 97-24-24</a>
+                                <a href="tel:+79878472424" class="footer-menu__item">+7 (987) 847-24-24</a>
+                                <a href="tel:+73532203377" class="footer-menu__item">+7 (3532) 20-33-77</a>
                                 <a href="mailto:info@portamia.ru" class="footer-menu__item">info@portamia.ru</a>
                                 <a href="https://yandex.ru/profile/19710376217" target="_blank" class="footer-menu__item">Оренбург. пер. Тупой, 55</a>
                             </div>
@@ -139,6 +141,8 @@
                     <div class="form__block-number-descr">(основной)</div>
                     <a href="tel:+7(987)847-24-24" class="form__block-number">+7 (987) 847-24-24</a>
                     <div class="form__block-number-descr">(мобильный телефон)</div>
+                    <a href="tel:+73532203377" class="form__block-number">+7 (3532) 20-33-77</a>
+                    <div class="form__block-number-descr">(дополнительный)</div>                   
                 </div>
             </div>
         </div>
@@ -158,6 +162,8 @@
                             <div class="form__block-number-descr">(основной)</div>
                             <a href="tel:+7(987)847-24-24" class="form__block-number">+7 (987) 847-24-24</a>
                             <div class="form__block-number-descr">(мобильный телефон)</div>
+                            <a href="tel:+73532203377" class="form__block-number">+7 (3532) 20-33-77</a>
+                            <div class="form__block-number-descr">(дополнительный)</div>  
                         </div>
                     </div>
                 </div>
@@ -180,6 +186,8 @@
                             <div class="form__block-number-descr">(основной)</div>
                             <a href="tel:+7(987)847-24-24" class="form__block-number">+7 (987) 847-24-24</a>
                             <div class="form__block-number-descr">(мобильный телефон)</div>
+                            <a href="tel:+73532203377" class="form__block-number">+7 (3532) 20-33-77</a>
+                             <div class="form__block-number-descr">(дополнительный)</div>  
                         </div>
                     </div>
                 </div>

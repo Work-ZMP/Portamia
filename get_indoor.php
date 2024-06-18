@@ -17,15 +17,31 @@ function merge_images($images, $proportions)
 
     $final_img = imagecreatetruecolor($x, $y);
 
+    //$white = imagecolorallocate($final_img, 250, 250, 250);
+    //imagefill($final_img, 0, 0, $white);
+    imagealphablending($final_img, false);
+    imagesavealpha($final_img, true);
+    $transparent = imagecolorallocatealpha($final_img, 0, 0, 0, 127);
+    imagefilledrectangle($final_img, 0, 0, $x, $y, $transparent);
+
     foreach ($images as $key => $image) {
 
         $new_image[$key] = imagecreatefrompng($image);
+        //test
+        $image_width = imagesx($new_image[$key]);//
+        $image_height = imagesy($new_image[$key]);//
 
+        $dest_x = ($x - $image_width) / 2;//
+        //$dest_y = ($y - $image_height) / 2;//
+        $bottom_y = $y - $image_height;//
         imagealphablending($final_img, true);
 
         imagesavealpha($final_img, true);
+        //imagecopy($final_img, $new_image[$key], $dest_x, $dest_y, 0, 0, $image_width, $image_height);//
+        //imagecopy($final_img, $new_image[$key], 0, 0, 0, 0, $x, $y);
 
-        imagecopy($final_img, $new_image[$key], 0, 0, 0, 0, $x, $y);
+        //  выравнивание
+        imagecopy($final_img, $new_image[$key], $dest_x, $bottom_y, 0, 0, $image_width, $image_height);//
     }
 
     ob_start();
@@ -168,6 +184,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'value' => 'met-item1-step_6',
                 'order' => 1
             )
+
         );
     }
 
@@ -186,8 +203,12 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
         '11' => 'indoor_milling',
         '12' => 'doorstep',
         '13' => 'closer',
-        '14' => 'dobor'//добор
+        '14' => 'dodings',//добор
+        '15' => 'platband'//Наличник
+
     );
+
+
 
     $lines = array(
         'base-met' => array(
@@ -655,17 +676,8 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
                 'btn-mirrorcolin4',
                 'btn-mirrorcolin5',
                 'btn-mirrorcolin6'
-                
+
             )
-        ),
-        //добор
-        'dobor' => array(
-            '0' => array(
-                'slditem1',
-            ),
-            '1' => array(
-                'dobor-item1',
-            ),
         ),
         'indoor_milling' => array(
             '0' => array(
@@ -834,7 +846,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
             '3' => array(
                 'side-item1-step_6',
                 'side-item2-step_6'
-            ),  
+            ),
         ),
         'extrahandler' => array(
             '0' => array(
@@ -876,7 +888,98 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
             '4' => array(
                 'side-item1-step_6',
                 'side-item2-step_6'
-            ),  
+            ),
+        ),
+
+        //добор
+        'dodings' => array(
+            '0' => array(
+                'slditem1',
+                'slditem2',
+                'slditem3',
+                'slditem4',
+                'slditem5',
+                'slditem6',
+                'slditem7',
+                'slditem8',
+                'slditem9',
+                'dlditem1',
+                'dlditem2',
+                'dlditem3'
+            ),
+            '1' => array(
+                'dodings-item1-step_4',
+            ),
+            '2' => array(
+                'btndoorcolout1',
+                'btndoorcolout2',
+                'btndoorcolout3',
+                'btndoorcolout4',
+                'btndoorcolout5',
+                'btndoorcolout6',
+                'btndoorcolout7',
+                'btndoorcolout8',
+                'btndoorcolout9',
+                'btndoorcolout10',
+                'btndoorcolout11',
+                'btndoorcolout12',
+                'btndoorcolout13',
+                'btndoorcolout14',
+                'btndoorcolout15',
+                'btndoorcolout16',
+                'btndoorcolout17',
+                'btndoorcolout18',
+                'btndoorcolout19',
+                'btndoorcolout20',
+                'btndoorcolout21',
+                'btndoorcolout22'
+            ),
+        ),
+        //Наличник
+        'platband' => array(
+            '0' => array(
+                'slditem1',
+                'slditem2',
+                'slditem3',
+                'slditem4',
+                'slditem5',
+                'slditem6',
+                'slditem7',
+                'slditem8',
+                'slditem9',
+                'dlditem1',
+                'dlditem2',
+                'dlditem3'
+            ),
+            '1' => array(
+                'platband-item1-step_4',
+                'platband-item2-step_4',
+                'platband-item3-step_4',
+            ),
+            '2' => array(
+                'btndoorcolout1',
+                'btndoorcolout2',
+                'btndoorcolout3',
+                'btndoorcolout4',
+                'btndoorcolout5',
+                'btndoorcolout6',
+                'btndoorcolout7',
+                'btndoorcolout8',
+                'btndoorcolout9',
+                'btndoorcolout10',
+                'btndoorcolout11',
+                'btndoorcolout12',
+                'btndoorcolout13',
+                'btndoorcolout14',
+                'btndoorcolout15',
+                'btndoorcolout16',
+                'btndoorcolout17',
+                'btndoorcolout18',
+                'btndoorcolout19',
+                'btndoorcolout20',
+                'btndoorcolout21',
+                'btndoorcolout22'
+            ),
         ),
     );
 
@@ -1031,7 +1134,8 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
 
     if (in_array('slditem1', $path_parts['base-met'])) {
 
-        $proportions = '317x683';
+        //$proportions = '317x683';
+        $proportions = '411x725';
     }
 
     if (in_array('slditem2', $path_parts['base-met'])) {
@@ -1044,11 +1148,11 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
     }
     if (in_array('slditem4', $path_parts['base-met'])) {
 
-        $proportions = '458x683';
+        $proportions = '552x725';
     }
     if (in_array('slditem5', $path_parts['base-met'])) {
 
-        $proportions = '458x683';
+        $proportions = '552x725';
     }
     if (in_array('slditem6', $path_parts['base-met'])) {
 
@@ -1056,7 +1160,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
     }
     if (in_array('slditem9', $path_parts['base-met'])) {
 
-        $proportions = '605x819';
+        $proportions = '699x861';
     }
     if (in_array('dlditem1', $path_parts['base-met'])) {
 
@@ -1064,7 +1168,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])) {
     }
     if (in_array('dlditem2', $path_parts['base-met'])) {
 
-        $proportions = '584x815';
+        $proportions = '678x857';
     }
     if (in_array('dlditem3', $path_parts['base-met'])) {
 

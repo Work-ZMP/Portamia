@@ -35,7 +35,7 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])):
         <style>
             html {
                 font-family: Raleway !important;
-                
+
             }
 
             * {
@@ -2561,7 +2561,92 @@ if (isset($_GET['door_cfg']) and !empty($_GET['door_cfg'])):
                                 </tr>
 
                             <?php endif; ?>
+                            <?php if (isset($door_cfg['furniture_platband_check']['value']) and $door_cfg['furniture_platband_check']['value'] == 1): ?>
 
+                                <!-- Наличники -->
+                                <?php if ($door_cfg['furnitem_platband']['value'] == 'platband-item1-step_4'): ?>
+
+                                    <?php if (!empty($door_cfg['furnitem_platband']['price'])): ?>
+                                        <tr>
+                                            <th class="cheque__table-name">Наличники</th>
+                                            <th class="cheque__table-cost"><?= $door_cfg['furnitem_platband']['price'] . ' ₽' ?></th>
+                                        </tr>
+                                    <?php else: ?>
+                                        <tr>
+                                            <th class="cheque__table-name">Наличники</th>
+                                            <th class="cheque__table-base">Включено в базу</th>
+                                        </tr>
+                                    <?php endif; ?>
+
+                                    <tr>
+                                        <th class="cheque__table-descr">Стандартные</th>
+                                    </tr>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['furnitem_platband']['value'] == 'platband-item2-step_4'): ?>
+
+                                    <?php if (!empty($door_cfg['furnitem_platband']['price'])): ?>
+                                        <tr>
+                                            <th class="cheque__table-name">Наличники</th>
+                                            <th class="cheque__table-cost"><?= $door_cfg['furnitem_platband']['price'] . ' ₽' ?></th>
+                                        </tr>
+                                    <?php else: ?>
+                                        <tr>
+                                            <th class="cheque__table-name">Наличники</th>
+                                            <th class="cheque__table-base">Включено в базу</th>
+                                        </tr>
+                                    <?php endif; ?>
+
+                                    <tr>
+                                        <th class="cheque__table-descr">Декоративные</th>
+                                    </tr>
+
+                                <?php endif; ?>
+
+                                <?php if ($door_cfg['furnitem_platband']['value'] == 'platband-item3-step_4'): ?>
+
+                                    <?php if (!empty($door_cfg['furnitem_platband']['price'])): ?>
+                                        <tr>
+                                            <th class="cheque__table-name">Наличники</th>
+                                            <th class="cheque__table-cost"><?= $door_cfg['furnitem_platband']['price'] . ' ₽' ?></th>
+                                        </tr>
+                                    <?php else: ?>
+                                        <tr>
+                                            <th class="cheque__table-name">Наличники</th>
+                                            <th class="cheque__table-base">Включено в базу</th>
+                                        </tr>
+                                    <?php endif; ?>
+
+                                    <tr>
+                                        <th class="cheque__table-descr">Фигурные</th>
+                                    </tr>
+
+                                <?php endif; ?>
+                            <?php endif; ?>
+                            <?php if (isset($door_cfg['furniture_dodings_check']['value']) and $door_cfg['furniture_dodings_check']['value'] == 1): ?>
+                                <!-- Доборы -->
+                                <?php if ($door_cfg['furnitem_dodings']['value'] == 'dodings-item1-step_4'): ?>
+
+                                    <?php if (!empty($door_cfg['furnitem_dodings']['price'])): ?>
+                                        <tr>
+                                            <th class="cheque__table-name">Доборы</th>
+                                            <th class="cheque__table-cost"><?= $door_cfg['furnitem_dodings']['price'] . ' ₽' ?></th>
+                                        </tr>
+                                    <?php else: ?>
+                                        <tr>
+                                            <th class="cheque__table-name">Доборы</th>
+                                            <th class="cheque__table-base">Включено в базу</th>
+                                        </tr>
+                                    <?php endif; ?>
+
+                                    <tr>
+                                        <th class="cheque__table-descr">Стандартные</th>
+                                    </tr>
+
+                                <?php endif; ?>
+
+                            <?php endif; ?>
                             <tr>
                                 <th colspan="2" class="cheque__table-title">Фурнитура</th>
                             </tr>

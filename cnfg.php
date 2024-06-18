@@ -4699,7 +4699,7 @@ if (isset($_GET['door_cfg'])) {
                         </div>
 
 
-
+                        <!-- Наличники -->
                         <div data-variable-name="furniture_platband_check" data-variable-value="1" data-furniture_closer_check="1" data-price="0" data-image="" data-order="1" class=" checkbox-accordion accordion accordion--with-plus colored" id="checkbox-4step-platband"><!---->
                             <div class="checkbox-accordion-header" onclick="togglerPlatbandStep4()">
                                 <div class="title">
@@ -4766,6 +4766,7 @@ if (isset($_GET['door_cfg'])) {
                                 </div>
                             </div>
                         </div>
+                        <!-- Доборы -->
                         <div data-variable-name="furniture_dodings_check" data-variable-value="1" data-furniture_dodings_check="1" data-price="0" data-image="" data-order="1" class=" checkbox-accordion accordion accordion--with-plus colored" id="checkbox-4step-dodings"><!---->
                             <div class="checkbox-accordion-header" onclick="togglerDodingsStep4()">
                                 <div class="title">
@@ -4786,7 +4787,6 @@ if (isset($_GET['door_cfg'])) {
                                     <div class="accordion-content">
                                         <div class="dodings">
                                             <div class="furniture-group option-block">
-
                                                 <div data-variable-name="furnitem_dodings" data-variable-value="dodings-item1-step_4" data-furnitem_dodings="dodings-item1-step_4" data-price="0" data-image="" data-order="1" class="furniture-item furniture-item--big<?= (isset($_GET['furnitem_dodings']) and $_GET['furnitem_dodings'] == 'dodings-item1-step_4') ? ' active' : '' ?>" id="dodings-item1" onclick="furnItem('dodings-item1', '#checkbox-4step-dodings .furniture-item')">
                                                     <div class="furniture-item active furniture-item--big"><!---->
                                                         <div class="furniture-item-image-cover"><span class="furniture-item-image-country"></span>
