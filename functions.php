@@ -82,6 +82,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/mailsent.php")) {
         wp_enqueue_style('mailsent', get_template_directory_uri() . '/assets/css/mailsent.css');
     };
+    if (is_page_template("templates/panels.php")) {
+        wp_enqueue_style('panels', get_template_directory_uri() . '/assets/css/panels.css');
+    };
    
 
     wp_deregister_script('jquery');
