@@ -22,7 +22,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-0.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 001</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -32,7 +31,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-1.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 002</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -42,7 +40,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-2.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 003</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -52,7 +49,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-3.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 004</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -62,7 +58,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-4.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 005</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -72,7 +67,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-5.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 006</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -82,7 +76,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-6.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 007</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -92,7 +85,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-7.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 008</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -102,7 +94,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-8.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 009</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -112,7 +103,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-9.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 010</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -122,7 +112,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-10.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 011</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -132,7 +121,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-11.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 012</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -142,7 +130,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-12.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 013</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -152,7 +139,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-13.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 014</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -162,7 +148,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-14.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 015</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -172,7 +157,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-15.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 016</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -182,7 +166,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-16.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 017</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
@@ -192,7 +175,6 @@ Template Name: Панели фрезерованные
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-17.webp" alt="" class="catalogue__item-img">
-                            <div class="catalogue__item-top-cover">FK-MDF 018</div>
                         </div>
                         <div class="catalogue__item-bottom">
                             <div class="catalogue__item-subtitle">Модель</div>
