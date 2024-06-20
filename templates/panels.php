@@ -607,8 +607,20 @@ Template Name: Панели фрезерованные
 </section>
 
 
-
-
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const items = document.querySelectorAll('.catalogue__item');
+    
+    items.forEach(item => {
+      item.addEventListener('click', function() {
+        const img = item.querySelector('.catalogue__item-img');
+        const src = img.getAttribute('src');
+        
+        Fancybox.show([{ src: src, type: 'image' }]);
+      });
+    });
+  });
+</script>
 
 
 
