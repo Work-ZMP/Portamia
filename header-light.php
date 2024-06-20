@@ -31,6 +31,7 @@
                     <a href="<?php echo get_permalink(33); ?>" class="menu-mobile__item">Двери в коттедж</a>
                     <a href="<?php echo get_permalink(35); ?>" class="menu-mobile__item">Межкомнатные двери</a>
                     <a href="<?php echo get_permalink(37); ?>" class="menu-mobile__item">Перегородки</a>
+                    <a href="<?php echo get_permalink(865); ?>" class="menu-mobile__item">Панели фрезерованные</a>
                 </div>
                 <li><a href="<?php echo get_permalink(10); ?>">Конфигуратор</a></li>
                 <li><a href="<?php echo get_permalink(39); ?>">Каталог</a></li>
@@ -68,6 +69,10 @@
                     <a href="<?php echo get_permalink(37); ?>" class="menu-left__item">
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/menu/left-menu-img-part.webp" class="menu-left__item-img"></img>
                         <div class="menu-left__item-text">Перегородки</div>
+                    </a>
+                    <a href="<?php echo get_permalink(865); ?>" class="menu-left__item">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/img/menu/left-menu-img-panels.webp" class="menu-left__item-img"></img>
+                        <div class="menu-left__item-text">Панели фрезерованные</div>
                     </a>
                 </div>
             </div>
