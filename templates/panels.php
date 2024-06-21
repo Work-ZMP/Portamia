@@ -17,6 +17,7 @@ Template Name: Панели фрезерованные
             <hr class="catalogue__line">
             <h2 class="catalogue__title">Дверные фрезерованные панели</h2>
             <p class="catalogue__descr">Фрезерованные панели от Portamia под любой вкус и любые предпочтения по ценам от производителя!</p>
+            <h3 class="catalogue__item-title">Классический стиль</h3>
             <div class="catalogue__items">
                 <div class="">
                     <div class="catalogue__item">
@@ -372,6 +373,12 @@ Template Name: Панели фрезерованные
                     </div>
 
 
+                </div>
+
+            </div>
+            <h3 class="catalogue__item-title">Современный стиль</h3>
+            <div class="catalogue__items">
+                <div class="">
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
                             <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-39.webp" alt="" class="catalogue__item-img">
@@ -599,7 +606,6 @@ Template Name: Панели фрезерованные
                     </div>
 
                 </div>
-
             </div>
             <hr class="catalogue__line long-line">
         </div>
@@ -607,19 +613,23 @@ Template Name: Панели фрезерованные
 </section>
 
 
+
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const items = document.querySelectorAll('.catalogue__item');
-    
-    items.forEach(item => {
-      item.addEventListener('click', function() {
-        const img = item.querySelector('.catalogue__item-img');
-        const src = img.getAttribute('src');
-        
-        Fancybox.show([{ src: src, type: 'image' }]);
-      });
+    document.addEventListener("DOMContentLoaded", function() {
+        const items = document.querySelectorAll('.catalogue__item');
+
+        items.forEach(item => {
+            item.addEventListener('click', function() {
+                const img = item.querySelector('.catalogue__item-img');
+                const src = img.getAttribute('src');
+
+                Fancybox.show([{
+                    src: src,
+                    type: 'image'
+                }]);
+            });
+        });
     });
-  });
 </script>
 
 
