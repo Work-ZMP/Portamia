@@ -272,3 +272,12 @@
         font-size: 22px !important;
     }
 }
+
+
+h3.catalogue__items-title {
+    margin-top: 75px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 600;
+    font-size: clamp(1.375rem, 1.321rem + 0.27vw, 1.75rem);
+}
