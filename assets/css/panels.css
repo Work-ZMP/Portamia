@@ -270,8 +270,16 @@
 }
 h3.catalogue__items-title {
   margin-top: 75px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   color: #fff;
   font-weight: 600;
   font-size: clamp(1.375rem, 1.321rem + 0.27vw, 1.75rem);
+}
+
+.catalogue__items-line {
+  width: 100%;
+  border: none !important;
+  background: rgba(255, 255, 255, 0.25);
+  height: 1px;
+  margin-bottom: 25px;
 }
