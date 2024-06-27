@@ -159,11 +159,11 @@
   background: transparent;
   color: #fff;
 }
-.catalogue__items-title .active {
+.catalogue__items-title.active {
   cursor: default;
   opacity: 0.5;
 }
-.catalogue__items-title .active:hover {
+.catalogue__items-title.active:hover {
   background: #fff;
   color: #252525;
 }
