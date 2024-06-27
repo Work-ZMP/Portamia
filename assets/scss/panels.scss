@@ -163,8 +163,9 @@
         color: #fff;
     }
 
-    .catalogue__items-title {
+    .active {
         cursor: default;
+        opacity: 0.5;
 
         &:hover {
             background: #fff;
