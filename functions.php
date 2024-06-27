@@ -131,6 +131,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template("templates/companies.php")) {
         wp_enqueue_script('companies', get_template_directory_uri() . '/assets/js/companies.js', array('jquery'), 1.1, true);
     };
+    if (is_page_template("templates/panels.php")) {
+        wp_enqueue_script('panels', get_template_directory_uri() . '/assets/js/panels.js', array('jquery'), 1.1, true);
+    };
     wp_enqueue_script('printme', get_template_directory_uri() . '/assets/js/print.min.js', array('jquery'), 1.1, true);
 });
 

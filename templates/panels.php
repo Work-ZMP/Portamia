@@ -22,7 +22,7 @@ Template Name: Панели фрезерованные
                 <h3 class="catalogue__items-title item-modern">Современный стиль</h3>
             </div>
             <hr class="catalogue__items-line">
-            <div class="catalogue__items">
+            <div class="catalogue__items classic">
                 <div class="">
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
@@ -380,7 +380,7 @@ Template Name: Панели фрезерованные
                 </div>
 
             </div>
-            <div class="catalogue__items">
+            <div class="catalogue__items modern">
                 <div class="">
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
