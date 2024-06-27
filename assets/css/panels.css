@@ -138,6 +138,34 @@
   height: 1px;
 }
 
+.catalogue__items-titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.catalogue__items-title {
+  padding: 11px 25px;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  transition: all 0.3s ease-out;
+}
+.catalogue__items-title:hover {
+  background: transparent;
+  color: #fff;
+}
+.catalogue__items-title .catalogue__items-title {
+  cursor: default;
+}
+.catalogue__items-title .catalogue__items-title:hover {
+  background: #fff;
+  color: #252525;
+}
+
 @media (max-width: 1480px) {
   .catalogue__item-img {
     max-height: 310px !important;

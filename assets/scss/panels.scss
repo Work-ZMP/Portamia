@@ -138,6 +138,39 @@
     color: rgba(255, 255, 255, 0.5);
     height: 1px;
 }
+
+
+
+.catalogue__items-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.catalogue__items-title {
+    padding: 11px 25px;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    transition: all .3s ease-out;
+
+    &:hover {
+        background: transparent;
+        color: #fff;
+    }
+
+    .catalogue__items-title {
+        cursor: default;
+
+        &:hover {
+            background: #fff;
+            color: #252525;
+        }
+    }
+}
 @media (max-width: 1480px) {
     .catalogue__item-img {
         max-height: 310px !important;
