@@ -18,7 +18,7 @@ Template Name: Панели фрезерованные
             <h2 class="catalogue__title">Дверные фрезерованные панели</h2>
             <p class="catalogue__descr">Фрезерованные панели от Portamia под любой вкус и любые предпочтения по ценам от производителя!</p>
             <div class="catalogue__items-titles">
-                <h3 class="catalogue__items-title item-classic">Классический стиль</h3>
+                <h3 class="catalogue__items-title active item-classic">Классический стиль</h3>
                 <h3 class="catalogue__items-title item-modern">Современный стиль</h3>
             </div>
             <hr class="catalogue__items-line">
