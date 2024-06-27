@@ -380,7 +380,7 @@ Template Name: Панели фрезерованные
                 </div>
 
             </div>
-            <div class="catalogue__items modern">
+            <div class="catalogue__items modern" style="display: none;">
                 <div class="">
                     <div class="catalogue__item">
                         <div class="catalogue__item-top">
