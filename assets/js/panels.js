@@ -8,8 +8,8 @@ if (document.querySelector('.catalogue__items-title')) {
         if (btnclassic && !btnclassic.classList.contains('active')) {
             btnclassic.classList.add('active');
             btnmodern.classList.remove('active');
-            $(itemsmodern).slideUp();
-            $(itemsclassic).slideDown();
+            $(itemsmodern).slideUp("slow");
+            $(itemsclassic).slideDown("slow");
 
         }
     });
@@ -17,8 +17,8 @@ if (document.querySelector('.catalogue__items-title')) {
         if (btnmodern && !btnmodern.classList.contains('active')) {
             btnmodern.classList.add('active');
             btnclassic.classList.remove('active');
-            $(itemsclassic).slideUp();
-            $(itemsmodern).slideDown();
+            $(itemsclassic).slideUp("slow");
+            $(itemsmodern).slideDown("slow");
         }
 
     })
