@@ -166,11 +166,8 @@
     &.active {
         cursor: default;
         opacity: 0.5;
-
-        &:hover {
-            background: #fff;
-            color: #252525;
-        }
+        background: transparent;
+        color: #fff;
     }
 }
 @media (max-width: 1480px) {
@@ -313,7 +310,7 @@ h3.catalogue__items-title {
     margin-top: 75px;
     margin-bottom: 25px;
     font-weight: 600;
-    font-size: clamp(1.375rem, 1.321rem + 0.27vw, 1.75rem);
+    font-size: clamp(1.125rem, 1.071rem + 0.27vw, 1.5rem);
 }
 .catalogue__items-line {
     width: 100%;
