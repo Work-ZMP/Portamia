@@ -608,6 +608,52 @@ Template Name: Панели фрезерованные
                         </div>
                     </div>
 
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-64.webp" alt="" class="catalogue__item-img">
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">FS-MDF 026</div>
+                        </div>
+                    </div>
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-65.webp" alt="" class="catalogue__item-img">
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">FS-MDF 027</div>
+                        </div>
+                    </div>
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-66.webp" alt="" class="catalogue__item-img">
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">FS-MDF 028</div>
+                        </div>
+                    </div>
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-67.webp" alt="" class="catalogue__item-img">
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">FS-MDF 029</div>
+                        </div>
+                    </div>
+                    <div class="catalogue__item">
+                        <div class="catalogue__item-top">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/panels/download-68.webp" alt="" class="catalogue__item-img">
+                        </div>
+                        <div class="catalogue__item-bottom">
+                            <div class="catalogue__item-subtitle">Модель</div>
+                            <div class="catalogue__item-title">FS-MDF 030</div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <hr class="catalogue__line long-line">
